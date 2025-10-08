@@ -1,40 +1,440 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Simulador de Examen</title>
-  <script src="script.js"></script>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      background: #f7f7f7;
-      padding: 20px;
-    }
-    h1 {
-      color: #333;
-    }
-    .logout {
-      float: right;
-      background: #d9534f;
-      color: white;
-      border: none;
-      padding: 8px 12px;
-      border-radius: 6px;
-      cursor: pointer;
-    }
-  </style>
-</head>
-<body onload="verificarAcceso()">
-  <button class="logout" onclick="cerrarSesion()">Cerrar sesión</button>
-  <h1>Simulador de Examen</h1>
-  <p>Bienvenido al simulador. Solo usuarios autorizados pueden ver esta página.</p>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Simulacro — Acceso restringido</title>
+<style>
+  :root{
+    --bg:#f6f7fb; --card:#fff; --accent:#0b63d6; --muted:#666; --ok:#0a8a3f; --bad:#d02a2a;
+  }
+  body{
+    font-family: Inter, system-ui, "Segoe UI", Roboto, Arial, sans-serif;
+    margin:0; background:var(--bg); color:#111;
+  }
+  .wrap{max-width:900px;margin:22px auto;padding:18px}
+  header{display:flex;align-items:center;gap:16px;margin-bottom:8px}
+  h1{margin:0;font-size:20px}
+  .chip{background:#f0f6ff;color:var(--accent);padding:6px 10px;border-radius:999px;font-weight:600}
+  .timer{margin-left:auto;font-weight:800;color:var(--accent)}
+  .card{background:var(--card);padding:14px;border-radius:12px;box-shadow:0 6px 18px rgba(12,30,60,0.06)}
+  .section-title{font-weight:700;margin-top:14px;margin-bottom:6px}
+  .question{padding:12px;border-radius:10px;margin-bottom:10px;border:1px solid #eef2f8;background:#fff}
+  .qtext{font-size:15px;margin-bottom:8px}
+  .options{display:flex;flex-direction:column;gap:8px}
+  .option{padding:8px;border-radius:8px;border:1px solid #e6e9ef;cursor:pointer;user-select:none}
+  .option input{margin-right:8px}
+  .controls{display:flex;gap:8px;align-items:center;margin-top:14px}
+  button{background:var(--accent);color:#fff;border:0;padding:8px 12px;border-radius:8px;cursor:pointer}
+  button.ghost{background:transparent;color:var(--accent);border:1px solid #dbe9ff}
+  .result{margin-top:18px;padding:12px;border-radius:10px;background:#fbfdff;border:1px solid #eef6ff}
+  .login-area{text-align:center;margin-top:80px}
+  .denied{text-align:center;color:var(--bad);font-weight:600;margin-top:80px}
+  .user-actions{display:flex;gap:8px;align-items:center;margin-left:auto}
+  .detail-item{padding:10px;border-radius:8px;border:1px solid #eef2f8;margin-bottom:8px;background:white}
+  .ok{border-left:6px solid var(--ok);padding-left:10px}
+  .bad{border-left:6px solid var(--bad);padding-left:10px}
+  .meta{font-size:13px;color:var(--muted)}
+  .small{font-size:13px;padding:6px 10px}
+  pre{white-space:pre-wrap;font-family:inherit}
+  @media (max-width:640px){.wrap{padding:12px}}
+</style>
 
-  <script>
-    function cerrarSesion() {
-      sessionStorage.removeItem("usuarioAutenticado");
-      window.location.href = "login.html";
+<!-- Google Identity Services -->
+<script src="https://accounts.google.com/gsi/client" async defer></script>
+</head>
+<body>
+<!-- LOGIN / BUTTON -->
+<div id="login" class="login-area" style="display:none">
+  <h2>🔐 Acceso restringido</h2>
+  <p>Inicia sesión con tu cuenta autorizada para acceder al simulador.</p>
+  <div id="g_id_onload"
+       data-client_id="447366046291-0ted51mtkamjnrj7vv015vb7bvcs39eh.apps.googleusercontent.com"
+       data-callback="handleCredentialResponse"
+       data-auto_prompt="false"></div>
+  <div class="g_id_signin" data-type="standard"></div>
+</div>
+
+<!-- ACCESS DENIED -->
+<div id="denied" class="denied" style="display:none">
+  ❌ Acceso denegado.<br>No estás autorizado para usar este simulador.
+  <div style="margin-top:12px">
+    <button onclick="location.reload()">Volver</button>
+  </div>
+</div>
+
+<!-- EXAM -->
+<div class="wrap" id="exam" style="display:none">
+  <header>
+    <h1>Simulacro — Acceso autorizado</h1>
+    <div class="chip" id="userChip">Cargando...</div>
+    <div class="user-actions">
+      <div class="meta" id="userMeta"></div>
+      <button class="ghost small" onclick="cerrarSesion()" title="Cerrar sesión">Cerrar sesión</button>
+    </div>
+    <div class="timer" id="timer">60:00</div>
+  </header>
+
+  <div class="card" id="card">
+    <div id="questionsArea"></div>
+
+    <div class="controls">
+      <button id="submitBtn">Finalizar</button>
+      <button id="restartBtn" class="ghost">Reiniciar (recargar)</button>
+      <div style="margin-left:auto;font-size:13px;color:var(--muted)">Tiempo total: 60 minutos</div>
+    </div>
+
+    <div id="resultArea"></div>
+  </div>
+</div>
+
+<script>
+/* ====== CONTROL DE ACCESO ====== */
+// Correos autorizados (modifica aquí para añadir/quitar)
+const AUTH_USERS = ["maximo@gmail.com","consulbf12@gmail.com"];
+
+// Parse JWT token (Google credential) para extraer email/nombre
+function parseJwt(token) {
+  try {
+    const base64Url = token.split('.')[1];
+    const base64 = base64Url.replace(/-/g, '+').replace(/_/g, '/');
+    const jsonPayload = decodeURIComponent(atob(base64).split('').map(function(c) {
+      return '%' + ('00' + c.charCodeAt(0).toString(16)).slice(-2);
+    }).join(''));
+    return JSON.parse(jsonPayload);
+  } catch (e) {
+    return null;
+  }
+}
+
+// Maneja respuesta de Google Identity Services
+function handleCredentialResponse(response) {
+  const data = parseJwt(response.credential);
+  if(!data || !data.email) {
+    showDenied();
+    return;
+  }
+  const email = data.email;
+  const name = data.name || data.email;
+  if (AUTH_USERS.includes(email)) {
+    // Guardar sesión mínima
+    sessionStorage.setItem("sim_user", JSON.stringify({email, name}));
+    showExamFor({email, name});
+  } else {
+    showDenied();
+  }
+}
+
+function showDenied(){
+  document.getElementById("login").style.display = "none";
+  document.getElementById("denied").style.display = "block";
+  document.getElementById("exam").style.display = "none";
+}
+
+function showExamFor(user){
+  document.getElementById("login").style.display = "none";
+  document.getElementById("denied").style.display = "none";
+  document.getElementById("exam").style.display = "block";
+  document.getElementById("userChip").textContent = `${user.name} (${user.email})`;
+  document.getElementById("userMeta").textContent = user.email;
+  // arrancar examen una sola vez
+  if(typeof window._examStarted === "undefined") {
+    window._examStarted = true;
+    startExam();
+  }
+}
+
+// Si ya hay sesión guardada (reload), mostrar exam
+window.onload = () => {
+  const s = sessionStorage.getItem("sim_user");
+  if(s) {
+    try {
+      const user = JSON.parse(s);
+      showExamFor(user);
+      return;
+    } catch(e){}
+  }
+  // si no hay sesión, mostrar login
+  document.getElementById("login").style.display = "block";
+};
+
+// Cerrar sesión
+function cerrarSesion(){
+  sessionStorage.removeItem("sim_user");
+  // recargar para mostrar el botón de login otra vez
+  location.reload();
+}
+
+/* ======= TU SIMULADOR (10 preguntas integradas) ======= */
+function startExam(){
+  const questions = [
+  {
+    id: 1,
+    question: `Establezca la relación correcta entre el número y la letra respecto a la determinación del método de contratación que corresponda: 
+1. Subasta Inversa Electrónica 
+2. Catalogo Electrónico de Acuerdo Marco 
+3. Licitación Pública 
+a. Arroz pilado superior por el monto de S/ 50 000.00.
+b. Construcción de centro educativo por el monto de S/ 7,500,000.00
+c. Gas licuado de petróleo por el monto de S/ 60 000.00.
+d. Servicio de pasajes aéreos nacionales por el monto de S/ 80 000.00`,
+    options: [
+      { text: "a) 1a, 1b, 2c, 3d", isCorrect: false },
+      { text: "b) 1a, 1c, 2d, 3b", isCorrect: true },
+      { text: "c) 1a, 1b, 1d, 2c", isCorrect: false },
+      { text: "d) 3a, 3b, 3c, 3d", isCorrect: false }
+    ],
+    block: "ACTUACIONES PREPARATORIAS"
+  },
+  {
+    id: 2,
+    question: `De la revisión del requerimiento, se advierte que, se exige una (1) camioneta 4 x 4 doble cabina, sin embargo, no se ha precisado las características de la camioneta. ¿Qué principio se ha vulnerado?`,
+    options: [
+      { text: "a) Principio de Publicidad", isCorrect: false },
+      { text: "b) Principio de Libertad de Concurrencia", isCorrect: false },
+      { text: "c) Principio de Transparencia", isCorrect: true },
+      { text: "d) Principio de Igualdad de trato", isCorrect: false }
+    ],
+    block: "ACTUACIONES PREPARATORIAS"
+  },
+  {
+    id: 3,
+    question: `De la revisión de los requisitos para la suscripción del contrato se advierte que, se requiere la presentación de una declaración jurada de cada personal propuesto señalando que no se encuentra trabajando en otra Entidad Pública o Privada y que no lo realizará durante la prestación de sus servicios en la ejecución de la presente obra, adjuntado copia legible de su DNI. ¿Qué principio se ha vulnerado?`,
+    options: [
+      { text: "a) Principio de Competencia", isCorrect: false },
+      { text: "b) Principio de Libertad de Concurrencia", isCorrect: true },
+      { text: "c) Principio de Transparencia", isCorrect: false },
+      { text: "d) Principio de Igualdad de trato", isCorrect: false }
+    ],
+    block: "ACTUACIONES PREPARATORIAS"
+  },
+  {
+    id: 4,
+    question: `El principio de Equidad es aplicable durante:`,
+    options: [
+      { text: "a) La fase de actuaciones preparatorias", isCorrect: false },
+      { text: "b) La fase de selección", isCorrect: false },
+      { text: "c) La fase de ejecución contractual", isCorrect: true },
+      { text: "d) La fase de pago", isCorrect: false }
+    ],
+    block: "ACTUACIONES PREPARATORIAS"
+  },
+  {
+    id: 5,
+    question: `En qué casos, se incurre en fraccionamiento.`,
+    options: [
+      { text: "a) Surge una necesidad imprevisible adicional a la programada.", isCorrect: false },
+      { text: "b) No se contaba con los recursos disponibles suficientes para realizar la contratación", isCorrect: false },
+      { text: "c) Se efectúe a través de los Catálogos Electrónicos de Acuerdo Marco.", isCorrect: false },
+      { text: "d) Divide una contratación de servicios, para la cual cuenta con presupuesto disponible para su ejecución integral, en varios contratos menores.", isCorrect: true }
+    ],
+    block: "ACTUACIONES PREPARATORIAS"
+  },
+  {
+    id: 6,
+    question: `Según la Ley General de Contrataciones Públicas, ¿cuál es el propósito fundamental del expediente de contratación?`,
+    options: [
+      { text: "a) Servir como registro exclusivo de la fase de selección.", isCorrect: false },
+      { text: "b) Contener la información que respalda las actuaciones desde la formulación del requerimiento hasta el cumplimiento total del contrato.", isCorrect: true },
+      { text: "c) Documentar únicamente los aspectos técnicos del requerimiento.", isCorrect: false },
+      { text: "d) Justificar la elección de un procedimiento de selección no competitivo.", isCorrect: false }
+    ],
+    block: "ACTUACIONES PREPARATORIAS"
+  },
+  {
+    id: 7,
+    question: `¿Qué documento debe formar parte del expediente de contratación antes de la fase de selección?`,
+    options: [
+      { text: "a) El contrato perfeccionado.", isCorrect: false },
+      { text: "b) La conformidad de la prestación.", isCorrect: false },
+      { text: "c) La estrategia de contratación.", isCorrect: true },
+      { text: "d) El laudo arbitral.", isCorrect: false }
+    ],
+    block: "ACTUACIONES PREPARATORIAS"
+  },
+  {
+    id: 8,
+    question: `Además de la fase de actuaciones preparatorias, ¿qué otras fases del proceso de contratación deben estar documentadas en el expediente de contratación según la Ley?`,
+    options: [
+      { text: "a) Solo la fase de selección.", isCorrect: false },
+      { text: "b) Solo la fase de ejecución contractual.", isCorrect: false },
+      { text: "c) La fase de selección y la fase de ejecución contractual.", isCorrect: true },
+      { text: "d) Únicamente la solución de controversias.", isCorrect: false }
+    ],
+    block: "ACTUACIONES PREPARATORIAS"
+  },
+  {
+    id: 9,
+    question: `¿Es obligatorio incluir la cuantía de la contratación y la certificación presupuestal en el expediente de contratación antes de la fase de selección, según el Reglamento?`,
+    options: [
+      { text: "a) No, solo se incluye la cuantía si es un procedimiento competitivo.", isCorrect: false },
+      { text: "b) No, la certificación presupuestal se incluye después de la buena pro.", isCorrect: false },
+      { text: "c) Sí, ambos son parte del contenido mínimo requerido antes de la fase de selección.", isCorrect: true },
+      { text: "d) Solo se incluye la certificación presupuestal, no la cuantía.", isCorrect: false }
+    ],
+    block: "ACTUACIONES PREPARATORIAS"
+  },
+  {
+    id: 10,
+    question: `¿Qué autoridad es la responsable de aprobar el expediente de contratación antes de iniciar la fase de selección?`,
+    options: [
+      { text: "a) El Titular de la Entidad.", isCorrect: false },
+      { text: "b) El jefe de la Dependencia Encargada de las Contrataciones (DEC).", isCorrect: false },
+      { text: "c) La autoridad de la gestión administrativa.", isCorrect: true },
+      { text: "d) El área usuaria.", isCorrect: false }
+    ],
+    block: "ACTUACIONES PREPARATORIAS"
+  }
+];
+
+  // Elementos y estado
+  const questionsArea = document.getElementById("questionsArea");
+  const timerEl = document.getElementById("timer");
+  const submitBtn = document.getElementById("submitBtn");
+  const restartBtn = document.getElementById("restartBtn");
+  const resultArea = document.getElementById("resultArea");
+
+  let timeLeft = 60 * 60; // 60 minutos en segundos
+  let timerInterval = null;
+  let answered = {}; // {questionId: selectedOptionText}
+
+  // util
+  function shuffleArray(a){ for(let i=a.length-1;i>0;i--){ const j=Math.floor(Math.random()*(i+1)); [a[i],a[j]]=[a[j],a[i]]; } }
+
+  // Construir interfaz con preguntas (y opciones mezcladas)
+  function buildUI(){
+    questionsArea.innerHTML = "";
+    let currentBlock = "";
+    questions.forEach((q) => {
+      if(q.block && q.block !== currentBlock){
+        currentBlock = q.block;
+        const h = document.createElement("div");
+        h.className = "section-title";
+        h.textContent = currentBlock;
+        questionsArea.appendChild(h);
+      }
+      const opts = q.options.map(o => ({...o}));
+      shuffleArray(opts);
+      const div = document.createElement("div");
+      div.className = "question";
+      const qtext = document.createElement("div");
+      qtext.className = "qtext";
+      qtext.innerHTML = `<strong>Pregunta ${q.id}.</strong> ${q.question}`;
+      div.appendChild(qtext);
+      const optsDiv = document.createElement("div");
+      optsDiv.className = "options";
+      opts.forEach(o => {
+        const label = document.createElement("label");
+        label.className = "option";
+        const radio = document.createElement("input");
+        radio.type = "radio";
+        radio.name = "q_" + q.id;
+        radio.value = o.text;
+        radio.addEventListener("change", () => {
+          answered[q.id] = o.text;
+        });
+        label.appendChild(radio);
+        const span = document.createElement("span");
+        span.innerHTML = o.text;
+        label.appendChild(span);
+        optsDiv.appendChild(label);
+      });
+      div.appendChild(optsDiv);
+      questionsArea.appendChild(div);
+    });
+  }
+
+  function updateTimerDisplay(){
+    const mm = String(Math.floor(timeLeft/60)).padStart(2,"0");
+    const ss = String(timeLeft%60).padStart(2,"0");
+    timerEl.textContent = `${mm}:${ss}`;
+  }
+
+  function startTimer(){
+    clearInterval(timerInterval);
+    updateTimerDisplay();
+    timerInterval = setInterval(() => {
+      timeLeft--;
+      if(timeLeft <= 0){
+        clearInterval(timerInterval);
+        finishExam(true);
+      } else updateTimerDisplay();
+    }, 1000);
+  }
+
+  // Mostrar detalle de cada pregunta: seleccionada / correcta
+  function buildDetail(correctCount, total){
+    let html = `<div class="result"><h3>Resultado</h3>
+      <p>Aciertos: <strong>${correctCount}</strong> de ${total}</p>`;
+
+    // Nivel simple (solo si muchas preguntas, mantengo lógica original)
+    let levelText = "No aplicable (prueba corta)";
+    if(total >= 58){
+      if(correctCount >= 58) levelText = "Avanzado";
+      else if(correctCount >= 43) levelText = "Intermedio";
+      else if(correctCount >= 30) levelText = "Básico";
+      else levelText = "Por debajo de Básico";
     }
-  </script>
+    html += `<p>Nivel: <strong>${levelText}</strong></p>`;
+
+    // Detalle por pregunta
+    html += `<h4>Detalle por pregunta</h4>`;
+    questions.forEach(q => {
+      const sel = answered[q.id] || null;
+      const correctOpt = q.options.find(o => o.isCorrect === true);
+      const correctText = correctOpt ? correctOpt.text : "—";
+      const wasCorrect = sel && sel.trim() === correctText.trim();
+      const cls = wasCorrect ? "detail-item ok" : "detail-item bad";
+      html += `<div class="${cls}">`;
+      html += `<div style="font-weight:700">Pregunta ${q.id}.</div>`;
+      html += `<div class="meta">${q.question}</div>`;
+      html += `<div style="margin-top:8px"><strong>Tu respuesta:</strong> ${sel ? `<pre>${sel}</pre>` : '<em>No respondió</em>'}</div>`;
+      html += `<div><strong>Respuesta correcta:</strong> <pre>${correctText}</pre></div>`;
+      html += `</div>`;
+    });
+
+    html += `</div>`;
+    return html;
+  }
+
+  function finishExam(auto=false){
+    clearInterval(timerInterval);
+    // bloquear entradas
+    document.querySelectorAll("input[type=radio]").forEach(r => r.disabled = true);
+    submitBtn.disabled = true;
+
+    // calcular aciertos
+    let correctCount = 0;
+    questions.forEach(q => {
+      const sel = answered[q.id] || null;
+      if(sel){
+        const correctOpt = q.options.find(o => o.isCorrect === true);
+        if(correctOpt && sel.trim() === correctOpt.text.trim()){
+          correctCount++;
+        }
+      }
+    });
+
+    // mostrar resultado con detalle
+    resultArea.innerHTML = buildDetail(correctCount, questions.length) + (auto ? '<p style="margin-top:10px"><em>Se terminó el tiempo.</em></p>' : '');
+    // scroll to results
+    resultArea.scrollIntoView({behavior:"smooth"});
+  }
+
+  // eventos
+  submitBtn.addEventListener("click", () => {
+    if(!confirm("¿Deseas entregar el simulacro ahora?")) return;
+    finishExam(false);
+  });
+  restartBtn.addEventListener("click", () => {
+    if(!confirm("Se recargará la página y se podrá volver a intentar. ¿Continuar?")) return;
+    location.reload();
+  });
+
+  // iniciar
+  buildUI();
+  startTimer();
+}
+</script>
 </body>
 </html>
