@@ -2,7 +2,7 @@
 const usuariosPermitidos = [
   "maxponcep@gmail.com",
   "consulbf12@gmail.com",
-  "usuario2@gmail.com"
+  "victor_41437@hotmail.com"
 ];
 
 // Función que se ejecuta cuando el usuario inicia sesión con Google
@@ -41,3 +41,4 @@ function verificarAcceso() {
     window.location.href = "login.html";
   }
 }
+
