@@ -1,7 +1,7 @@
 // Lista de correos permitidos
 const usuariosPermitidos = [
-  "maximo@gmail.com",
-  "usuario1@gmail.com",
+  "maxponcep@gmail.com",
+  "consulbf12@gmail.com",
   "usuario2@gmail.com"
 ];
 
