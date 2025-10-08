@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simulador de Examen</title>
+  <script src="script.js"></script>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f7f7f7;
+      padding: 20px;
+    }
+    h1 {
+      color: #333;
+    }
+    .logout {
+      float: right;
+      background: #d9534f;
+      color: white;
+      border: none;
+      padding: 8px 12px;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body onload="verificarAcceso()">
+  <button class="logout" onclick="cerrarSesion()">Cerrar sesión</button>
+  <h1>Simulador de Examen</h1>
+  <p>Bienvenido al simulador. Solo usuarios autorizados pueden ver esta página.</p>
+
+  <script>
+    function cerrarSesion() {
+      sessionStorage.removeItem("usuarioAutenticado");
+      window.location.href = "login.html";
+    }
+  </script>
+</body>
+</html>
