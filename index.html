@@ -40,60 +40,134 @@
   @media (max-width:640px){.wrap{padding:12px}}
 </style>
 
-<!-- ====== GOOGLE LOGIN Y CONTROL DE ACCESO ====== -->
+<!-- Google Identity Services -->
 <script src="https://accounts.google.com/gsi/client" async defer></script>
 <script src="https://cdn.jsdelivr.net/npm/jwt-decode/build/jwt-decode.min.js"></script>
+</head>
+<body>
+<!-- LOGIN / BUTTON -->
+<div id="login" class="login-area" style="display:none">
+  <h2>🔐 Acceso restringido</h2>
+  <p>Inicia sesión con tu cuenta autorizada para acceder al simulador.</p>
+  <div id="g_id_signin"></div>
+</div>
 
+<!-- ACCESS DENIED -->
+<div id="denied" class="denied" style="display:none">
+  ❌ Acceso denegado.<br>No estás autorizado para usar este simulador.
+  <div style="margin-top:12px">
+    <button onclick="location.reload()">Volver</button>
+  </div>
+</div>
+
+<!-- EXAM -->
+<div class="wrap" id="exam" style="display:none">
+  <header>
+    <h1>Simulacro — Acceso autorizado</h1>
+    <div class="chip" id="userChip">Cargando...</div>
+    <div class="user-actions">
+      <div class="meta" id="userMeta"></div>
+      <button class="ghost small" onclick="cerrarSesion()" title="Cerrar sesión">Cerrar sesión</button>
+    </div>
+    <div class="timer" id="timer">60:00</div>
+  </header>
+
+  <div class="card" id="card">
+    <div id="questionsArea"></div>
+
+    <div class="controls">
+      <button id="submitBtn">Finalizar</button>
+      <button id="restartBtn" class="ghost">Reiniciar (recargar)</button>
+      <div style="margin-left:auto;font-size:13px;color:var(--muted)">Tiempo total: 60 minutos</div>
+    </div>
+
+    <div id="resultArea"></div>
+  </div>
+</div>
+
+<!-- ========== CONTROL DE ACCESO CON POPUP ========== -->
 <script>
-  // === CLIENTE GOOGLE ===
-  const CLIENT_ID = "447366046291-0ted51mtkamjnrj7vv015vb7bvcs39eh.apps.googleusercontent.com";
+const CLIENT_ID = "447366046291-0ted51mtkamjnrj7vv015vb7bvcs39eh.apps.googleusercontent.com";
+const AUTH_USERS = ["maxponcep@gmail.com", "consulbf12@gmail.com"];
 
-  // === CORREOS AUTORIZADOS ===
-  const AUTH_USERS = ["maxponcep@gmail.com", "consulbf12@gmail.com"];
+// Mostrar secciones
+function showLogin() {
+  document.getElementById("login").style.display = "block";
+  document.getElementById("denied").style.display = "none";
+  document.getElementById("exam").style.display = "none";
+}
 
-  // === FUNCIÓN PRINCIPAL: PROCESA RESPUESTA GOOGLE ===
-  function handleCredentialResponse(response) {
-    console.log("Respuesta de Google:", response);
-    const data = jwt_decode(response.credential);
-    const email = data.email;
-    console.log("Usuario autenticado:", email);
+function showDenied() {
+  document.getElementById("login").style.display = "none";
+  document.getElementById("denied").style.display = "block";
+  document.getElementById("exam").style.display = "none";
+}
 
-    if (AUTH_USERS.includes(email)) {
-      document.getElementById("login-container").style.display = "none";
-      document.getElementById("main-content").style.display = "block";
-      sessionStorage.setItem("user", email);
-    } else {
-      alert("⚠️ Acceso restringido. Tu cuenta no está autorizada.");
-      google.accounts.id.disableAutoSelect();
-      sessionStorage.clear();
-      location.reload();
-    }
+function showExam(user) {
+  document.getElementById("login").style.display = "none";
+  document.getElementById("denied").style.display = "none";
+  document.getElementById("exam").style.display = "block";
+  document.getElementById("userChip").textContent = `${user.name} (${user.email})`;
+  document.getElementById("userMeta").textContent = user.email;
+  if (typeof window._examStarted === "undefined") {
+    window._examStarted = true;
+    startExam();
+  }
+}
+
+// Manejar login Google
+function handleCredentialResponse(response) {
+  const data = jwt_decode(response.credential);
+  const email = data.email;
+  const name = data.name || email;
+  console.log("Usuario autenticado:", email);
+
+  if (AUTH_USERS.includes(email)) {
+    sessionStorage.setItem("sim_user", JSON.stringify({ email, name }));
+    showExam({ email, name });
+  } else {
+    showDenied();
+  }
+}
+
+// Inicializar al cargar
+window.onload = function() {
+  const saved = sessionStorage.getItem("sim_user");
+  if (saved) {
+    try {
+      const user = JSON.parse(saved);
+      if (AUTH_USERS.includes(user.email)) {
+        showExam(user);
+        return;
+      }
+    } catch {}
   }
 
-  // === CONFIGURACIÓN DEL BOTÓN GOOGLE ===
-  window.onload = function () {
-    google.accounts.id.initialize({
-      client_id: CLIENT_ID,
-      callback: handleCredentialResponse,
-      ux_mode: "popup", // 🔸 evita redirecciones y el error 405
-      auto_select: false
-    });
+  google.accounts.id.initialize({
+    client_id: CLIENT_ID,
+    callback: handleCredentialResponse,
+    ux_mode: "popup", // evita error 405
+    auto_select: false
+  });
 
-    google.accounts.id.renderButton(
-      document.getElementById("g_id_signin"),
-      { theme: "outline", size: "large" }
-    );
+  google.accounts.id.renderButton(
+    document.getElementById("g_id_signin"),
+    { theme: "outline", size: "large" }
+  );
 
-    // Verificar si ya hay sesión activa
-    const user = sessionStorage.getItem("user");
-    if (user && AUTH_USERS.includes(user)) {
-      document.getElementById("login-container").style.display = "none";
-      document.getElementById("main-content").style.display = "block";
-    }
-  };
+  showLogin();
+};
+
+// Cerrar sesión
+function cerrarSesion() {
+  sessionStorage.removeItem("sim_user");
+  google.accounts.id.disableAutoSelect();
+  location.reload();
+}
 </script>
 
-
+<!-- ======= SIMULADOR ======= -->
+<script>
 /* ======= TU SIMULADOR (10 preguntas integradas) ======= */
 function startExam(){
   const questions = [
@@ -364,6 +438,7 @@ d. Servicio de pasajes aéreos nacionales por el monto de S/ 80 000.00`,
   buildUI();
   startTimer();
 }
+
 </script>
 </body>
 </html>
