@@ -4,16 +4,14 @@
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width,initial-scale=1" />
 <title>Simulacro — Acceso restringido</title>
+
 <style>
   :root{
     --bg:#f6f7fb; --card:#fff; --accent:#0b63d6; --muted:#666; --ok:#0a8a3f; --bad:#d02a2a;
   }
-  body{
-    font-family: Inter, system-ui, "Segoe UI", Roboto, Arial, sans-serif;
-    margin:0; background:var(--bg); color:#111;
-  }
+  body{font-family:Inter,system-ui,"Segoe UI",Roboto,Arial,sans-serif;margin:0;background:var(--bg);color:#111;}
   .wrap{max-width:900px;margin:22px auto;padding:18px}
-  header{display:flex;align-items:center;gap:16px;margin-bottom:8px}
+  header{display:flex;align-items:center;gap:16px;margin-bottom:8px;flex-wrap:wrap}
   h1{margin:0;font-size:20px}
   .chip{background:#f0f6ff;color:var(--accent);padding:6px 10px;border-radius:999px;font-weight:600}
   .timer{margin-left:auto;font-weight:800;color:var(--accent)}
@@ -24,7 +22,7 @@
   .options{display:flex;flex-direction:column;gap:8px}
   .option{padding:8px;border-radius:8px;border:1px solid #e6e9ef;cursor:pointer;user-select:none}
   .option input{margin-right:8px}
-  .controls{display:flex;gap:8px;align-items:center;margin-top:14px}
+  .controls{display:flex;gap:8px;align-items:center;margin-top:14px;flex-wrap:wrap}
   button{background:var(--accent);color:#fff;border:0;padding:8px 12px;border-radius:8px;cursor:pointer}
   button.ghost{background:transparent;color:var(--accent);border:1px solid #dbe9ff}
   .result{margin-top:18px;padding:12px;border-radius:10px;background:#fbfdff;border:1px solid #eef6ff}
@@ -42,14 +40,14 @@
 
 <!-- Google Identity Services -->
 <script src="https://accounts.google.com/gsi/client" async defer></script>
-<script src="https://cdn.jsdelivr.net/npm/jwt-decode/build/jwt-decode.min.js"></script>
 </head>
+
 <body>
-<!-- LOGIN / BUTTON -->
+<!-- LOGIN AREA -->
 <div id="login" class="login-area" style="display:none">
   <h2>🔐 Acceso restringido</h2>
   <p>Inicia sesión con tu cuenta autorizada para acceder al simulador.</p>
-  <div id="g_id_signin"></div>
+  <button id="loginBtn">Iniciar con Google</button>
 </div>
 
 <!-- ACCESS DENIED -->
@@ -67,107 +65,91 @@
     <div class="chip" id="userChip">Cargando...</div>
     <div class="user-actions">
       <div class="meta" id="userMeta"></div>
-      <button class="ghost small" onclick="cerrarSesion()" title="Cerrar sesión">Cerrar sesión</button>
+      <button class="ghost small" onclick="cerrarSesion()">Cerrar sesión</button>
     </div>
     <div class="timer" id="timer">60:00</div>
   </header>
 
   <div class="card" id="card">
     <div id="questionsArea"></div>
-
     <div class="controls">
       <button id="submitBtn">Finalizar</button>
       <button id="restartBtn" class="ghost">Reiniciar (recargar)</button>
       <div style="margin-left:auto;font-size:13px;color:var(--muted)">Tiempo total: 60 minutos</div>
     </div>
-
     <div id="resultArea"></div>
   </div>
 </div>
 
-<!-- ========== CONTROL DE ACCESO CON POPUP ========== -->
 <script>
+/* ====== CONTROL DE ACCESO ====== */
+const AUTH_USERS = ["maxponcep@gmail.com","consulbf12@gmail.com"];
 const CLIENT_ID = "447366046291-0ted51mtkamjnrj7vv015vb7bvcs39eh.apps.googleusercontent.com";
-const AUTH_USERS = ["maxponcep@gmail.com", "consulbf12@gmail.com"];
 
-// Mostrar secciones
-function showLogin() {
-  document.getElementById("login").style.display = "block";
-  document.getElementById("denied").style.display = "none";
-  document.getElementById("exam").style.display = "none";
+function parseJwt(token) {
+  try {
+    const base64Url = token.split('.')[1];
+    const base64 = base64Url.replace(/-/g, '+').replace(/_/g, '/');
+    const jsonPayload = decodeURIComponent(atob(base64).split('').map(c =>
+      '%' + ('00' + c.charCodeAt(0).toString(16)).slice(-2)
+    ).join(''));
+    return JSON.parse(jsonPayload);
+  } catch (e) { return null; }
 }
 
-function showDenied() {
-  document.getElementById("login").style.display = "none";
-  document.getElementById("denied").style.display = "block";
-  document.getElementById("exam").style.display = "none";
+function iniciarGoogle() {
+  google.accounts.id.initialize({
+    client_id: CLIENT_ID,
+    callback: handleCredentialResponse,
+  });
+  google.accounts.id.prompt(); // Popup
 }
 
-function showExam(user) {
-  document.getElementById("login").style.display = "none";
-  document.getElementById("denied").style.display = "none";
-  document.getElementById("exam").style.display = "block";
-  document.getElementById("userChip").textContent = `${user.name} (${user.email})`;
-  document.getElementById("userMeta").textContent = user.email;
-  if (typeof window._examStarted === "undefined") {
-    window._examStarted = true;
-    startExam();
-  }
-}
-
-// Manejar login Google
 function handleCredentialResponse(response) {
-  const data = jwt_decode(response.credential);
+  const data = parseJwt(response.credential);
+  if (!data || !data.email) return showDenied();
+
   const email = data.email;
-  const name = data.name || email;
+  const name = data.name || data.email;
   console.log("Usuario autenticado:", email);
 
   if (AUTH_USERS.includes(email)) {
-    sessionStorage.setItem("sim_user", JSON.stringify({ email, name }));
-    showExam({ email, name });
+    sessionStorage.setItem("sim_user", JSON.stringify({email, name}));
+    showExamFor({email, name});
   } else {
     showDenied();
   }
 }
 
-// Inicializar al cargar
-window.onload = function() {
-  const saved = sessionStorage.getItem("sim_user");
-  if (saved) {
-    try {
-      const user = JSON.parse(saved);
-      if (AUTH_USERS.includes(user.email)) {
-        showExam(user);
-        return;
-      }
-    } catch {}
-  }
+function showDenied(){
+  document.getElementById("login").style.display="none";
+  document.getElementById("denied").style.display="block";
+  document.getElementById("exam").style.display="none";
+}
 
-  google.accounts.id.initialize({
-    client_id: CLIENT_ID,
-    callback: handleCredentialResponse,
-    ux_mode: "popup", // evita error 405
-    auto_select: false
-  });
+function showExamFor(user){
+  document.getElementById("login").style.display="none";
+  document.getElementById("denied").style.display="none";
+  document.getElementById("exam").style.display="block";
+  document.getElementById("userChip").textContent=`${user.name}`;
+  document.getElementById("userMeta").textContent=user.email;
+  if(!window._examStarted){window._examStarted=true;startExam();}
+}
 
-  google.accounts.id.renderButton(
-    document.getElementById("g_id_signin"),
-    { theme: "outline", size: "large" }
-  );
-
-  showLogin();
+window.onload=()=>{
+  const s=sessionStorage.getItem("sim_user");
+  if(s){try{showExamFor(JSON.parse(s));return;}catch(e){}}
+  document.getElementById("login").style.display="block";
+  document.getElementById("loginBtn").addEventListener("click",()=>{iniciarGoogle();});
 };
 
-// Cerrar sesión
-function cerrarSesion() {
+function cerrarSesion(){
   sessionStorage.removeItem("sim_user");
   google.accounts.id.disableAutoSelect();
   location.reload();
 }
-</script>
-
-<!-- ======= SIMULADOR ======= -->
 <script>
+/* ====== SIMULADOR ====== */
 /* ======= TU SIMULADOR (10 preguntas integradas) ======= */
 function startExam(){
   const questions = [
@@ -438,7 +420,6 @@ d. Servicio de pasajes aéreos nacionales por el monto de S/ 80 000.00`,
   buildUI();
   startTimer();
 }
-
 </script>
 </body>
 </html>
