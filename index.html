@@ -150,143 +150,25 @@ function cerrarSesion(){
 }
 
 /* ====== SIMULADOR ====== */
-/* ======= TU SIMULADOR (10 preguntas integradas) ======= */
 function startExam(){
-  const questions = [
-  {
-    id: 1,
-    question: `Establezca la relación correcta entre el número y la letra respecto a la determinación del método de contratación que corresponda: 
-1. Subasta Inversa Electrónica 
-2. Catalogo Electrónico de Acuerdo Marco 
-3. Licitación Pública 
-a. Arroz pilado superior por el monto de S/ 50 000.00.
-b. Construcción de centro educativo por el monto de S/ 7,500,000.00
-c. Gas licuado de petróleo por el monto de S/ 60 000.00.
-d. Servicio de pasajes aéreos nacionales por el monto de S/ 80 000.00`,
-    options: [
-      { text: "a) 1a, 1b, 2c, 3d", isCorrect: false },
-      { text: "b) 1a, 1c, 2d, 3b", isCorrect: true },
-      { text: "c) 1a, 1b, 1d, 2c", isCorrect: false },
-      { text: "d) 3a, 3b, 3c, 3d", isCorrect: false }
-    ],
-    block: "ACTUACIONES PREPARATORIAS"
-  },
-  {
-    id: 2,
-    question: `De la revisión del requerimiento, se advierte que, se exige una (1) camioneta 4 x 4 doble cabina, sin embargo, no se ha precisado las características de la camioneta. ¿Qué principio se ha vulnerado?`,
-    options: [
-      { text: "a) Principio de Publicidad", isCorrect: false },
-      { text: "b) Principio de Libertad de Concurrencia", isCorrect: false },
-      { text: "c) Principio de Transparencia", isCorrect: true },
-      { text: "d) Principio de Igualdad de trato", isCorrect: false }
-    ],
-    block: "ACTUACIONES PREPARATORIAS"
-  },
-  {
-    id: 3,
-    question: `De la revisión de los requisitos para la suscripción del contrato se advierte que, se requiere la presentación de una declaración jurada de cada personal propuesto señalando que no se encuentra trabajando en otra Entidad Pública o Privada y que no lo realizará durante la prestación de sus servicios en la ejecución de la presente obra, adjuntado copia legible de su DNI. ¿Qué principio se ha vulnerado?`,
-    options: [
-      { text: "a) Principio de Competencia", isCorrect: false },
-      { text: "b) Principio de Libertad de Concurrencia", isCorrect: true },
-      { text: "c) Principio de Transparencia", isCorrect: false },
-      { text: "d) Principio de Igualdad de trato", isCorrect: false }
-    ],
-    block: "ACTUACIONES PREPARATORIAS"
-  },
-  {
-    id: 4,
-    question: `El principio de Equidad es aplicable durante:`,
-    options: [
-      { text: "a) La fase de actuaciones preparatorias", isCorrect: false },
-      { text: "b) La fase de selección", isCorrect: false },
-      { text: "c) La fase de ejecución contractual", isCorrect: true },
-      { text: "d) La fase de pago", isCorrect: false }
-    ],
-    block: "ACTUACIONES PREPARATORIAS"
-  },
-  {
-    id: 5,
-    question: `En qué casos, se incurre en fraccionamiento.`,
-    options: [
-      { text: "a) Surge una necesidad imprevisible adicional a la programada.", isCorrect: false },
-      { text: "b) No se contaba con los recursos disponibles suficientes para realizar la contratación", isCorrect: false },
-      { text: "c) Se efectúe a través de los Catálogos Electrónicos de Acuerdo Marco.", isCorrect: false },
-      { text: "d) Divide una contratación de servicios, para la cual cuenta con presupuesto disponible para su ejecución integral, en varios contratos menores.", isCorrect: true }
-    ],
-    block: "ACTUACIONES PREPARATORIAS"
-  },
-  {
-    id: 6,
-    question: `Según la Ley General de Contrataciones Públicas, ¿cuál es el propósito fundamental del expediente de contratación?`,
-    options: [
-      { text: "a) Servir como registro exclusivo de la fase de selección.", isCorrect: false },
-      { text: "b) Contener la información que respalda las actuaciones desde la formulación del requerimiento hasta el cumplimiento total del contrato.", isCorrect: true },
-      { text: "c) Documentar únicamente los aspectos técnicos del requerimiento.", isCorrect: false },
-      { text: "d) Justificar la elección de un procedimiento de selección no competitivo.", isCorrect: false }
-    ],
-    block: "ACTUACIONES PREPARATORIAS"
-  },
-  {
-    id: 7,
-    question: `¿Qué documento debe formar parte del expediente de contratación antes de la fase de selección?`,
-    options: [
-      { text: "a) El contrato perfeccionado.", isCorrect: false },
-      { text: "b) La conformidad de la prestación.", isCorrect: false },
-      { text: "c) La estrategia de contratación.", isCorrect: true },
-      { text: "d) El laudo arbitral.", isCorrect: false }
-    ],
-    block: "ACTUACIONES PREPARATORIAS"
-  },
-  {
-    id: 8,
-    question: `Además de la fase de actuaciones preparatorias, ¿qué otras fases del proceso de contratación deben estar documentadas en el expediente de contratación según la Ley?`,
-    options: [
-      { text: "a) Solo la fase de selección.", isCorrect: false },
-      { text: "b) Solo la fase de ejecución contractual.", isCorrect: false },
-      { text: "c) La fase de selección y la fase de ejecución contractual.", isCorrect: true },
-      { text: "d) Únicamente la solución de controversias.", isCorrect: false }
-    ],
-    block: "ACTUACIONES PREPARATORIAS"
-  },
-  {
-    id: 9,
-    question: `¿Es obligatorio incluir la cuantía de la contratación y la certificación presupuestal en el expediente de contratación antes de la fase de selección, según el Reglamento?`,
-    options: [
-      { text: "a) No, solo se incluye la cuantía si es un procedimiento competitivo.", isCorrect: false },
-      { text: "b) No, la certificación presupuestal se incluye después de la buena pro.", isCorrect: false },
-      { text: "c) Sí, ambos son parte del contenido mínimo requerido antes de la fase de selección.", isCorrect: true },
-      { text: "d) Solo se incluye la certificación presupuestal, no la cuantía.", isCorrect: false }
-    ],
-    block: "ACTUACIONES PREPARATORIAS"
-  },
-  {
-    id: 10,
-    question: `¿Qué autoridad es la responsable de aprobar el expediente de contratación antes de iniciar la fase de selección?`,
-    options: [
-      { text: "a) El Titular de la Entidad.", isCorrect: false },
-      { text: "b) El jefe de la Dependencia Encargada de las Contrataciones (DEC).", isCorrect: false },
-      { text: "c) La autoridad de la gestión administrativa.", isCorrect: true },
-      { text: "d) El área usuaria.", isCorrect: false }
-    ],
-    block: "ACTUACIONES PREPARATORIAS"
+  //⚠️ Verificar que existan preguntas externas
+  if (typeof questions === "undefined" || !Array.isArray(questions) || questions.length === 0) {
+    alert("⚠️ No se encontraron preguntas en preguntas.js");
+    return;
   }
-];
 
-  // Elementos y estado
   const questionsArea = document.getElementById("questionsArea");
   const timerEl = document.getElementById("timer");
   const submitBtn = document.getElementById("submitBtn");
   const restartBtn = document.getElementById("restartBtn");
   const resultArea = document.getElementById("resultArea");
 
-  let timeLeft = 60 * 60; // 60 minutos en segundos
+  let timeLeft = 60 * 60; // 60 minutos
   let timerInterval = null;
-  let answered = {}; // {questionId: selectedOptionText}
+  let answered = {};
 
-  // util
-  function shuffleArray(a){ for(let i=a.length-1;i>0;i--){ const j=Math.floor(Math.random()*(i+1)); [a[i],a[j]]=[a[j],a[i]]; } }
+  function shuffleArray(a){for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]];}}
 
-  // Construir interfaz con preguntas (y opciones mezcladas)
   function buildUI(){
     questionsArea.innerHTML = "";
     let currentBlock = "";
@@ -315,9 +197,7 @@ d. Servicio de pasajes aéreos nacionales por el monto de S/ 80 000.00`,
         radio.type = "radio";
         radio.name = "q_" + q.id;
         radio.value = o.text;
-        radio.addEventListener("change", () => {
-          answered[q.id] = o.text;
-        });
+        radio.addEventListener("change", () => { answered[q.id] = o.text; });
         label.appendChild(radio);
         const span = document.createElement("span");
         span.innerHTML = o.text;
@@ -347,12 +227,9 @@ d. Servicio de pasajes aéreos nacionales por el monto de S/ 80 000.00`,
     }, 1000);
   }
 
-  // Mostrar detalle de cada pregunta: seleccionada / correcta
   function buildDetail(correctCount, total){
     let html = `<div class="result"><h3>Resultado</h3>
       <p>Aciertos: <strong>${correctCount}</strong> de ${total}</p>`;
-
-    // Nivel simple (solo si muchas preguntas, mantengo lógica original)
     let levelText = "No aplicable (prueba corta)";
     if(total >= 58){
       if(correctCount >= 58) levelText = "Avanzado";
@@ -361,8 +238,6 @@ d. Servicio de pasajes aéreos nacionales por el monto de S/ 80 000.00`,
       else levelText = "Por debajo de Básico";
     }
     html += `<p>Nivel: <strong>${levelText}</strong></p>`;
-
-    // Detalle por pregunta
     html += `<h4>Detalle por pregunta</h4>`;
     questions.forEach(q => {
       const sel = answered[q.id] || null;
@@ -377,36 +252,24 @@ d. Servicio de pasajes aéreos nacionales por el monto de S/ 80 000.00`,
       html += `<div><strong>Respuesta correcta:</strong> <pre>${correctText}</pre></div>`;
       html += `</div>`;
     });
-
     html += `</div>`;
     return html;
   }
 
   function finishExam(auto=false){
     clearInterval(timerInterval);
-    // bloquear entradas
     document.querySelectorAll("input[type=radio]").forEach(r => r.disabled = true);
     submitBtn.disabled = true;
-
-    // calcular aciertos
     let correctCount = 0;
     questions.forEach(q => {
-      const sel = answered[q.id] || null;
-      if(sel){
-        const correctOpt = q.options.find(o => o.isCorrect === true);
-        if(correctOpt && sel.trim() === correctOpt.text.trim()){
-          correctCount++;
-        }
-      }
+      const sel = answered[q.id];
+      const correctOpt = q.options.find(o => o.isCorrect === true);
+      if(correctOpt && sel && sel.trim() === correctOpt.text.trim()) correctCount++;
     });
-
-    // mostrar resultado con detalle
     resultArea.innerHTML = buildDetail(correctCount, questions.length) + (auto ? '<p style="margin-top:10px"><em>Se terminó el tiempo.</em></p>' : '');
-    // scroll to results
     resultArea.scrollIntoView({behavior:"smooth"});
   }
 
-  // eventos
   submitBtn.addEventListener("click", () => {
     if(!confirm("¿Deseas entregar el simulacro ahora?")) return;
     finishExam(false);
@@ -416,12 +279,12 @@ d. Servicio de pasajes aéreos nacionales por el monto de S/ 80 000.00`,
     location.reload();
   });
 
-  // iniciar
   buildUI();
   startTimer();
 }
 </script>
+
+<!-- Carga las preguntas externas y el script principal -->
+<script src="preguntas.js"></script>
 </body>
 </html>
-
-
