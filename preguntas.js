@@ -886,7 +886,11 @@ const questions = [
         "isCorrect": true
       },
       {
-        "text": "c) Indagación avanzada; herramienta de reuniones uno a muchos. d) Consulta al mercado básica; herramienta de indagación histórica",
+        "text": "c) Indagación avanzada; herramienta de reuniones uno a muchos.",
+        "isCorrect": false
+      },
+      {
+        "text": "d) Consulta al mercado básica; herramienta de indagación histórica.",
         "isCorrect": false
       }
     ],
@@ -1039,7 +1043,11 @@ const questions = [
         "isCorrect": true
       },
       {
-        "text": "b) Eliminar completamente todos los riesgos del proceso. c) Transferir todos los riesgos al contratista.",
+        "text": "b) Eliminar completamente todos los riesgos del proceso.",
+        "isCorrect": false
+      },
+      {
+        "text": "c) Transferir todos los riesgos al contratista.",
         "isCorrect": false
       },
       {
@@ -1242,7 +1250,11 @@ const questions = [
         "isCorrect": true
       },
       {
-        "text": "b) En el Cuadro Multianual de Necesidades (CMN). c) En las bases del procedimiento de selección.",
+        "text": "b) En el Cuadro Multianual de Necesidades (CMN).",
+        "isCorrect": false
+      },
+      {
+        "text": "c) En las bases del procedimiento de selección.",
         "isCorrect": false
       },
       {
@@ -1334,7 +1346,11 @@ const questions = [
         "isCorrect": false
       },
       {
-        "text": "c) Tarifas, esquema mixto y en base a porcentajes. d) Costo reembolsable y pago por consumo.",
+        "text": "c) Tarifas, esquema mixto y en base a porcentajes.",
+        "isCorrect": false
+      },
+      {
+        "text": "d) Costo reembolsable y pago por consumo.",
         "isCorrect": false
       }
     ],
@@ -1675,7 +1691,11 @@ const questions = [
         "isCorrect": true
       },
       {
-        "text": "c) Planificación deficiente d) Recorte presupuestal",
+        "text": "c) Planificación deficiente.",
+        "isCorrect": false
+      },
+      {
+        "text": "d) Recorte presupuestal",
         "isCorrect": false
       }
     ],
@@ -1713,7 +1733,11 @@ const questions = [
         "isCorrect": false
       },
       {
-        "text": "b) Contiene todas las contrataciones de la entidad, incluyendo los contratos menores. c) Es elaborado por la DEC y aprobado por el Titular de la Entidad.",
+        "text": "b) Contiene todas las contrataciones de la entidad, incluyendo los contratos menores.",
+        "isCorrect": false
+      },
+      {
+        "text": "c) Es elaborado por la DEC y aprobado por el Titular de la Entidad.",
         "isCorrect": false
       },
       {
@@ -1943,7 +1967,11 @@ const questions = [
         "isCorrect": true
       },
       {
-        "text": "c) únicamente los contratos perfeccionados d) la información presupuestal y financiera",
+        "text": "c) únicamente los contratos perfeccionados",
+        "isCorrect": false
+      },
+      {
+        "text": "d) la información presupuestal y financiera",
         "isCorrect": false
       }
     ],
@@ -2353,7 +2381,11 @@ const questions = [
         "isCorrect": true
       },
       {
-        "text": "c) abastecimiento / compra directa d) distribución / cesión de bienes",
+        "text": "c) abastecimiento / compra directa",
+        "isCorrect": false
+      },
+      {
+        "text": "d) distribución / cesión de bienes",
         "isCorrect": false
       }
     ],
@@ -2506,7 +2538,11 @@ const questions = [
         "isCorrect": false
       },
       {
-        "text": "b) Sí, si se justifica como necesidad urgente c) No, salvo que la DGA lo autorice",
+        "text": "b) Sí, si se justifica como necesidad urgente",
+        "isCorrect": false
+      },
+      {
+        "text": "c) No, salvo que la DGA lo autorice",
         "isCorrect": false
       },
       {
@@ -2529,7 +2565,11 @@ const questions = [
         "isCorrect": false
       },
       {
-        "text": "c) No, si se trata de bienes de consumo d) Solo si hay control posterior",
+        "text": "c) No, si se trata de bienes de consumo",
+        "isCorrect": false
+      },
+      {
+        "text": "d) Solo si hay control posterior",
         "isCorrect": false
       }
     ],
@@ -3721,7 +3761,11 @@ const questions = [
         "isCorrect": true
       },
       {
-        "text": "c) El contratista debe demoler lo avanzado y la entidad convocar un nuevo proceso. d) Se suspende el contrato y se espera la decisión del Tribunal de Contrataciones.",
+        "text": "c) El contratista debe demoler lo avanzado y la entidad convocar un nuevo proceso.",
+        "isCorrect": false
+      },
+      {
+        "text": "d) Se suspende el contrato y se espera la decisión del Tribunal de Contrataciones.",
         "isCorrect": false
       }
     ],
@@ -3740,7 +3784,11 @@ const questions = [
         "isCorrect": true
       },
       {
-        "text": "c) corresponde parcialmente d) se suspende",
+        "text": "c) corresponde parcialmente",
+        "isCorrect": false
+      },
+      {
+        "text": "d) se suspende",
         "isCorrect": false
       }
     ],
@@ -9988,7 +10036,15 @@ const questions = [
         "isCorrect": true
       },
       {
-        "text": "b) La Oficina General de Asesoría Jurídica c) El Tribunal de Contrataciones del Estado d) La DGA",
+        "text": "b) La Oficina General de Asesoría Jurídica",
+        "isCorrect": false
+      },
+      {
+        "text": "c) El Tribunal de Contrataciones del Estado",
+        "isCorrect": false
+      },
+      {
+        "text": "d) La DGA",
         "isCorrect": false
       }
     ],
