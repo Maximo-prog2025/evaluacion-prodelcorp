@@ -232,10 +232,10 @@ function startExam(){
       <p>Aciertos: <strong>${correctCount}</strong> de ${total}</p>`;
     let levelText = "No aplicable (prueba corta)";
     if(total >= 58){
-      if(correctCount >= 58) levelText = "Avanzado";
-      else if(correctCount >= 43) levelText = "Intermedio";
-      else if(correctCount >= 30) levelText = "Básico";
-      else levelText = "Por debajo de Básico";
+      if(correctCount >= 58) levelText = "Felicitaciones!!! Alcanzaste el Nivel Avanzado... Prodelcorp !!!, ";
+      else if(correctCount >= 43) levelText = "Felicitaciones!!! Alcanzaste el Nivel Intermedio, sigue preparandote No te rindas...Prodelcorp !!!";
+      else if(correctCount >= 30) levelText = "Felicitaciones!!! Alcanzaste el Nivel Básico, sigue preparandote No te rindas...Prodelcorp !!!";
+      else levelText = "No aprobaste, sigue preparandote No te rindas... Prodelcorp !!!";
     }
     html += `<p>Nivel: <strong>${levelText}</strong></p>`;
     html += `<h4>Detalle por pregunta</h4>`;
