@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width,initial-scale=1" />
-<title>Evaluación Prodelcorp — Acceso restringido</title>
+<title>Simulacro — Acceso restringido</title>
 
 <style>
   :root{
@@ -35,25 +35,33 @@
   .meta{font-size:13px;color:var(--muted)}
   .small{font-size:13px;padding:6px 10px}
   pre{white-space:pre-wrap;font-family:inherit}
-  .welcome{display:flex;flex-direction:column;align-items:center;justify-content:center;height:60vh;text-align:center}
-  .welcome h2{font-size:24px;margin-bottom:10px}
-  .welcome p{font-size:16px;color:#444;margin-bottom:20px}
   @media (max-width:640px){.wrap{padding:12px}}
+
+  /* Pantalla de bienvenida */
+  #welcomeScreen {
+    display: none;
+    text-align: center;
+    padding: 80px 20px;
+    background: var(--card);
+    border-radius: 12px;
+    box-shadow: 0 6px 18px rgba(12,30,60,0.06);
+  }
+  #welcomeScreen h2 { color: var(--accent); }
+  #welcomeScreen p { color: var(--muted); margin-bottom: 20px; }
 </style>
 
 <script src="https://accounts.google.com/gsi/client" async defer></script>
-<script src="preguntas.js"></script>
 </head>
 
 <body>
-<!-- LOGIN -->
+<!-- LOGIN AREA -->
 <div id="login" class="login-area" style="display:none">
   <h2>🔐 Acceso restringido</h2>
   <p>Inicia sesión con tu cuenta autorizada para acceder al simulador.</p>
   <button id="loginBtn">Iniciar con Google</button>
 </div>
 
-<!-- DENEGADO -->
+<!-- ACCESS DENIED -->
 <div id="denied" class="denied" style="display:none">
   ❌ Acceso denegado.<br>No estás autorizado para usar este simulador.
   <div style="margin-top:12px">
@@ -61,10 +69,10 @@
   </div>
 </div>
 
-<!-- EXAMEN -->
+<!-- EXAM -->
 <div class="wrap" id="exam" style="display:none">
   <header>
-    <h1>Evaluación Prodelcorp</h1>
+    <h1>Simulacro — Acceso autorizado</h1>
     <div class="chip" id="userChip">Cargando...</div>
     <div class="user-actions">
       <div class="meta" id="userMeta"></div>
@@ -74,18 +82,17 @@
   </header>
 
   <!-- Pantalla de bienvenida -->
-  <div id="welcomeScreen" class="card welcome">
+  <div id="welcomeScreen">
     <h2>Bienvenido a tu examen</h2>
-    <p>Concéntrate, confía en tus conocimientos y ¡adelante!</p>
-    <button id="startBtn">Comenzar examen</button>
+    <p>Concéntrate, confía en ti y da lo mejor de ti. ¡Adelante!</p>
+    <button id="startExamBtn">Comenzar</button>
   </div>
 
-  <!-- Área de preguntas -->
   <div class="card" id="card" style="display:none">
     <div id="questionsArea"></div>
     <div class="controls">
       <button id="submitBtn">Finalizar</button>
-      <button id="restartBtn" class="ghost">Reiniciar</button>
+      <button id="restartBtn" class="ghost">Reiniciar (recargar)</button>
       <div style="margin-left:auto;font-size:13px;color:var(--muted)">Tiempo total: 60 minutos</div>
     </div>
     <div id="resultArea"></div>
@@ -93,21 +100,22 @@
 </div>
 
 <script>
-/* ====== AUTENTICACIÓN ====== */
+/* ====== CONTROL DE ACCESO ====== */
 const AUTH_USERS = ["maxponcep@gmail.com","consulbf12@gmail.com","victor_41437@hotmail.com"];
 const CLIENT_ID = "447366046291-0ted51mtkamjnrj7vv015vb7bvcs39eh.apps.googleusercontent.com";
 
-function parseJwt(token){
-  try{
-    const base64Url=token.split('.')[1];
-    const base64=base64Url.replace(/-/g,'+').replace(/_/g,'/');
-    const jsonPayload=decodeURIComponent(atob(base64).split('').map(c=>
-      '%' + ('00'+c.charCodeAt(0).toString(16)).slice(-2)).join(''));
+function parseJwt(token) {
+  try {
+    const base64Url = token.split('.')[1];
+    const base64 = base64Url.replace(/-/g, '+').replace(/_/g, '/');
+    const jsonPayload = decodeURIComponent(atob(base64).split('').map(c =>
+      '%' + ('00' + c.charCodeAt(0).toString(16)).slice(-2)
+    ).join(''));
     return JSON.parse(jsonPayload);
-  }catch(e){return null;}
+  } catch (e) { return null; }
 }
 
-function iniciarGoogle(){
+function iniciarGoogle() {
   google.accounts.id.initialize({
     client_id: CLIENT_ID,
     callback: handleCredentialResponse,
@@ -115,15 +123,19 @@ function iniciarGoogle(){
   google.accounts.id.prompt();
 }
 
-function handleCredentialResponse(response){
-  const data=parseJwt(response.credential);
-  if(!data||!data.email)return showDenied();
-  const email=data.email;
-  const name=data.name||data.email;
-  if(AUTH_USERS.includes(email)){
-    sessionStorage.setItem("sim_user",JSON.stringify({email,name}));
-    showExamFor({email,name});
-  }else showDenied();
+function handleCredentialResponse(response) {
+  const data = parseJwt(response.credential);
+  if (!data || !data.email) return showDenied();
+
+  const email = data.email;
+  const name = data.name || data.email;
+
+  if (AUTH_USERS.includes(email)) {
+    sessionStorage.setItem("sim_user", JSON.stringify({email, name}));
+    showExamFor({email, name});
+  } else {
+    showDenied();
+  }
 }
 
 function showDenied(){
@@ -136,8 +148,15 @@ function showExamFor(user){
   document.getElementById("login").style.display="none";
   document.getElementById("denied").style.display="none";
   document.getElementById("exam").style.display="block";
-  document.getElementById("userChip").textContent=user.name;
+  document.getElementById("userChip").textContent=`${user.name}`;
   document.getElementById("userMeta").textContent=user.email;
+  document.getElementById("welcomeScreen").style.display="block";
+
+  document.getElementById("startExamBtn").addEventListener("click", ()=>{
+    document.getElementById("welcomeScreen").style.display="none";
+    document.getElementById("card").style.display="block";
+    if(!window._examStarted){window._examStarted=true;startExam();}
+  });
 }
 
 window.onload=()=>{
@@ -153,52 +172,57 @@ function cerrarSesion(){
   location.reload();
 }
 
-/* ====== EXAMEN ====== */
+/* ====== SIMULADOR ====== */
 function startExam(){
-  const questionsArea=document.getElementById("questionsArea");
-  const timerEl=document.getElementById("timer");
-  const submitBtn=document.getElementById("submitBtn");
-  const restartBtn=document.getElementById("restartBtn");
-  const resultArea=document.getElementById("resultArea");
+  if (typeof questions === "undefined" || !Array.isArray(questions) || questions.length === 0) {
+    alert("⚠️ No se encontraron preguntas en preguntas.js");
+    return;
+  }
 
-  let timeLeft=60*60;
-  let timerInterval=null;
-  let answered={};
+  const questionsArea = document.getElementById("questionsArea");
+  const timerEl = document.getElementById("timer");
+  const submitBtn = document.getElementById("submitBtn");
+  const restartBtn = document.getElementById("restartBtn");
+  const resultArea = document.getElementById("resultArea");
+
+  let timeLeft = 60 * 60;
+  let timerInterval = null;
+  let answered = {};
 
   function shuffleArray(a){for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]];}}
 
   function buildUI(){
-    questionsArea.innerHTML="";
-    let currentBlock="";
-    questions.forEach(q=>{
-      if(q.Bloque && q.Bloque!==currentBlock){
-        currentBlock=q.Bloque;
-        const h=document.createElement("div");
-        h.className="section-title";
-        h.textContent=currentBlock;
+    questionsArea.innerHTML = "";
+    let currentBlock = "";
+    questions.forEach((q) => {
+      if(q.block && q.block !== currentBlock){
+        currentBlock = q.block;
+        const h = document.createElement("div");
+        h.className = "section-title";
+        h.textContent = currentBlock;
         questionsArea.appendChild(h);
       }
-      const opts=q.opciones?JSON.parse(JSON.stringify(q.opciones)):(q.options||[]);
+      const opts = q.options.map(o => ({...o}));
       shuffleArray(opts);
-      const div=document.createElement("div");
-      div.className="question";
-      const qtext=document.createElement("div");
-      qtext.className="qtext";
-      qtext.innerHTML=`<strong>Pregunta ${q.id}.</strong> ${q.Pregunta||q.question}`;
+      const div = document.createElement("div");
+      div.className = "question";
+      const qtext = document.createElement("div");
+      qtext.className = "qtext";
+      qtext.innerHTML = `<strong>Pregunta ${q.id}.</strong> ${q.question}`;
       div.appendChild(qtext);
-      const optsDiv=document.createElement("div");
-      optsDiv.className="options";
-      opts.forEach(o=>{
-        const label=document.createElement("label");
-        label.className="option";
-        const radio=document.createElement("input");
-        radio.type="radio";
-        radio.name="q_"+q.id;
-        radio.value=o.text;
-        radio.addEventListener("change",()=>{answered[q.id]=o.text;});
+      const optsDiv = document.createElement("div");
+      optsDiv.className = "options";
+      opts.forEach(o => {
+        const label = document.createElement("label");
+        label.className = "option";
+        const radio = document.createElement("input");
+        radio.type = "radio";
+        radio.name = "q_" + q.id;
+        radio.value = o.text;
+        radio.addEventListener("change", () => { answered[q.id] = o.text; });
         label.appendChild(radio);
-        const span=document.createElement("span");
-        span.innerHTML=o.text;
+        const span = document.createElement("span");
+        span.innerHTML = o.text;
         label.appendChild(span);
         optsDiv.appendChild(label);
       });
@@ -207,59 +231,82 @@ function startExam(){
     });
   }
 
-  function updateTimer(){
-    const mm=String(Math.floor(timeLeft/60)).padStart(2,"0");
-    const ss=String(timeLeft%60).padStart(2,"0");
-    timerEl.textContent=`${mm}:${ss}`;
+  function updateTimerDisplay(){
+    const mm = String(Math.floor(timeLeft/60)).padStart(2,"0");
+    const ss = String(timeLeft%60).padStart(2,"0");
+    timerEl.textContent = `${mm}:${ss}`;
   }
 
   function startTimer(){
     clearInterval(timerInterval);
-    updateTimer();
-    timerInterval=setInterval(()=>{
+    updateTimerDisplay();
+    timerInterval = setInterval(() => {
       timeLeft--;
-      if(timeLeft<=0){clearInterval(timerInterval);finishExam(true);}
-      else updateTimer();
-    },1000);
+      if(timeLeft <= 0){
+        clearInterval(timerInterval);
+        finishExam(true);
+      } else updateTimerDisplay();
+    }, 1000);
+  }
+
+  function buildDetail(correctCount, total){
+    let html = `<div class="result"><h3>Resultado</h3>
+      <p>Aciertos: <strong>${correctCount}</strong> de ${total}</p>`;
+    let levelText = "No aplicable (prueba corta)";
+    if(total >= 58){
+      if(correctCount >= 58) levelText = "Felicitaciones!!! Alcanzaste el Nivel Avanzado... Prodelcorp !!!";
+      else if(correctCount >= 43) levelText = "Nivel Intermedio — ¡Sigue preparándote!";
+      else if(correctCount >= 30) levelText = "Nivel Básico — No te rindas, puedes mejorar.";
+      else levelText = "No aprobaste — sigue intentándolo.";
+    }
+    html += `<p>Nivel: <strong>${levelText}</strong></p>`;
+    html += `<h4>Detalle por pregunta</h4>`;
+    questions.forEach(q => {
+      const sel = answered[q.id] || null;
+      const correctOpt = q.options.find(o => o.isCorrect === true);
+      const correctText = correctOpt ? correctOpt.text : "—";
+      const wasCorrect = sel && sel.trim() === correctText.trim();
+      const cls = wasCorrect ? "detail-item ok" : "detail-item bad";
+      html += `<div class="${cls}">
+        <div style="font-weight:700">Pregunta ${q.id}.</div>
+        <div class="meta">${q.question}</div>
+        <div style="margin-top:8px"><strong>Tu respuesta:</strong> ${sel ? `<pre>${sel}</pre>` : '<em>No respondió</em>'}</div>
+        <div><strong>Respuesta correcta:</strong> <pre>${correctText}</pre></div>
+      </div>`;
+    });
+    html += `</div>`;
+    return html;
   }
 
   function finishExam(auto=false){
     clearInterval(timerInterval);
-    document.querySelectorAll("input[type=radio]").forEach(r=>r.disabled=true);
-    submitBtn.disabled=true;
-    let correctCount=0;
-    questions.forEach(q=>{
-      const sel=answered[q.id]||null;
-      const correctOpt=(q.opciones||q.options).find(o=>o.isCorrect===true);
-      if(sel&&correctOpt&&sel.trim()===correctOpt.text.trim()){correctCount++;}
+    document.querySelectorAll("input[type=radio]").forEach(r => r.disabled = true);
+    submitBtn.disabled = true;
+    let correctCount = 0;
+    questions.forEach(q => {
+      const sel = answered[q.id];
+      const correctOpt = q.options.find(o => o.isCorrect === true);
+      if(correctOpt && sel && sel.trim() === correctOpt.text.trim()) correctCount++;
     });
-
-    let html=`<div class="result"><h3>Resultado</h3>
-      <p>Aciertos: <strong>${correctCount}</strong> de ${questions.length}</p>`;
-    html+=auto?'<p><em>Se terminó el tiempo.</em></p>':'';
-    resultArea.innerHTML=html;
+    resultArea.innerHTML = buildDetail(correctCount, questions.length) + (auto ? '<p><em>Se terminó el tiempo.</em></p>' : '');
     resultArea.scrollIntoView({behavior:"smooth"});
   }
 
-  submitBtn.onclick=()=>{if(confirm("¿Deseas entregar el simulacro ahora?"))finishExam(false);};
-  restartBtn.onclick=()=>{showWelcome();};
+  submitBtn.addEventListener("click", () => {
+    if(!confirm("¿Deseas entregar el simulacro ahora?")) return;
+    finishExam(false);
+  });
+  restartBtn.addEventListener("click", () => {
+    if(!confirm("Se reiniciará el examen desde la primera pregunta. ¿Continuar?")) return;
+    window.scrollTo({top:0, behavior:"smooth"});
+    location.reload();
+  });
 
   buildUI();
   startTimer();
 }
-
-/* ====== NUEVO: Pantalla de bienvenida ====== */
-document.getElementById("startBtn").onclick=()=>{
-  document.getElementById("welcomeScreen").style.display="none";
-  document.getElementById("card").style.display="block";
-  startExam();
-};
-
-function showWelcome(){
-  document.getElementById("resultArea").innerHTML="";
-  document.getElementById("card").style.display="none";
-  document.getElementById("welcomeScreen").style.display="flex";
-}
 </script>
+
+<script src="preguntas.js"></script>
 </body>
 </html>
