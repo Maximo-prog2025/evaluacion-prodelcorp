@@ -250,19 +250,27 @@ function startExam(){
   }
 
   function buildDetail(correctCount, total){
-    let html = `<div class="result"><h3>Resultado</h3>
-      <p>Aciertos: <strong>${correctCount}</strong> de ${total}</p>`;
-    let levelText = "No aplicable (prueba corta)";
-    if(total >= 58){
-      if(correctCount >= 58) levelText = "Felicitaciones!!! Alcanzaste el Nivel Avanzado... Prodelcorp !!!";
-      else if(correctCount >= 43) levelText = "Nivel Intermedio — ¡Sigue preparándote!";
-      else if(correctCount >= 30) levelText = "Nivel Básico — No te rindas, puedes mejorar.";
-      else levelText = "No aprobaste — sigue intentándolo.";
-    }
-    html += `<p>Nivel: <strong>${levelText}</strong></p>`;
-    html += `<h4>Detalle por pregunta</h4>`;
-    questions.forEach(q => {
-      const sel = answered[q.id] || null;
+  let html = `<div class="result"><h3>Resultado</h3>
+    <p>Aciertos: <strong>${correctCount}</strong> de ${total}</p>`;
+
+  let levelText = "No aplicable (prueba corta)";
+  if(total >= 58){
+    if(correctCount >= 58) levelText = "Felicitaciones!!! Alcanzaste el Nivel Avanzado... Prodelcorp !!!";
+    else if(correctCount >= 43) levelText = "Felicitaciones!!! Alcanzaste el Nivel Intermedio — ¡Sigue preparándote!";
+    else if(correctCount >= 30) levelText = "Felicitaciones!!! Alcanzaste el Nivel Básico — No te rindas, puedes mejorar.";
+    else levelText = "No aprobaste — tú puedes!!! sigue intentándolo...Prodelcorp!!!";
+  }
+
+  html += `<p>Nivel: <strong>${levelText}</strong></p>`;
+  html += `<h4>Detalle de tus respuestas</h4>`;
+
+  // Solo mostrar preguntas que el usuario respondió
+  const answeredQuestions = questions.filter(q => answered[q.id]);
+  if (answeredQuestions.length === 0) {
+    html += `<p><em>No respondiste ninguna pregunta.</em></p>`;
+  } else {
+    answeredQuestions.forEach(q => {
+      const sel = answered[q.id];
       const correctOpt = q.options.find(o => o.isCorrect === true);
       const correctText = correctOpt ? correctOpt.text : "—";
       const wasCorrect = sel && sel.trim() === correctText.trim();
@@ -270,12 +278,15 @@ function startExam(){
       html += `<div class="${cls}">
         <div style="font-weight:700">Pregunta ${q.id}.</div>
         <div class="meta">${q.question}</div>
-        <div style="margin-top:8px"><strong>Tu respuesta:</strong> ${sel ? `<pre>${sel}</pre>` : '<em>No respondió</em>'}</div>
+        <div style="margin-top:8px"><strong>Tu respuesta:</strong> <pre>${sel}</pre></div>
         <div><strong>Respuesta correcta:</strong> <pre>${correctText}</pre></div>
       </div>`;
     });
-    html += `</div>`;
-    return html;
+  }
+
+  html += `</div>`;
+  return html;
+
   }
 
   function finishExam(auto=false){
