@@ -2922,4146 +2922,6 @@ const questions = [
   },
   {
     "id": 128,
-    "question": "1. ¿Cuál de los siguientes elementos forma parte obligatoria del contrato?",
-    "options": [
-      {
-        "text": "a) El Plan Anual de Contrataciones de la entidad.",
-        "isCorrect": false
-      },
-      {
-        "text": "b) Las bases integradas que establezcan reglas definitivas y la oferta ganadora.",
-        "isCorrect": true
-      },
-      {
-        "text": "c) El informe de evaluación de ofertas del comité de selección.",
-        "isCorrect": false
-      },
-      {
-        "text": "d) El Cuadro Multianual de Necesidades.",
-        "isCorrect": false
-      }
-    ],
-    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
-  },
-  {
-    "id": 129,
-    "question": "2. ¿Qué tipo de cláusulas deben incluirse obligatoriamente en los contratos regulados por la ley, bajo responsabilidad?",
-    "options": [
-      {
-        "text": "a) Cláusula de confidencialidad, cláusula de penalidades y cláusula de reajuste de precios.",
-        "isCorrect": false
-      },
-      {
-        "text": "b) Cláusula de garantías, cláusula anticorrupción y antisoborno, y cláusula de solución de controversias.",
-        "isCorrect": true
-      },
-      {
-        "text": "c) Cláusula de subcontratación, cláusula de cesión de posición contractual y cláusula de adelantos.",
-        "isCorrect": false
-      },
-      {
-        "text": "d) Cláusula de impacto ambiental, cláusula de responsabilidad social y cláusula de seguros.",
-        "isCorrect": false
-      }
-    ],
-    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
-  },
-  {
-    "id": 130,
-    "question": "3. Una entidad está por suscribir un contrato de obra. La Dependencia Encargada de las Contrataciones (DEC) verifica que el postor ganador tiene multas impagas por infracciones a la Ley de Contrataciones. ¿Qué acción debe tomar la entidad antes de suscribir el contrato?",
-    "options": [
-      {
-        "text": "a) Exigir el pago inmediato de las multas como condición previa a la firma.",
-        "isCorrect": false
-      },
-      {
-        "text": "b) Proceder a la firma del contrato e iniciar un proceso coactivo para el cobro de las multas.",
-        "isCorrect": false
-      },
-      {
-        "text": "c) Incorporar una cláusula de compromiso de pago de la multa, la que se efectúa a través de la retención del monto adeudado.",
-        "isCorrect": true
-      },
-      {
-        "text": "d) Descalificar al postor y llamar al segundo lugar, ya que las multas impagas constituyen un impedimento.",
-        "isCorrect": false
-      }
-    ],
-    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
-  },
-  {
-    "id": 131,
-    "question": "4. El contrato se ajusta a la incluida en las bases del respectivo procedimiento de selección y se publica en la Pladicop.",
-    "options": [
-      {
-        "text": "a) proforma de contrato",
-        "isCorrect": true
-      },
-      {
-        "text": "b) oferta económica",
-        "isCorrect": false
-      },
-      {
-        "text": "c) estrategia de contratación",
-        "isCorrect": false
-      },
-      {
-        "text": "d) certificación presupuestal",
-        "isCorrect": false
-      }
-    ],
-    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
-  },
-  {
-    "id": 132,
-    "question": "5. ¿Desde qué momento rige la vigencia de un contrato?",
-    "options": [
-      {
-        "text": "a) Desde la fecha de convocatoria del procedimiento de selección.",
-        "isCorrect": false
-      },
-      {
-        "text": "b) Desde la fecha de aprobación del expediente de contratación.",
-        "isCorrect": false
-      },
-      {
-        "text": "c) Desde la fecha de otorgamiento de la buena pro.",
-        "isCorrect": false
-      },
-      {
-        "text": "d) Desde el día siguiente de su suscripción o desde la notificación de la orden de compra/servicio, o desde que se cumplan las condiciones para su inicio.",
-        "isCorrect": true
-      }
-    ],
-    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
-  },
-  {
-    "id": 133,
-    "question": "6. En un contrato de obra, ¿hasta qué momento rige el contrato?",
-    "options": [
-      {
-        "text": "a) Hasta la recepción total de la obra.",
-        "isCorrect": false
-      },
-      {
-        "text": "b) Hasta que se efectúe el pago de la última valorización.",
-        "isCorrect": false
-      },
-      {
-        "text": "c) Hasta el consentimiento de la liquidación final del contrato y el pago correspondiente.",
-        "isCorrect": true
-      },
-      {
-        "text": "d) Hasta la culminación del plazo de responsabilidad por vicios ocultos.",
-        "isCorrect": false
-      }
-    ],
-    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
-  },
-  {
-    "id": 134,
-    "question": "7. Una entidad suscribe un contrato para el suministro periódico de bienes. El contrato establece que el último pago se realizará después de la última entrega y conformidad. ¿Hasta cuándo se considera vigente este contrato?",
-    "options": [
-      {
-        "text": "a) Hasta la conformidad de la última entrega.",
-        "isCorrect": false
-      },
-      {
-        "text": "b) Hasta que se efectúe el pago final.",
-        "isCorrect": true
-      },
-      {
-        "text": "c) Hasta que se agote el presupuesto asignado para el suministro.",
-        "isCorrect": false
-      },
-      {
-        "text": "d) Hasta que el proveedor entregue la garantía de fiel cumplimiento.",
-        "isCorrect": false
-      }
-    ],
-    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
-  },
-  {
-    "id": 135,
-    "question": "8. El plazo de ejecución contractual de los contratos de supervisión se encuentra vinculado a la duración del contrato supervisado y debe comprender, como mínimo, hasta la o la conclusión del servicio.",
-    "options": [
-      {
-        "text": "a) firma del contrato principal",
-        "isCorrect": false
-      },
-      {
-        "text": "b) aprobación del expediente técnico",
-        "isCorrect": false
-      },
-      {
-        "text": "c) liquidación final del contrato principal",
-        "isCorrect": false
-      },
-      {
-        "text": "d) recepción de la obra",
-        "isCorrect": true
-      }
-    ],
-    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
-  },
-  {
-    "id": 136,
-    "question": "9. ¿Cuál de las siguientes situaciones podría generar una modificación contractual por aplicación de normas?",
-    "options": [
-      {
-        "text": "a) Un acuerdo entre la entidad y el contratista para mejorar las especificaciones técnicas.",
-        "isCorrect": false
-      },
-      {
-        "text": "b) La promulgación de una nueva ley que impacta directamente en los costos laborales del contrato.",
-        "isCorrect": true
-      },
-      {
-        "text": "c) La solicitud del contratista para utilizar materiales de menor calidad pero más económicos.",
-        "isCorrect": false
-      },
-      {
-        "text": "d) La decisión unilateral de la entidad de reducir el alcance de las prestaciones.",
-        "isCorrect": false
-      }
-    ],
-    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
-  },
-  {
-    "id": 137,
-    "question": "10. Si una nueva norma técnica de cumplimiento obligatorio, posterior a la firma del contrato, exige el uso de un material más costoso para la ejecución de una obra, ¿cómo debería gestionarse esta situación?",
-    "options": [
-      {
-        "text": "a) El contratista debe asumir el costo adicional sin modificar el contrato.",
-        "isCorrect": false
-      },
-      {
-        "text": "b) La entidad debe resolver el contrato por imposibilidad de cumplimiento.",
-        "isCorrect": false
-      },
-      {
-        "text": "c) La entidad debe solicitar al OECE una excepción para no aplicar la nueva norma técnica.",
-        "isCorrect": false
-      },
-      {
-        "text": "d) Se debe evaluar una modificación contractual, posiblemente como un hecho sobreviniente o un adicional, para cubrir el incremento de costo.",
-        "isCorrect": true
-      }
-    ],
-    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
-  },
-  {
-    "id": 138,
-    "question": "11. Durante la ejecución de un contrato de servicios de limpieza, se promulga una ley que incrementa significativamente el sueldo mínimo vital, afectando directamente los costos de mano de obra del contratista, los cuales no fueron previstos con tal magnitud en su oferta original. El contrato no contiene una fórmula de reajuste específica para este tipo de variación. ¿Cuál sería el sustento principal para una posible modificación contractual que reconozca este incremento?",
-    "options": [
-      {
-        "text": "a) La potestad de la entidad para ordenar prestaciones adicionales.",
-        "isCorrect": false
-      },
-      {
-        "text": "b) La configuración de un hecho sobreviniente no imputable a las partes que afecta el equilibrio económico financiero del contrato.",
-        "isCorrect": true
-      },
-      {
-        "text": "c) La necesidad de reducir otras prestaciones para compensar el aumento de costos.",
-        "isCorrect": false
-      },
-      {
-        "text": "d) La aplicación de la cláusula de resolución de contrato por incumplimiento.",
-        "isCorrect": false
-      }
-    ],
-    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
-  },
-  {
-    "id": 139,
-    "question": "12. Si una modificación contractual por aplicación de una nueva norma afecta el equilibrio económico financiero del contrato, la parte debe compensar económicamente a la parte para restablecer dicho equilibrio.",
-    "options": [
-      {
-        "text": "a) contratista / entidad",
-        "isCorrect": false
-      },
-      {
-        "text": "b) que propuso la norma / que la aplica",
-        "isCorrect": false
-      },
-      {
-        "text": "c) beneficiada / perjudicada",
-        "isCorrect": true
-      },
-      {
-        "text": "d) que incumple / que cumple",
-        "isCorrect": false
-      }
-    ],
-    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
-  },
-  {
-    "id": 140,
-    "question": "13. Una entidad contrata la construcción de un hospital. Durante la ejecución, entra en vigencia una nueva regulación sanitaria que exige estándares de ventilación más rigurosos no contemplados en el expediente técnico original, lo que implica rediseños y costos adicionales significativos. ¿Qué tipo de modificación contractual sería la más apropiada y quién debería aprobarla inicialmente si el costo adicional está dentro del 15% del monto original del contrato de obra bajo sistema de solo construcción?",
-    "options": [
-      {
-        "text": "a) Una reducción de otras prestaciones para liberar presupuesto; aprobación del área usuaria.",
-        "isCorrect": false
-      },
-      {
-        "text": "b) Una ampliación de plazo únicamente; aprobación del supervisor de obra.",
-        "isCorrect": false
-      },
-      {
-        "text": "c) Una prestación adicional por deficiencias en el expediente técnico (al no prever los nuevos estándares); aprobación de la autoridad de la gestión administrativa.",
-        "isCorrect": false
-      },
-      {
-        "text": "d) Una modificación por hecho sobreviniente no imputable a las partes, que podría implicar una prestación adicional; aprobación de la autoridad de la gestión administrativa.",
-        "isCorrect": true
-      }
-    ],
-    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
-  },
-  {
-    "id": 141,
-    "question": "14. ¿Cuál es una de las modificaciones contractuales que la entidad contratante puede ordenar?",
-    "options": [
-      {
-        "text": "a) La ejecución de prestaciones adicionales.",
-        "isCorrect": true
-      },
-      {
-        "text": "b) La cesión de posición contractual del contratista a un tercero",
-        "isCorrect": false
-      },
-      {
-        "text": "c) La suspensión del contrato por falta de pago del contratista.",
-        "isCorrect": false
-      },
-      {
-        "text": "d) La modificación de los precios unitarios ofertados por el contratista.",
-        "isCorrect": false
-      }
-    ],
-    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
-  },
-  {
-    "id": 142,
-    "question": "15. La autoridad de la gestión administrativa de una entidad puede ordenar la reducción de prestaciones en un contrato de servicios hasta por un porcentaje del monto del contrato original. ¿Cuál es ese porcentaje máximo?",
-    "options": [
-      {
-        "text": "a) 10%",
-        "isCorrect": false
-      },
-      {
-        "text": "b) 15%",
-        "isCorrect": false
-      },
-      {
-        "text": "c) 25%",
-        "isCorrect": true
-      },
-      {
-        "text": "d) 50%",
-        "isCorrect": false
-      }
-    ],
-    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
-  },
-  {
-    "id": 143,
-    "question": "16. En un contrato de obra bajo el sistema de entrega de solo construcción, la entidad detecta que, debido a un cambio en las prioridades institucionales, una sección de la obra ya no es necesaria. Esta sección representa el 10% del monto del contrato original y aún no ha sido ejecutada. ¿Qué acción puede tomar la entidad y qué autoridad es competente para aprobarla?",
-    "options": [
-      {
-        "text": "a) Resolver parcialmente el contrato por la sección no necesaria; aprobación del Titular de la Entidad.",
-        "isCorrect": false
-      },
-      {
-        "text": "b) Ordenar la reducción de prestaciones correspondiente a dicha sección; aprobación de la autoridad de la gestión administrativa.",
-        "isCorrect": true
-      },
-      {
-        "text": "c) Solicitar al contratista una propuesta de modificación contractual por mutuo acuerdo; aprobación del supervisor.",
-        "isCorrect": false
-      },
-      {
-        "text": "d) Suspender indefinidamente la ejecución de dicha sección; aprobación del área usuaria.",
-        "isCorrect": false
-      }
-    ],
-    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
-  },
-  {
-    "id": 144,
-    "question": "17. Para la ejecución de prestaciones adicionales en un contrato de bienes, es indispensable que estas sean para alcanzar la finalidad del contrato y que la entidad cuente con la respectiva certificación presupuestaria.",
-    "options": [
-      {
-        "text": "a) opcionales",
-        "isCorrect": false
-      },
-      {
-        "text": "b) indispensables",
-        "isCorrect": true
-      },
-      {
-        "text": "c) de menor costo",
-        "isCorrect": false
-      },
-      {
-        "text": "d) solicitadas por el proveedor",
-        "isCorrect": false
-      }
-    ],
-    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
-  },
-  {
-    "id": 145,
-    "question": "18. Una entidad contrata un servicio de consultoría. Durante la ejecución, se determina la necesidad de una prestación adicional que representa el 20% del monto del contrato original. ¿Quién aprueba esta prestación adicional y qué se requiere además del sustento técnico y legal?",
-    "options": [
-      {
-        "text": "a) La autoridad de la gestión administrativa; se requiere la previsión y/o certificación de crédito presupuestario.",
-        "isCorrect": true
-      },
-      {
-        "text": "b) El Titular de la Entidad; se requiere un informe favorable del OECE.",
-        "isCorrect": false
-      },
-      {
-        "text": "c) El área usuaria; se requiere la conformidad previa del contratista.",
-        "isCorrect": false
-      },
-      {
-        "text": "d) El supervisor del contrato; se requiere una adenda suscrita por ambas partes.",
-        "isCorrect": false
-      }
-    ],
-    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
-  },
-  {
-    "id": 146,
-    "question": "19. ¿Cuál es una causal para que el contratista solicite una ampliación de plazo en un contrato de bienes?",
-    "options": [
-      {
-        "text": "a) Cuando el contratista decide mejorar la calidad de los bienes ofertados.",
-        "isCorrect": false
-      },
-      {
-        "text": "b) Cuando la entidad realiza el pago de la contraprestación antes de lo previsto.",
-        "isCorrect": false
-      },
-      {
-        "text": "c) Cuando el contratista encuentra un proveedor más económico para sus insumos.",
-        "isCorrect": false
-      },
-      {
-        "text": "d) Cuando se aprueba la prestación adicional en el contrato, siempre que afecte el plazo.",
-        "isCorrect": true
-      }
-    ],
-    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
-  },
-  {
-    "id": 147,
-    "question": "20. Si se producen eventos no atribuibles a las partes que originan la interrupción de la ejecución de las prestaciones, ¿qué pueden acordar las partes respecto al plazo de ejecución contractual?",
-    "options": [
-      {
-        "text": "a) Resolver el contrato automáticamente.",
-        "isCorrect": false
-      },
-      {
-        "text": "b) Continuar la ejecución asumiendo cada uno sus propios sobrecostos.",
-        "isCorrect": false
-      },
-      {
-        "text": "c) Acordar por escrito la suspensión del plazo de ejecución contractual hasta la culminación del evento.",
-        "isCorrect": true
-      },
-      {
-        "text": "d) Solicitar al OECE que determine la continuación o suspensión del contrato.",
-        "isCorrect": false
-      }
-    ],
-    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
-  },
-  {
-    "id": 148,
-    "question": "21. En un contrato de obra, el contratista solicita una ampliación de plazo debido a atrasos generados por la demora de la entidad en la entrega de una parte del terreno. El supervisor emite su opinión técnica y la entidad debe resolver. Si la entidad no notifica su decisión al contratista dentro del plazo de diez días hábiles establecido en el Reglamento, ¿cuál es la consecuencia?",
-    "options": [
-      {
-        "text": "a) La solicitud de ampliación de plazo se considera automáticamente denegada.",
-        "isCorrect": false
-      },
-      {
-        "text": "b) Se debe iniciar un procedimiento de solución de controversias para definir el plazo.",
-        "isCorrect": false
-      },
-      {
-        "text": "c) La solicitud de ampliación de plazo se tiene por aprobada, salvo que el contratista no haya cumplido estrictamente con el procedimiento.",
-        "isCorrect": true
-      },
-      {
-        "text": "d) El contratista debe presentar nuevamente su solicitud con mayor sustento.",
-        "isCorrect": false
-      }
-    ],
-    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
-  },
-  {
-    "id": 149,
-    "question": "22. Las ampliaciones de plazo en contratos de bienes y servicios dan lugar al pago de los debidamente acreditados.",
-    "options": [
-      {
-        "text": "a) costos directos únicamente",
-        "isCorrect": false
-      },
-      {
-        "text": "b) gastos generales únicamente",
-        "isCorrect": false
-      },
-      {
-        "text": "c) costos y gastos generales",
-        "isCorrect": true
-      },
-      {
-        "text": "d) daños y perjuicios",
-        "isCorrect": false
-      }
-    ],
-    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
-  },
-  {
-    "id": 150,
-    "question": "23. ¿En qué supuesto excepcional las partes pueden acordar una modificación contractual por hecho sobreviniente, aun cuando esta se deba a causa imputable a alguna de las partes?",
-    "options": [
-      {
-        "text": "a) Siempre que la modificación no supere el 5% del monto del contrato.",
-        "isCorrect": false
-      },
-      {
-        "text": "b) Únicamente si la modificación es para reducir prestaciones.",
-        "isCorrect": false
-      },
-      {
-        "text": "c) Solo si el contrato es de obra y se utiliza un contrato estandarizado internacional.",
-        "isCorrect": false
-      },
-      {
-        "text": "d) Previa autorización de la autoridad de la gestión administrativa, siempre que no haya habido dolo y la parte responsable asuma los costos.",
-        "isCorrect": true
-      }
-    ],
-    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
-  },
-  {
-    "id": 151,
-    "question": "24. Una consecuencia directa de la aprobación de una prestación adicional en un contrato es:",
-    "options": [
-      {
-        "text": "a) La reducción automática del plazo de ejecución.",
-        "isCorrect": false
-      },
-      {
-        "text": "b) El incremento del monto del contrato original.",
-        "isCorrect": true
-      },
-      {
-        "text": "c) La exención de presentar garantías adicionales.",
-        "isCorrect": false
-      },
-      {
-        "text": "d) La obligación del contratista de subcontratar la prestación adicional.",
-        "isCorrect": false
-      }
-    ],
-    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
-  },
-  {
-    "id": 152,
-    "question": "25. Si una modificación contractual implica un incremento del monto del contrato, ¿qué obligación surge para el contratista respecto a las garantías otorgadas?",
-    "options": [
-      {
-        "text": "a) No tiene ninguna obligación adicional, las garantías originales cubren las modificaciones.",
-        "isCorrect": false
-      },
-      {
-        "text": "b) Debe solicitar la devolución proporcional de las garantías.",
-        "isCorrect": false
-      },
-      {
-        "text": "c) Debe aumentar de forma proporcional las garantías que hubiese otorgado.",
-        "isCorrect": true
-      },
-      {
-        "text": "d) Debe presentar una nueva garantía de fiel cumplimiento por el monto total modificado.",
-        "isCorrect": false
-      }
-    ],
-    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
-  },
-  {
-    "id": 153,
-    "question": "26. Una entidad aprueba una ampliación de plazo en un contrato de obra. Como consecuencia directa de esta ampliación, el contrato de supervisión de dicha obra también debe extenderse. ¿Se considera esta extensión del contrato de supervisión como una prestación adicional sujeta al límite del 25% del contrato original de supervisión?",
-    "options": [
-      {
-        "text": "a) Sí, toda extensión de plazo en la supervisión es un adicional y está sujeta al límite del 25%.",
-        "isCorrect": false
-      },
-      {
-        "text": "b) No, las ampliaciones de plazo en supervisión nunca generan costos adicionales para la entidad.",
-        "isCorrect": false
-      },
-      {
-        "text": "c) Sí, pero el límite aplicable es del 15% por tratarse de un contrato vinculado.",
-        "isCorrect": false
-      },
-      {
-        "text": "d) No, si la extensión de la supervisión deriva directamente de una ampliación de plazo de la obra principal y no implica variación de actividades del supervisor, no se considera adicional.",
-        "isCorrect": true
-      }
-    ],
-    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
-  },
-  {
-    "id": 154,
-    "question": "27. Cuando una modificación contractual implica una reducción del monto y/o plazo, el contratista puede solicitar la proporcional del monto y/o plazo de las garantías que hubiera otorgado.",
-    "options": [
-      {
-        "text": "a) ejecución",
-        "isCorrect": false
-      },
-      {
-        "text": "b) anulación",
-        "isCorrect": false
-      },
-      {
-        "text": "c) disminución",
-        "isCorrect": true
-      },
-      {
-        "text": "d) duplicación",
-        "isCorrect": false
-      }
-    ],
-    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
-  },
-  {
-    "id": 155,
-    "question": "28. Si se aprueban prestaciones adicionales de obra por deficiencias en el expediente técnico en un contrato bajo el sistema de entrega de solo construcción, ¿qué consecuencia administrativa adicional se genera para la entidad, además de la modificación contractual?",
-    "options": [
-      {
-        "text": "a) La entidad debe iniciar un nuevo procedimiento de selección para la supervisión del adicional.",
-        "isCorrect": false
-      },
-      {
-        "text": "b) La entidad debe informar al Tribunal de Contrataciones Públicas y a la Contraloría General de la República para los fines correspondientes.",
-        "isCorrect": true
-      },
-      {
-        "text": "c) El contratista asume la responsabilidad por las deficiencias del expediente técnico y no tiene derecho al pago del adicional.",
-        "isCorrect": false
-      },
-      {
-        "text": "d) La entidad debe solicitar una opinión vinculante al OECE sobre la procedencia del adicional.",
-        "isCorrect": false
-      }
-    ],
-    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
-  },
-  {
-    "id": 156,
-    "question": "29. Durante la ejecución de un contrato para la construcción de un puente en una región del Perú, se producen lluvias torrenciales de magnitud excepcional, no previstas en los estudios de riesgos del proyecto, que generan el desborde del río e impiden completamente el acceso a la zona de trabajo y la continuación de las obras por un periodo indeterminado. Ni la entidad pública contratante ni la empresa constructora son responsables de este evento natural. Ante esta situación que interrumpe la ejecución de las prestaciones, ¿qué acción pueden acordar legalmente las partes respecto al plazo de ejecución contractual, conforme al Reglamento de la Ley de Contrataciones?",
-    "options": [
-      {
-        "text": "a) La entidad debe resolver el contrato inmediatamente por caso fortuito, pagando al contratista solo los trabajos ejecutados.",
-        "isCorrect": false
-      },
-      {
-        "text": "b) El contratista debe continuar la ejecución en cuanto sea mínimamente posible, asumiendo los sobrecostos generados por el evento, para luego solicitar un reembolso.",
-        "isCorrect": false
-      },
-      {
-        "text": "c) La entidad y el contratista pueden acordar formalmente por escrito la suspensión del plazo de ejecución contractual hasta que el evento de las lluvias y sus consecuencias directas hayan culminado y se pueda reiniciar los trabajos.",
-        "isCorrect": true
-      },
-      {
-        "text": "d) La entidad debe solicitar una directiva específica al OECE para que autorice la suspensión del contrato y determine la compensación económica al contratista.",
-        "isCorrect": false
-      }
-    ],
-    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
-  },
-  {
-    "id": 157,
-    "question": "30. Una entidad pública contrató un servicio de desarrollo de software. Durante la ejecución, debido a una deficiente especificación inicial por parte del área usuaria de la entidad (causa imputable a la entidad), se evidencia que una funcionalidad crucial, tal como está definida, no logrará el objetivo público esperado. Corregir esta deficiencia implica una modificación al alcance y costo del servicio. El contratista está dispuesto a realizar los ajustes, pero esto generará costos adicionales. La entidad considera que, a pesar del error inicial, es vital continuar con el contrato para no perder la inversión y tiempo avanzados. ¿Bajo qué condiciones excepcionales podrían la entidad y el contratista acordar una modificación contractual por este hecho sobreviniente, a pesar de ser imputable a la entidad?",
-    "options": [
-      {
-        "text": "a) Solo si el costo de la modificación no excede el 10% del monto original y el contratista renuncia a cualquier reclamo posterior.",
-        "isCorrect": false
-      },
-      {
-        "text": "b) Únicamente si la modificación implica una reducción del plazo contractual para compensar el error de la entidad.",
-        "isCorrect": false
-      },
-      {
-        "text": "c) Si la autoridad de la gestión administrativa autoriza la modificación, se demuestra que no hubo dolo por parte de la entidad en la especificación deficiente, y la entidad asume los costos derivados de la modificación.",
-        "isCorrect": true
-      },
-      {
-        "text": "d) Esta modificación no es posible si la causa es imputable a una de las partes; la entidad debería resolver el contrato y convocar uno nuevo.",
-        "isCorrect": false
-      }
-    ],
-    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
-  },
-  {
-    "id": 158,
-    "question": "31. ¿Cuál de las siguientes es una causal para que cualquiera de las partes pueda resolver un contrato?",
-    "options": [
-      {
-        "text": "a) La simple disconformidad con la calidad de la prestación.",
-        "isCorrect": false
-      },
-      {
-        "text": "b) El cambio de gestión en la entidad contratante.",
-        "isCorrect": false
-      },
-      {
-        "text": "c) El incumplimiento de obligaciones contractuales, por causa atribuible a la parte que incumple.",
-        "isCorrect": true
-      },
-      {
-        "text": "d) La solicitud del contratista de un adelanto no previsto en las bases.",
-        "isCorrect": false
-      }
-    ],
-    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
-  },
-  {
-    "id": 159,
-    "question": "32. ¿En qué situación la autoridad de la gestión administrativa de la entidad contratante puede declarar la nulidad de un contrato ya perfeccionado?",
-    "options": [
-      {
-        "text": "a) Cuando el contratista solicita una ampliación de plazo injustificada.",
-        "isCorrect": false
-      },
-      {
-        "text": "b) Cuando el contratista propone una subcontratación no autorizada.",
-        "isCorrect": false
-      },
-      {
-        "text": "c) Cuando el área usuaria determina que la necesidad de la contratación ha desaparecido.",
-        "isCorrect": false
-      },
-      {
-        "text": "d) Cuando se verifica que, durante el procedimiento de selección, se presentó documentación falsa que sustentó la adjudicación de la buena pro.",
-        "isCorrect": true
-      }
-    ],
-    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
-  },
-  {
-    "id": 160,
-    "question": "33. Una entidad perfecciona un contrato con un proveedor. Posteriormente, se descubre que dicho proveedor, al momento de la suscripción, se encontraba impedido para contratar con el Estado según el Artículo 30 de la Ley. ¿Qué acción puede tomar la autoridad de la gestión administrativa de la entidad?",
-    "options": [
-      {
-        "text": "a) Resolver el contrato por incumplimiento del proveedor.",
-        "isCorrect": false
-      },
-      {
-        "text": "b) Solicitar al proveedor que subsane el impedimento y continuar con el contrato.",
-        "isCorrect": false
-      },
-      {
-        "text": "c) Declarar la nulidad del contrato.",
-        "isCorrect": true
-      },
-      {
-        "text": "d) Aplicar una penalidad al proveedor y permitir la continuación del contrato.",
-        "isCorrect": false
-      }
-    ],
-    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
-  },
-  {
-    "id": 161,
-    "question": "34. Un contrato puede ser resuelto por cualquiera de las partes si ocurre un o fuerza mayor que imposibilite su continuación.",
-    "options": [
-      {
-        "text": "a) cambio normativo menor",
-        "isCorrect": false
-      },
-      {
-        "text": "b) caso fortuito",
-        "isCorrect": true
-      },
-      {
-        "text": "c) desacuerdo en el precio",
-        "isCorrect": false
-      },
-      {
-        "text": "d) retraso justificado",
-        "isCorrect": false
-      }
-    ],
-    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
-  },
-  {
-    "id": 162,
-    "question": "35. Si un contrato es resuelto por causa imputable al contratista, ¿qué acción puede tomar la entidad respecto a las garantías otorgadas por este?",
-    "options": [
-      {
-        "text": "a) Ejecutar las garantías.",
-        "isCorrect": true
-      },
-      {
-        "text": "b) Devolver inmediatamente las garantías al contratista.",
-        "isCorrect": false
-      },
-      {
-        "text": "c) Mantener las garantías en custodia hasta un nuevo proceso.",
-        "isCorrect": false
-      },
-      {
-        "text": "d) Solicitar al contratista que incremente el monto de las garantías.",
-        "isCorrect": false
-      }
-    ],
-    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
-  },
-  {
-    "id": 163,
-    "question": "36. Cuando la resolución del contrato se produce por causa imputable a una de las partes, ¿qué corresponde adicionalmente a la parte que incumple?",
-    "options": [
-      {
-        "text": "a) Solicitar una nueva oportunidad para cumplir el contrato.",
-        "isCorrect": false
-      },
-      {
-        "text": "b) Resarcir los daños y perjuicios acreditados a la parte afectada.",
-        "isCorrect": true
-      },
-      {
-        "text": "c) Pagar una multa automática equivalente al 10% del contrato.",
-        "isCorrect": false
-      },
-      {
-        "text": "d) Iniciar un proceso de conciliación obligatoriamente.",
-        "isCorrect": false
-      }
-    ],
-    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
-  },
-  {
-    "id": 164,
-    "question": "37. Una entidad declara la nulidad de un contrato de obra por haberse suscrito con un proveedor impedido. La obra ya había iniciado su ejecución. ¿Qué procedimiento debe seguirse inmediatamente después de la declaración de nulidad, según el Reglamento, si la nulidad es por causa no atribuible al contratista (por ejemplo, el impedimento no fue detectado por la entidad oportunamente)?",
-    "options": [
-      {
-        "text": "a) La entidad debe pagar al contratista el íntegro del monto contractual pendiente.",
-        "isCorrect": false
-      },
-      {
-        "text": "b) Se debe realizar la constatación física de la obra y el inventario correspondiente.",
-        "isCorrect": true
-      },
-      {
-        "text": "c) El contratista debe demoler lo avanzado y la entidad convocar un nuevo proceso.",
-        "isCorrect": false
-      },
-      {
-        "text": "d) Se suspende el contrato y se espera la decisión del Tribunal de Contrataciones.",
-        "isCorrect": false
-      }
-    ],
-    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
-  },
-  {
-    "id": 165,
-    "question": "38. En caso de corrupción de funcionarios o servidores relacionada con un contrato, y este es resuelto por dicha causal, el pago de resarcimiento por daños y perjuicios al contratista, aun cuando este último no lo haya propiciado.",
-    "options": [
-      {
-        "text": "a) corresponde siempre",
-        "isCorrect": false
-      },
-      {
-        "text": "b) no corresponde",
-        "isCorrect": true
-      },
-      {
-        "text": "c) corresponde parcialmente",
-        "isCorrect": false
-      },
-      {
-        "text": "d) se suspende",
-        "isCorrect": false
-      }
-    ],
-    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
-  },
-  {
-    "id": 166,
-    "question": "39. Antes de declarar la nulidad de oficio de un contrato, ¿qué acción debe realizar la entidad contratante respecto al contratista?",
-    "options": [
-      {
-        "text": "a) Solicitar la aprobación previa del OECE.",
-        "isCorrect": false
-      },
-      {
-        "text": "b) Publicar la intención de nulidad en la Pladicop.",
-        "isCorrect": false
-      },
-      {
-        "text": "c) Ejecutar inmediatamente la garantía de fiel cumplimiento.",
-        "isCorrect": false
-      },
-      {
-        "text": "d) Correr traslado al contratista para que se pronuncie.",
-        "isCorrect": true
-      }
-    ],
-    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
-  },
-  {
-    "id": 167,
-    "question": "40. Aun cuando se verifique la configuración de un vicio de nulidad del contrato, ¿qué facultad excepcional tiene la autoridad de la gestión administrativa?",
-    "options": [
-      {
-        "text": "a) Modificar la causal de nulidad para evitar la resolución.",
-        "isCorrect": false
-      },
-      {
-        "text": "b) Autorizar la continuación de la ejecución del contrato, previos informes técnico y legal favorables que sustenten la necesidad basada en un análisis costo-beneficio.",
-        "isCorrect": true
-      },
-      {
-        "text": "c) Imponer una multa al contratista en lugar de declarar la nulidad.",
-        "isCorrect": false
-      },
-      {
-        "text": "d) Solicitar al Tribunal de Contrataciones que convalide el contrato.",
-        "isCorrect": false
-      }
-    ],
-    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
-  },
-  {
-    "id": 168,
-    "question": "41. Una entidad está evaluando resolver un contrato de servicios por incumplimiento del contratista. El área usuaria ha emitido un informe detallando las faltas. Antes de notificar la resolución, ¿qué procedimiento debe seguir la entidad si el incumplimiento no es uno de los que permite la resolución sin apercibimiento previo?",
-    "options": [
-      {
-        "text": "a) Notificar directamente la resolución del contrato al contratista.",
-        "isCorrect": false
-      },
-      {
-        "text": "b) Solicitar al contratista una propuesta de subsanación en un plazo no menor al 10% del plazo del contrato o entregable.",
-        "isCorrect": false
-      },
-      {
-        "text": "c) Requerir al contratista que ejecute la prestación materia de incumplimiento, bajo apercibimiento de resolver el contrato, otorgando un plazo razonable.",
-        "isCorrect": true
-      },
-      {
-        "text": "d) Elevar el caso al Tribunal de Contrataciones para que determine si procede la resolución.",
-        "isCorrect": false
-      }
-    ],
-    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
-  },
-  {
-    "id": 169,
-    "question": "42. El instrumento que dispone la declaración de nulidad del contrato debe determinar, en caso corresponda, el inicio del .",
-    "options": [
-      {
-        "text": "a) nuevo procedimiento de selección",
-        "isCorrect": false
-      },
-      {
-        "text": "b) pago de indemnizaciones",
-        "isCorrect": false
-      },
-      {
-        "text": "c) proceso de conciliación",
-        "isCorrect": false
-      },
-      {
-        "text": "d) deslinde de responsabilidades",
-        "isCorrect": true
-      }
-    ],
-    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
-  },
-  {
-    "id": 170,
-    "question": "43. ¿Cuál es una de las causales para la resolución del contrato que puede configurarse como una condición de terminación anticipada establecida en el propio contrato?",
-    "options": [
-      {
-        "text": "a) El mutuo acuerdo entre las partes.",
-        "isCorrect": false
-      },
-      {
-        "text": "b) La ocurrencia de un caso fortuito o fuerza mayor.",
-        "isCorrect": false
-      },
-      {
-        "text": "c) El incumplimiento de la cláusula anticorrupción.",
-        "isCorrect": false
-      },
-      {
-        "text": "d) La configuración de la condición de terminación anticipada establecida en el contrato, de acuerdo con los supuestos que se establezcan en el reglamento para su aplicación.",
-        "isCorrect": true
-      }
-    ],
-    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
-  },
-  {
-    "id": 171,
-    "question": "44. ¿En qué tipo de contratos se puede incluir una cláusula de resolución por terminación anticipada cuando el resultado de un componente o hito impida o haga innecesaria la continuidad del siguiente, sin que sea atribuible a alguna de las partes?",
-    "options": [
-      {
-        "text": "a) Solo en contratos de obra bajo el sistema de suma alzada.",
-        "isCorrect": false
-      },
-      {
-        "text": "b) En contratos que comprendan más de un componente o hito.",
-        "isCorrect": true
-      },
-      {
-        "text": "c) Únicamente en contratos de suministro de bienes.",
-        "isCorrect": false
-      },
-      {
-        "text": "d) En todos los contratos, independientemente de su estructura.",
-        "isCorrect": false
-      }
-    ],
-    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
-  },
-  {
-    "id": 172,
-    "question": "45. Una entidad contrata la ejecución de una obra bajo el sistema de entrega de diseño y construcción. El contrato incluye una cláusula de terminación anticipada por pérdida de viabilidad sobreviniente si durante la fase de diseño se verifica que el proyecto ya no cumple las condiciones que sustentaron su viabilidad. Durante el diseño, se determina que, por factores externos insuperables, el proyecto ya no es viable. ¿Qué consecuencia tiene esta situación para el contrato?",
-    "options": [
-      {
-        "text": "a) El contratista debe continuar con la ejecución de la obra asumiendo los riesgos.",
-        "isCorrect": false
-      },
-      {
-        "text": "b) La entidad debe modificar el contrato para ajustar el diseño a la nueva realidad.",
-        "isCorrect": false
-      },
-      {
-        "text": "c) Se configura la causal de terminación anticipada y la entidad puede resolver el contrato, pagando al contratista por los hitos o componentes ejecutados.",
-        "isCorrect": true
-      },
-      {
-        "text": "d) El contrato se suspende hasta que la entidad encuentre una solución a la pérdida de viabilidad.",
-        "isCorrect": false
-      }
-    ],
-    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
-  },
-  {
-    "id": 173,
-    "question": "46. En los contratos de obra bajo el sistema de entrega de diseño y construcción, si el presupuesto del expediente técnico elaborado por el contratista supera el ________ del monto considerado en el contrato original para el componente de ejecución de obra, y la entidad no cuenta con los recursos, se puede configurar una condición de terminación anticipada.",
-    "options": [
-      {
-        "text": "a) 25%",
-        "isCorrect": false
-      },
-      {
-        "text": "b) 30%",
-        "isCorrect": false
-      },
-      {
-        "text": "c) 40%",
-        "isCorrect": false
-      },
-      {
-        "text": "d) 50%",
-        "isCorrect": true
-      }
-    ],
-    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
-  },
-  {
-    "id": 174,
-    "question": "47. Tras declarar la nulidad de un contrato de obra (que derivó de una Licitación Pública) por haberse suscrito con un proveedor impedido y haber realizado la constatación física e inventario de la obra parcialmente ejecutada, ¿qué mecanismo principal contempla la Ley para que la entidad pueda continuar con la ejecución de las prestaciones pendientes?",
-    "options": [
-      {
-        "text": "a) Convocar obligatoriamente una nueva Licitación Pública para el saldo de obra, utilizando el inventario como base.",
-        "isCorrect": false
-      },
-      {
-        "text": "b) Contratar directamente la ejecución del saldo de obra, ajustando el requerimiento y seleccionando un nuevo proveedor.",
-        "isCorrect": true
-      },
-      {
-        "text": "c) Solicitar al contratista original, cuyo contrato fue anulado, que subsane su impedimento y continúe con la obra bajo un nuevo acuerdo.",
-        "isCorrect": false
-      },
-      {
-        "text": "d) Esperar la resolución de cualquier procedimiento sancionador contra el proveedor impedido antes de tomar cualquier acción sobre el saldo de obra.",
-        "isCorrect": false
-      }
-    ],
-    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
-  },
-  {
-    "id": 175,
-    "question": "48. El contrato puede contener una cláusula de resolución por terminación anticipada cuando comprenda más de un componente o hito y el resultado de alguno de estos la continuidad del siguiente, sin que resulte atribuible a alguna de las partes.",
-    "options": [
-      {
-        "text": "a) garantice",
-        "isCorrect": false
-      },
-      {
-        "text": "b) acelere",
-        "isCorrect": false
-      },
-      {
-        "text": "c) impida o haga innecesaria",
-        "isCorrect": true
-      },
-      {
-        "text": "d) modifique ligeramente",
-        "isCorrect": false
-      }
-    ],
-    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
-  },
-  {
-    "id": 176,
-    "question": "49. Una entidad contrata un servicio de investigación y desarrollo (I+D) mediante una Asociación para la Innovación (API). El contrato establece hitos de avance y resultados mínimos para cada uno. Al finalizar el segundo hito, el área usuaria evalúa que los resultados obtenidos por el contratista no alcanzan los mínimos esperados y decide no continuar con el siguiente hito. El contrato prevé esta situación como una causal de terminación anticipada. ¿Qué consecuencia tiene esta decisión para el contratista?",
-    "options": [
-      {
-        "text": "a) El contratista debe devolver todos los pagos recibidos y pagar una penalidad.",
-        "isCorrect": false
-      },
-      {
-        "text": "b) El contrato se resuelve y la entidad debe pagar al contratista una indemnización por lucro cesante.",
-        "isCorrect": false
-      },
-      {
-        "text": "c) El contrato se resuelve por terminación anticipada y corresponde el pago al contratista por el o los hitos alcanzados que tengan conformidad, sin indemnización.",
-        "isCorrect": true
-      },
-      {
-        "text": "d) El contratista está obligado a repetir el segundo hito sin costo adicional hasta alcanzar los resultados esperados.",
-        "isCorrect": false
-      }
-    ],
-    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
-  },
-  {
-    "id": 177,
-    "question": "50. En los contratos estandarizados de ingeniería y construcción de uso internacional, si las modificaciones que inciden en el monto contractual superan el del valor del presupuesto de obra consignado en el expediente técnico aprobado (o del monto del contrato de obra), se configura la condición de terminación anticipada que ocasiona la resolución del contrato.",
-    "options": [
-      {
-        "text": "a) 25%",
-        "isCorrect": false
-      },
-      {
-        "text": "b) 30%",
-        "isCorrect": false
-      },
-      {
-        "text": "c) 40%",
-        "isCorrect": false
-      },
-      {
-        "text": "d) 50%",
-        "isCorrect": true
-      }
-    ],
-    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
-  },
-  {
-    "id": 178,
-    "question": "51. En el caso de la adquisición de bienes, ¿según qué normativa se rige la recepción de los bienes adquiridos por la entidad?",
-    "options": [
-      {
-        "text": "a) Exclusivamente por lo establecido en el contrato.",
-        "isCorrect": false
-      },
-      {
-        "text": "b) Por la normativa del Sistema Nacional de Abastecimiento.",
-        "isCorrect": true
-      },
-      {
-        "text": "c) Por las directivas internas del área usuaria.",
-        "isCorrect": false
-      },
-      {
-        "text": "d) Por las indicaciones del proveedor.",
-        "isCorrect": false
-      }
-    ],
-    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
-  },
-  {
-    "id": 179,
-    "question": "52. La sola recepción de bienes en la entidad o en el destino final, según sea el caso, no constituye la del área usuaria.",
-    "options": [
-      {
-        "text": "a) aceptación de la factura",
-        "isCorrect": false
-      },
-      {
-        "text": "b) conformidad",
-        "isCorrect": true
-      },
-      {
-        "text": "c) aprobación del pago",
-        "isCorrect": false
-      },
-      {
-        "text": "d) liquidación del contrato",
-        "isCorrect": false
-      }
-    ],
-    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
-  },
-  {
-    "id": 180,
-    "question": "53. Una entidad contrata el suministro periódico de alimentos. El contrato establece entregas mensuales. Al recibir la primera entrega en el almacén de la entidad, el personal de almacén firma una guía de remisión. ¿Este acto de firma de la guía de remisión por el personal de almacén implica automáticamente la conformidad del área usuaria sobre los bienes entregados?",
-    "options": [
-      {
-        "text": "a) Sí, la firma de la guía por el almacén equivale a la conformidad del área usuaria.",
-        "isCorrect": false
-      },
-      {
-        "text": "b) No, la recepción en almacén es un acto distinto a la conformidad, la cual debe ser emitida por el área usuaria tras verificar el cumplimiento de las especificaciones.",
-        "isCorrect": true
-      },
-      {
-        "text": "c) Sí, pero solo si el jefe de almacén es también el responsable del área usuaria.",
-        "isCorrect": false
-      },
-      {
-        "text": "d) No, la conformidad solo se otorga después de que el proveedor emita la factura correspondiente.",
-        "isCorrect": false
-      }
-    ],
-    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
-  },
-  {
-    "id": 181,
-    "question": "54. ¿Qué actor es el responsable principal de brindar la conformidad de la prestación en un contrato de bienes o servicios?",
-    "options": [
-      {
-        "text": "a) La Dependencia Encargada de las Contrataciones (DEC).",
-        "isCorrect": false
-      },
-      {
-        "text": "b) La Oficina de Control Interno.",
-        "isCorrect": false
-      },
-      {
-        "text": "c) El Titular de la Entidad.",
-        "isCorrect": false
-      },
-      {
-        "text": "d) El área usuaria.",
-        "isCorrect": true
-      }
-    ],
-    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
-  },
-  {
-    "id": 182,
-    "question": "55. ¿Cuál es el plazo máximo general para que el área usuaria emita la conformidad de un servicio, una vez recibido el entregable, salvo que se requieran pruebas o se trate de consultorías?",
-    "options": [
-      {
-        "text": "a) Tres días hábiles.",
-        "isCorrect": false
-      },
-      {
-        "text": "b) Cinco días calendario.",
-        "isCorrect": false
-      },
-      {
-        "text": "c) Siete días.",
-        "isCorrect": true
-      },
-      {
-        "text": "d) Diez días hábiles.",
-        "isCorrect": false
-      }
-    ],
-    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
-  },
-  {
-    "id": 183,
-    "question": "56. Una entidad contrata una consultoría especializada. El consultor entrega el informe final. El área usuaria considera que necesita realizar un análisis exhaustivo y pruebas de validación de los resultados del informe antes de emitir la conformidad. ¿Cuál es el plazo máximo que tiene el área usuaria para emitir la conformidad en este caso?",
-    "options": [
-      {
-        "text": "a) Siete días, ya que es el plazo general para servicios.",
-        "isCorrect": false
-      },
-      {
-        "text": "b) Diez días hábiles, por la complejidad de la revisión.",
-        "isCorrect": false
-      },
-      {
-        "text": "c) Veinte días.",
-        "isCorrect": true
-      },
-      {
-        "text": "d) No hay plazo máximo, depende de la complejidad de las pruebas.",
-        "isCorrect": false
-      }
-    ],
-    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
-  },
-  {
-    "id": 184,
-    "question": "57. Si la Dependencia Encargada de las Contrataciones (DEC) comunica observaciones al contratista sobre un entregable, ¿qué debe indicar claramente en dicha comunicación?",
-    "options": [
-      {
-        "text": "a) El sentido de las observaciones.",
-        "isCorrect": true
-      },
-      {
-        "text": "b) La penalidad que se aplicará si no subsana.",
-        "isCorrect": false
-      },
-      {
-        "text": "c) La posibilidad de resolver el contrato.",
-        "isCorrect": false
-      },
-      {
-        "text": "d) El nombre del funcionario que realizó las observaciones.",
-        "isCorrect": false
-      }
-    ],
-    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
-  },
-  {
-    "id": 185,
-    "question": "58. Cuando la entidad comunica observaciones al contratista, le otorga un plazo para subsanar que no debe ser mayor del del plazo del entregable correspondiente.",
-    "options": [
-      {
-        "text": "a) 10%",
-        "isCorrect": false
-      },
-      {
-        "text": "b) 20%",
-        "isCorrect": false
-      },
-      {
-        "text": "c) 30%",
-        "isCorrect": true
-      },
-      {
-        "text": "d) 50%",
-        "isCorrect": false
-      }
-    ],
-    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
-  },
-  {
-    "id": 186,
-    "question": "59. Un contratista entrega un bien. El área usuaria observa deficiencias y la DEC se lo comunica, otorgándole un plazo de 5 días para subsanar. El contratista subsana las observaciones dentro de esos 5 días. ¿Corresponde aplicar penalidades por mora al contratista por el tiempo utilizado en la subsanación?",
-    "options": [
-      {
-        "text": "a) Sí, siempre se aplican penalidades por cualquier retraso, incluyendo la subsanación.",
-        "isCorrect": false
-      },
-      {
-        "text": "b) No, si las observaciones son subsanadas dentro del plazo otorgado, no corresponde la aplicación de penalidades.",
-        "isCorrect": true
-      },
-      {
-        "text": "c) Sí, pero solo si las observaciones fueron por defectos mayores.",
-        "isCorrect": false
-      },
-      {
-        "text": "d) Depende de si el contrato original preveía penalidades por subsanación.",
-        "isCorrect": false
-      }
-    ],
-    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
-  },
-  {
-    "id": 187,
-    "question": "60. ¿Cuál de las siguientes acciones por parte de la entidad contratante durante la ejecución contractual podría generar una controversia con el contratista?",
-    "options": [
-      {
-        "text": "a) Realizar el pago de la contraprestación dentro del plazo establecido en el contrato.",
-        "isCorrect": false
-      },
-      {
-        "text": "b) Demorar injustificadamente la emisión de la conformidad de una prestación correctamente ejecutada.",
-        "isCorrect": true
-      },
-      {
-        "text": "c) Solicitar al contratista la subsanación de observaciones válidas dentro del plazo contractual.",
-        "isCorrect": false
-      },
-      {
-        "text": "d) Aprobar una ampliación de plazo solicitada y sustentada por el contratista.",
-        "isCorrect": false
-      }
-    ],
-    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
-  },
-  {
-    "id": 188,
-    "question": "61. Si un contratista incumple injustificadamente con la ejecución de las prestaciones objeto del contrato, y la entidad le aplica la penalidad por mora correspondiente, ¿podría este incumplimiento del contratista ser una situación que genere una controversia?",
-    "options": [
-      {
-        "text": "a) No, la aplicación de penalidades resuelve automáticamente cualquier disputa.",
-        "isCorrect": false
-      },
-      {
-        "text": "b) No, el incumplimiento del contratista solo da lugar a la resolución del contrato, no a controversias.",
-        "isCorrect": false
-      },
-      {
-        "text": "c) Solo si la penalidad aplicada supera el 10% del monto del contrato.",
-        "isCorrect": false
-      },
-      {
-        "text": "d) Sí, el contratista podría discrepar con la configuración del retraso o la imputabilidad del mismo, dando lugar a una controversia.",
-        "isCorrect": true
-      }
-    ],
-    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
-  },
-  {
-    "id": 189,
-    "question": "62. Durante la ejecución de un contrato de obra, la entidad no cumple con absolver una consulta formulada por el contratista a través del cuaderno de incidencias dentro del plazo establecido en el Reglamento. Esta omisión de la entidad impacta la ruta crítica del programa de ejecución. ¿Qué tipo de controversia podría surgir directamente de este incumplimiento de procedimiento por parte de la entidad?",
-    "options": [
-      {
-        "text": "a) Una controversia relacionada con la solicitud de ampliación de plazo y el reconocimiento de mayores gastos generales por parte del contratista.",
-        "isCorrect": true
-      },
-      {
-        "text": "b) Una controversia sobre la calidad de los materiales utilizados por el contratista.",
-        "isCorrect": false
-      },
-      {
-        "text": "c) Una controversia sobre la validez de la garantía de fiel cumplimiento presentada por el contratista.",
-        "isCorrect": false
-      },
-      {
-        "text": "d) Una controversia sobre la necesidad de ejecutar prestaciones adicionales no vinculadas a la consulta.",
-        "isCorrect": false
-      }
-    ],
-    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
-  },
-  {
-    "id": 190,
-    "question": "63. La falta de pago de valorizaciones consecutivas por parte de la entidad en un contrato de obra, puede ocasionar la suspensión del plazo de ejecución contractual por parte del contratista, lo cual podría derivar en una controversia si no se llega a un acuerdo sobre los costos asociados.",
-    "options": [
-      {
-        "text": "a) una",
-        "isCorrect": false
-      },
-      {
-        "text": "b) dos",
-        "isCorrect": true
-      },
-      {
-        "text": "c) tres",
-        "isCorrect": false
-      },
-      {
-        "text": "d) cuatro",
-        "isCorrect": false
-      }
-    ],
-    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
-  },
-  {
-    "id": 191,
-    "question": "64. ¿Cuál es el propósito principal de la gestión de riesgos durante la ejecución contractual?",
-    "options": [
-      {
-        "text": "a) Eliminar toda posibilidad de que ocurran eventos imprevistos.",
-        "isCorrect": false
-      },
-      {
-        "text": "b) Transferir automáticamente todos los riesgos identificados al contratista.",
-        "isCorrect": false
-      },
-      {
-        "text": "c) Identificar, analizar, valorar, gestionar, controlar y monitorear los riesgos para tomar decisiones informadas y mitigar impactos negativos.",
-        "isCorrect": true
-      },
-      {
-        "text": "d) Asegurar que el contrato se ejecute exactamente como fue planificado, sin ninguna desviación.",
-        "isCorrect": false
-      }
-    ],
-    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
-  },
-  {
-    "id": 192,
-    "question": "65. Si un riesgo identificado en la matriz de gestión de riesgos se materializa durante la ejecución contractual y no fue adecuadamente asignado o su plan de mitigación resulta insuficiente, ¿qué podría generar esta situación?",
-    "options": [
-      {
-        "text": "a) La renegociación automática de todo el contrato.",
-        "isCorrect": false
-      },
-      {
-        "text": "b) La aplicación de penalidades al responsable de la matriz de riesgos.",
-        "isCorrect": false
-      },
-      {
-        "text": "c) Una controversia entre las partes sobre la responsabilidad y los costos asociados al impacto del riesgo.",
-        "isCorrect": true
-      },
-      {
-        "text": "d) La suspensión inmediata del contrato por parte del OECE.",
-        "isCorrect": false
-      }
-    ],
-    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
-  },
-  {
-    "id": 193,
-    "question": "66. En un contrato de obra, la matriz de gestión de riesgos asignó a la entidad la responsabilidad de obtener un permiso ambiental específico antes de iniciar una fase crítica de la obra. La entidad demora excesivamente en obtener dicho permiso, paralizando el avance del contratista. El contratista alega que esta demora, producto de la materialización de un riesgo mal gestionado por la entidad, le ha generado mayores costos y una afectación a su ruta crítica. ¿Qué tipo de controversia es más probable que surja y sobre qué fundamentos?",
-    "options": [
-      {
-        "text": "a) Controversia por vicios ocultos en el expediente técnico, reclamando la nulidad del contrato",
-        "isCorrect": false
-      },
-      {
-        "text": "b) Controversia por la calidad de los materiales, solicitando su reemplazo.",
-        "isCorrect": false
-      },
-      {
-        "text": "c) Controversia por la aplicación de penalidades por parte de la entidad al contratista por el retraso.",
-        "isCorrect": false
-      },
-      {
-        "text": "d) Controversia por ampliación de plazo y reconocimiento de mayores gastos generales y costos directos, debido al incumplimiento de la entidad en la gestión del riesgo asignado.",
-        "isCorrect": true
-      }
-    ],
-    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
-  },
-  {
-    "id": 194,
-    "question": "67. La gestión de riesgos en la contratación pública es un proceso y abarca todas las etapas de la contratación pública, desde las actuaciones preparatorias hasta la ejecución contractual.",
-    "options": [
-      {
-        "text": "a) estático",
-        "isCorrect": false
-      },
-      {
-        "text": "b) opcional",
-        "isCorrect": false
-      },
-      {
-        "text": "c) dinámico",
-        "isCorrect": true
-      },
-      {
-        "text": "d) exclusivo del contratista",
-        "isCorrect": false
-      }
-    ],
-    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
-  },
-  {
-    "id": 195,
-    "question": "68. ¿Cuál de los siguientes principios rectores de la contratación pública es fundamental al momento de interpretar las normas para resolver una controversia contractual?",
-    "options": [
-      {
-        "text": "a) Principio de Innovación.",
-        "isCorrect": false
-      },
-      {
-        "text": "b) Principio de Legalidad.",
-        "isCorrect": true
-      },
-      {
-        "text": "c) Principio de Vigencia Tecnológica.",
-        "isCorrect": false
-      },
-      {
-        "text": "d) Principio de Gestión por Resultados.",
-        "isCorrect": false
-      }
-    ],
-    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
-  },
-  {
-    "id": 196,
-    "question": "69. En una controversia donde la entidad y el contratista tienen interpretaciones distintas sobre una cláusula contractual ambigua, ¿qué principio podría guiar al árbitro o conciliador para buscar una solución que preserve la finalidad del contrato?",
-    "options": [
-      {
-        "text": "a) Principio de Eficacia y Eficiencia, priorizando la interpretación que mejor permita el cumplimiento de los fines públicos del contrato.",
-        "isCorrect": true
-      },
-      {
-        "text": "b) Principio de Competencia, buscando la interpretación más ventajosa para la entidad.",
-        "isCorrect": false
-      },
-      {
-        "text": "c) Principio de Publicidad, asegurando que la interpretación sea conocida por todos.",
-        "isCorrect": false
-      },
-      {
-        "text": "d) Principio de Integridad, verificando la honestidad de las partes al proponer sus interpretaciones.",
-        "isCorrect": false
-      }
-    ],
-    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
-  },
-  {
-    "id": 197,
-    "question": "70. Un contratista solicita el reconocimiento de mayores gastos generales debido a una paralización de obra no imputable a él. La entidad se niega, argumentando una formalidad no esencial en la presentación de la solicitud. Al resolver la controversia, el árbitro considera que la formalidad omitida no afecta el fondo del derecho del contratista y que la paralización efectivamente ocurrió y generó costos. ¿Qué principio de la Ley de Contrataciones estaría aplicando el árbitro al priorizar el fondo sobre la formalidad no esencial?",
-    "options": [
-      {
-        "text": "a) Principio de Valor por Dinero.",
-        "isCorrect": false
-      },
-      {
-        "text": "b) Principio de Libertad de Concurrencia.",
-        "isCorrect": false
-      },
-      {
-        "text": "c) Principio de Eficacia y Eficiencia.",
-        "isCorrect": true
-      },
-      {
-        "text": "d) Principio de Sostenibilidad de las Contrataciones Públicas.",
-        "isCorrect": false
-      }
-    ],
-    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
-  },
-  {
-    "id": 198,
-    "question": "71. Según la Ley, los principios que rigen las contrataciones públicas sirven de criterio de interpretación para la aplicación de la Ley y su reglamento, de ante sus vacíos y como parámetros para la actuación de todos aquellos involucrados en el proceso de contratación.",
-    "options": [
-      {
-        "text": "a) derogación",
-        "isCorrect": false
-      },
-      {
-        "text": "b) modificación",
-        "isCorrect": false
-      },
-      {
-        "text": "c) integración",
-        "isCorrect": true
-      },
-      {
-        "text": "d) suspensión",
-        "isCorrect": false
-      }
-    ],
-    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
-  },
-  {
-    "id": 199,
-    "question": "72. ¿Cuál de los siguientes NO es un mecanismo de resolución de controversias surgidas durante la ejecución contractual?",
-    "options": [
-      {
-        "text": "a) Junta de Prevención y Resolución de Disputas (JPRD).",
-        "isCorrect": false
-      },
-      {
-        "text": "b) Conciliación.",
-        "isCorrect": false
-      },
-      {
-        "text": "c) Recurso de Apelación ante el Tribunal de Contrataciones.",
-        "isCorrect": true
-      },
-      {
-        "text": "d) Arbitraje.",
-        "isCorrect": false
-      }
-    ],
-    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
-  },
-  {
-    "id": 200,
-    "question": "73. ¿Qué tipo de controversias contractuales NO pueden ser sometidas a la junta de prevención y resolución de disputas, conciliación o arbitraje, según la Ley?",
-    "options": [
-      {
-        "text": "a) Controversias sobre ampliaciones de plazo contractual.",
-        "isCorrect": false
-      },
-      {
-        "text": "b) Pretensiones referidas a enriquecimiento sin causa o indebido derivado de la falta de aprobación de adicionales por la Contraloría.",
-        "isCorrect": true
-      },
-      {
-        "text": "c) Discrepancias sobre la recepción y conformidad de la prestación.",
-        "isCorrect": false
-      },
-      {
-        "text": "d) Controversias sobre la liquidación del contrato de obra.",
-        "isCorrect": false
-      }
-    ],
-    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
-  },
-  {
-    "id": 201,
-    "question": "74. En un contrato de obra que supera los S/ 10 000 000,00, surge una controversia técn ica sobre la calidad de una partida ejecutada. El contrato no menciona explícitamente la JPRD, pero sí incluye una cláusula arbitral estándar. ¿Qué mecanismo de solución de controversias debería agotarse primero antes de recurrir al arbitraje, considerando la obligatoriedad establecida en el Reglamento?",
-    "options": [
-      {
-        "text": "a) Trato directo entre las partes, y si no hay acuerdo, directamente al arbitraje.",
-        "isCorrect": false
-      },
-      {
-        "text": "b) La Junta de Prevención y Resolución de Disputas (JPRD), ya que su uso es obligatorio para obras de esa cuantía.",
-        "isCorrect": true
-      },
-      {
-        "text": "c) La Conciliación ante un centro acreditado, por ser un requisito previo al arbitraje en todos los casos.",
-        "isCorrect": false
-      },
-      {
-        "text": "d) Una consulta técnica al OECE para que dirima la controversia.",
-        "isCorrect": false
-      }
-    ],
-    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
-  },
-  {
-    "id": 202,
-    "question": "75. El inicio de un procedimiento de solución de controversias, como el arbitraje, por regla general, ____ las obligaciones contractuales de las partes, salvo disposición contraria de la entidad o del órgano jurisdiccional competente.",
-    "options": [
-      {
-        "text": "a) no suspende o paraliza",
-        "isCorrect": true
-      },
-      {
-        "text": "b) suspende automáticamente",
-        "isCorrect": false
-      },
-      {
-        "text": "c) modifica sustancialmente",
-        "isCorrect": false
-      },
-      {
-        "text": "d) anula inmediatamente",
-        "isCorrect": false
-      }
-    ],
-    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
-  },
-  {
-    "id": 203,
-    "question": "76. En un contrato de obra, se produce un retraso. El contratista alega que fue causado por la demora de la entidad en aprobar unos planos complementarios. La entidad, por su parte, sostiene que el retraso se debió a la falta de personal del contratista en otro frente de trabajo no relacionado con los planos. Al resolver la controversia sobre la procedencia de una ampliación de plazo y el pago de mayores gastos generales, ¿qué principio es crucial para que el árbitro determine correctamente la imputabilidad del retraso y, por ende, la responsabilidad de asumir las consecuencias económicas?",
-    "options": [
-      {
-        "text": "a) Principio de Equidad y Colaboración.",
-        "isCorrect": false
-      },
-      {
-        "text": "b) Principio de Causalidad.",
-        "isCorrect": true
-      },
-      {
-        "text": "c) Principio de Publicidad.",
-        "isCorrect": false
-      },
-      {
-        "text": "d) Principio de Integridad.",
-        "isCorrect": false
-      }
-    ],
-    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
-  },
-  {
-    "id": 204,
-    "question": "77. Una entidad contrató un servicio de desarrollo de una plataforma digital. Durante la ejecución, el contratista propone una modificación tecnológica no prevista originalmente, que no altera la finalidad pública pero sí mejora significativamente la eficiencia y seguridad de la plataforma, aunq ue implica un ligero ajuste en el cronograma y un costo adicional mínimo. La entidad se niega a la modificación argumentando que se debe cumplir estrictamente lo pactado. Si esto genera una controversia, ¿qué principio podría invocar el contratista (y ser considerado por el árbitro) para sustentar la conveniencia de la modificación propuesta, en el marco de la búsqueda de mejores soluciones para la entidad?",
-    "options": [
-      {
-        "text": "a) Principio de Legalidad.",
-        "isCorrect": false
-      },
-      {
-        "text": "b) Principio de Innovación.",
-        "isCorrect": true
-      },
-      {
-        "text": "c) Principio de Presunción de Veracidad.",
-        "isCorrect": false
-      },
-      {
-        "text": "d) Principio de Igualdad de Trato.",
-        "isCorrect": false
-      }
-    ],
-    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
-  },
-  {
-    "id": 205,
-    "question": "78. ¿Cuál es uno de los requisitos adicionales que debe presentar el proveedor ganador de la buena pro para el perfeccionamiento de un contrato de obra, según el Reglamento?",
-    "options": [
-      {
-        "text": "a) Un cronograma detallado de subcontrataciones.",
-        "isCorrect": false
-      },
-      {
-        "text": "b) La Constancia de Capacidad Libre de Contratación (CCLC) de ejecutor de obra expedida por el RNP.",
-        "isCorrect": true
-      },
-      {
-        "text": "c) Un estudio de impacto ambiental actualizado.",
-        "isCorrect": false
-      },
-      {
-        "text": "d) La póliza de seguro CAR (Todo Riesgo Contratista) por el 100% del valor de la obra.",
-        "isCorrect": false
-      }
-    ],
-    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
-  },
-  {
-    "id": 206,
-    "question": "79. En un contrato de obra bajo el sistema de entrega de solo construcción, ¿qué acción debe realizar el contratista respecto al expediente técnico dentro de los doce días siguientes a la suscripción del contrato?",
-    "options": [
-      {
-        "text": "a) Solicitar su modificación integral para adaptarlo a sus métodos constructivos.",
-        "isCorrect": false
-      },
-      {
-        "text": "b) Obtener la aprobación del expediente técnico por parte del Colegio de Ingenieros del Perú",
-        "isCorrect": false
-      },
-      {
-        "text": "c) Iniciar la ejecución de la obra sin necesidad de revisar el expediente, asumiendo que es correcto.",
-        "isCorrect": false
-      },
-      {
-        "text": "d) Presentar a la entidad y al supervisor un informe técnico de revisión del expediente técnico para detectar posibles deficiencias u omisiones.",
-        "isCorrect": true
-      }
-    ],
-    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
-  },
-  {
-    "id": 207,
-    "question": "80. Una entidad pública está por iniciar la ejecución de un contrato de obra bajo el sistema de entrega de diseño y construcción. ¿Cuál de las siguientes condiciones debe cumplir la entidad para que inicie el plazo de ejecución contractual del componente de ejecución de obra, una vez culminado el diseño?",
-    "options": [
-      {
-        "text": "a) Entregar al contratista el adelanto directo para el componente de diseño.",
-        "isCorrect": false
-      },
-      {
-        "text": "b) Notificar al contratista el expediente técnico de obra debidamente aprobado y cumplir con la identificación del supervisor y la entrega del adelanto directo para obra (si fue solicitado).",
-        "isCorrect": true
-      },
-      {
-        "text": "c) Obtener la licencia de construcción y entregar la totalidad del terreno libre de interferencias.",
-        "isCorrect": false
-      },
-      {
-        "text": "d) Suscribir un acta de inicio de obra con la participación del Colegio de Ingenieros y el OECE.",
-        "isCorrect": false
-      }
-    ],
-    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
-  },
-  {
-    "id": 208,
-    "question": "81. Desde el inicio de la ejecución de la obra en los sistemas de entrega de solo construcción y diseño y construcción, se debe contar con un , de modo permanente y exclusivo, quien es un profesional colegiado y habilitado de ingeniería o arquitectura.",
-    "options": [
-      {
-        "text": "a) gerente de proyecto",
-        "isCorrect": false
-      },
-      {
-        "text": "b) coordinador de obra",
-        "isCorrect": false
-      },
-      {
-        "text": "c) residente de obra",
-        "isCorrect": true
-      },
-      {
-        "text": "d) especialista en costos",
-        "isCorrect": false
-      }
-    ],
-    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
-  },
-  {
-    "id": 209,
-    "question": "82. Una entidad pública y un contratista sometieron a arbitraje una controversia sobre el pago de valorizaciones, emitiéndose un laudo definitivo a favor del contratista. Meses después, la Oficina de Control Institucional (OCI) detecta que el contrato original se perfeccionó a pesar de que el proveedor se encontraba impedido para contratar con el Estado al momento de la suscripción, una causal de nulidad prevista en el Artículo 71.1(a) de la Ley General de Contrataciones Públicas. Esta causal de impedimento no fue advertida ni discutida durante el proceso arbitral. ¿Puede la autoridad de la gestión administrativa declarar la nulidad de dicho contrato?",
-    "options": [
-      {
-        "text": "a) No, el laudo arbitral es definitivo y ha saneado cualquier vicio contractual preexistente, incluyendo los impedimentos.",
-        "isCorrect": false
-      },
-      {
-        "text": "b) Sí, pero únicamente si el Titular de la Entidad autoriza expresamente la declaración de nulidad y se demuestra que el árbitro actuó con negligencia.",
-        "isCorrect": false
-      },
-      {
-        "text": "c) Sí, la autoridad de la gestión administrativa puede declarar la nulidad del contrato por la causal de proveedor impedido, ya que esta es una potestad de la entidad para vicios que afectan el orden público y no fue materia del arbitraje anterior.",
-        "isCorrect": true
-      },
-      {
-        "text": "d) Solo podría hacerlo el Poder Judicial a través de un proceso de revisión del contrato, previa anulación del laudo arbitral.",
-        "isCorrect": false
-      }
-    ],
-    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
-  },
-  {
-    "id": 210,
-    "question": "83. ¿Cuál de los siguientes documentos es un componente esencial que debe incluir un expediente técnico de obra?",
-    "options": [
-      {
-        "text": "a) El Plan Anual de Contrataciones de la entidad.",
-        "isCorrect": false
-      },
-      {
-        "text": "b) La memoria descriptiva, planos de ejecución de obra y especificaciones técnicas.",
-        "isCorrect": true
-      },
-      {
-        "text": "c) El contrato de consorcio del postor ganador.",
-        "isCorrect": false
-      },
-      {
-        "text": "d) El informe de evaluación de ofertas del comité de selección.",
-        "isCorrect": false
-      }
-    ],
-    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
-  },
-  {
-    "id": 211,
-    "question": "84. ¿En qué momento el área usuaria debe proporcionar retroalimentación a la Unidad Formuladora que viabilizó el proyecto, respecto a cambios de alcance, costos y plazos del expediente técnico?",
-    "options": [
-      {
-        "text": "a) Antes de la elaboración del expediente técnico.",
-        "isCorrect": false
-      },
-      {
-        "text": "b) Durante la ejecución de la obra.",
-        "isCorrect": false
-      },
-      {
-        "text": "c) Terminada la elaboración del expediente técnico.",
-        "isCorrect": true
-      },
-      {
-        "text": "d) Únicamente si el expediente técnico es observado por la Contraloría.",
-        "isCorrect": false
-      }
-    ],
-    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
-  },
-  {
-    "id": 212,
-    "question": "85. Una entidad contrata a un consultor para la elaboración de un expediente técnico de obra. El consultor presenta el entregable final. ¿Qué plazo máximo tiene el órgano a cargo de la aprobación del expediente técnico en la entidad para emitir la resolución correspondiente, una vez otorgada la conformidad al consultor?",
-    "options": [
-      {
-        "text": "a) Cinco días calendario.",
-        "isCorrect": false
-      },
-      {
-        "text": "b) Cinco días hábiles.",
-        "isCorrect": false
-      },
-      {
-        "text": "c) Diez días calendario.",
-        "isCorrect": false
-      },
-      {
-        "text": "d) Diez días hábiles.",
-        "isCorrect": true
-      }
-    ],
-    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
-  },
-  {
-    "id": 213,
-    "question": "86. El expediente técnico de la obra debe guardar coherencia con los objetivos, alcances y parámetros que sustentan la o aprobación de las inversiones.",
-    "options": [
-      {
-        "text": "a) rentabilidad",
-        "isCorrect": false
-      },
-      {
-        "text": "b) viabilidad",
-        "isCorrect": true
-      },
-      {
-        "text": "c) popularidad",
-        "isCorrect": false
-      },
-      {
-        "text": "d) urgencia",
-        "isCorrect": false
-      }
-    ],
-    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
-  },
-  {
-    "id": 214,
-    "question": "87. Si durante la elaboración de un expediente técnico derivado de un Concurso de Proyectos Arquitectónicos y Urbanísticos, el contratista identifica oportunidades de mejora con innovaciones no contempladas en los parámetros técnicos nacionales vigentes, ¿qué procedimiento debe seguir?",
-    "options": [
-      {
-        "text": "a) Implementar las innovaciones directamente, asumiendo que mejoran el proyecto.",
-        "isCorrect": false
-      },
-      {
-        "text": "b) Proponer a la entidad la aplicación de dichas innovaciones, y la entidad, de ser el caso, las comunica al Sector competente para su evaluación.",
-        "isCorrect": true
-      },
-      {
-        "text": "c) Descartar las innovaciones, ya que el expediente debe ceñirse estrictamente a los parámetros nacionales vigentes.",
-        "isCorrect": false
-      },
-      {
-        "text": "d) Solicitar al OECE una autorización especial para aplicar las innovaciones propuestas.",
-        "isCorrect": false
-      }
-    ],
-    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
-  },
-  {
-    "id": 215,
-    "question": "88. ¿Quién es el responsable técnico de la obra por parte del contratista, presente de modo permanente y exclusivo en obras bajo sistemas de solo construcción y diseño y construcción?",
-    "options": [
-      {
-        "text": "a) El Gerente de Proyecto del contratista.",
-        "isCorrect": false
-      },
-      {
-        "text": "b) El Residente de Obra.",
-        "isCorrect": true
-      },
-      {
-        "text": "c) El Supervisor de Obra.",
-        "isCorrect": false
-      },
-      {
-        "text": "d) El Coordinador de Contrato de la entidad.",
-        "isCorrect": false
-      }
-    ],
-    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
-  },
-  {
-    "id": 216,
-    "question": "89. ¿Cuál es una de las funciones principales del supervisor de obra en los sistemas de entrega de solo construcción y diseño y construcción?",
-    "options": [
-      {
-        "text": "a) Aprobar las prestaciones adicionales de obra.",
-        "isCorrect": false
-      },
-      {
-        "text": "b) Modificar el plazo contractual de la obra.",
-        "isCorrect": false
-      },
-      {
-        "text": "c) Representar legalmente a la entidad contratante ante terceros.",
-        "isCorrect": false
-      },
-      {
-        "text": "d) Velar directa y permanentemente por la correcta ejecución técnica, económica y administrativa de la prestación y del cumplimiento del contrato.",
-        "isCorrect": true
-      }
-    ],
-    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
-  },
-  {
-    "id": 217,
-    "question": "90. Durante la ejecución de una obra, el supervisor detecta que el contratista está utilizando materiales que no se ajustan a las especificaciones técnicas del contrato. ¿Qué atribución tiene el supervisor en esta situación, según las funciones detalladas en el Reglamento?",
-    "options": [
-      {
-        "text": "a) Rechazar y ordenar el retiro de los materiales por mala calidad o por no ajustarse al contrato.",
-        "isCorrect": true
-      },
-      {
-        "text": "b) Aplicar directamente una penalidad económica al contratista.",
-        "isCorrect": false
-      },
-      {
-        "text": "c) Ordenar la resolución inmediata del contrato de obra.",
-        "isCorrect": false
-      },
-      {
-        "text": "d) Solicitar al OECE que intervenga y sancione al contratista.",
-        "isCorrect": false
-      }
-    ],
-    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
-  },
-  {
-    "id": 218,
-    "question": "91. Previo al inicio de la ejecución de un contrato de obra, la entidad contratante designa un _______ , quien se encarga de gestionar uno o más contratos asignados, sin ser responsable de las opiniones técnicas de la supervisión.",
-    "options": [
-      {
-        "text": "a) residente de obra",
-        "isCorrect": false
-      },
-      {
-        "text": "b) gerente de proyecto",
-        "isCorrect": false
-      },
-      {
-        "text": "c) coordinador",
-        "isCorrect": true
-      },
-      {
-        "text": "d) inspector de obra",
-        "isCorrect": false
-      }
-    ],
-    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
-  },
-  {
-    "id": 219,
-    "question": "92. En el contexto de la aplicación de contratos estandarizados de ingeniería y construcción de uso internacional, ¿quién es el profesional asignado por la entidad contratante para gestionar las actividades correspondientes de acuerdo con las facultades que el contrato suscrito establezca?",
-    "options": [
-      {
-        "text": "a) El Coordinador de Obra",
-        "isCorrect": false
-      },
-      {
-        "text": "b) El Gerente de Proyecto",
-        "isCorrect": true
-      },
-      {
-        "text": "c) El Residente de Obra",
-        "isCorrect": false
-      },
-      {
-        "text": "d) El Supervisor de Aseguramiento de Calidad",
-        "isCorrect": false
-      }
-    ],
-    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
-  },
-  {
-    "id": 220,
-    "question": "93. ¿Cuáles son los tipos de adelantos que pueden otorgarse en los contratos de obras?",
-    "options": [
-      {
-        "text": "a) Directos y para equipamiento menor únicamente.",
-        "isCorrect": false
-      },
-      {
-        "text": "b) Para materiales e insumos, y para mano de obra.",
-        "isCorrect": false
-      },
-      {
-        "text": "c) Directos, para materiales e insumos, equipamiento y mobiliario, y por avance.",
-        "isCorrect": true
-      },
-      {
-        "text": "d) Solo adelantos directos, hasta un 30% del contrato.",
-        "isCorrect": false
-      }
-    ],
-    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
-  },
-  {
-    "id": 221,
-    "question": "94. En los contratos de consultoría de obras, ¿qué tipo de adelanto es el único que procede?",
-    "options": [
-      {
-        "text": "a) Adelanto para materiales e insumos.",
-        "isCorrect": false
-      },
-      {
-        "text": "b) Adelanto por avance.",
-        "isCorrect": false
-      },
-      {
-        "text": "c) Adelanto directo.",
-        "isCorrect": true
-      },
-      {
-        "text": "d) No proceden adelantos en consultoría de obras.",
-        "isCorrect": false
-      }
-    ],
-    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
-  },
-  {
-    "id": 222,
-    "question": "95. Una entidad contrata la ejecución de una obra bajo el sistema de entrega de diseño y construcción. ¿Qué tipos de adelantos podrían establecerse en las bases para el componente de ejecución de obra?",
-    "options": [
-      {
-        "text": "a) Solo adelanto directo, hasta el 30% del monto del componente de ejecución de obra.",
-        "isCorrect": false
-      },
-      {
-        "text": "b) Adelanto directo (hasta 10%), adelanto para materiales e insumos, equipamiento y mobiliario (hasta 20%), y adelanto por avance (hasta 10%), todos calculados sobre el monto de la obra aprobado en el expediente técnico.",
-        "isCorrect": true
-      },
-      {
-        "text": "c) Únicamente adelanto para materiales e insumos, hasta el 50% del monto del componente de ejecución de obra.",
-        "isCorrect": false
-      },
-      {
-        "text": "d) No proceden adelantos para el componente de ejecución de obra en el sistema de diseño y construcción, solo para el diseño.",
-        "isCorrect": false
-      }
-    ],
-    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
-  },
-  {
-    "id": 223,
-    "question": "96. El adelanto directo que puede otorgarse en un contrato de obra bajo el sistema de entrega de solo construcción no debe exceder el del monto del contrato original.",
-    "options": [
-      {
-        "text": "a) 5%",
-        "isCorrect": false
-      },
-      {
-        "text": "b) 10%",
-        "isCorrect": true
-      },
-      {
-        "text": "c) 15%",
-        "isCorrect": false
-      },
-      {
-        "text": "d) 20%",
-        "isCorrect": false
-      }
-    ],
-    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
-  },
-  {
-    "id": 224,
-    "question": "97. ¿En qué tipo de contratos de bienes y servicios, además de obras, el Reglamento contempla explícitamente la posibilidad de otorgar adelantos directos, siempre que se sustente en la estrategia de contratación o por condiciones de mercado?",
-    "options": [
-      {
-        "text": "a) En todos los contratos de bienes, sin excepción.",
-        "isCorrect": false
-      },
-      {
-        "text": "b) Únicamente en contratos de servicios de limpieza y seguridad.",
-        "isCorrect": false
-      },
-      {
-        "text": "c) En bienes de alta complejidad bajo llave en mano, servicio especializado de gestión de instalaciones, servicio de mantenimiento vial, y ASISTE.",
-        "isCorrect": true
-      },
-      {
-        "text": "d) Solo en contratos de servicios cuya ejecución supere los 12 meses.",
-        "isCorrect": false
-      }
-    ],
-    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
-  },
-  {
-    "id": 225,
-    "question": "98. ¿Qué debe entregar el contratista, como mínimo, al momento de solicitar un adelanto directo en un contrato de obra?",
-    "options": [
-      {
-        "text": "a) El programa de ejecución de obra actualizado.",
-        "isCorrect": false
-      },
-      {
-        "text": "b) La garantía por el adelanto y el comprobante de pago de dicha garantía.",
-        "isCorrect": true
-      },
-      {
-        "text": "c) Un informe detallado del uso que se le dará al adelanto.",
-        "isCorrect": false
-      },
-      {
-        "text": "d) La factura correspondiente al monto del adelanto.",
-        "isCorrect": false
-      }
-    ],
-    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
-  },
-  {
-    "id": 226,
-    "question": "99. ¿Cómo se realiza generalmente la amortización del adelanto directo otorgado en un contrato de obra?",
-    "options": [
-      {
-        "text": "a) Mediante descuentos proporcionales en cada una de las valorizaciones del componente.",
-        "isCorrect": true
-      },
-      {
-        "text": "b) Mediante un único descuento en la liquidación final del contrato.",
-        "isCorrect": false
-      },
-      {
-        "text": "c) A través de la ejecución de la garantía de fiel cumplimiento.",
-        "isCorrect": false
-      },
-      {
-        "text": "d) El contratista devuelve el monto total del adelanto antes de la recepción de la obra.",
-        "isCorrect": false
-      }
-    ],
-    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
-  },
-  {
-    "id": 227,
-    "question": "100. En un contrato de obra, la entidad otorga un adelanto directo. Si durante la ejecución se producen diferencias en la amortización parcial de dicho adelanto en una valorización, ¿cómo se maneja esta situación según el Reglamento?",
-    "options": [
-      {
-        "text": "a) La entidad debe resolver el contrato por incorrecta amortización.",
-        "isCorrect": false
-      },
-      {
-        "text": "b) El contratista debe devolver inmediatamente la diferencia a la entidad.",
-        "isCorrect": false
-      },
-      {
-        "text": "c) La diferencia se toma en cuenta al efectuar el siguiente pago al contratista o al momento de la liquidación del contrato.",
-        "isCorrect": true
-      },
-      {
-        "text": "d) Se debe solicitar una pericia contable para determinar la responsabilidad por la diferencia.",
-        "isCorrect": false
-      }
-    ],
-    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
-  },
-  {
-    "id": 228,
-    "question": "101. La garantía por adelantos directos debe tener un plazo mínimo de vigencia de ________ , renovable hasta la amortización total, salvo que el plazo de ejecución contractual sea menor.",
-    "options": [
-      {
-        "text": "a) un mes",
-        "isCorrect": false
-      },
-      {
-        "text": "b) dos meses",
-        "isCorrect": false
-      },
-      {
-        "text": "c) tres meses",
-        "isCorrect": true
-      },
-      {
-        "text": "d) seis meses",
-        "isCorrect": false
-      }
-    ],
-    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
-  },
-  {
-    "id": 229,
-    "question": "102. ¿En qué momento proceden las solicitudes de adelantos para materiales e insumos, equipamiento y mobiliario en obras bajo los sistemas de entrega de solo construcción y diseño y construcción?",
-    "options": [
-      {
-        "text": "a) Desde la suscripción del contrato, antes del inicio del plazo de ejecución.",
-        "isCorrect": false
-      },
-      {
-        "text": "b) Solo si el contratista no solicitó el adelanto directo.",
-        "isCorrect": false
-      },
-      {
-        "text": "c) Únicamente después de alcanzar el 50% de avance físico de la obra.",
-        "isCorrect": false
-      },
-      {
-        "text": "d) Una vez iniciado el plazo de ejecución de la obra, teniendo en consideración el Calendario de Adquisición de Materiales.",
-        "isCorrect": true
-      }
-    ],
-    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
-  },
-  {
-    "id": 230,
-    "question": "103. ¿En qué circunstancia el contratista puede solicitar la sustitución de su personal clave del plantel técnico en un contrato de obra?",
-    "options": [
-      {
-        "text": "a) En cualquier momento y sin necesidad de justificación.",
-        "isCorrect": false
-      },
-      {
-        "text": "b) Únicamente si el personal original renuncia voluntariamente.",
-        "isCorrect": false
-      },
-      {
-        "text": "c) Excepcionalmente y con el sustento debido, siempre que el reemplazante tenga un perfil igual o mayor.",
-        "isCorrect": true
-      },
-      {
-        "text": "d) Solo si la entidad lo requiere por bajo rendimiento del personal original.",
-        "isCorrect": false
-      }
-    ],
-    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
-  },
-  {
-    "id": 231,
-    "question": "104. Si un contratista solicita la sustitución permanente del personal clave de su plantel técnico en una obra, ¿con qué anticipación debe presentar la solicitud a la entidad contratante antes de la fecha en que operaría la sustitución?",
-    "options": [
-      {
-        "text": "a) Tres días hábiles.",
-        "isCorrect": false
-      },
-      {
-        "text": "b) Cinco días hábiles.",
-        "isCorrect": false
-      },
-      {
-        "text": "c) Diez días hábiles.",
-        "isCorrect": true
-      },
-      {
-        "text": "d) No hay plazo de anticipación, puede ser el mismo día.",
-        "isCorrect": false
-      }
-    ],
-    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
-  },
-  {
-    "id": 232,
-    "question": "105. Un contratista solicita por segunda vez la sustitución del mismo integrante de su plantel técnico clave en una obra. La entidad aprueba la sustitución. ¿Qué consecuencia adicional podría enfrentar el contratista en esta situación, asumiendo que la sustitución no se origina por caso fortuito, fuerza mayor o hecho no imputable al contratista?",
-    "options": [
-      {
-        "text": "a) La entidad debe resolver el contrato de obra.",
-        "isCorrect": false
-      },
-      {
-        "text": "b) No hay ninguna consecuencia adicional si la entidad aprueba la sustitución.",
-        "isCorrect": false
-      },
-      {
-        "text": "c) El contratista debe presentar una garantía adicional por el nuevo personal.",
-        "isCorrect": false
-      },
-      {
-        "text": "d) La entidad debe aplicar una penalidad al contratista.",
-        "isCorrect": true
-      }
-    ],
-    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
-  },
-  {
-    "id": 233,
-    "question": "106. La sustitución _________del personal clave del plantel técnico ocurre cuando la fecha de retorno del profesional original se encuentra dentro del plazo de ejecución y se debe al régimen laboral aplicable del integrante, no ocasionando penalidades.",
-    "options": [
-      {
-        "text": "a) permanente",
-        "isCorrect": false
-      },
-      {
-        "text": "b) excepcional",
-        "isCorrect": false
-      },
-      {
-        "text": "c) temporal",
-        "isCorrect": true
-      },
-      {
-        "text": "d) no autorizada",
-        "isCorrect": false
-      }
-    ],
-    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
-  },
-  {
-    "id": 234,
-    "question": "107. ¿Cuál es el porcentaje máximo del monto del contrato original hasta el cual la autoridad de la gestión administrativa puede autorizar prestaciones adicionales en obras bajo el sistema de entrega de solo construcción, sin requerir autorización del Titular de la Entidad ni de la Contraloría?",
-    "options": [
-      {
-        "text": "a) 10%",
-        "isCorrect": false
-      },
-      {
-        "text": "b) 15%",
-        "isCorrect": true
-      },
-      {
-        "text": "c) 20%",
-        "isCorrect": false
-      },
-      {
-        "text": "d) 25%",
-        "isCorrect": false
-      }
-    ],
-    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
-  },
-  {
-    "id": 235,
-    "question": "108. En obras bajo el sistema de entrega de solo construcción, si se requiere una prestación adicional que supera el 15% pero no excede el 30% del monto originalmente contratado (restando deductivos vinculados), ¿quién está facultado para autorizar dicha prestación adicional?",
-    "options": [
-      {
-        "text": "a) La autoridad de la gestión administrativa, con opinión favorable del supervisor.",
-        "isCorrect": false
-      },
-      {
-        "text": "b) El Titular de la Entidad, siempre que cuente con los recursos necesarios.",
-        "isCorrect": true
-      },
-      {
-        "text": "c) El supervisor de obra, con cargo a regularización por la entidad.",
-        "isCorrect": false
-      },
-      {
-        "text": "d) La Contraloría General de la República, previa solicitud de la entidad.",
-        "isCorrect": false
-      }
-    ],
-    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
-  },
-  {
-    "id": 236,
-    "question": "109. Una entidad necesita ejecutar una prestación adicional en una obra bajo el sistema de entrega de solo construcción. El costo de este adicional representa el 40% del monto del contrato original. ¿Qué procedimiento debe seguir la entidad para aprobar esta prestación adicional, según la Ley?",
-    "options": [
-      {
-        "text": "a) La autoridad de la gestión administrativa lo aprueba directamente, informando luego a la Contraloría.",
-        "isCorrect": false
-      },
-      {
-        "text": "b) El Titular de la Entidad lo aprueba, previa opinión favorable del área usuaria y de la supervisión.",
-        "isCorrect": false
-      },
-      {
-        "text": "c) El Titular de la Entidad puede autorizarla, previa autorización de la Contraloría General de la República.",
-        "isCorrect": true
-      },
-      {
-        "text": "d) No es posible aprobar adicionales que superen el 30%, se debe resolver el contrato.",
-        "isCorrect": false
-      }
-    ],
-    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
-  },
-  {
-    "id": 237,
-    "question": "110. Las prestaciones adicionales en obras bajo el sistema de entrega de solo construcción, en conjunto, no pueden superar el del monto del contrato original; en caso contrario, se procede a la resolución del contrato.",
-    "options": [
-      {
-        "text": "a) 25%",
-        "isCorrect": false
-      },
-      {
-        "text": "b) 30%",
-        "isCorrect": false
-      },
-      {
-        "text": "c) 40%",
-        "isCorrect": false
-      },
-      {
-        "text": "d) 50%",
-        "isCorrect": true
-      }
-    ],
-    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
-  },
-  {
-    "id": 238,
-    "question": "111. ¿Cuál es una de las causales por las cuales el contratista puede solicitar una ampliación de plazo en un contrato de obra?",
-    "options": [
-      {
-        "text": "a) Cuando el contratista decide utilizar una tecnología constructiva más lenta pero de mejor calidad.",
-        "isCorrect": false
-      },
-      {
-        "text": "b) Por atrasos y/o paralizaciones por causas no atribuibles al contratista que modifiquen la ruta crítica.",
-        "isCorrect": true
-      },
-      {
-        "text": "c) Cuando el contratista no cuenta con suficiente personal para cumplir el cronograma.",
-        "isCorrect": false
-      },
-      {
-        "text": "d) Si la entidad realiza los pagos de valorizaciones antes de la fecha pactada.",
-        "isCorrect": false
-      }
-    ],
-    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
-  },
-  {
-    "id": 239,
-    "question": "112. En un contrato de obra, si se aprueba una prestación adicional, ¿cuándo puede el contratista solicitar una ampliación de plazo por esta causal?",
-    "options": [
-      {
-        "text": "a) Automáticamente con la aprobación del adicional, sin necesidad de solicitud.",
-        "isCorrect": false
-      },
-      {
-        "text": "b) Solo si la ejecución de la prestación adicional afecta la ruta crítica del programa de ejecución vigente.",
-        "isCorrect": true
-      },
-      {
-        "text": "c) Únicamente si el costo del adicional supera el 5% del monto del contrato.",
-        "isCorrect": false
-      },
-      {
-        "text": "d) En cualquier momento, incluso después de haber ejecutado el adicional.",
-        "isCorrect": false
-      }
-    ],
-    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
-  },
-  {
-    "id": 240,
-    "question": "113. Un contratista de obra solicita una ampliación de plazo debido a una paralización generada por conflictos sociales en la zona, evento no atribuible a él. Presenta su solicitud al supervisor. Si el supervisor no emite su opinión técnica a la entidad dentro del plazo de cinco días hábiles, ¿cómo debe proceder la entidad para resolver la solicitud de ampliación de plazo?",
-    "options": [
-      {
-        "text": "a) Dar respuesta a la solicitud de ampliación de plazo sin el pronunciamiento del supervisor, sin perjuicio de aplicar penalidades a este último.",
-        "isCorrect": true
-      },
-      {
-        "text": "b) Otorgar al supervisor un plazo adicional de cinco días hábiles para que emita su opinión.",
-        "isCorrect": false
-      },
-      {
-        "text": "c) Denegar automáticamente la solicitud por falta de opinión del supervisor.",
-        "isCorrect": false
-      },
-      {
-        "text": "d) Devolver la solicitud al contratista para que la presente nuevamente cuando el supervisor esté disponible.",
-        "isCorrect": false
-      }
-    ],
-    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
-  },
-  {
-    "id": 241,
-    "question": "114. Cuando las ampliaciones de plazo en la ejecución de obras se sustentan en causales que no corresponden a un mismo periodo de tiempo, cada solicitud de ampliación de plazo se tramita y resuelve .",
-    "options": [
-      {
-        "text": "a) conjuntamente al final de la obra",
-        "isCorrect": false
-      },
-      {
-        "text": "b) previa autorización de la Contraloría",
-        "isCorrect": false
-      },
-      {
-        "text": "c) solo si superan los 15 días",
-        "isCorrect": false
-      },
-      {
-        "text": "d) independientemente",
-        "isCorrect": true
-      }
-    ],
-    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
-  },
-  {
-    "id": 242,
-    "question": "115. ¿Cuál es una condición para que las partes puedan acordar por escrito la suspensión del plazo de ejecución contractual de una obra?",
-    "options": [
-      {
-        "text": "a) Que el contratista lo solicite debido a problemas financieros internos.",
-        "isCorrect": false
-      },
-      {
-        "text": "b) Que la entidad decida realizar una revisión completa del expediente técnico.",
-        "isCorrect": false
-      },
-      {
-        "text": "c) Que se produzcan eventos no atribuibles a las partes que originen la interrupción de la ejecución.",
-        "isCorrect": true
-      },
-      {
-        "text": "d) Que el supervisor de obra recomiende la suspensión por conveniencia técnica.",
-        "isCorrect": false
-      }
-    ],
-    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
-  },
-  {
-    "id": 243,
-    "question": "116. Durante la suspensión del plazo de ejecución de una obra acordada por las partes, ¿qué tipo de actividades pueden realizarse?",
-    "options": [
-      {
-        "text": "a) Ninguna actividad relacionada con el contrato, todo queda completamente paralizado.",
-        "isCorrect": false
-      },
-      {
-        "text": "b) Solo actividades de mantenimiento menor del campamento de obra.",
-        "isCorrect": false
-      },
-      {
-        "text": "c) Trámites propios de la gestión del contrato, como aprobación de adicionales o valorizaciones pendientes, si es posible.",
-        "isCorrect": true
-      },
-      {
-        "text": "d) Únicamente la ejecución de partidas críticas que no puedan esperar.",
-        "isCorrect": false
-      }
-    ],
-    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
-  },
-  {
-    "id": 244,
-    "question": "117. En un contrato de obra, la entidad no paga al contratista dos valorizaciones mensuales consecutivas. El contratista requiere el pago de al menos una, pero la entidad no cumple en el p lazo otorgado. ¿Qué acción puede tomar el contratista y qué consecuencia económica tiene para la entidad si se produce la suspensión?",
-    "options": [
-      {
-        "text": "a) Resolver el contrato inmediatamente; la entidad no tiene responsabilidad económica adicional.",
-        "isCorrect": false
-      },
-      {
-        "text": "b) Anotar en el cuaderno de incidencias la suspensión del plazo de ejecución; la entidad debe reconocer al contratista los costos directos y/o mayores gastos generales vinculados y acreditados.",
-        "isCorrect": true
-      },
-      {
-        "text": "c) Continuar la obra bajo protesta y solicitar el pago de intereses moratorios únicamente.",
-        "isCorrect": false
-      },
-      {
-        "text": "d) Solicitar la intervención económica de la obra por parte de la Contraloría.",
-        "isCorrect": false
-      }
-    ],
-    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
-  },
-  {
-    "id": 245,
-    "question": "118. Si se acuerda la suspensión del plazo de ejecución de una obra, y esta suspensión no supone el reconocimiento de mayores gastos generales y/o costos directos, sí pueden reconocerse aquellos que resulten necesarios para la suspensión.",
-    "options": [
-      {
-        "text": "a) acelerar",
-        "isCorrect": false
-      },
-      {
-        "text": "b) evitar",
-        "isCorrect": false
-      },
-      {
-        "text": "c) documentar",
-        "isCorrect": false
-      },
-      {
-        "text": "d) viabilizar",
-        "isCorrect": true
-      }
-    ],
-    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
-  },
-  {
-    "id": 246,
-    "question": "119. ¿En qué supuestos la entidad contratante puede intervenir económicamente una obra?",
-    "options": [
-      {
-        "text": "a) Solo cuando el contratista lo solicite por problemas de flujo de caja.",
-        "isCorrect": false
-      },
-      {
-        "text": "b) En caso fortuito, fuerza mayor o por incumplimiento de estipulaciones contractuales que no permitan la terminación de los trabajos.",
-        "isCorrect": true
-      },
-      {
-        "text": "c) Únicamente si el avance de obra es menor al 50% de lo programado.",
-        "isCorrect": false
-      },
-      {
-        "text": "d) Cuando el supervisor de obra renuncia a su cargo.",
-        "isCorrect": false
-      }
-    ],
-    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
-  },
-  {
-    "id": 247,
-    "question": "120. ¿Cuál es la finalidad principal de la intervención económica de una obra por parte de la entidad?",
-    "options": [
-      {
-        "text": "a) Sancionar económicamente al contratista por sus incumplimientos.",
-        "isCorrect": false
-      },
-      {
-        "text": "b) Asumir la ejecución directa de la obra con personal de la entidad.",
-        "isCorrect": false
-      },
-      {
-        "text": "c) Culminar la ejecución de los trabajos sin llegar a resolver el contrato.",
-        "isCorrect": true
-      },
-      {
-        "text": "d) Realizar una auditoría financiera completa al contrato de obra.",
-        "isCorrect": false
-      }
-    ],
-    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
-  },
-  {
-    "id": 248,
-    "question": "121. Una entidad decide intervenir económicamente una obra debido a graves incumplimientos del contratista que impedían su culminación. El contratista rechaza la intervención económica. ¿Cuál es la consecuencia directa de este rechazo por parte del contratista?",
-    "options": [
-      {
-        "text": "a) El contrato es resuelto por incumplimiento del contratista.",
-        "isCorrect": true
-      },
-      {
-        "text": "b) La entidad debe iniciar un proceso de conciliación para convencer al contratista.",
-        "isCorrect": false
-      },
-      {
-        "text": "c) El contratista debe proponer un nuevo cronograma acelerado de trabajos.",
-        "isCorrect": false
-      },
-      {
-        "text": "d) Se suspende la intervención económica y se busca un nuevo supervisor.",
-        "isCorrect": false
-      }
-    ],
-    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
-  },
-  {
-    "id": 249,
-    "question": "122. La intervención económica de la obra no deja al contratista al margen de su participación contractual y sus obligaciones; sin embargo, pierde el derecho al reconocimiento de mayores gastos generales o indemnización cuando la intervención sea consecuencia del",
-    "options": [
-      {
-        "text": "a) caso fortuito",
-        "isCorrect": false
-      },
-      {
-        "text": "b) incumplimiento del contratista",
-        "isCorrect": true
-      },
-      {
-        "text": "c) fuerza mayor",
-        "isCorrect": false
-      },
-      {
-        "text": "d) acuerdo entre las partes",
-        "isCorrect": false
-      }
-    ],
-    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
-  },
-  {
-    "id": 250,
-    "question": "123. ¿Quién es el principal responsable de realizar el monitoreo y control para evaluar el desempeño de la obra en términos de alcance, costo y tiempo, según las funciones de la supervisión detalladas en el Reglamento?",
-    "options": [
-      {
-        "text": "a) El Residente de obra.",
-        "isCorrect": false
-      },
-      {
-        "text": "b) La Supervisión (supervisor o inspector).",
-        "isCorrect": true
-      },
-      {
-        "text": "c) El Coordinador de obra de la entidad.",
-        "isCorrect": false
-      },
-      {
-        "text": "d) El área usuaria de la entidad.",
-        "isCorrect": false
-      }
-    ],
-    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
-  },
-  {
-    "id": 251,
-    "question": "124. Si el supervisor de obra verifica que la valorización acumulada ejecutada es menor al 80% de la valorización acumulada programada, o existe atraso en la ruta crítica, ¿qué acción debe ordenar al contratista?",
-    "options": [
-      {
-        "text": "a) La suspensión inmediata de los trabajos hasta regularizar el avance.",
-        "isCorrect": false
-      },
-      {
-        "text": "b) La presentación de una nueva garantía de fiel cumplimiento.",
-        "isCorrect": false
-      },
-      {
-        "text": "c) La reducción del monto del contrato en proporción al retraso.",
-        "isCorrect": false
-      },
-      {
-        "text": "d) La presentación de un nuevo programa de ejecución que contemple la aceleración de trabajos.",
-        "isCorrect": true
-      }
-    ],
-    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
-  },
-  {
-    "id": 252,
-    "question": "125. Un contratista presenta un nuevo programa de ejecución con aceleración de trabajos debido a un retraso injustificado. Posteriormente, el supervisor verifica que el monto de la valorización acumulada ejecutada es menor al 80% del monto acumulado programado de este nuevo calendario. ¿Qué consecuencia podría acarrear este segundo incumplimiento para el contratista?",
-    "options": [
-      {
-        "text": "a) El contratista solo estaría sujeto a la aplicación de la penalidad por mora.",
-        "isCorrect": false
-      },
-      {
-        "text": "b) El supervisor debe otorgar un nuevo plazo para presentar otro programa de aceleración.",
-        "isCorrect": false
-      },
-      {
-        "text": "c) Dicho retraso puede ser considerado como causal de resolución del contrato o de intervención económica de la obra, no siendo necesario apercibimiento.",
-        "isCorrect": true
-      },
-      {
-        "text": "d) La entidad debe aprobar automáticamente una ampliación de plazo para compensar el retraso.",
-        "isCorrect": false
-      }
-    ],
-    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
-  },
-  {
-    "id": 253,
-    "question": "126. El nuevo programa de ejecución que contempla la aceleración de trabajos, presentado por el contratista debido a un retraso, solo se toma en cuenta para el control de los avances físicos reprogramados y no para el análisis de afectación de la con fines de trámite de ampliaciones de plazo.",
-    "options": [
-      {
-        "text": "a) calidad de los materiales",
-        "isCorrect": false
-      },
-      {
-        "text": "b) ruta crítica",
-        "isCorrect": true
-      },
-      {
-        "text": "c) estructura de costos",
-        "isCorrect": false
-      },
-      {
-        "text": "d) asignación de personal",
-        "isCorrect": false
-      }
-    ],
-    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
-  },
-  {
-    "id": 254,
-    "question": "127. En un contrato de obra bajo el sistema de entrega de solo construcción, ¿con qué frecuencia general se realizan las valorizaciones, considerándose estas como pagos a cuenta?",
-    "options": [
-      {
-        "text": "a) Semanalmente.",
-        "isCorrect": false
-      },
-      {
-        "text": "b) Mensualmente.",
-        "isCorrect": true
-      },
-      {
-        "text": "c) Trimestralmente.",
-        "isCorrect": false
-      },
-      {
-        "text": "d) Al finalizar cada hito constructivo importante.",
-        "isCorrect": false
-      }
-    ],
-    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
-  },
-  {
-    "id": 255,
-    "question": "128. En un contrato de obra, si el supervisor no se presenta para la valorización conjunta de los metrados ejecutados con el contratista, ¿quién efectúa la valorización?",
-    "options": [
-      {
-        "text": "a) El contratista la efectúa y la presenta directamente a la entidad.",
-        "isCorrect": true
-      },
-      {
-        "text": "b) La entidad contratante a través de su personal técnico.",
-        "isCorrect": false
-      },
-      {
-        "text": "c) Se debe esperar a que el supervisor esté disponible, reprogramando la valorización.",
-        "isCorrect": false
-      },
-      {
-        "text": "d) El coordinador de obra de la entidad asume la responsabilidad de la valorización.",
-        "isCorrect": false
-      }
-    ],
-    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
-  },
-  {
-    "id": 256,
-    "question": "129. Un contratista presenta su valorización mensual de obra al supervisor y a la entidad. El supervisor presenta su informe favorable a la entidad dentro del plazo. La entidad, sin embargo, demora 40 días calendario desde la presentación de la valorización por el contratista para efectuar el pago, sin que exista caso fortuito o fuerza mayor. ¿Qué consecuencia principal tiene esta demora en el pago por parte de la entidad?",
-    "options": [
-      {
-        "text": "a) El contratista puede resolver el contrato inmediatamente.",
-        "isCorrect": false
-      },
-      {
-        "text": "b) El contratista debe esperar el pago sin derecho a compensación por la demora.",
-        "isCorrect": false
-      },
-      {
-        "text": "c) Se aplica una penalidad automática a la entidad, deducible de futuras valorizaciones.",
-        "isCorrect": false
-      },
-      {
-        "text": "d) La entidad debe reconocer al contratista los intereses legales correspondientes y repetir contra los responsables de la demora.",
-        "isCorrect": true
-      }
-    ],
-    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
-  },
-  {
-    "id": 257,
-    "question": "130. Una vez culminada la ejecución de la obra, ¿a quién solicita el contratista la recepción de la misma a través de una anotación en el cuaderno de incidencias?",
-    "options": [
-      {
-        "text": "a) Al Titular de la Entidad.",
-        "isCorrect": false
-      },
-      {
-        "text": "b) Al Coordinador de obra.",
-        "isCorrect": false
-      },
-      {
-        "text": "c) Al Supervisor de obra.",
-        "isCorrect": true
-      },
-      {
-        "text": "d) Al Comité de Recepción directamente.",
-        "isCorrect": false
-      }
-    ],
-    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
-  },
-  {
-    "id": 258,
-    "question": "131. Si durante el proceso de recepción de obra, el comité de recepción designado por la entidad formula observaciones, ¿qué plazo máximo tiene el contratista para subsanarlas?",
-    "options": [
-      {
-        "text": "a) Un décimo del plazo de ejecución vigente de la obra o cuarenta días, el que resulte menor.",
-        "isCorrect": true
-      },
-      {
-        "text": "b) Quince días calendario, prorrogables por una única vez.",
-        "isCorrect": false
-      },
-      {
-        "text": "c) Treinta días hábiles, contados desde la notificación del pliego de observaciones.",
-        "isCorrect": false
-      },
-      {
-        "text": "d) El plazo que el propio comité de recepción determine en el acta.",
-        "isCorrect": false
-      }
-    ],
-    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
-  },
-  {
-    "id": 259,
-    "question": "132. El comité de recepción de una obra, al verificar el levantamiento de observaciones previamente formuladas, constata que persisten algunas de ellas y, además, identifica nuevos vicios o defectos distintos a las observaciones originales. ¿Cómo debe proceder el comité?",
-    "options": [
-      {
-        "text": "a) No suscribir el Acta de Recepción de Obra hasta que todos los vicios, originales y nuevos, sean subsanados.",
-        "isCorrect": false
-      },
-      {
-        "text": "b) Suscribir el Acta de Recepción de Obra, pero dejar constancia de los vicios nuevos para que la entidad solicite su subsanación al contratista como vicios ocultos.",
-        "isCorrect": true
-      },
-      {
-        "text": "c) Formular un nuevo pliego de observaciones que incluya los defectos persistentes y los nuevos, otorgando un nuevo plazo de subsanación.",
-        "isCorrect": false
-      },
-      {
-        "text": "d) Suscribir el Acta de Recepción de Obra sin observaciones y reportar los nuevos vicios directamente a la Contraloría.",
-        "isCorrect": false
-      }
-    ],
-    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
-  },
-  {
-    "id": 260,
-    "question": "133. ¿Cuál es el propósito principal de la liquidación de un contrato de obra?",
-    "options": [
-      {
-        "text": "a) Determinar las penalidades finales a aplicar al contratista.",
-        "isCorrect": false
-      },
-      {
-        "text": "b) Aprobar el expediente técnico de la obra.",
-        "isCorrect": false
-      },
-      {
-        "text": "c) Determinar el costo total del contrato y su saldo económico.",
-        "isCorrect": true
-      },
-      {
-        "text": "d) Evaluar el desempeño del supervisor de obra.",
-        "isCorrect": false
-      }
-    ],
-    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
-  },
-  {
-    "id": 261,
-    "question": "134. El contratista presenta la liquidación debidamente sustentada en un plazo contado desde el día siguiente de otorgada la conformidad de la última prestación, de la recepción de la obra, o desde que la JPRD emite la última opinión vinculante sobre controversias hasta la recepción, o de consentida la______ del contrato, según sea el caso.",
-    "options": [
-      {
-        "text": "a) modificación",
-        "isCorrect": false
-      },
-      {
-        "text": "b) suspensión",
-        "isCorrect": false
-      },
-      {
-        "text": "c) resolución",
-        "isCorrect": true
-      },
-      {
-        "text": "d) ampliación",
-        "isCorrect": false
-      }
-    ],
-    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
-  },
-  {
-    "id": 262,
-    "question": "135. En un contrato de obra, el contratista presenta la liquidación a la entidad. La entidad, dentro del plazo establecido, formula observaciones a dicha liquidación. ¿Qué sucede si el contratista, habiendo recibido las observaciones, no las subsana dentro del plazo que se le otorga?",
-    "options": [
-      {
-        "text": "a) La entidad debe elaborar su propia liquidación y notificarla al contratista.",
-        "isCorrect": false
-      },
-      {
-        "text": "b) La liquidación se considera consentida o aprobada con las observaciones formuladas por la entidad.",
-        "isCorrect": true
-      },
-      {
-        "text": "c) Se debe iniciar automáticamente un proceso de conciliación para resolver las discrepancias.",
-        "isCorrect": false
-      },
-      {
-        "text": "d) El contrato se considera resuelto por incumplimiento del contratista en el proceso de liquidación.",
-        "isCorrect": false
-      }
-    ],
-    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
-  },
-  {
-    "id": 263,
-    "question": "136. ¿En qué fase del proceso de contratación se debe evaluar y sustentar la utilización de un contrato estandarizado de ingeniería y construcción de uso internacional, según el Reglamento?",
-    "options": [
-      {
-        "text": "a) Durante la ejecución de la obra, si surgen complejidades.",
-        "isCorrect": false
-      },
-      {
-        "text": "b) Solo si el OECE lo recomienda expresamente para el proyecto.",
-        "isCorrect": false
-      },
-      {
-        "text": "c) Al momento de la liquidación del contrato, si hubo controversias.",
-        "isCorrect": false
-      },
-      {
-        "text": "d) En la fase de actuaciones preparatorias, como parte de la estrategia de contratación.",
-        "isCorrect": true
-      }
-    ],
-    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
-  },
-  {
-    "id": 264,
-    "question": "137. ¿Qué tipo de cláusulas deben incluir obligatoriamente los contratos estandarizados de ingeniería y construcción de uso internacional, además de las propias del modelo elegido?",
-    "options": [
-      {
-        "text": "a) Únicamente cláusulas referidas a la solución de controversias mediante arbitraje internacional.",
-        "isCorrect": false
-      },
-      {
-        "text": "b) Las cláusulas obligatorias señaladas en el artículo 60 de la Ley (garantías, anticorrupción, solución de controversias, resolución por incumplimiento, gestión de riesgos).",
-        "isCorrect": true
-      },
-      {
-        "text": "c) Cláusulas que permitan la modificación unilateral del contrato por parte de la entidad sin límites.",
-        "isCorrect": false
-      },
-      {
-        "text": "d) Cláusulas que exoneren al contratista de responsabilidad por vicios ocultos.",
-        "isCorrect": false
-      }
-    ],
-    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
-  },
-  {
-    "id": 265,
-    "question": "138. Una entidad utiliza un contrato estandarizado de ingeniería y construcción de uso internacional para una obra compleja. Durante la ejecución, se requieren modificaciones que inciden en el monto contractual, superando el 50% del valor del presupuesto de obra original. Según las condiciones que deben incluirse en estos contratos, ¿cuál es la consecuencia de superar este límite?",
-    "options": [
-      {
-        "text": "a) La entidad debe solicitar una autorización especial a la Contraloría General de la República para continuar.",
-        "isCorrect": false
-      },
-      {
-        "text": "b) Se configura la condición de terminación anticipada que ocasiona la resolución del contrato.",
-        "isCorrect": true
-      },
-      {
-        "text": "c) El contratista debe asumir el costo que exceda el 50% sin derecho a reclamo.",
-        "isCorrect": false
-      },
-      {
-        "text": "d) El contrato puede continuar, pero se debe renegociar la totalidad de las condiciones con el contratista.",
-        "isCorrect": false
-      }
-    ],
-    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
-  },
-  {
-    "id": 266,
-    "question": "139. ¿Cuál es una causal de nulidad en la etapa del procedimiento de selección?",
-    "options": [
-      {
-        "text": "a) El acto administrativo es emitido por un órgano competente y conforme a ley.",
-        "isCorrect": false
-      },
-      {
-        "text": "b) El acto administrativo prescinde de una formalidad no esencial del procedimiento.",
-        "isCorrect": false
-      },
-      {
-        "text": "c) El acto administrativo contraviene normas legales.",
-        "isCorrect": true
-      },
-      {
-        "text": "d) El acto administrativo se encuentra debidamente motivado y presenta vicios.",
-        "isCorrect": false
-      }
-    ],
-    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
-  },
-  {
-    "id": 267,
-    "question": "140. ¿Cuál de los siguientes enunciados es correcto respecto a la subcontratación?",
-    "options": [
-      {
-        "text": "a) La subcontratación es aprobada por el área usuaria.",
-        "isCorrect": false
-      },
-      {
-        "text": "b) La subcontratación se puede realizar hasta por un máximo del 50% del monto del contrato original.",
-        "isCorrect": false
-      },
-      {
-        "text": "c) El contratista no es responsable por las prestaciones subcontratadas.",
-        "isCorrect": false
-      },
-      {
-        "text": "d) El subcontratista debe estar inscrito en el RNP y no estar impedido para contratar con el Estado.",
-        "isCorrect": true
-      }
-    ],
-    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
-  },
-  {
-    "id": 268,
-    "question": "141. Sobre las condiciones de inicio del plazo de ejecución, es correcto decir qué:",
-    "options": [
-      {
-        "text": "a) La entidad contratante cuenta con un plazo máximo de doce días para cumplir con las condiciones del contratista.",
-        "isCorrect": false
-      },
-      {
-        "text": "b) De no cumplir el contratista puede solicitar resarcimiento de daños y perjuicios, debidamente acreditados, por el 5% del monto del contrato por día con un tope de 20%.",
-        "isCorrect": false
-      },
-      {
-        "text": "c) No se puede optar por la resolución del contrato.",
-        "isCorrect": false
-      },
-      {
-        "text": "d) Este procedimiento no es aplicable cuando la entidad contratante haya informado al contratista dentro del plazo para el inicio de la ejecución de la obra la necesidad de acordar diferir su inicio.",
-        "isCorrect": true
-      }
-    ],
-    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
-  },
-  {
-    "id": 269,
-    "question": "142. ¿Cuál de los siguientes enunciados corresponde a uno de los pilares del cambio en la nueva ley de contrataciones públicas?",
-    "options": [
-      {
-        "text": "a) Eliminación de todas las garantías financieras en los procesos de contratación.",
-        "isCorrect": false
-      },
-      {
-        "text": "b) Evaluación y elección del ganador de buena pro basada únicamente en el precio más bajo.",
-        "isCorrect": false
-      },
-      {
-        "text": "c) Fortalecimiento de la Junta de Prevención y Resolución de Disputas (JPRD).",
-        "isCorrect": true
-      },
-      {
-        "text": "d) Sustitución completa de los contratos nacionales por modelos informales no estandarizados.",
-        "isCorrect": false
-      }
-    ],
-    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
-  },
-  {
-    "id": 270,
-    "question": "143. La definición: “ejecución de una nueva obra en el mismo lugar de una existente que fue destruida o colapsada, usando o no parte de la estructura anterior.”, pertenece a:",
-    "options": [
-      {
-        "text": "a) Restauración",
-        "isCorrect": false
-      },
-      {
-        "text": "b) Reconstrucción",
-        "isCorrect": true
-      },
-      {
-        "text": "c) Ampliación",
-        "isCorrect": false
-      },
-      {
-        "text": "d) Remodelación",
-        "isCorrect": false
-      }
-    ],
-    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
-  },
-  {
-    "id": 271,
-    "question": "144. ¿Cuál de los siguientes enunciados describe correctamente el procedimiento respecto a las Propuestas de Cambio de Ingeniería de Valor (PCIV)?",
-    "options": [
-      {
-        "text": "a) La supervisión tiene un plazo máximo de cinco días para pronunciarse sobre la propuesta y no puede remitirla al proyectista.",
-        "isCorrect": false
-      },
-      {
-        "text": "b) El proyectista puede pronunciarse sobre la PCIV incluso si han pasado más de dos años desde la conformidad del expediente técnico.",
-        "isCorrect": false
-      },
-      {
-        "text": "c) La supervisión debe pronunciarse sobre la PCIV en un plazo máximo de diez días y, si corresponde, remitirla al proyectista.",
-        "isCorrect": true
-      },
-      {
-        "text": "d) El proyectista tiene quince días hábiles para pronunciarse sobre la PCIV, sin importar las condiciones.",
-        "isCorrect": false
-      }
-    ],
-    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
-  },
-  {
-    "id": 272,
-    "question": "145. Una vez que se anota en el cuaderno de incidencias la necesidad de ejecutar una prestación adicional de obra, ¿cuál es la acción inmediata que debe realizar el inspector o supervisor en un plazo máximo de cinco (5) días?",
-    "options": [
-      {
-        "text": "a) Emitir la orden de ejecución de la prestación adicional.",
-        "isCorrect": false
-      },
-      {
-        "text": "b) Ratificar a la Entidad la anotación realizada, adjuntando un informe técnico que sustente la necesidad de la prestación adicional.",
-        "isCorrect": true
-      },
-      {
-        "text": "c) Elaborar el presupuesto detallado de la obra adicional.",
-        "isCorrect": false
-      },
-      {
-        "text": "d) Coordinar con el contratista la modificación del expediente técnico.",
-        "isCorrect": false
-      }
-    ],
-    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
-  },
-  {
-    "id": 273,
-    "question": "146. El plazo para pronunciarse sobre la liquidación en la ejecución de obra:",
-    "options": [
-      {
-        "text": "a) 15 días calendario",
-        "isCorrect": false
-      },
-      {
-        "text": "b) 20 días calendario",
-        "isCorrect": false
-      },
-      {
-        "text": "c) 30 días calendario",
-        "isCorrect": false
-      },
-      {
-        "text": "d) 50 días calendario",
-        "isCorrect": true
-      }
-    ],
-    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
-  },
-  {
-    "id": 274,
-    "question": "147. ¿Cuáles de las siguientes cláusulas son obligatorias en los contratos regulados por la Ley 32069?",
-    "options": [
-      {
-        "text": "a) Cláusula de confidencialidad y cláusula de penalidades.",
-        "isCorrect": false
-      },
-      {
-        "text": "b) Garantías, cláusula anticorrupción y antisoborno, solución de controversias.",
-        "isCorrect": true
-      },
-      {
-        "text": "c) Gestión de riesgos, cláusula de exclusividad y términos de pago.",
-        "isCorrect": false
-      },
-      {
-        "text": "d) Penalidades, prórroga automática y cláusula ambiental.",
-        "isCorrect": false
-      }
-    ],
-    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
-  },
-  {
-    "id": 275,
-    "question": "148. ¿En qué casos se permite la modificación de los contratos?",
-    "options": [
-      {
-        "text": "a) Solo por decisión unilateral de la entidad contratante.",
-        "isCorrect": false
-      },
-      {
-        "text": "b) Únicamente si el contratista presenta una solicitud justificada.",
-        "isCorrect": false
-      },
-      {
-        "text": "c) Por acuerdo de las partes, disposición de la entidad contratante o solicitud del contratista, siempre que se respete el equilibrio económico financiero del contrato.",
-        "isCorrect": true
-      },
-      {
-        "text": "d) Solo cuando se presenten causas fortuitas o de fuerza mayor que impidan la ejecución del contrato.",
-        "isCorrect": false
-      }
-    ],
-    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
-  },
-  {
-    "id": 276,
-    "question": "149. ¿Cuáles de los siguientes documentos forman parte del Expediente Técnico de Obra?",
-    "options": [
-      {
-        "text": "a) Carta de intención del contratista, informe financiero anual, garantía de fiel cumplimiento.",
-        "isCorrect": false
-      },
-      {
-        "text": "b) Memoria descriptiva, especificaciones técnicas, análisis de precios unitarios, calendario de avance valorizado.",
-        "isCorrect": true
-      },
-      {
-        "text": "c) Reglamento interno de seguridad, manual de operación del proyecto, licencias municipales.",
-        "isCorrect": false
-      },
-      {
-        "text": "d) Informe de inspección del supervisor, contrato de obra y cronograma de pagos mensuales.",
-        "isCorrect": false
-      }
-    ],
-    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
-  },
-  {
-    "id": 277,
-    "question": "150. ¿Cuál de las siguientes afirmaciones es correcta acerca del laudo arbitral?",
-    "options": [
-      {
-        "text": "a) Si la Entidad desea anular el laudo, puede hacerlo sin necesidad de autorización previa.",
-        "isCorrect": false
-      },
-      {
-        "text": "b) El laudo es apelable ante el Poder Judicial en todos los casos.",
-        "isCorrect": false
-      },
-      {
-        "text": "c) Si el contratista solicita la anulación del laudo, debe presentar una fianza bancaria solidaria a favor de la Entidad.",
-        "isCorrect": true
-      },
-      {
-        "text": "d) El árbitro no puede ser recusado después de que el laudo haya sido anulado, incluso por vulneración del derecho de defensa.",
-        "isCorrect": false
-      }
-    ],
-    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
-  },
-  {
-    "id": 278,
-    "question": "151. Durante la ejecución de un contrato de obra bajo el sistema \"solo construcción\", el contratista anota en el cuaderno de incidencias la necesidad de ejecutar una prestación adicional debido a una deficiencia en el expediente técnico. ¿Quién es el responsable de elaborar el expediente técnico del adicional de obra?",
-    "options": [
-      {
-        "text": "a) Exclusivamente el proyectista original del expediente técnico de la obra.",
-        "isCorrect": false
-      },
-      {
-        "text": "b) Siempre el contratista ejecutor de la obra, asumiendo los costos de su elaboración.",
-        "isCorrect": false
-      },
-      {
-        "text": "c) El supervisor de la obra, sin excepción, como parte de sus funciones de control.",
-        "isCorrect": false
-      },
-      {
-        "text": "d) La entidad, el contratista o el supervisor, según lo que la entidad haya determinado en las bases del procedimiento de selección.",
-        "isCorrect": true
-      }
-    ],
-    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
-  },
-  {
-    "id": 279,
-    "question": "152. El supervisor de una obra, bajo el sistema de entrega \"diseño y construcción\", verifica que el avance físico real acumulado de la obra es menor al 80% del avance físico programado. ¿Qué acción debe ordenar inmediatamente el supervisor al contratista?",
-    "options": [
-      {
-        "text": "a) La suspensión inmediata de la obra hasta que se regularice el cronograma.",
-        "isCorrect": false
-      },
-      {
-        "text": "b) La presentación de un nuevo programa de ejecución que contemple la aceleración de los trabajos.",
-        "isCorrect": true
-      },
-      {
-        "text": "c) La ejecución de la garantía de fiel cumplimiento por el retraso injustificado.",
-        "isCorrect": false
-      },
-      {
-        "text": "d) La aplicación de la penalidad por mora máxima y solicitar la resolución del contrato.",
-        "isCorrect": false
-      }
-    ],
-    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
-  },
-  {
-    "id": 280,
-    "question": "153. En un contrato de obra bajo el sistema de entrega \"solo construcción\", el contratista tiene la obligación de revisar el expediente técnico para detectar posibles deficiencias. ¿Dentro de qué plazo, contado desde la suscripción del contrato, debe presentar su informe técnico de revisión?",
-    "options": [
-      {
-        "text": "a) Dentro de los 10 días siguientes a la suscripción del contrato.",
-        "isCorrect": false
-      },
-      {
-        "text": "b) Dentro de los 12 días siguientes a la suscripción del contrato.",
-        "isCorrect": true
-      },
-      {
-        "text": "c) Dentro de los 15 días siguientes a la entrega del terreno.",
-        "isCorrect": false
-      },
-      {
-        "text": "d) Dentro de los 7 días siguientes al inicio del plazo de ejecución de la obra.",
-        "isCorrect": false
-      }
-    ],
-    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
-  },
-  {
-    "id": 281,
-    "question": "154. Durante la ejecución de una obra, ocurren protestas sociales que impiden el acceso al sitio por 15 días, afectando la ruta crítica del proyecto. El contratista desea solicitar una ampliación de plazo. ¿Cuál es el primer paso que debe realizar y dentro de qué plazo, una vez finalizado el evento?",
-    "options": [
-      {
-        "text": "a) Anotar el hecho en el cuaderno de incidencias y solicitar la ampliación en un plazo de 7 días hábiles.",
-        "isCorrect": false
-      },
-      {
-        "text": "b) Presentar un informe técnico al supervisor para que este gestione la ampliación de oficio.",
-        "isCorrect": false
-      },
-      {
-        "text": "c) Notificar su solicitud de ampliación de plazo a la entidad y a la supervisión en un plazo no mayor de 10 días hábiles.",
-        "isCorrect": true
-      },
-      {
-        "text": "d) Esperar a la siguiente valorización para incluir ahí el sustento de la paralización y solicitar el plazo adicional.",
-        "isCorrect": false
-      }
-    ],
-    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
-  },
-  {
-    "id": 282,
-    "question": "155. En los contratos de ejecución de obra, el plazo de responsabilidad del contratista por vicios ocultos no puede ser inferior a:",
-    "options": [
-      {
-        "text": "a) Un (1) año, contado a partir de la conformidad de la recepción total.",
-        "isCorrect": false
-      },
-      {
-        "text": "b) Tres (3) años, contado a partir de la liquidación final consentida.",
-        "isCorrect": false
-      },
-      {
-        "text": "c) Cinco (5) años, contado a partir de la recepción total de la obra.",
-        "isCorrect": false
-      },
-      {
-        "text": "d) Siete (7) años, contado a partir de la conformidad de la recepción total o parcial de la obra.",
-        "isCorrect": true
-      }
-    ],
-    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
-  },
-  {
-    "id": 283,
-    "question": "156. Luego de un retraso injustificado, el supervisor ordena al contratista de una obra presentar un nuevo programa de ejecución acelerado. Si el contratista incumple nuevamente y su valorización acumulada ejecutada es menor al 80% del nuevo programa, ¿qué medida, además de la resolución del contrato, podría adoptar la entidad para culminar los trabajos?",
-    "options": [
-      {
-        "text": "a) La suspensión del contrato hasta que el contratista garantice el financiamiento.",
-        "isCorrect": false
-      },
-      {
-        "text": "b) La ejecución inmediata de la garantía de fiel cumplimiento para contratar a un tercero.",
-        "isCorrect": false
-      },
-      {
-        "text": "c) La intervención económica de la obra.",
-        "isCorrect": true
-      },
-      {
-        "text": "d) La aprobación de una ampliación de plazo sin reconocimiento de gastos generales.",
-        "isCorrect": false
-      }
-    ],
-    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
-  },
-  {
-    "id": 284,
-    "question": "157. En un contrato de supervisión de obra, se aprueba una prestación adicional en el contrato de ejecución de obra principal que impacta directamente en la ruta crítica, generando una ampliación de plazo. El supervisor sustenta que necesita más personal y recursos para controlar adecuadamente este adicional. ¿Cómo se gestiona esta necesidad en el contrato de supervisión según el Reglamento?",
-    "options": [
-      {
-        "text": "a) Se tramita como una prestación adicional de supervisión, sujeta al límite del 25% del monto del contrato original de supervisión.",
-        "isCorrect": false
-      },
-      {
-        "text": "b) Se aprueba como una prestación derivada del adicional de obra, la cual no se considera un adicional del contrato de supervisión y no está sujeta al límite del 25%.",
-        "isCorrect": true
-      },
-      {
-        "text": "c) El supervisor debe asumir el costo con sus propios gastos generales, ya que es una contingencia previsible de su servicio.",
-        "isCorrect": false
-      },
-      {
-        "text": "d) Se debe resolver el contrato de supervisión y convocar uno nuevo que incluya el alcance de las prestaciones adicionales de la obra.",
-        "isCorrect": false
-      }
-    ],
-    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
-  },
-  {
-    "id": 285,
-    "question": "158. Una obra contratada bajo el sistema de \"diseño y construcción\" se ejecuta mediante la metodología fast track. Durante la ejecución del primer componente de la obra (cimentación), el contratista detecta la necesidad de una modificación en el diseño del segundo componente (estructuras), que aún no ha sido aprobado. ¿Qué procedimiento corresponde seguir?",
-    "options": [
-      {
-        "text": "a) El contratista debe paralizar la obra y presentar el expediente técnico completo y modificado para su aprobación total antes de continuar.",
-        "isCorrect": false
-      },
-      {
-        "text": "b) El contratista debe continuar con la ejecución del primer componente y, en paralelo, gestionar la modificación del diseño del segundo componente como una prestación adicional.",
-        "isCorrect": false
-      },
-      {
-        "text": "c) Las partes deben acordar la suspensión del plazo de ejecución del contrato hasta que la entidad, con un consultor externo, valide la modificación propuesta.",
-        "isCorrect": false
-      },
-      {
-        "text": "d) El contratista debe proponer la modificación en el siguiente entregable parcial del expediente técnico, y la entidad, previa opinión del supervisor, la aprueba para que la ejecución continúe sin interrupciones.",
-        "isCorrect": true
-      }
-    ],
-    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
-  },
-  {
-    "id": 286,
-    "question": "159. Un contratista presenta su valorización mensual de obra. La entidad, al revisarla, formula observaciones sobre ciertas partidas que considera sobrevaloradas, pero está de acuerdo con el resto del monto. El contratista no subsana las observaciones en el plazo otorgado. ¿Qué acción debe tomar la entidad?",
-    "options": [
-      {
-        "text": "a) Retener el pago íntegro de la valorización hasta que el contratista subsane la totalidad de las observaciones.",
-        "isCorrect": false
-      },
-      {
-        "text": "b) Resolver el contrato por incumplimiento, al no levantar las observaciones formuladas a la valorización.",
-        "isCorrect": false
-      },
-      {
-        "text": "c) Realizar el pago del monto de la valorización que no ha sido cuestionado, dejando el saldo pendiente a la subsanación o a la liquidación final.",
-        "isCorrect": true
-      },
-      {
-        "text": "d) Pagar el íntegro de la valorización para no incurrir en mora, pero iniciar un procedimiento de solución de controversias por el monto observado.",
-        "isCorrect": false
-      }
-    ],
-    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
-  },
-  {
-    "id": 287,
-    "question": "160. En un contrato de obra a precios unitarios, el contratista ejecuta mayores metrados que han sido debidamente autorizados por el supervisor en el cuaderno de incidencias. Al momento de presentar la valorización, el contratista incluye el pago de dichos mayores metrados. ¿Cuál es el procedimiento correcto para el pago de estos?",
-    "options": [
-      {
-        "text": "a) El pago es automático, ya que la autorización del supervisor es suficiente para que la entidad proceda con el desembolso.",
-        "isCorrect": false
-      },
-      {
-        "text": "b) Los mayores metrados se pagan únicamente en la liquidación final del contrato, no en las valorizaciones mensuales.",
-        "isCorrect": false
-      },
-      {
-        "text": "c) El pago requiere una resolución de aprobación previa por parte de la autoridad de la gestión administrativa de la entidad.",
-        "isCorrect": true
-      },
-      {
-        "text": "d) El contratista debe tramitarlo como una prestación adicional de obra para que pueda ser incluido en la valorización y pagado.",
-        "isCorrect": false
-      }
-    ],
-    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
-  },
-  {
-    "id": 288,
-    "question": "161. El residente de una obra bajo el sistema \"solo construcción\" anota una consulta en el cuaderno de incidencias que podría implicar una modificación del expediente técnico. El supervisor está en desacuerdo con la solución propuesta por el contratista. ¿Cuál es el procedimiento correcto que debe seguir el supervisor?",
-    "options": [
-      {
-        "text": "a) Rechazar la consulta en el cuaderno de incidencias y ordenar al contratista que continúe la ejecución según el expediente técnico original, bajo su responsabilidad.",
-        "isCorrect": false
-      },
-      {
-        "text": "b) Remitir la consulta junto con su propia opinión técnica a la entidad contratante para que esta, a su vez, la derive al proyectista (si corresponde) y emita un pronunciamiento final.",
-        "isCorrect": true
-      },
-      {
-        "text": "c) Convocar a una reunión tripartita con la entidad y el contratista para votar y decidir por mayoría la solución técnica a implementar.",
-        "isCorrect": false
-      },
-      {
-        "text": "d) para que emita una decisión vinculante.",
-        "isCorrect": false
-      }
-    ],
-    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
-  },
-  {
-    "id": 289,
-    "question": "162. Durante la recepción de una obra, el comité de recepción formula un pliego de observaciones. El contratista subsana dichas observaciones dentro del plazo otorgado. En la segunda visita de verificación, el comité constata que, si bien se levantaron las observaciones iniciales, han aparecido nuevos defectos en otras partes de la obra que no fueron advertidos previamente. ¿Qué debe hacer el comité de recepción?",
-    "options": [
-      {
-        "text": "a) Negarse a recibir la obra y emitir un nuevo pliego de observaciones, otorgando un nuevo plazo al contratista.",
-        "isCorrect": false
-      },
-      {
-        "text": "b) Suscribir el Acta de Recepción de Obra, pero dejando constancia de los nuevos vicios o defectos para que la entidad solicite su subsanación posterior como vicios ocultos.",
-        "isCorrect": true
-      },
-      {
-        "text": "c) Declarar la resolución del contrato por incumplimiento en la calidad de la prestación, ya que la obra no está en condiciones de ser recibida.",
-        "isCorrect": false
-      },
-      {
-        "text": "d) Recibir la obra y autorizar a la entidad a contratar a un tercero para que repare los nuevos defectos, con cargo al contratista.",
-        "isCorrect": false
-      }
-    ],
-    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
-  },
-  {
-    "id": 290,
-    "question": "163. Una obra se ejecuta bajo un contrato estandarizado de ingeniería y construcción de uso internacional. Durante la ejecución, se aprueban diversas modificaciones que inciden en el monto contractual, y el costo acumulado de estas alcanza el 50% del valor del presupuesto de obra original. Si surge la necesidad de una nueva modificación que incrementaría aún más el costo, ¿qué procede según el Reglamento?",
-    "options": [
-      {
-        "text": "a) Se puede aprobar la nueva modificación con la autorización expresa de la Contraloría General de la República.",
-        "isCorrect": false
-      },
-      {
-        "text": "b) Se configura una condición de terminación anticipada que ocasiona la resolución del contrato, al haberse superado el límite máximo para modificaciones.",
-        "isCorrect": true
-      },
-      {
-        "text": "c) El contratista debe asumir el costo de la nueva modificación sin que ello incremente el monto del contrato.",
-        "isCorrect": false
-      },
-      {
-        "text": "d) La entidad puede aprobar la modificación, pero debe sustentar la capacidad presupuestal ante la Dirección General de Presupuesto Público (DGPP).",
-        "isCorrect": false
-      }
-    ],
-    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
-  },
-  {
-    "id": 291,
-    "question": "164. Para la gestión de un proyecto de obra que se ejecutará con un contrato estandarizado, la entidad necesita contratar a un profesional clave que se encargue de administrar las actividades conforme a las facultades que el propio contrato establece. ¿Cómo se denomina a este profesional y qué requisito de certificación es indispensable?",
-    "options": [
-      {
-        "text": "a) Se denomina Supervisor de Obra y debe contar con certificación del Colegio de Ingenieros del Perú.",
-        "isCorrect": false
-      },
-      {
-        "text": "b) Se denomina Residente de Proyecto y debe contar con certificación en metodologías BIM.",
-        "isCorrect": false
-      },
-      {
-        "text": "c) Se denomina Gerente de Proyecto y debe contar con certificación oficial en el contrato estandarizado elegido.",
-        "isCorrect": true
-      },
-      {
-        "text": "d) Se denomina Coordinador de Contrato y debe contar con la certificación de Comprador Público nivel avanzado.",
-        "isCorrect": false
-      }
-    ],
-    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
-  },
-  {
-    "id": 292,
-    "question": "165. Un contratista ha entregado un lote de bienes a una entidad pública. ¿Cuál es el plazo máximo que tiene el área usuaria para emitir la conformidad de la prestación, siempre que no se requieran pruebas especiales?",
-    "options": [
-      {
-        "text": "a) 5 días calendario desde la recepción.",
-        "isCorrect": false
-      },
-      {
-        "text": "b) 7 días calendario desde la recepción.",
-        "isCorrect": true
-      },
-      {
-        "text": "c) 10 días hábiles desde la recepción.",
-        "isCorrect": false
-      },
-      {
-        "text": "d) 15 días calendario desde la recepción.",
-        "isCorrect": false
-      }
-    ],
-    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
-  },
-  {
-    "id": 293,
-    "question": "166. Un contratista solicita la subcontratación de una parte de las prestaciones. ¿Cuál es el plazo que tiene la entidad para aprobar o denegar dicha solicitud, y qué ocurre si no se pronuncia en dicho plazo?",
-    "options": [
-      {
-        "text": "a) 3 días hábiles; si no hay pronunciamiento, se considera aprobada.",
-        "isCorrect": false
-      },
-      {
-        "text": "b) 5 días hábiles; si no hay pronunciamiento, se considera denegada.",
-        "isCorrect": true
-      },
-      {
-        "text": "c) 7 días hábiles; si no hay pronunciamiento, se considera aprobada.",
-        "isCorrect": false
-      },
-      {
-        "text": "d) 10 días hábiles; si no hay pronunciamiento, se considera denegada.",
-        "isCorrect": false
-      }
-    ],
-    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
-  },
-  {
-    "id": 294,
-    "question": "167. Un Gobierno Regional ejecuta una obra que es paralizada por un evento de fuerza mayor (un aluvión que destruye el acceso principal). Si el evento imposibilita de manera definitiva la continuación del contrato, ¿qué acción pueden tomar las partes?",
-    "options": [
-      {
-        "text": "a) Acordar la suspensión del plazo de ejecución hasta que la entidad construya un nuevo acceso.",
-        "isCorrect": false
-      },
-      {
-        "text": "b) Solicitar una prestación adicional para cubrir los costos de la paralización y reanudar los trabajos.",
-        "isCorrect": false
-      },
-      {
-        "text": "c) Cualquiera de las partes puede resolver el contrato por la causal de caso fortuito o fuerza mayor.",
-        "isCorrect": true
-      },
-      {
-        "text": "d) El contratista debe continuar la obra asumiendo los sobrecostos, para luego solicitar un reembolso.",
-        "isCorrect": false
-      }
-    ],
-    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
-  },
-  {
-    "id": 295,
-    "question": "168. Durante la ejecución de un contrato de obra, el contratista anota una consulta en el cuaderno de incidencias. El supervisor remite la consulta a la entidad, pero esta no absuelve la consulta en el plazo establecido, generando un retraso en la ruta crítica. ¿Qué derecho le asiste al contratista?",
-    "options": [
-      {
-        "text": "a) Resolver el contrato por incumplimiento de la entidad.",
-        "isCorrect": false
-      },
-      {
-        "text": "b) Ejecutar la garantía de fiel cumplimiento de la entidad.",
-        "isCorrect": false
-      },
-      {
-        "text": "c) Solicitar una ampliación de plazo contractual por el tiempo correspondiente a la demora.",
-        "isCorrect": true
-      },
-      {
-        "text": "d) Continuar la obra según su propio criterio técnico, bajo responsabilidad de la entidad.",
-        "isCorrect": false
-      }
-    ],
-    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
-  },
-  {
-    "id": 296,
-    "question": "169. Una vez resuelto un contrato de obra por causa imputable al contratista, la entidad necesita iniciar un arbitraje para reclamar los daños y perjuicios. ¿Cuál es el plazo máximo de caducidad para solicitar el inicio del arbitraje?",
-    "options": [
-      {
-        "text": "a) 20 días hábiles desde la notificación de la resolución del contrato.",
-        "isCorrect": false
-      },
-      {
-        "text": "b) 30 días hábiles desde la notificación de la resolución del contrato.",
-        "isCorrect": true
-      },
-      {
-        "text": "c) 45 días hábiles desde la constatación física de la obra.",
-        "isCorrect": false
-      },
-      {
-        "text": "d) 60 días hábiles desde que la resolución quedó consentida.",
-        "isCorrect": false
-      }
-    ],
-    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
-  },
-  {
-    "id": 297,
-    "question": "170. Una obra sufre una paralización por causas no atribuibles al contratista. Este solicita una ampliación de plazo, pero la entidad no resuelve ni notifica su decisión en el plazo legal. ¿Cuál es la consecuencia de este silencio administrativo?",
-    "options": [
-      {
-        "text": "a) La solicitud de ampliación de plazo se considera automáticamente denegada.",
-        "isCorrect": false
-      },
-      {
-        "text": "b) El contratista debe reiterar su solicitud para que la entidad se pronuncie.",
-        "isCorrect": false
-      },
-      {
-        "text": "c) La solicitud se tiene por aprobada, en los términos informados por el supervisor, o en su defecto, en los términos solicitados por el contratista.",
-        "isCorrect": true
-      },
-      {
-        "text": "d) El contratista debe iniciar un procedimiento de solución de controversias para que un árbitro decida sobre la ampliación.",
-        "isCorrect": false
-      }
-    ],
-    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
-  },
-  {
-    "id": 298,
-    "question": "171. La autoridad de la gestión administrativa de un Gobierno Regional aprueba una prestación adicional de obra que representa el 12% del monto del contrato original. ¿Es correcta su actuación?",
-    "options": [
-      {
-        "text": "a) No, porque todas las prestaciones adicionales de obra deben ser aprobadas por el Titular de la Entidad.",
-        "isCorrect": false
-      },
-      {
-        "text": "b) Sí, porque la autoridad de la gestión administrativa está facultada para aprobar adicionales de obra hasta por el 15% del monto original.",
-        "isCorrect": true
-      },
-      {
-        "text": "c) No, porque cualquier adicional, sin importar el monto, requiere la autorización previa de la Contraloría General de la República.",
-        "isCorrect": false
-      },
-      {
-        "text": "d) Sí, pero solo si cuenta con la delegación expresa del Titular de la Entidad para aprobar adicionales de obra.",
-        "isCorrect": false
-      }
-    ],
-    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
-  },
-  {
-    "id": 299,
-    "question": "172. Un Gobierno Regional ejecuta una obra de infraestructura vial. Un conflicto social prolongado, calificado como fuerza mayor, impide de manera definitiva la continuación de los trabajos. La Autoridad de la Gestión Administrativa, basándose en informes técnicos y legales, decide resolver el contrato. ¿Es correcta su actuación y es esta facultad delegable?",
-    "options": [
-      {
-        "text": "a) Es correcta, pues la resolución por fuerza mayor es potestad de la Autoridad de la Gestión Administrativa y es una facultad delegable.",
-        "isCorrect": false
-      },
-      {
-        "text": "b) No es correcta, la resolución de un contrato por cualquier causal es una facultad indelegable del Titular de la Entidad.",
-        "isCorrect": false
-      },
-      {
-        "text": "c) Es correcta, ya que la resolución es una facultad de la Autoridad de la Gestión Administrativa, pero esta facultad específica de resolver contratos es indelegable.",
-        "isCorrect": false
-      },
-      {
-        "text": "d) Es correcta, ya que la resolución del contrato puede ser iniciada por cualquiera de las partes, y la decisión administrativa de la entidad recae en la Autoridad de la Gestión Administrativa, siendo una función propia de su cargo.",
-        "isCorrect": true
-      }
-    ],
-    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
-  },
-  {
-    "id": 300,
-    "question": "173. Tras la adjudicación de la buena pro, pero antes de la firma del contrato, la Autoridad de la Gestión Administrativa advierte un vicio trascendente en el procedimiento que podría afectar la finalidad de la contratación. Sin embargo, por un análisis costo-beneficio, decide autorizar la suscripción del contrato. ¿Es esta decisión de \"autorizar la suscripción\" delegable?",
-    "options": [
-      {
-        "text": "a) Sí, puede delegarla en el jefe de la Dependencia Encargada de las Contrataciones (DEC).",
-        "isCorrect": false
-      },
-      {
-        "text": "b) No, la facultad de autorizar la suscripción del contrato pese a un vicio es indelegable.",
-        "isCorrect": true
-      },
-      {
-        "text": "c) Sí, siempre y cuando el Titular de la Entidad ratifique la decisión posteriormente.",
-        "isCorrect": false
-      },
-      {
-        "text": "d) No, porque en este caso la única opción legal es declarar la nulidad del procedimiento.",
-        "isCorrect": false
-      }
-    ],
-    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
-  },
-  {
-    "id": 301,
-    "question": "174. Un contrato de obra es resuelto por causal de fuerza mayor. Al momento de la liquidación, el contratista solicita el reconocimiento de los daños y perjuicios sufridos por la terminación abrupta del contrato. ¿Corresponde a la entidad reconocer dicho pago?",
-    "options": [
-      {
-        "text": "a) Sí, la entidad debe indemnizar al contratista por los daños y perjuicios debidamente acreditados.",
-        "isCorrect": false
-      },
-      {
-        "text": "b) No, cuando la resolución se produce por caso fortuito o fuerza mayor, no corresponde el resarcimiento de daños y perjuicios a ninguna de las partes.",
-        "isCorrect": true
-      },
-      {
-        "text": "c) Sí, pero solo si se demuestra que la entidad tuvo alguna responsabilidad indirecta en la materialización del evento de fuerza mayor.",
-        "isCorrect": false
-      },
-      {
-        "text": "d) No, en este caso la entidad debe ejecutar la garantía de fiel cumplimiento para cubrir sus propios costos administrativos por la resolución.",
-        "isCorrect": false
-      }
-    ],
-    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
-  },
-  {
-    "id": 302,
-    "question": "175. En un procedimiento de selección, la Autoridad de la Gestión Administrativa declara la nulidad de oficio después de otorgada la buena pro, pero antes de su consentimiento. ¿Es esta actuación correcta y es esta facultad delegable?",
-    "options": [
-      {
-        "text": "a) Es correcta, y la facultad de declarar la nulidad de oficio es siempre delegable.",
-        "isCorrect": true
-      },
-      {
-        "text": "b) No es correcta, porque después de la buena pro solo el Titular de la Entidad puede declarar la nulidad.",
-        "isCorrect": false
-      },
-      {
-        "text": "c) Es correcta, y la Ley establece que esta facultad específica es indelegable.",
-        "isCorrect": false
-      },
-      {
-        "text": "d) No es correcta, porque la nulidad de oficio solo puede ser declarada por el Tribunal de Contrataciones Públicas en esta etapa.",
-        "isCorrect": false
-      }
-    ],
-    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
-  },
-  {
-    "id": 303,
-    "question": "176. Una entidad ha recibido el informe final de un contrato de consultoría para la elaboración de un expediente técnico de obra. ¿Cuál es el plazo máximo que tiene el área usuaria para emitir la conformidad de dicha prestación?",
-    "options": [
-      {
-        "text": "a) 7 días calendario, al igual que para los bienes.",
-        "isCorrect": false
-      },
-      {
-        "text": "b) 10 días hábiles, por la complejidad de la revisión.",
-        "isCorrect": false
-      },
-      {
-        "text": "c) 15 días calendario, prorrogables por 15 días más.",
-        "isCorrect": false
-      },
-      {
-        "text": "d) 20 días calendario, por tratarse de una consultoría.",
-        "isCorrect": true
-      }
-    ],
-    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
-  },
-  {
-    "id": 304,
-    "question": "177. Debido a lluvias torrenciales que bloquean temporalmente las vías de acceso, la ejecución de una obra se interrumpe por un evento no atribuible a las partes. ¿Qué acción corresponde acordar entre la entidad y el contratista y qué consecuencia económica tiene?",
-    "options": [
-      {
-        "text": "a) Resolver el contrato por fuerza mayor, sin reconocimiento de daños y perjuicios.",
-        "isCorrect": false
-      },
-      {
-        "text": "b) Aprobar una ampliación de plazo, con reconocimiento de mayores gastos generales y costos directos.",
-        "isCorrect": false
-      },
-      {
-        "text": "c) Acordar la suspensión del plazo de ejecución contractual, sin que ello suponga el reconocimiento de mayores gastos generales y/o costos directos.",
-        "isCorrect": true
-      },
-      {
-        "text": "d) Continuar con los trabajos que sean posibles en la obra, asumiendo el contratista los riesgos del evento.",
-        "isCorrect": false
-      }
-    ],
-    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
-  },
-  {
-    "id": 305,
-    "question": "178. En un Gobierno Regional, se necesita aprobar una prestación adicional de obra por un monto equivalente al 18% del contrato original. La Autoridad de la Gestión Administrativa recibe el sustento técnico y legal. ¿Quién es la autoridad competente para aprobar este adicional y puede delegar dicha facultad?",
-    "options": [
-      {
-        "text": "a) La Autoridad de la Gestión Administrativa, y es una facultad delegable.",
-        "isCorrect": false
-      },
-      {
-        "text": "b) El Titular de la Entidad (Gobernador Regional), y es una facultad que puede delegar.",
-        "isCorrect": true
-      },
-      {
-        "text": "c) El Titular de la Entidad (Gobernador Regional), pero solo con la autorización previa de la Contraloría.",
-        "isCorrect": false
-      },
-      {
-        "text": "d) El Consejo Regional, por tratarse de una modificación presupuestal significativa.",
-        "isCorrect": false
-      }
-    ],
-    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
-  },
-  {
-    "id": 306,
-    "question": "179. Una vez que se ha suscrito el acta de recepción de una obra, ¿cuál es el plazo máximo que tiene el contratista para presentar la liquidación del contrato debidamente sustentada?",
-    "options": [
-      {
-        "text": "a) 15 días calendario.",
-        "isCorrect": false
-      },
-      {
-        "text": "b) 30 días calendario.",
-        "isCorrect": true
-      },
-      {
-        "text": "c) 50 días calendario.",
-        "isCorrect": false
-      },
-      {
-        "text": "d) 60 días hábiles.",
-        "isCorrect": false
-      }
-    ],
-    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
-  },
-  {
-    "id": 307,
-    "question": "180. Una vez otorgada la conformidad de una prestación de servicios, ¿cuál es el plazo máximo que tiene la entidad para efectuar el pago al contratista?",
-    "options": [
-      {
-        "text": "a) 10 días calendario.",
-        "isCorrect": false
-      },
-      {
-        "text": "b) 15 días hábiles.",
-        "isCorrect": false
-      },
-      {
-        "text": "c) 7 días calendario.",
-        "isCorrect": false
-      },
-      {
-        "text": "d) 10 días hábiles.",
-        "isCorrect": true
-      }
-    ],
-    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
-  },
-  {
-    "id": 308,
     "question": "1. ¿Cuál es el procedimiento de selección competitivo que se utiliza para la contratación de servicios?",
     "options": [
       {
@@ -7084,7 +2944,7 @@ const questions = [
     "tema": "FASE DE SELECCIÓN"
   },
   {
-    "id": 309,
+    "id": 129,
     "question": "2. ¿En qué supuesto una entidad contratante puede utilizar un procedimiento de selección no competitivo (contratación directa)?",
     "options": [
       {
@@ -7107,7 +2967,7 @@ const questions = [
     "tema": "FASE DE SELECCIÓN"
   },
   {
-    "id": 310,
+    "id": 130,
     "question": "3. La Licitación Pública Abreviada para bienes se utiliza, entre otros supuestos, cuando se trata de la adquisición de bienes según la cuantía establecida en la Ley de Presupuesto del Sector Público para el Año Fiscal correspondiente, o cuando se trate de la adquisición de bienes .",
     "options": [
       {
@@ -7130,7 +2990,7 @@ const questions = [
     "tema": "FASE DE SELECCIÓN"
   },
   {
-    "id": 311,
+    "id": 131,
     "question": "4. ¿Cuál es el objetivo principal de la etapa de \"Consultas y Observaciones\" en un procedimiento de selección competitivo como la Licitación Pública?",
     "options": [
       {
@@ -7153,7 +3013,7 @@ const questions = [
     "tema": "FASE DE SELECCIÓN"
   },
   {
-    "id": 312,
+    "id": 132,
     "question": "5. ¿Qué ocurre si en un procedimiento de selección competitivo no se recibe ninguna oferta válida?",
     "options": [
       {
@@ -7176,7 +3036,7 @@ const questions = [
     "tema": "FASE DE SELECCIÓN"
   },
   {
-    "id": 313,
+    "id": 133,
     "question": "6. ¿Cuál es el procedimiento de selección que se utiliza para contratar bienes y servicios comunes que cuenten con ficha técnica, donde los proveedores pujan y el ganador es quien oferta el menor precio?",
     "options": [
       {
@@ -7199,7 +3059,7 @@ const questions = [
     "tema": "FASE DE SELECCIÓN"
   },
   {
-    "id": 314,
+    "id": 134,
     "question": "7. ¿Cuál es el plazo mínimo, en días hábiles, entre la convocatoria y la presentación de ofertas en una Licitación Pública para obras (sin ser abreviada ni diferenciada)?",
     "options": [
       {
@@ -7222,7 +3082,7 @@ const questions = [
     "tema": "FASE DE SELECCIÓN"
   },
   {
-    "id": 315,
+    "id": 135,
     "question": "8. En un procedimiento de selección no competitivo por la causal de \"servicios personalísimos\", ¿qué tipo de proveedor puede ser contratado según la Ley?",
     "options": [
       {
@@ -7245,7 +3105,7 @@ const questions = [
     "tema": "FASE DE SELECCIÓN"
   },
   {
-    "id": 316,
+    "id": 136,
     "question": "9. ¿Cuál es la principal diferencia entre una Licitación Pública para bienes y una Licitación Pública Abreviada para bienes, en términos de las condiciones para su uso?",
     "options": [
       {
@@ -7268,7 +3128,7 @@ const questions = [
     "tema": "FASE DE SELECCIÓN"
   },
   {
-    "id": 317,
+    "id": 137,
     "question": "10. En un Concurso Público para consultorías de obra con una cuantía mayor a S/ 2 000 000,00, la entidad puede optar por la modalidad diferenciada de Concurso Público con_____ , donde se evalúan requisitos de calificación en una fase inicial.",
     "options": [
       {
@@ -7291,7 +3151,7 @@ const questions = [
     "tema": "FASE DE SELECCIÓN"
   },
   {
-    "id": 318,
+    "id": 138,
     "question": "11. ¿En qué tipo de procedimiento de selección la entidad contratante invita a un mínimo de tres proveedores a presentar ofertas, adjuntando las bases, y la buena pro se otorga al menor monto ofertado tras verificar requisitos de calificación?",
     "options": [
       {
@@ -7314,7 +3174,7 @@ const questions = [
     "tema": "FASE DE SELECCIÓN"
   },
   {
-    "id": 319,
+    "id": 139,
     "question": "12. ¿Cuál es una de las condiciones para que una entidad utilice la Licitación Pública con Diálogo Competitivo para la contratación de bienes?",
     "options": [
       {
@@ -7337,7 +3197,7 @@ const questions = [
     "tema": "FASE DE SELECCIÓN"
   },
   {
-    "id": 320,
+    "id": 140,
     "question": "13. Si una entidad necesita contratar servicios de publicidad estatal, ¿qué tipo de procedimiento de selección debe utilizar según la Ley?",
     "options": [
       {
@@ -7360,7 +3220,7 @@ const questions = [
     "tema": "FASE DE SELECCIÓN"
   },
   {
-    "id": 321,
+    "id": 141,
     "question": "14. ¿En qué etapa de un procedimiento de selección competitivo se realiza la integración de las bases, incorporando las modificaciones o precisiones formuladas como consecuencia de las consultas y observaciones?",
     "options": [
       {
@@ -7383,7 +3243,7 @@ const questions = [
     "tema": "FASE DE SELECCIÓN"
   },
   {
-    "id": 322,
+    "id": 142,
     "question": "15. ¿Cuál es la consecuencia si, en un procedimiento de selección competitivo, la entidad contratante o el Tribunal de Contrataciones del Estado no resuelven ni notifican sus resoluciones sobre un recurso de apelación dentro del plazo establecido?",
     "options": [
       {
@@ -7406,7 +3266,7 @@ const questions = [
     "tema": "FASE DE SELECCIÓN"
   },
   {
-    "id": 323,
+    "id": 143,
     "question": "16. Una entidad requiere contratar un servicio altamente especializado. En la estrategia de contratación, se determina que, debido a la complejidad y la necesidad de soluciones innovadoras, no se puede definir el requerimiento idóneo. Además, se busca que el proveedor no solo desarrolle la solución (I+D) sino que también la implemente. ¿Qué procedimiento de selección sería el más adecuado y qué característica principal tendría su desarrollo según el Reglamento?",
     "options": [
       {
@@ -7429,7 +3289,7 @@ const questions = [
     "tema": "FASE DE SELECCIÓN"
   },
   {
-    "id": 324,
+    "id": 144,
     "question": "17. Una entidad necesita contratar la elaboración del expediente técnico y la posterior ejecución de una obra urbana. En la estrategia de contratación, se ha determinado que el sistema de entrega más adecuado es el de \"Diseño y Construcción\". Según el Reglamento, ¿qué procedimiento de selección competitivo se utilizaría y cómo se evaluaría la oferta económica si la cuantía de la obra es de S/ 15 000 000,00?",
     "options": [
       {
@@ -7452,7 +3312,7 @@ const questions = [
     "tema": "FASE DE SELECCIÓN"
   },
   {
-    "id": 325,
+    "id": 145,
     "question": "18. Una entidad requiere contratar un servicio de mantenimiento vial. En la estrategia de contratación, se ha optado por un Concurso Público para servicios de mantenimiento vial y se ha determinado que la cuantía de la contratación será punto de referencia para las ofertas. La entidad desea asegurar que las ofertas económicas no sean excesivamente bajas ni demasiado altas. ¿Qué método de evaluación de ofertas económicas podría establecer la entidad en las bases para lograr este objetivo?",
     "options": [
       {
@@ -7475,7 +3335,7 @@ const questions = [
     "tema": "FASE DE SELECCIÓN"
   },
   {
-    "id": 326,
+    "id": 146,
     "question": "19. ¿En qué se diferencia fundamentalmente el desarrollo de un procedimiento de selección para una Compra Corporativa Facultativa de un procedimiento de selección estándar (ej. Licitación Pública individual), considerando la etapa de perfeccionamiento del contrato, según el Reglamento?",
     "options": [
       {
@@ -7498,7 +3358,7 @@ const questions = [
     "tema": "FASE DE SELECCIÓN"
   },
   {
-    "id": 327,
+    "id": 147,
     "question": "20. Una entidad necesita adquirir bienes de uso recurrente y decide utilizar un Acuerdo Marco (sin catálogo electrónico) debido a que no puede determinar con exactitud la oportunidad de entrega durante el periodo contractual. Según el Reglamento, ¿cuál es una característica distintiva del proceso de contratación mediante esta modalidad y qué ocurre en su primera etapa?",
     "options": [
       {
@@ -7521,7 +3381,7 @@ const questions = [
     "tema": "FASE DE SELECCIÓN"
   },
   {
-    "id": 328,
+    "id": 148,
     "question": "21. En el marco de una Compra Corporativa Facultativa, si una entidad participante desea desistirse del proceso después de la aprobación del expediente de contratación, ¿bajo qué supuestos puede hacerlo según el Reglamento?",
     "options": [
       {
@@ -7544,7 +3404,7 @@ const questions = [
     "tema": "FASE DE SELECCIÓN"
   },
   {
-    "id": 329,
+    "id": 149,
     "question": "22. Una entidad del sector salud, autorizada por el Ministerio de Salud, decide utilizar un Mecanismo Diferenciado de Adquisición (MDA) para contratar una tecnología sanitaria innovadora para el tratamiento de una enfermedad de alto costo. En la estrategia de contratación, se ha determinado que el MDA será de tipo \"riesgo compartido basado en desempeño\". ¿Cuál de las siguientes condiciones de pago es característica de este tipo de acuerdo?",
     "options": [
       {
@@ -7567,7 +3427,7 @@ const questions = [
     "tema": "FASE DE SELECCIÓN"
   },
   {
-    "id": 330,
+    "id": 150,
     "question": "23. Una entidad pública, en el marco de su planificación para la gestión del riesgo de desastres, identifica la necesidad de asegurar la disponibilidad de alimentos ante una potencial emergencia. Decide utilizar un Acuerdo Marco (sin catálogo electrónico) y, dentro de este, un \"contrato de contingencia\" con modalidad de \"pago por disponibilidad\". Si al finalizar el plazo contractual inicial de tres años no se ha producido el evento que activa la ejecución del contrato, ¿qué opciones tiene la entidad, y qué consideración debe haberse previsto en la oferta del contratista si la entidad opta por ampliar el plazo contractual?",
     "options": [
       {
@@ -7590,7 +3450,7 @@ const questions = [
     "tema": "FASE DE SELECCIÓN"
   },
   {
-    "id": 331,
+    "id": 151,
     "question": "24. ¿Cuál es la primera etapa formal de un procedimiento de selección competitivo, después de la cual los proveedores pueden registrarse como participantes?",
     "options": [
       {
@@ -7613,7 +3473,7 @@ const questions = [
     "tema": "FASE DE SELECCIÓN"
   },
   {
-    "id": 332,
+    "id": 152,
     "question": "25. En una Licitación Pública para bienes (sin ser abreviada ni diferenciada), el plazo entre la convocatoria y la presentación de ofertas no puede ser menor de días hábiles, según el Reglamento.",
     "options": [
       {
@@ -7636,7 +3496,7 @@ const questions = [
     "tema": "FASE DE SELECCIÓN"
   },
   {
-    "id": 333,
+    "id": 153,
     "question": "26. ¿En qué etapa de un procedimiento de selección competitivo se publican las bases integradas, que contienen las reglas definitivas del procedimiento tras la absolución de consultas y observaciones?",
     "options": [
       {
@@ -7659,7 +3519,7 @@ const questions = [
     "tema": "FASE DE SELECCIÓN"
   },
   {
-    "id": 334,
+    "id": 154,
     "question": "27. Si una entidad publica un \"anuncio de contratación futura\" con una anticipación no menor de cuarenta días calendario a la fecha de convocatoria para una Licitación Pública, ¿cómo puede afectar esto el plazo mínimo entre la convocatoria y la presentación de ofertas?",
     "options": [
       {
@@ -7682,7 +3542,7 @@ const questions = [
     "tema": "FASE DE SELECCIÓN"
   },
   {
-    "id": 335,
+    "id": 155,
     "question": "28. En un procedimiento de selección competitivo que incluye la etapa de precalificación, ¿cuándo concluye el registro de participantes?",
     "options": [
       {
@@ -7705,7 +3565,7 @@ const questions = [
     "tema": "FASE DE SELECCIÓN"
   },
   {
-    "id": 336,
+    "id": 156,
     "question": "29. En una Licitación Pública Abreviada para bienes, el plazo para que los participantes formulen consultas y/o observaciones a las bases es no menor de días hábiles contabilizados desde el día siguiente de la convocatoria.",
     "options": [
       {
@@ -7728,7 +3588,7 @@ const questions = [
     "tema": "FASE DE SELECCIÓN"
   },
   {
-    "id": 337,
+    "id": 157,
     "question": "30. El Ministerio de Salud está llevando a cabo una Licitación Pública para la adquisición de equipos médicos altamente sofisticados, utilizando la modalidad de \"Licitación pública para bienes especializados\" que incluye precalificación. Después de la etapa de consultas y observaciones, y la integración de bases, la entidad debe publicar los resultados de la precalificación. Si un proveedor desea apelar el otorgamiento de la buena pro, ¿a partir de qué momento se contabiliza el plazo para interponer el recurso, considerando las etapas de este procedimiento específico?",
     "options": [
       {
@@ -7751,7 +3611,7 @@ const questions = [
     "tema": "FASE DE SELECCIÓN"
   },
   {
-    "id": 338,
+    "id": 158,
     "question": "31. Una Municipalidad Provincial convoca una Licitación Pública Abreviada para la adquisición de bienes homologados. Durante la etapa de consultas y observaciones, no se presenta ninguna. ¿Qué acción puede tomar la entidad respecto al cronograma y la integración de bases, y qué principio rector de la contratación pública se estaría optimizando?",
     "options": [
       {
@@ -7774,7 +3634,7 @@ const questions = [
     "tema": "FASE DE SELECCIÓN"
   },
   {
-    "id": 339,
+    "id": 159,
     "question": "32. En un procedimiento de selección que contempla la elevación del pliego de absolución de consultas y observaciones al OECE, ¿cuál es el plazo máximo que tiene el OECE para notificar su pronunciamiento con la integración definitiva de bases, y qué sucede si el OECE solicita información adicional a la entidad contratante?",
     "options": [
       {
@@ -7797,7 +3657,7 @@ const questions = [
     "tema": "FASE DE SELECCIÓN"
   },
   {
-    "id": 340,
+    "id": 160,
     "question": "33. Una semejanza entre la Licitación Pública para obras y el Concurso Público para servicios es que ambos son:",
     "options": [
       {
@@ -7820,7 +3680,7 @@ const questions = [
     "tema": "FASE DE SELECCIÓN"
   },
   {
-    "id": 341,
+    "id": 161,
     "question": "34. Una diferencia fundamental en el objeto de contratación entre una Licitación Pública y un Concurso Público es que la Licitación Pública se utiliza para , mientras que el Concurso Público se utiliza para ___ .",
     "options": [
       {
@@ -7843,7 +3703,7 @@ const questions = [
     "tema": "FASE DE SELECCIÓN"
   },
   {
-    "id": 342,
+    "id": 162,
     "question": "35. ¿Cuál de las siguientes etapas es común a la mayoría de los procedimientos de selección competitivos, como la Licitación Pública y el Concurso Público (en sus versiones no abreviadas ni diferenciadas con omisión de etapas)?",
     "options": [
       {
@@ -7866,7 +3726,7 @@ const questions = [
     "tema": "FASE DE SELECCIÓN"
   },
   {
-    "id": 343,
+    "id": 163,
     "question": "36. ¿Cuál es una diferencia clave en la evaluación de ofertas entre una Subasta Inversa Electrónica y una Licitación Pública para bienes (modalidad estándar)?",
     "options": [
       {
@@ -7889,7 +3749,7 @@ const questions = [
     "tema": "FASE DE SELECCIÓN"
   },
   {
-    "id": 344,
+    "id": 164,
     "question": "37. Una diferencia entre un procedimiento de selección competitivo con precalificación (ej. Licitación Pública de obras con precalificación) y uno sin precalificación (ej. Licitación Pública de obras estándar) es que:",
     "options": [
       {
@@ -7912,7 +3772,7 @@ const questions = [
     "tema": "FASE DE SELECCIÓN"
   },
   {
-    "id": 345,
+    "id": 165,
     "question": "38. Una semejanza entre la Licitación Pública con Diálogo Competitivo y la Asociación para la Innovación (API) es que ambas modalidades incluyen una etapa de con los postores precalificados para desarrollar o definir la solución.",
     "options": [
       {
@@ -7935,7 +3795,7 @@ const questions = [
     "tema": "FASE DE SELECCIÓN"
   },
   {
-    "id": 346,
+    "id": 166,
     "question": "39. El Ministerio de Transportes y Comunicaciones requiere contratar un servicio de consultoría altamente especializado para el diseño de una nueva infraestructura portuaria, con una cuantía de S/ 3000 000,00. La entidad considera que es crucial asegurar la capacidad y experiencia de los postores desde el inicio. ¿Qué procedimiento de selección y modalidad sería más apropiado, y qué etapa distintiva tendría este procedimiento en comparación con un Concurso Público estándar para consultorías?",
     "options": [
       {
@@ -7958,7 +3818,7 @@ const questions = [
     "tema": "FASE DE SELECCIÓN"
   },
   {
-    "id": 347,
+    "id": 167,
     "question": "40. Analizando las etapas de los procedimientos de selección, ¿cuál es una diferencia fundamental e n el desarrollo de la fase de \"Evaluación de ofertas\" entre una Licitación Pública para obras con sistema de entrega \"Solo Construcción\" donde la oferta económica es fija al 100% de la cuantía, y una Licitación Pública para bienes donde la oferta económica es un factor de evaluación?",
     "options": [
       {
@@ -7981,7 +3841,7 @@ const questions = [
     "tema": "FASE DE SELECCIÓN"
   },
   {
-    "id": 348,
+    "id": 168,
     "question": "41. El Seguro Social de Salud (ESSALUD) necesita contratar tecnologías sanitarias para el diagnóstico de enfermedades raras. Se ha decidido utilizar un Mecanismo Diferenciado de Adquisición (MDA) y, en la fase de selección, se invitará a los titulares del registro sanitario. ¿Qué etapa es crucial en este procedimiento de selección específico, según el Reglamento, para definir los términos del acuerdo y seleccionar al proveedor final, y cómo se diferencia de la etapa de \"Consultas y Observaciones\" de una Licitación Pública estándar?",
     "options": [
       {
@@ -8004,7 +3864,7 @@ const questions = [
     "tema": "FASE DE SELECCIÓN"
   },
   {
-    "id": 349,
+    "id": 169,
     "question": "42. ¿Cuál es una condición para que una entidad utilice la modalidad de Compra por Encargo a un Organismo Internacional?",
     "options": [
       {
@@ -8027,7 +3887,7 @@ const questions = [
     "tema": "FASE DE SELECCIÓN"
   },
   {
-    "id": 350,
+    "id": 170,
     "question": "43. La modalidad de Acuerdo Marco (sin catálogo electrónico) puede ser utilizada por las entidades cuando el objeto de la contratación es requerido de manera constante pero no se puede determinar con exactitud la de la entrega o prestación durante el periodo previsto.",
     "options": [
       {
@@ -8050,7 +3910,7 @@ const questions = [
     "tema": "FASE DE SELECCIÓN"
   },
   {
-    "id": 351,
+    "id": 171,
     "question": "44. Qué tipo de entidades pueden contratar bajo la modalidad de Compra Pública de Innovación (CPI), según el Reglamento?",
     "options": [
       {
@@ -8073,7 +3933,7 @@ const questions = [
     "tema": "FASE DE SELECCIÓN"
   },
   {
-    "id": 352,
+    "id": 172,
     "question": "45. ¿Cuál es una condición para que una entidad encargue a Perú Compras u otra entidad contratante la realización de una Compra Centralizada?",
     "options": [
       {
@@ -8096,7 +3956,7 @@ const questions = [
     "tema": "FASE DE SELECCIÓN"
   },
   {
-    "id": 353,
+    "id": 173,
     "question": "46. Para que una entidad utilice la modalidad de Compra por Encargo a un Organismo Internacional para la fase de actuaciones preparatorias, ¿qué debe acreditar la entidad contratante respecto a su propia capacidad?",
     "options": [
       {
@@ -8119,7 +3979,7 @@ const questions = [
     "tema": "FASE DE SELECCIÓN"
   },
   {
-    "id": 354,
+    "id": 174,
     "question": "47. En una Compra Corporativa Obligatoria, la DGA aprueba la modalidad y establece los bienes y servicios a contratar, así como las entidades participantes. Perú Compras emite una directiva que regula los procedimientos y plazos, y las entidades omisas en remitir su requerimiento e información en la oportunidad requerida son del proceso, bajo responsabilidad.",
     "options": [
       {
@@ -8142,7 +4002,7 @@ const questions = [
     "tema": "FASE DE SELECCIÓN"
   },
   {
-    "id": 355,
+    "id": 175,
     "question": "48. El Ministerio de Economía y Finanzas (MEF) identifica que varias entidades del Poder Ejecutivo requieren un software especializado de gestión presupuestal. El MEF considera que una compra centralizada sería beneficiosa por la complejidad y la necesidad de especialización. Según la Ley y el Reglamento, si el MEF actúa como entidad encargante y encarga a Perú Compras la totalidad del proceso hasta el pago, ¿qué acción presupuestal es fundamental para viabilizar esta compra centralizada y cómo se gestiona si la ejecución supera el año fiscal?",
     "options": [
       {
@@ -8165,7 +4025,7 @@ const questions = [
     "tema": "FASE DE SELECCIÓN"
   },
   {
-    "id": 356,
+    "id": 176,
     "question": "49. Una entidad contratante, en el marco de la preparación para la respuesta ante un riesgo de desastre, decide utilizar un \"contrato de contingencia\" con modalidad de \"pago por disponibilidad\" para asegurar el suministro de alimentos. ¿Cuál es el plazo mínimo de este tipo de contrato y qué sucede si, al finalizar dicho plazo, el evento que activa la ejecución no se ha producido?",
     "options": [
       {
@@ -8188,7 +4048,7 @@ const questions = [
     "tema": "FASE DE SELECCIÓN"
   },
   {
-    "id": 357,
+    "id": 177,
     "question": "50. El Centro Nacional de Abastecimiento de Recursos Estratégicos del Ministerio de Salud (CENARES) requiere contratar una tecnología sanitaria innovadora para el tratamiento de una enfermedad oncológica. Se decide utilizar un Mecanismo Diferenciado de Adquisición (MDA). ¿Qué características y requisitos definen este procedimiento según la normativa?",
     "options": [
       {
@@ -8211,7 +4071,7 @@ const questions = [
     "tema": "FASE DE SELECCIÓN"
   },
   {
-    "id": 358,
+    "id": 178,
     "question": "51. ¿Cuál de los siguientes documentos emitidos por el OECE es de obligatorio cumplimiento para la entidad contratante, los participantes y postores de un procedimiento de selección, cuando se elevan cuestionamientos al pliego de absolución de consultas y observaciones?",
     "options": [
       {
@@ -8234,7 +4094,7 @@ const questions = [
     "tema": "FASE DE SELECCIÓN"
   },
   {
-    "id": 359,
+    "id": 179,
     "question": "52. Si un evaluador tiene dudas sobre la interpretación de un artículo específico del Reglamento de la Ley General de Contrataciones Públicas durante un procedimiento de selección, ¿a qué entidad debe recurrir la entidad contratante para obtener una opinión que tenga carácter vinculante sobre dicha interpretación?",
     "options": [
       {
@@ -8257,7 +4117,7 @@ const questions = [
     "tema": "FASE DE SELECCIÓN"
   },
   {
-    "id": 360,
+    "id": 180,
     "question": "53. Un comité de selección, al evaluar las ofertas en una Licitación Pública, identifica una situación no prevista explícitamente en las bases ni en el Reglamento, pero que podría afectar la igualdad de trato entre los postores. Para tomar una decisión fundamentada y coherente con el sistema de contratación pública, además de la Ley y el Reglamento, ¿qué tipo de pronunciamientos emitidos por el Tribunal de Contrataciones Públicas (TCP) debería considerar el comité como criterio interpretativo relevante, según la Ley?",
     "options": [
       {
@@ -8280,7 +4140,7 @@ const questions = [
     "tema": "FASE DE SELECCIÓN"
   },
   {
-    "id": 361,
+    "id": 181,
     "question": "54. ¿Cuál de los siguientes es un principio rector de la contratación pública que los evaluadores deben observar para promover el libre acceso y participación de proveedores, evitando exigencias innecesarias?",
     "options": [
       {
@@ -8303,7 +4163,7 @@ const questions = [
     "tema": "FASE DE SELECCIÓN"
   },
   {
-    "id": 362,
+    "id": 182,
     "question": "55. Al evaluar las ofertas, los evaluadores deben asegurar que se contrate a quien asegure el cumplimiento de la finalidad pública, considerando la calidad, sostenibilidad, costos y plazos, y no procurando únicamente el menor precio. Esto se alinea con el principio de.....",
     "options": [
       {
@@ -8326,7 +4186,7 @@ const questions = [
     "tema": "FASE DE SELECCIÓN"
   },
   {
-    "id": 363,
+    "id": 183,
     "question": "56. Un comité de selección está evaluando dos ofertas para un servicio complejo. La Oferta A tiene un precio ligeramente menor, pero la Oferta B demuestra una metodología superior y un equipo técnico con mayor experiencia específica, lo que sugiere una mayor probabilidad de cumplimiento exitoso y de alcanzar la finalidad pública de manera más efectiva. Si el comité, tras un análisis sustentado, decide otorgar la buena pro a la Oferta B a pesar de no ser la de menor precio, ¿qué principio y enfoque de la Ley General de Contrataciones Públicas estaría aplicando primordialmente, y qué debe priorizar?",
     "options": [
       {
@@ -8349,7 +4209,7 @@ const questions = [
     "tema": "FASE DE SELECCIÓN"
   },
   {
-    "id": 364,
+    "id": 184,
     "question": "57. ¿Cuándo se considera consentida la buena pro si en un procedimiento de selección se presentaron dos o más ofertas definitivas y no se interpusieron recursos de apelación?",
     "options": [
       {
@@ -8372,7 +4232,7 @@ const questions = [
     "tema": "FASE DE SELECCIÓN"
   },
   {
-    "id": 365,
+    "id": 185,
     "question": "58. En un procedimiento de selección donde solo se presentó una única oferta válida, ¿en qué momento se produce el consentimiento del otorgamiento de la buena pro?",
     "options": [
       {
@@ -8395,7 +4255,7 @@ const questions = [
     "tema": "FASE DE SELECCIÓN"
   },
   {
-    "id": 366,
+    "id": 186,
     "question": "59. Una entidad otorga la buena pro en una Licitación Pública Abreviada para bienes. Se presentaron tres ofertas válidas. El plazo para apelar en este tipo de procedimiento es de cinco días hábiles. Si ninguno de los postores apela, ¿cuándo exactamente se publica el consentimiento de la buena pro en la Pladicop?",
     "options": [
       {
@@ -8418,7 +4278,7 @@ const questions = [
     "tema": "FASE DE SELECCIÓN"
   },
   {
-    "id": 367,
+    "id": 187,
     "question": "60. La buena pro queda administrativamente firme cuando, habiéndose interpuesto recurso de apelación, se publica en la Pladicop la resolución que la buena pro.",
     "options": [
       {
@@ -8441,7 +4301,7 @@ const questions = [
     "tema": "FASE DE SELECCIÓN"
   },
   {
-    "id": 368,
+    "id": 188,
     "question": "61. ¿Cuál de las siguientes situaciones describe correctamente cuándo la buena pro adquiere la calidad de administrativamente firme?",
     "options": [
       {
@@ -8464,7 +4324,7 @@ const questions = [
     "tema": "FASE DE SELECCIÓN"
   },
   {
-    "id": 369,
+    "id": 189,
     "question": "62. En un Concurso Público para servicios, un postor interpone un recurso de apelación contra el otorgamiento de la buena pro ante el Tribunal de Contrataciones Públicas (TCP). El TCP, tras el debido proceso, emite una resolución declarando infundado el recurso y confirmando la buena pro al postor originalmente adjudicado. ¿A partir de qué momento la buena pro se considera administrativamente firme en este escenario?",
     "options": [
       {
@@ -8487,7 +4347,7 @@ const questions = [
     "tema": "FASE DE SELECCIÓN"
   },
   {
-    "id": 370,
+    "id": 190,
     "question": "63. ¿Cuál es la consecuencia directa si el postor ganador de la buena pro no perfecciona el contrato por una causa que le es imputable?",
     "options": [
       {
@@ -8510,7 +4370,7 @@ const questions = [
     "tema": "FASE DE SELECCIÓN"
   },
   {
-    "id": 371,
+    "id": 191,
     "question": "64. Si el postor ganador de la buena pro pierde automáticamente la adjudicación por no perfeccionar el contrato, ¿qué acción debe realizar la Dependencia Encargada de las Contrataciones (DEC)?",
     "options": [
       {
@@ -8533,7 +4393,7 @@ const questions = [
     "tema": "FASE DE SELECCIÓN"
   },
   {
-    "id": 372,
+    "id": 192,
     "question": "65. En una Licitación Pública, el postor \"Alfa SAC\" obtiene la buena pro. Dentro del plazo otorgado, \"Alfa SAC\" presenta la mayoría de los documentos para perfeccionar el contrato, pero omite la garantía de fiel cumplimiento, alegando dificultades financieras temporales. La entidad le otorga el plazo de subsanación, pero \"Alfa SAC\" no logra presentar la garantía. ¿Cuál es la consecuencia para \"Alfa SAC\" y qué debe hacer la entidad si el postor \"Beta EIRL\" ocupó el segundo lugar?",
     "options": [
       {
@@ -8556,7 +4416,7 @@ const questions = [
     "tema": "FASE DE SELECCIÓN"
   },
   {
-    "id": 373,
+    "id": 193,
     "question": "66. ¿Cuál de las siguientes es una situación que impide el perfeccionamiento del contrato?",
     "options": [
       {
@@ -8579,7 +4439,7 @@ const questions = [
     "tema": "FASE DE SELECCIÓN"
   },
   {
-    "id": 374,
+    "id": 194,
     "question": "67. Si una entidad contratante se niega a perfeccionar el contrato con el postor ganador de la buena pro, alegando la desaparición de la necesidad, ¿qué implicación tiene esta decisión para futuras contrataciones del mismo objeto contractual durante el mismo ejercicio presupuestal?",
     "options": [
       {
@@ -8602,7 +4462,7 @@ const questions = [
     "tema": "FASE DE SELECCIÓN"
   },
   {
-    "id": 375,
+    "id": 195,
     "question": "68. Una entidad del Gobierno Nacional otorga la buena pro para la adquisición de vehículos. Antes de la firma del contrato, se emite una norma expresa que prohíbe la adquisición de vehículos nuevos para ese sector durante el presente año fiscal, como medida de austeridad. El postor ganador ya había incurrido en gastos para la preparación de los documentos contractuales. ¿Qué sucede con el perfeccionamiento del contrato y qué responsabilidad tiene la entidad frente al postor?",
     "options": [
       {
@@ -8625,7 +4485,7 @@ const questions = [
     "tema": "FASE DE SELECCIÓN"
   },
   {
-    "id": 376,
+    "id": 196,
     "question": "69. La autoridad de la gestión administrativa de una entidad decide no perfeccionar un contrato con el postor ganador de la buena pro, argumentando razones de \"conveniencia institucional\" no contempladas explícitamente como causales de excepción en el Reglamento. El postor ganador había cumplido con presentar todos los requisitos en plazo. Según el Reglamento, ¿cuál es la principal consecuencia para los funcionarios involucrados en esta decisión?",
     "options": [
       {
@@ -8648,7 +4508,7 @@ const questions = [
     "tema": "FASE DE SELECCIÓN"
   },
   {
-    "id": 377,
+    "id": 197,
     "question": "70. ¿Qué información mínima debe contener el aviso de convocatoria que se publica en la Pladicop al iniciar la fase de selección?",
     "options": [
       {
@@ -8671,7 +4531,7 @@ const questions = [
     "tema": "FASE DE SELECCIÓN"
   },
   {
-    "id": 378,
+    "id": 198,
     "question": "71. El otorgamiento de la buena pro, que declara al postor ganador del procedimiento de selección, se publica a través de la , según el Reglamento.",
     "options": [
       {
@@ -8694,7 +4554,7 @@ const questions = [
     "tema": "FASE DE SELECCIÓN"
   },
   {
-    "id": 379,
+    "id": 199,
     "question": "72. En un procedimiento de selección competitivo, si se presentan recursos de apelación, ¿cómo se informa de su interposición a las partes interesadas?",
     "options": [
       {
@@ -8717,7 +4577,7 @@ const questions = [
     "tema": "FASE DE SELECCIÓN"
   },
   {
-    "id": 380,
+    "id": 200,
     "question": "73. Una entidad contratante, luego de la etapa de consultas y observaciones en una Licitación Pública, elabora el pliego de absolución y las bases integradas. ¿Dónde deben publicarse estos documentos para que los participantes accedan a las reglas definitivas del procedimiento?",
     "options": [
       {
@@ -8740,7 +4600,7 @@ const questions = [
     "tema": "FASE DE SELECCIÓN"
   },
   {
-    "id": 381,
+    "id": 201,
     "question": "74. La Dependencia Encargada de las Contrataciones (DEC) de una entidad es responsable de registrar en la Pladicop los actos y actuaciones de la fase de selección. Si la DEC omite registrar oportunamente en la Pladicop el consentimiento de la buena pro de un procedimiento con múltiples ofertas, ¿qué principio de la contratación pública se vería principalmente afectado y qué implicación tiene el registro en Pladicop para la notificación de este acto?",
     "options": [
       {
@@ -8763,7 +4623,7 @@ const questions = [
     "tema": "FASE DE SELECCIÓN"
   },
   {
-    "id": 382,
+    "id": 202,
     "question": "75. ¿Cuál es el efecto principal inmediato que genera la interposición de un recurso de apelación en un procedimiento de selección?",
     "options": [
       {
@@ -8786,7 +4646,7 @@ const questions = [
     "tema": "FASE DE SELECCIÓN"
   },
   {
-    "id": 383,
+    "id": 203,
     "question": "76. Si se interpone un recurso de apelación en un procedimiento de selección convocado según relación de ítems, ¿cuál es la consecuencia de esta interposición?",
     "options": [
       {
@@ -8809,7 +4669,7 @@ const questions = [
     "tema": "FASE DE SELECCIÓN"
   },
   {
-    "id": 384,
+    "id": 204,
     "question": "77. Una entidad otorga la buena pro en una Licitación Pública. Un postor interpone un recurso de apelación. Mientras el recurso está en trámite y antes de que se emita la resolución, la entidad procede a perfeccionar el contrato con el postor ganador. Según la Ley, ¿cuál es la validez del contrato perfeccionado en esta situación?",
     "options": [
       {
@@ -8832,7 +4692,7 @@ const questions = [
     "tema": "FASE DE SELECCIÓN"
   },
   {
-    "id": 385,
+    "id": 205,
     "question": "78. La interposición de una acción contencioso-administrativa contra la resolución que resuelve un recurso de apelación su ejecución, según la Ley.",
     "options": [
       {
@@ -8855,7 +4715,7 @@ const questions = [
     "tema": "FASE DE SELECCIÓN"
   },
   {
-    "id": 386,
+    "id": 206,
     "question": "79. ¿Cuál es el plazo máximo general para interponer un recurso de apelación contra el otorgamiento de la buena pro en un procedimiento de selección competitivo?",
     "options": [
       {
@@ -8878,7 +4738,7 @@ const questions = [
     "tema": "FASE DE SELECCIÓN"
   },
   {
-    "id": 387,
+    "id": 207,
     "question": "80. En un procedimiento de Comparación de Precios, ¿cuál es el plazo para interponer un recurso de apelación contra el otorgamiento de la buena pro?",
     "options": [
       {
@@ -8901,7 +4761,7 @@ const questions = [
     "tema": "FASE DE SELECCIÓN"
   },
   {
-    "id": 388,
+    "id": 208,
     "question": "81. Si un postor desea apelar la declaratoria de desierto de un procedimiento de selección, el plazo para interponer el recurso se contabiliza desde que .",
     "options": [
       {
@@ -8924,7 +4784,7 @@ const questions = [
     "tema": "FASE DE SELECCIÓN"
   },
   {
-    "id": 389,
+    "id": 209,
     "question": "82. Una entidad convoca una Subasta Inversa Electrónica para la adquisición de bienes por un valor de S/ 450,000.00. Un postor desea apelar el otorgamiento de la buena pro. ¿Cuál es el plazo que tiene para interponer el recurso de apelación?",
     "options": [
       {
@@ -8947,7 +4807,7 @@ const questions = [
     "tema": "FASE DE SELECCIÓN"
   },
   {
-    "id": 390,
+    "id": 210,
     "question": "83. Una entidad convoca una Subasta Inversa Electrónica para la adquisición de bienes por un valor de S/ 500,000.00. Un postor desea apelar el otorgamiento de la buena pro. Considerando la Ley de Presupuesto Público 32185 para el año 2025, ¿cuál es el plazo que tiene para interponer el recurso de apelación, según el Reglamento?",
     "options": [
       {
@@ -8970,7 +4830,7 @@ const questions = [
     "tema": "FASE DE SELECCIÓN"
   },
   {
-    "id": 391,
+    "id": 211,
     "question": "84. ¿Qué autoridad es competente para resolver un recurso de apelación cuando la cuantía de un procedimiento de selección es superior a cincuenta (50) UIT?",
     "options": [
       {
@@ -8993,7 +4853,7 @@ const questions = [
     "tema": "FASE DE SELECCIÓN"
   },
   {
-    "id": 392,
+    "id": 212,
     "question": "85. Si una entidad declara la nulidad de oficio de un procedimiento de selección antes del otorgamiento de la buena pro, y un participante desea impugnar dicha declaración, ¿ante qué instancia debe presentar su recurso de apelación, independientemente de la cuantía del procedimiento?",
     "options": [
       {
@@ -9016,7 +4876,7 @@ const questions = [
     "tema": "FASE DE SELECCIÓN"
   },
   {
-    "id": 393,
+    "id": 213,
     "question": "86. Una entidad realiza una Compra Corporativa Facultativa para la adquisición de bienes. La entidad encargada de conducir el procedimiento de selección otorga la buena pro. Un postor no está conforme y desea apelar. ¿Quién ejerce las atribuciones de la entidad contratante para conocer y resolver el recurso de apelación si la cuantía del ítem impugnado es de 40 UIT?",
     "options": [
       {
@@ -9039,7 +4899,7 @@ const questions = [
     "tema": "FASE DE SELECCIÓN"
   },
   {
-    "id": 394,
+    "id": 214,
     "question": "87. Cuando un recurso de apelación es tramitado ante la entidad contratante, ¿qué debe hacer esta con el recurso al día hábil siguiente de su presentación o subsanación?",
     "options": [
       {
@@ -9062,7 +4922,7 @@ const questions = [
     "tema": "FASE DE SELECCIÓN"
   },
   {
-    "id": 395,
+    "id": 215,
     "question": "88. En el trámite de un recurso de apelación ante el Tribunal de Contrataciones Públicas, la entidad contratante debe registrar el sustento técnico legal de su posición respecto a los fundamentos del recurso en un plazo no mayor de días hábiles desde la notificación del recurso.",
     "options": [
       {
@@ -9085,7 +4945,7 @@ const questions = [
     "tema": "FASE DE SELECCIÓN"
   },
   {
-    "id": 396,
+    "id": 216,
     "question": "89. Si durante la tramitación de un recurso de apelación ante el Tribunal de Contrataciones Públicas, la Sala considera necesario solicitar información adicional a la entidad contratante para mejor resolver, ¿qué efecto tiene este pedido en el plazo total de evaluación del recurso?",
     "options": [
       {
@@ -9108,7 +4968,7 @@ const questions = [
     "tema": "FASE DE SELECCIÓN"
   },
   {
-    "id": 397,
+    "id": 217,
     "question": "90. ¿Cuál es una de las formas en que el Tribunal de Contrataciones Públicas o la autoridad de la gestión administrativa pueden resolver un recurso de apelación?",
     "options": [
       {
@@ -9131,7 +4991,7 @@ const questions = [
     "tema": "FASE DE SELECCIÓN"
   },
   {
-    "id": 398,
+    "id": 218,
     "question": "91. Si al resolver un recurso de apelación, el órgano competente advierte de oficio posibles vicios de nulidad en la fase de selección, ¿qué acción debe realizar antes de pronunciarse sobre la nulidad?",
     "options": [
       {
@@ -9154,7 +5014,7 @@ const questions = [
     "tema": "FASE DE SELECCIÓN"
   },
   {
-    "id": 399,
+    "id": 219,
     "question": "92. El Tribunal de Contrataciones Públicas resuelve un recurso de apelación declarándolo fundado y, tras analizar el fondo del asunto, determina que la buena pro debió otorgarse a un postor distinto al adjudicado inicialmente por la entidad. ¿Qué debe hacer el Tribunal en su resolución?",
     "options": [
       {
@@ -9177,7 +5037,7 @@ const questions = [
     "tema": "FASE DE SELECCIÓN"
   },
   {
-    "id": 400,
+    "id": 220,
     "question": "93. ¿Cuál es una causal para que el Tribunal de Contrataciones Públicas o la entidad contratante declaren improcedente un recurso de apelación?",
     "options": [
       {
@@ -9200,7 +5060,7 @@ const questions = [
     "tema": "FASE DE SELECCIÓN"
   },
   {
-    "id": 401,
+    "id": 221,
     "question": "94. Un postor participa en una Licitación Pública. Durante la evaluación, su oferta es descalificada por no cumplir un requisito técnico esencial. Posteriormente, la entidad otorga la buena pro a otro postor. El postor descalificado decide apelar directamente el otorgamiento de la buena pro, argumentando que la oferta ganadora tiene un precio muy elevado, pero en su recurso no cuestiona de ninguna manera su propia descalificación. En esta situación, el recurso de apelación será declarado improcedente porque el impugnante .",
     "options": [
       {
@@ -9223,7 +5083,7 @@ const questions = [
     "tema": "FASE DE SELECCIÓN"
   },
   {
-    "id": 402,
+    "id": 222,
     "question": "95. Un proveedor interpone un recurso de apelación contra el otorgamiento de la buena pro en una Licitación Pública. Sin embargo, al momento de presentar el recurso, se verifica que dicho proveedor se encuentra con sanción vigente de inhabilitación para contratar con el Estado. ¿Cómo debe proceder el órgano competente?",
     "options": [
       {
@@ -9246,7 +5106,7 @@ const questions = [
     "tema": "FASE DE SELECCIÓN"
   },
   {
-    "id": 403,
+    "id": 223,
     "question": "96. ¿En qué situación se procede a ejecutar el íntegro de la garantía presentada por la interposición de un recurso de apelación?",
     "options": [
       {
@@ -9269,7 +5129,7 @@ const questions = [
     "tema": "FASE DE SELECCIÓN"
   },
   {
-    "id": 404,
+    "id": 224,
     "question": "97. Si un recurso de apelación es declarado improcedente por el órgano competente, ¿qué ocurre con la garantía presentada por el impugnante?",
     "options": [
       {
@@ -9292,7 +5152,7 @@ const questions = [
     "tema": "FASE DE SELECCIÓN"
   },
   {
-    "id": 405,
+    "id": 225,
     "question": "98. Un postor interpone un recurso de apelación y presenta la garantía correspondiente. Posteriormente, antes de que el Tribunal emita su resolución, el postor es sancionado con inhabilitación para contratar con el Estado, lo cual configura un impedimento sobreviniente. ¿Qué debe ocurrir con la garantía presentada por el recurso de apelación en este caso?",
     "options": [
       {
@@ -9315,7 +5175,7 @@ const questions = [
     "tema": "FASE DE SELECCIÓN"
   },
   {
-    "id": 406,
+    "id": 226,
     "question": "99. Una vez que la buena pro ha quedado consentida o administrativamente firme, ¿cuál es la obligación principal tanto de la entidad contratante como del postor ganador?",
     "options": [
       {
@@ -9338,7 +5198,7 @@ const questions = [
     "tema": "FASE DE SELECCIÓN"
   },
   {
-    "id": 407,
+    "id": 227,
     "question": "100. En el procedimiento para el perfeccionamiento del contrato, si la Dependencia Encargada de las Contrataciones (DEC) observa los requisitos presentados por el postor ganador, ¿qué plazo máximo se le otorga al postor para la subsanación?",
     "options": [
       {
@@ -9361,7 +5221,7 @@ const questions = [
     "tema": "FASE DE SELECCIÓN"
   },
   {
-    "id": 408,
+    "id": 228,
     "question": "101. El postor ganador de la buena pro presenta todos los requisitos para perfeccionar el contrato, excepto la garantía de fiel cumplimiento, la cual informa que está en trámite. ¿Qué acción puede tomar la Dependencia Encargada de las Contrataciones (DEC) en esta situación, según el Reglamento?",
     "options": [
       {
@@ -9384,7 +5244,7 @@ const questions = [
     "tema": "FASE DE SELECCIÓN"
   },
   {
-    "id": 409,
+    "id": 229,
     "question": "102. ¿En qué casos el contrato puede perfeccionarse con la recepción de la orden de compra o de servicio, en lugar de la suscripción del documento contractual?",
     "options": [
       {
@@ -9407,7 +5267,7 @@ const questions = [
     "tema": "FASE DE SELECCIÓN"
   },
   {
-    "id": 410,
+    "id": 230,
     "question": "103. ¿Cuál es una de las situaciones que puede impedir que la entidad contratante perfeccione el contrato, a pesar de haberse otorgado la buena pro?",
     "options": [
       {
@@ -9430,7 +5290,7 @@ const questions = [
     "tema": "FASE DE SELECCIÓN"
   },
   {
-    "id": 411,
+    "id": 231,
     "question": "104. Si el postor ganador de la buena pro se niega a perfeccionar el contrato sin una justificación válida, ¿cuál es la consecuencia principal para dicho postor?",
     "options": [
       {
@@ -9453,7 +5313,7 @@ const questions = [
     "tema": "FASE DE SELECCIÓN"
   },
   {
-    "id": 412,
+    "id": 232,
     "question": "105. Una entidad otorga la buena pro. El postor ganador presenta los documentos para perfeccionar el contrato, pero la entidad no cumple con suscribirlo dentro de los plazos establecidos. El postor requiere el cumplimiento, otorgando un plazo de cinco días hábiles. Vencido este plazo sin que la entidad perfeccione el contrato, ¿qué ocurre con la obligación del postor ganador?",
     "options": [
       {
@@ -9476,7 +5336,7 @@ const questions = [
     "tema": "FASE DE SELECCIÓN"
   },
   {
-    "id": 413,
+    "id": 233,
     "question": "106. Si el postor que ocupó el primer lugar pierde automáticamente la buena pro por no perfeccionar el contrato, la Dependencia Encargada de las Contrataciones (DEC) debe requerir al postor que ocupó el lugar en el orden de prelación que presente los requisitos para perfeccionar el contrato.",
     "options": [
       {
@@ -9499,7 +5359,7 @@ const questions = [
     "tema": "FASE DE SELECCIÓN"
   },
   {
-    "id": 414,
+    "id": 234,
     "question": "107. ¿Cuál de los siguientes es un requisito que el postor ganador de la buena pro debe presentar para perfeccionar el contrato?",
     "options": [
       {
@@ -9522,7 +5382,7 @@ const questions = [
     "tema": "FASE DE SELECCIÓN"
   },
   {
-    "id": 415,
+    "id": 235,
     "question": "108. ¿Cuál es el plazo general que tiene el postor ganador de la buena pro para presentar los requisitos para perfeccionar el contrato, contabilizado desde el día siguiente al registro del consentimiento de la buena pro o de que esta haya quedado administrativamente firme?",
     "options": [
       {
@@ -9545,7 +5405,7 @@ const questions = [
     "tema": "FASE DE SELECCIÓN"
   },
   {
-    "id": 416,
+    "id": 236,
     "question": "109. Un consorcio gana la buena pro para la ejecución de una obra. Al momento de presentar los documentos para perfeccionar el contrato, además de las garantías y el CCI, ¿qué documento específico relacionado con su conformación debe presentar obligatoriamente, y qué característica deben tener las firmas en dicho documento?",
     "options": [
       {
@@ -9568,7 +5428,7 @@ const questions = [
     "tema": "FASE DE SELECCIÓN"
   },
   {
-    "id": 417,
+    "id": 237,
     "question": "110. Si no se requiere la presentación de la garantía de fiel cumplimiento, ¿cuál es el plazo que tiene el postor ganador para presentar los demás requisitos para perfeccionar el contrato?",
     "options": [
       {
@@ -9591,7 +5451,7 @@ const questions = [
     "tema": "FASE DE SELECCIÓN"
   },
   {
-    "id": 418,
+    "id": 238,
     "question": "111. Respecto a la finalidad de la Ley General de Contrataciones Públicas, señale cuál de las siguientes afirmaciones es correcta:",
     "options": [
       {
@@ -9614,7 +5474,7 @@ const questions = [
     "tema": "FASE DE SELECCIÓN"
   },
   {
-    "id": 419,
+    "id": 239,
     "question": "112. El Ministerio \"LOS ANGELITOS\" convoca una Licitación Pública Abreviada para la adquisición de uniformes institucionales. En las bases del procedimiento, se establece que se otorgará una bonificación adicional en el puntaje a aquellos postores cuya planta de confección principal se encuentre ubicada en los distritos de Gamarra o San Juan de Lurigancho en Lima, argumentando un supuesto fomento a la industria local. Esta disposición, al no estar amparada en una excepción legal específica como la prevista para zonas fuera de Lima y Callao, ¿qué principio(s) de la Ley General de Contrataciones Públicas vulneraría principalmente?",
     "options": [
       {
@@ -9637,7 +5497,7 @@ const questions = [
     "tema": "FASE DE SELECCIÓN"
   },
   {
-    "id": 420,
+    "id": 240,
     "question": "113. La normativa de contrataciones públicas busca evitar que un proveedor que se encuentra impedido para contratar con el Estado utilice a otras personas naturales o jurídicas para seguir participando en procesos de selección o suscribiendo contratos. ¿Cuál de las siguientes situaciones describe mejor una conducta que configuraría un intento de eludir un impedimento, según el espíritu del Artículo 30 de la Ley General de Contrataciones Públicas?",
     "options": [
       {
@@ -9660,7 +5520,7 @@ const questions = [
     "tema": "FASE DE SELECCIÓN"
   },
   {
-    "id": 421,
+    "id": 241,
     "question": "114. ¿En cuál de los siguientes supuestos el contrato NO se perfecciona y el postor ganador ya no está obligado a firmarlo ni recibir la orden de compra o de servicio?",
     "options": [
       {
@@ -9683,7 +5543,7 @@ const questions = [
     "tema": "FASE DE SELECCIÓN"
   },
   {
-    "id": 422,
+    "id": 242,
     "question": "115. Un comité de selección omite la publicación de las bases integradas, pero distribuye a los postores un resumen de condiciones vía correo electrónico antes del otorgamiento de la buena pro. ¿Qué implicancia legal tiene esta omisión?",
     "options": [
       {
@@ -9706,7 +5566,7 @@ const questions = [
     "tema": "FASE DE SELECCIÓN"
   },
   {
-    "id": 423,
+    "id": 243,
     "question": "116. ¿Cuál es el alcance del impedimento de carácter personal?",
     "options": [
       {
@@ -9729,7 +5589,7 @@ const questions = [
     "tema": "FASE DE SELECCIÓN"
   },
   {
-    "id": 424,
+    "id": 244,
     "question": "117. Una entidad requiere adquirir productos farmacéuticos que se encuentran en el Catálogo Electrónico, pero decide convocar una licitación abierta alegando mayor competitividad. ¿Es correcta esta decisión?",
     "options": [
       {
@@ -9752,7 +5612,7 @@ const questions = [
     "tema": "FASE DE SELECCIÓN"
   },
   {
-    "id": 425,
+    "id": 245,
     "question": "118. Una municipalidad convoca un proceso por licitación pública para contratar un estudio de impacto ambiental por S/ 500,000. ¿Qué error técnico y normativo se ha cometido?",
     "options": [
       {
@@ -9775,7 +5635,7 @@ const questions = [
     "tema": "FASE DE SELECCIÓN"
   },
   {
-    "id": 426,
+    "id": 246,
     "question": "119. En los procedimientos de selección, la modalidad que permite la participación de diversos tipos de entidades con una evaluación más flexible se denomina:",
     "options": [
       {
@@ -9798,7 +5658,7 @@ const questions = [
     "tema": "FASE DE SELECCIÓN"
   },
   {
-    "id": 427,
+    "id": 247,
     "question": "120. ¿Cuál es uno de los criterios para la selección en procedimientos no competitivos?",
     "options": [
       {
@@ -9821,7 +5681,7 @@ const questions = [
     "tema": "FASE DE SELECCIÓN"
   },
   {
-    "id": 428,
+    "id": 248,
     "question": "121. La evaluación de las propuestas durante un proceso de selección debe considerar aspectos cualitativos y cuantitativos, siendo fundamental",
     "options": [
       {
@@ -9844,7 +5704,7 @@ const questions = [
     "tema": "FASE DE SELECCIÓN"
   },
   {
-    "id": 429,
+    "id": 249,
     "question": "122. Una de las principales justificaciones para la utilización de procedimientos no competitivos es",
     "options": [
       {
@@ -9867,7 +5727,7 @@ const questions = [
     "tema": "FASE DE SELECCIÓN"
   },
   {
-    "id": 430,
+    "id": 250,
     "question": "123. El proceso de selección en una modalidad abreviada, como la subasta inversa electrónica, se diferencia de la licitación pública en que",
     "options": [
       {
@@ -9890,7 +5750,7 @@ const questions = [
     "tema": "FASE DE SELECCIÓN"
   },
   {
-    "id": 431,
+    "id": 251,
     "question": "124. Cuando un proceso de licitación es declarado desierto, generalmente implica que y ______ .",
     "options": [
       {
@@ -9913,7 +5773,7 @@ const questions = [
     "tema": "FASE DE SELECCIÓN"
   },
   {
-    "id": 432,
+    "id": 252,
     "question": "125. Cuando una entidad firma un contrato con varias personas o empresas que combinan recursos y capacidades, se denomina",
     "options": [
       {
@@ -9936,7 +5796,7 @@ const questions = [
     "tema": "FASE DE SELECCIÓN"
   },
   {
-    "id": 433,
+    "id": 253,
     "question": "126. El proveedor adjudicado no cuenta con inscripción vigente en el Registro Nacional de Proveedores (RNP) al momento de la firma del contrato. ¿Qué debe hacer la entidad?",
     "options": [
       {
@@ -9959,7 +5819,7 @@ const questions = [
     "tema": "FASE DE SELECCIÓN"
   },
   {
-    "id": 434,
+    "id": 254,
     "question": "127. Una empresa presenta recurso de apelación contra la buena pro el mismo día que la entidad iba a firmar el contrato con el postor adjudicado. ¿Qué debe hacer la entidad?",
     "options": [
       {
@@ -9982,7 +5842,7 @@ const questions = [
     "tema": "FASE DE SELECCIÓN"
   },
   {
-    "id": 435,
+    "id": 255,
     "question": "128. En un Concurso Público Abreviado, la buena pro fue notificada el martes 2. Un postor presenta apelación el jueves 11. ¿Este recurso es procedente?",
     "options": [
       {
@@ -10005,7 +5865,7 @@ const questions = [
     "tema": "FASE DE SELECCIÓN"
   },
   {
-    "id": 436,
+    "id": 256,
     "question": "129. Una empresa presenta recurso de apelación sin adjuntar la garantía exigida. El órgano competente lo admite para revisión. ¿Es válida esta actuación?",
     "options": [
       {
@@ -10028,7 +5888,7 @@ const questions = [
     "tema": "FASE DE SELECCIÓN"
   },
   {
-    "id": 437,
+    "id": 257,
     "question": "130. Una entidad distrital adjudica un proceso de S/ 230,000. Un postor interpone apelación. ¿Quién debe resolver?",
     "options": [
       {
@@ -10051,7 +5911,7 @@ const questions = [
     "tema": "FASE DE SELECCIÓN"
   },
   {
-    "id": 438,
+    "id": 258,
     "question": "131. En un procedimiento de Licitación Pública de Obras bajo el sistema de entrega \"solo construcción\", la entidad ha establecido en las bases que el método de evaluación de ofertas económicas será de \"oferta económica limitada\". ¿Qué condición deben cumplir las ofertas económicas de los postores para ser admitidas?",
     "options": [
       {
@@ -10074,7 +5934,7 @@ const questions = [
     "tema": "FASE DE SELECCIÓN"
   },
   {
-    "id": 439,
+    "id": 259,
     "question": "132. Una entidad pública resuelve un contrato de obra por incumplimiento del contratista, cuando este ya había iniciado la ejecución de las prestaciones. La entidad requiere contratar de manera inmediata el saldo de obra para no afectar la finalidad pública. ¿Qué acción puede realizar la entidad?",
     "options": [
       {
@@ -10097,7 +5957,7 @@ const questions = [
     "tema": "FASE DE SELECCIÓN"
   },
   {
-    "id": 440,
+    "id": 260,
     "question": "133. El proceso de contratación mediante Acuerdo Marco se caracteriza por desarrollarse en dos etapas claramente definidas. ¿Cuáles son estas etapas?",
     "options": [
       {
@@ -10120,7 +5980,7 @@ const questions = [
     "tema": "FASE DE SELECCIÓN"
   },
   {
-    "id": 441,
+    "id": 261,
     "question": "134. De acuerdo con el Reglamento, ¿cuál es la secuencia correcta de las etapas en un procedimiento de selección de Subasta Inversa Electrónica?",
     "options": [
       {
@@ -10143,7 +6003,7 @@ const questions = [
     "tema": "FASE DE SELECCIÓN"
   },
   {
-    "id": 442,
+    "id": 262,
     "question": "135. En una Subasta Inversa Electrónica para la adquisición de bienes comunes con ficha técnica, el oficial de compra se dispone a evaluar las ofertas. ¿Cuál es el procedimiento correcto para la revisión de los requisitos de calificación de los postores?",
     "options": [
       {
@@ -10166,7 +6026,7 @@ const questions = [
     "tema": "FASE DE SELECCIÓN"
   },
   {
-    "id": 443,
+    "id": 263,
     "question": "136. Varias entidades del sector Salud necesitan adquirir un mismo tipo de equipamiento médico. Para obtener mejores condiciones, deciden unirse en una Compra Corporativa Facultativa. ¿Cuál es el resultado final del procedimiento de selección y cómo se formalizan los contratos?",
     "options": [
       {
@@ -10189,7 +6049,7 @@ const questions = [
     "tema": "FASE DE SELECCIÓN"
   },
   {
-    "id": 444,
+    "id": 264,
     "question": "137. ¿En qué supuesto una entidad participante puede desistirse de una Compra Corporativa Facultativa ya iniciada?",
     "options": [
       {
@@ -10212,7 +6072,7 @@ const questions = [
     "tema": "FASE DE SELECCIÓN"
   },
   {
-    "id": 445,
+    "id": 265,
     "question": "138. Una entidad necesita adquirir un bien que cuenta con Ficha Técnica y cuyo uso obligatorio es a través de Subasta Inversa Electrónica. ¿En qué supuesto excepcional la entidad podría contratar mediante un procedimiento distinto, sin necesidad de autorización de Perú Compras?",
     "options": [
       {
@@ -10235,7 +6095,7 @@ const questions = [
     "tema": "FASE DE SELECCIÓN"
   },
   {
-    "id": 446,
+    "id": 266,
     "question": "139. En un procedimiento de selección, un postor desea interponer un recurso de apelación contra el otorgamiento de la buena pro ante la propia entidad contratante. ¿Cuál es el plazo máximo para hacerlo en una Licitación Pública Abreviada?",
     "options": [
       {
@@ -10258,7 +6118,7 @@ const questions = [
     "tema": "FASE DE SELECCIÓN"
   },
   {
-    "id": 447,
+    "id": 267,
     "question": "140. Un postor ganador de la buena pro debe presentar los documentos para el perfeccionamiento del contrato. Si el contrato no requiere la presentación de una garantía de fiel cumplimiento, ¿cuál es el plazo máximo que tiene para presentar dichos documentos?",
     "options": [
       {
@@ -10281,7 +6141,7 @@ const questions = [
     "tema": "FASE DE SELECCIÓN"
   },
   {
-    "id": 448,
+    "id": 268,
     "question": "141. Una entidad aprueba un procedimiento de selección no competitivo por la causal de \"proveedor único\". La decisión es aprobada por la Autoridad de la Gestión Administrativa. Posteriormente , durante una acción de control, se determina que existían otros proveedores en el mercado. ¿Es la aprobación realizada por la Autoridad de la Gestión Administrativa correcta y es su facultad para aprobar esta causal delegable?",
     "options": [
       {
@@ -10304,7 +6164,7 @@ const questions = [
     "tema": "FASE DE SELECCIÓN"
   },
   {
-    "id": 449,
+    "id": 269,
     "question": "142. Una vez que el expediente de un recurso de apelación es declarado \"listo para resolver\" por una Sala del Tribunal de Contrataciones Públicas (TCP), ¿cuál es el plazo máximo que tiene dicha Sala para emitir y notificar su resolución?",
     "options": [
       {
@@ -10327,7 +6187,7 @@ const questions = [
     "tema": "FASE DE SELECCIÓN"
   },
   {
-    "id": 450,
+    "id": 270,
     "question": "143. Después del otorgamiento de la buena pro, pero antes de su consentimiento, la entidad se ve obligada a destinar el presupuesto de la obra a una emergencia declarada por desastre natural. ¿Qué autoridad es competente para cancelar el procedimiento de selección por esta causal?",
     "options": [
       {
@@ -10348,5 +6208,4145 @@ const questions = [
       }
     ],
     "tema": "FASE DE SELECCIÓN"
-  }
+  },
+    {
+    "id": 271,
+    "question": "1. ¿Cuál de los siguientes elementos forma parte obligatoria del contrato?",
+    "options": [
+      {
+        "text": "a) El Plan Anual de Contrataciones de la entidad.",
+        "isCorrect": false
+      },
+      {
+        "text": "b) Las bases integradas que establezcan reglas definitivas y la oferta ganadora.",
+        "isCorrect": true
+      },
+      {
+        "text": "c) El informe de evaluación de ofertas del comité de selección.",
+        "isCorrect": false
+      },
+      {
+        "text": "d) El Cuadro Multianual de Necesidades.",
+        "isCorrect": false
+      }
+    ],
+    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
+  },
+  {
+    "id": 272,
+    "question": "2. ¿Qué tipo de cláusulas deben incluirse obligatoriamente en los contratos regulados por la ley, bajo responsabilidad?",
+    "options": [
+      {
+        "text": "a) Cláusula de confidencialidad, cláusula de penalidades y cláusula de reajuste de precios.",
+        "isCorrect": false
+      },
+      {
+        "text": "b) Cláusula de garantías, cláusula anticorrupción y antisoborno, y cláusula de solución de controversias.",
+        "isCorrect": true
+      },
+      {
+        "text": "c) Cláusula de subcontratación, cláusula de cesión de posición contractual y cláusula de adelantos.",
+        "isCorrect": false
+      },
+      {
+        "text": "d) Cláusula de impacto ambiental, cláusula de responsabilidad social y cláusula de seguros.",
+        "isCorrect": false
+      }
+    ],
+    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
+  },
+  {
+    "id": 273,
+    "question": "3. Una entidad está por suscribir un contrato de obra. La Dependencia Encargada de las Contrataciones (DEC) verifica que el postor ganador tiene multas impagas por infracciones a la Ley de Contrataciones. ¿Qué acción debe tomar la entidad antes de suscribir el contrato?",
+    "options": [
+      {
+        "text": "a) Exigir el pago inmediato de las multas como condición previa a la firma.",
+        "isCorrect": false
+      },
+      {
+        "text": "b) Proceder a la firma del contrato e iniciar un proceso coactivo para el cobro de las multas.",
+        "isCorrect": false
+      },
+      {
+        "text": "c) Incorporar una cláusula de compromiso de pago de la multa, la que se efectúa a través de la retención del monto adeudado.",
+        "isCorrect": true
+      },
+      {
+        "text": "d) Descalificar al postor y llamar al segundo lugar, ya que las multas impagas constituyen un impedimento.",
+        "isCorrect": false
+      }
+    ],
+    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
+  },
+  {
+    "id": 274,
+    "question": "4. El contrato se ajusta a la incluida en las bases del respectivo procedimiento de selección y se publica en la Pladicop.",
+    "options": [
+      {
+        "text": "a) proforma de contrato",
+        "isCorrect": true
+      },
+      {
+        "text": "b) oferta económica",
+        "isCorrect": false
+      },
+      {
+        "text": "c) estrategia de contratación",
+        "isCorrect": false
+      },
+      {
+        "text": "d) certificación presupuestal",
+        "isCorrect": false
+      }
+    ],
+    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
+  },
+  {
+    "id": 275,
+    "question": "5. ¿Desde qué momento rige la vigencia de un contrato?",
+    "options": [
+      {
+        "text": "a) Desde la fecha de convocatoria del procedimiento de selección.",
+        "isCorrect": false
+      },
+      {
+        "text": "b) Desde la fecha de aprobación del expediente de contratación.",
+        "isCorrect": false
+      },
+      {
+        "text": "c) Desde la fecha de otorgamiento de la buena pro.",
+        "isCorrect": false
+      },
+      {
+        "text": "d) Desde el día siguiente de su suscripción o desde la notificación de la orden de compra/servicio, o desde que se cumplan las condiciones para su inicio.",
+        "isCorrect": true
+      }
+    ],
+    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
+  },
+  {
+    "id": 276,
+    "question": "6. En un contrato de obra, ¿hasta qué momento rige el contrato?",
+    "options": [
+      {
+        "text": "a) Hasta la recepción total de la obra.",
+        "isCorrect": false
+      },
+      {
+        "text": "b) Hasta que se efectúe el pago de la última valorización.",
+        "isCorrect": false
+      },
+      {
+        "text": "c) Hasta el consentimiento de la liquidación final del contrato y el pago correspondiente.",
+        "isCorrect": true
+      },
+      {
+        "text": "d) Hasta la culminación del plazo de responsabilidad por vicios ocultos.",
+        "isCorrect": false
+      }
+    ],
+    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
+  },
+  {
+    "id": 277,
+    "question": "7. Una entidad suscribe un contrato para el suministro periódico de bienes. El contrato establece que el último pago se realizará después de la última entrega y conformidad. ¿Hasta cuándo se considera vigente este contrato?",
+    "options": [
+      {
+        "text": "a) Hasta la conformidad de la última entrega.",
+        "isCorrect": false
+      },
+      {
+        "text": "b) Hasta que se efectúe el pago final.",
+        "isCorrect": true
+      },
+      {
+        "text": "c) Hasta que se agote el presupuesto asignado para el suministro.",
+        "isCorrect": false
+      },
+      {
+        "text": "d) Hasta que el proveedor entregue la garantía de fiel cumplimiento.",
+        "isCorrect": false
+      }
+    ],
+    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
+  },
+  {
+    "id": 278,
+    "question": "8. El plazo de ejecución contractual de los contratos de supervisión se encuentra vinculado a la duración del contrato supervisado y debe comprender, como mínimo, hasta la o la conclusión del servicio.",
+    "options": [
+      {
+        "text": "a) firma del contrato principal",
+        "isCorrect": false
+      },
+      {
+        "text": "b) aprobación del expediente técnico",
+        "isCorrect": false
+      },
+      {
+        "text": "c) liquidación final del contrato principal",
+        "isCorrect": false
+      },
+      {
+        "text": "d) recepción de la obra",
+        "isCorrect": true
+      }
+    ],
+    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
+  },
+  {
+    "id": 279,
+    "question": "9. ¿Cuál de las siguientes situaciones podría generar una modificación contractual por aplicación de normas?",
+    "options": [
+      {
+        "text": "a) Un acuerdo entre la entidad y el contratista para mejorar las especificaciones técnicas.",
+        "isCorrect": false
+      },
+      {
+        "text": "b) La promulgación de una nueva ley que impacta directamente en los costos laborales del contrato.",
+        "isCorrect": true
+      },
+      {
+        "text": "c) La solicitud del contratista para utilizar materiales de menor calidad pero más económicos.",
+        "isCorrect": false
+      },
+      {
+        "text": "d) La decisión unilateral de la entidad de reducir el alcance de las prestaciones.",
+        "isCorrect": false
+      }
+    ],
+    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
+  },
+  {
+    "id": 280,
+    "question": "10. Si una nueva norma técnica de cumplimiento obligatorio, posterior a la firma del contrato, exige el uso de un material más costoso para la ejecución de una obra, ¿cómo debería gestionarse esta situación?",
+    "options": [
+      {
+        "text": "a) El contratista debe asumir el costo adicional sin modificar el contrato.",
+        "isCorrect": false
+      },
+      {
+        "text": "b) La entidad debe resolver el contrato por imposibilidad de cumplimiento.",
+        "isCorrect": false
+      },
+      {
+        "text": "c) La entidad debe solicitar al OECE una excepción para no aplicar la nueva norma técnica.",
+        "isCorrect": false
+      },
+      {
+        "text": "d) Se debe evaluar una modificación contractual, posiblemente como un hecho sobreviniente o un adicional, para cubrir el incremento de costo.",
+        "isCorrect": true
+      }
+    ],
+    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
+  },
+  {
+    "id": 281,
+    "question": "11. Durante la ejecución de un contrato de servicios de limpieza, se promulga una ley que incrementa significativamente el sueldo mínimo vital, afectando directamente los costos de mano de obra del contratista, los cuales no fueron previstos con tal magnitud en su oferta original. El contrato no contiene una fórmula de reajuste específica para este tipo de variación. ¿Cuál sería el sustento principal para una posible modificación contractual que reconozca este incremento?",
+    "options": [
+      {
+        "text": "a) La potestad de la entidad para ordenar prestaciones adicionales.",
+        "isCorrect": false
+      },
+      {
+        "text": "b) La configuración de un hecho sobreviniente no imputable a las partes que afecta el equilibrio económico financiero del contrato.",
+        "isCorrect": true
+      },
+      {
+        "text": "c) La necesidad de reducir otras prestaciones para compensar el aumento de costos.",
+        "isCorrect": false
+      },
+      {
+        "text": "d) La aplicación de la cláusula de resolución de contrato por incumplimiento.",
+        "isCorrect": false
+      }
+    ],
+    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
+  },
+  {
+    "id": 282,
+    "question": "12. Si una modificación contractual por aplicación de una nueva norma afecta el equilibrio económico financiero del contrato, la parte debe compensar económicamente a la parte para restablecer dicho equilibrio.",
+    "options": [
+      {
+        "text": "a) contratista / entidad",
+        "isCorrect": false
+      },
+      {
+        "text": "b) que propuso la norma / que la aplica",
+        "isCorrect": false
+      },
+      {
+        "text": "c) beneficiada / perjudicada",
+        "isCorrect": true
+      },
+      {
+        "text": "d) que incumple / que cumple",
+        "isCorrect": false
+      }
+    ],
+    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
+  },
+  {
+    "id": 283,
+    "question": "13. Una entidad contrata la construcción de un hospital. Durante la ejecución, entra en vigencia una nueva regulación sanitaria que exige estándares de ventilación más rigurosos no contemplados en el expediente técnico original, lo que implica rediseños y costos adicionales significativos. ¿Qué tipo de modificación contractual sería la más apropiada y quién debería aprobarla inicialmente si el costo adicional está dentro del 15% del monto original del contrato de obra bajo sistema de solo construcción?",
+    "options": [
+      {
+        "text": "a) Una reducción de otras prestaciones para liberar presupuesto; aprobación del área usuaria.",
+        "isCorrect": false
+      },
+      {
+        "text": "b) Una ampliación de plazo únicamente; aprobación del supervisor de obra.",
+        "isCorrect": false
+      },
+      {
+        "text": "c) Una prestación adicional por deficiencias en el expediente técnico (al no prever los nuevos estándares); aprobación de la autoridad de la gestión administrativa.",
+        "isCorrect": false
+      },
+      {
+        "text": "d) Una modificación por hecho sobreviniente no imputable a las partes, que podría implicar una prestación adicional; aprobación de la autoridad de la gestión administrativa.",
+        "isCorrect": true
+      }
+    ],
+    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
+  },
+  {
+    "id": 284,
+    "question": "14. ¿Cuál es una de las modificaciones contractuales que la entidad contratante puede ordenar?",
+    "options": [
+      {
+        "text": "a) La ejecución de prestaciones adicionales.",
+        "isCorrect": true
+      },
+      {
+        "text": "b) La cesión de posición contractual del contratista a un tercero",
+        "isCorrect": false
+      },
+      {
+        "text": "c) La suspensión del contrato por falta de pago del contratista.",
+        "isCorrect": false
+      },
+      {
+        "text": "d) La modificación de los precios unitarios ofertados por el contratista.",
+        "isCorrect": false
+      }
+    ],
+    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
+  },
+  {
+    "id": 285,
+    "question": "15. La autoridad de la gestión administrativa de una entidad puede ordenar la reducción de prestaciones en un contrato de servicios hasta por un porcentaje del monto del contrato original. ¿Cuál es ese porcentaje máximo?",
+    "options": [
+      {
+        "text": "a) 10%",
+        "isCorrect": false
+      },
+      {
+        "text": "b) 15%",
+        "isCorrect": false
+      },
+      {
+        "text": "c) 25%",
+        "isCorrect": true
+      },
+      {
+        "text": "d) 50%",
+        "isCorrect": false
+      }
+    ],
+    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
+  },
+  {
+    "id": 286,
+    "question": "16. En un contrato de obra bajo el sistema de entrega de solo construcción, la entidad detecta que, debido a un cambio en las prioridades institucionales, una sección de la obra ya no es necesaria. Esta sección representa el 10% del monto del contrato original y aún no ha sido ejecutada. ¿Qué acción puede tomar la entidad y qué autoridad es competente para aprobarla?",
+    "options": [
+      {
+        "text": "a) Resolver parcialmente el contrato por la sección no necesaria; aprobación del Titular de la Entidad.",
+        "isCorrect": false
+      },
+      {
+        "text": "b) Ordenar la reducción de prestaciones correspondiente a dicha sección; aprobación de la autoridad de la gestión administrativa.",
+        "isCorrect": true
+      },
+      {
+        "text": "c) Solicitar al contratista una propuesta de modificación contractual por mutuo acuerdo; aprobación del supervisor.",
+        "isCorrect": false
+      },
+      {
+        "text": "d) Suspender indefinidamente la ejecución de dicha sección; aprobación del área usuaria.",
+        "isCorrect": false
+      }
+    ],
+    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
+  },
+  {
+    "id": 287,
+    "question": "17. Para la ejecución de prestaciones adicionales en un contrato de bienes, es indispensable que estas sean para alcanzar la finalidad del contrato y que la entidad cuente con la respectiva certificación presupuestaria.",
+    "options": [
+      {
+        "text": "a) opcionales",
+        "isCorrect": false
+      },
+      {
+        "text": "b) indispensables",
+        "isCorrect": true
+      },
+      {
+        "text": "c) de menor costo",
+        "isCorrect": false
+      },
+      {
+        "text": "d) solicitadas por el proveedor",
+        "isCorrect": false
+      }
+    ],
+    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
+  },
+  {
+    "id": 288,
+    "question": "18. Una entidad contrata un servicio de consultoría. Durante la ejecución, se determina la necesidad de una prestación adicional que representa el 20% del monto del contrato original. ¿Quién aprueba esta prestación adicional y qué se requiere además del sustento técnico y legal?",
+    "options": [
+      {
+        "text": "a) La autoridad de la gestión administrativa; se requiere la previsión y/o certificación de crédito presupuestario.",
+        "isCorrect": true
+      },
+      {
+        "text": "b) El Titular de la Entidad; se requiere un informe favorable del OECE.",
+        "isCorrect": false
+      },
+      {
+        "text": "c) El área usuaria; se requiere la conformidad previa del contratista.",
+        "isCorrect": false
+      },
+      {
+        "text": "d) El supervisor del contrato; se requiere una adenda suscrita por ambas partes.",
+        "isCorrect": false
+      }
+    ],
+    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
+  },
+  {
+    "id": 289,
+    "question": "19. ¿Cuál es una causal para que el contratista solicite una ampliación de plazo en un contrato de bienes?",
+    "options": [
+      {
+        "text": "a) Cuando el contratista decide mejorar la calidad de los bienes ofertados.",
+        "isCorrect": false
+      },
+      {
+        "text": "b) Cuando la entidad realiza el pago de la contraprestación antes de lo previsto.",
+        "isCorrect": false
+      },
+      {
+        "text": "c) Cuando el contratista encuentra un proveedor más económico para sus insumos.",
+        "isCorrect": false
+      },
+      {
+        "text": "d) Cuando se aprueba la prestación adicional en el contrato, siempre que afecte el plazo.",
+        "isCorrect": true
+      }
+    ],
+    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
+  },
+  {
+    "id": 290,
+    "question": "20. Si se producen eventos no atribuibles a las partes que originan la interrupción de la ejecución de las prestaciones, ¿qué pueden acordar las partes respecto al plazo de ejecución contractual?",
+    "options": [
+      {
+        "text": "a) Resolver el contrato automáticamente.",
+        "isCorrect": false
+      },
+      {
+        "text": "b) Continuar la ejecución asumiendo cada uno sus propios sobrecostos.",
+        "isCorrect": false
+      },
+      {
+        "text": "c) Acordar por escrito la suspensión del plazo de ejecución contractual hasta la culminación del evento.",
+        "isCorrect": true
+      },
+      {
+        "text": "d) Solicitar al OECE que determine la continuación o suspensión del contrato.",
+        "isCorrect": false
+      }
+    ],
+    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
+  },
+  {
+    "id": 291,
+    "question": "21. En un contrato de obra, el contratista solicita una ampliación de plazo debido a atrasos generados por la demora de la entidad en la entrega de una parte del terreno. El supervisor emite su opinión técnica y la entidad debe resolver. Si la entidad no notifica su decisión al contratista dentro del plazo de diez días hábiles establecido en el Reglamento, ¿cuál es la consecuencia?",
+    "options": [
+      {
+        "text": "a) La solicitud de ampliación de plazo se considera automáticamente denegada.",
+        "isCorrect": false
+      },
+      {
+        "text": "b) Se debe iniciar un procedimiento de solución de controversias para definir el plazo.",
+        "isCorrect": false
+      },
+      {
+        "text": "c) La solicitud de ampliación de plazo se tiene por aprobada, salvo que el contratista no haya cumplido estrictamente con el procedimiento.",
+        "isCorrect": true
+      },
+      {
+        "text": "d) El contratista debe presentar nuevamente su solicitud con mayor sustento.",
+        "isCorrect": false
+      }
+    ],
+    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
+  },
+  {
+    "id": 292,
+    "question": "22. Las ampliaciones de plazo en contratos de bienes y servicios dan lugar al pago de los debidamente acreditados.",
+    "options": [
+      {
+        "text": "a) costos directos únicamente",
+        "isCorrect": false
+      },
+      {
+        "text": "b) gastos generales únicamente",
+        "isCorrect": false
+      },
+      {
+        "text": "c) costos y gastos generales",
+        "isCorrect": true
+      },
+      {
+        "text": "d) daños y perjuicios",
+        "isCorrect": false
+      }
+    ],
+    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
+  },
+  {
+    "id": 293,
+    "question": "23. ¿En qué supuesto excepcional las partes pueden acordar una modificación contractual por hecho sobreviniente, aun cuando esta se deba a causa imputable a alguna de las partes?",
+    "options": [
+      {
+        "text": "a) Siempre que la modificación no supere el 5% del monto del contrato.",
+        "isCorrect": false
+      },
+      {
+        "text": "b) Únicamente si la modificación es para reducir prestaciones.",
+        "isCorrect": false
+      },
+      {
+        "text": "c) Solo si el contrato es de obra y se utiliza un contrato estandarizado internacional.",
+        "isCorrect": false
+      },
+      {
+        "text": "d) Previa autorización de la autoridad de la gestión administrativa, siempre que no haya habido dolo y la parte responsable asuma los costos.",
+        "isCorrect": true
+      }
+    ],
+    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
+  },
+  {
+    "id": 294,
+    "question": "24. Una consecuencia directa de la aprobación de una prestación adicional en un contrato es:",
+    "options": [
+      {
+        "text": "a) La reducción automática del plazo de ejecución.",
+        "isCorrect": false
+      },
+      {
+        "text": "b) El incremento del monto del contrato original.",
+        "isCorrect": true
+      },
+      {
+        "text": "c) La exención de presentar garantías adicionales.",
+        "isCorrect": false
+      },
+      {
+        "text": "d) La obligación del contratista de subcontratar la prestación adicional.",
+        "isCorrect": false
+      }
+    ],
+    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
+  },
+  {
+    "id": 295,
+    "question": "25. Si una modificación contractual implica un incremento del monto del contrato, ¿qué obligación surge para el contratista respecto a las garantías otorgadas?",
+    "options": [
+      {
+        "text": "a) No tiene ninguna obligación adicional, las garantías originales cubren las modificaciones.",
+        "isCorrect": false
+      },
+      {
+        "text": "b) Debe solicitar la devolución proporcional de las garantías.",
+        "isCorrect": false
+      },
+      {
+        "text": "c) Debe aumentar de forma proporcional las garantías que hubiese otorgado.",
+        "isCorrect": true
+      },
+      {
+        "text": "d) Debe presentar una nueva garantía de fiel cumplimiento por el monto total modificado.",
+        "isCorrect": false
+      }
+    ],
+    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
+  },
+  {
+    "id": 296,
+    "question": "26. Una entidad aprueba una ampliación de plazo en un contrato de obra. Como consecuencia directa de esta ampliación, el contrato de supervisión de dicha obra también debe extenderse. ¿Se considera esta extensión del contrato de supervisión como una prestación adicional sujeta al límite del 25% del contrato original de supervisión?",
+    "options": [
+      {
+        "text": "a) Sí, toda extensión de plazo en la supervisión es un adicional y está sujeta al límite del 25%.",
+        "isCorrect": false
+      },
+      {
+        "text": "b) No, las ampliaciones de plazo en supervisión nunca generan costos adicionales para la entidad.",
+        "isCorrect": false
+      },
+      {
+        "text": "c) Sí, pero el límite aplicable es del 15% por tratarse de un contrato vinculado.",
+        "isCorrect": false
+      },
+      {
+        "text": "d) No, si la extensión de la supervisión deriva directamente de una ampliación de plazo de la obra principal y no implica variación de actividades del supervisor, no se considera adicional.",
+        "isCorrect": true
+      }
+    ],
+    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
+  },
+  {
+    "id": 297,
+    "question": "27. Cuando una modificación contractual implica una reducción del monto y/o plazo, el contratista puede solicitar la proporcional del monto y/o plazo de las garantías que hubiera otorgado.",
+    "options": [
+      {
+        "text": "a) ejecución",
+        "isCorrect": false
+      },
+      {
+        "text": "b) anulación",
+        "isCorrect": false
+      },
+      {
+        "text": "c) disminución",
+        "isCorrect": true
+      },
+      {
+        "text": "d) duplicación",
+        "isCorrect": false
+      }
+    ],
+    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
+  },
+  {
+    "id": 298,
+    "question": "28. Si se aprueban prestaciones adicionales de obra por deficiencias en el expediente técnico en un contrato bajo el sistema de entrega de solo construcción, ¿qué consecuencia administrativa adicional se genera para la entidad, además de la modificación contractual?",
+    "options": [
+      {
+        "text": "a) La entidad debe iniciar un nuevo procedimiento de selección para la supervisión del adicional.",
+        "isCorrect": false
+      },
+      {
+        "text": "b) La entidad debe informar al Tribunal de Contrataciones Públicas y a la Contraloría General de la República para los fines correspondientes.",
+        "isCorrect": true
+      },
+      {
+        "text": "c) El contratista asume la responsabilidad por las deficiencias del expediente técnico y no tiene derecho al pago del adicional.",
+        "isCorrect": false
+      },
+      {
+        "text": "d) La entidad debe solicitar una opinión vinculante al OECE sobre la procedencia del adicional.",
+        "isCorrect": false
+      }
+    ],
+    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
+  },
+  {
+    "id": 299,
+    "question": "29. Durante la ejecución de un contrato para la construcción de un puente en una región del Perú, se producen lluvias torrenciales de magnitud excepcional, no previstas en los estudios de riesgos del proyecto, que generan el desborde del río e impiden completamente el acceso a la zona de trabajo y la continuación de las obras por un periodo indeterminado. Ni la entidad pública contratante ni la empresa constructora son responsables de este evento natural. Ante esta situación que interrumpe la ejecución de las prestaciones, ¿qué acción pueden acordar legalmente las partes respecto al plazo de ejecución contractual, conforme al Reglamento de la Ley de Contrataciones?",
+    "options": [
+      {
+        "text": "a) La entidad debe resolver el contrato inmediatamente por caso fortuito, pagando al contratista solo los trabajos ejecutados.",
+        "isCorrect": false
+      },
+      {
+        "text": "b) El contratista debe continuar la ejecución en cuanto sea mínimamente posible, asumiendo los sobrecostos generados por el evento, para luego solicitar un reembolso.",
+        "isCorrect": false
+      },
+      {
+        "text": "c) La entidad y el contratista pueden acordar formalmente por escrito la suspensión del plazo de ejecución contractual hasta que el evento de las lluvias y sus consecuencias directas hayan culminado y se pueda reiniciar los trabajos.",
+        "isCorrect": true
+      },
+      {
+        "text": "d) La entidad debe solicitar una directiva específica al OECE para que autorice la suspensión del contrato y determine la compensación económica al contratista.",
+        "isCorrect": false
+      }
+    ],
+    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
+  },
+  {
+    "id": 300,
+    "question": "30. Una entidad pública contrató un servicio de desarrollo de software. Durante la ejecución, debido a una deficiente especificación inicial por parte del área usuaria de la entidad (causa imputable a la entidad), se evidencia que una funcionalidad crucial, tal como está definida, no logrará el objetivo público esperado. Corregir esta deficiencia implica una modificación al alcance y costo del servicio. El contratista está dispuesto a realizar los ajustes, pero esto generará costos adicionales. La entidad considera que, a pesar del error inicial, es vital continuar con el contrato para no perder la inversión y tiempo avanzados. ¿Bajo qué condiciones excepcionales podrían la entidad y el contratista acordar una modificación contractual por este hecho sobreviniente, a pesar de ser imputable a la entidad?",
+    "options": [
+      {
+        "text": "a) Solo si el costo de la modificación no excede el 10% del monto original y el contratista renuncia a cualquier reclamo posterior.",
+        "isCorrect": false
+      },
+      {
+        "text": "b) Únicamente si la modificación implica una reducción del plazo contractual para compensar el error de la entidad.",
+        "isCorrect": false
+      },
+      {
+        "text": "c) Si la autoridad de la gestión administrativa autoriza la modificación, se demuestra que no hubo dolo por parte de la entidad en la especificación deficiente, y la entidad asume los costos derivados de la modificación.",
+        "isCorrect": true
+      },
+      {
+        "text": "d) Esta modificación no es posible si la causa es imputable a una de las partes; la entidad debería resolver el contrato y convocar uno nuevo.",
+        "isCorrect": false
+      }
+    ],
+    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
+  },
+  {
+    "id": 301,
+    "question": "31. ¿Cuál de las siguientes es una causal para que cualquiera de las partes pueda resolver un contrato?",
+    "options": [
+      {
+        "text": "a) La simple disconformidad con la calidad de la prestación.",
+        "isCorrect": false
+      },
+      {
+        "text": "b) El cambio de gestión en la entidad contratante.",
+        "isCorrect": false
+      },
+      {
+        "text": "c) El incumplimiento de obligaciones contractuales, por causa atribuible a la parte que incumple.",
+        "isCorrect": true
+      },
+      {
+        "text": "d) La solicitud del contratista de un adelanto no previsto en las bases.",
+        "isCorrect": false
+      }
+    ],
+    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
+  },
+  {
+    "id": 302,
+    "question": "32. ¿En qué situación la autoridad de la gestión administrativa de la entidad contratante puede declarar la nulidad de un contrato ya perfeccionado?",
+    "options": [
+      {
+        "text": "a) Cuando el contratista solicita una ampliación de plazo injustificada.",
+        "isCorrect": false
+      },
+      {
+        "text": "b) Cuando el contratista propone una subcontratación no autorizada.",
+        "isCorrect": false
+      },
+      {
+        "text": "c) Cuando el área usuaria determina que la necesidad de la contratación ha desaparecido.",
+        "isCorrect": false
+      },
+      {
+        "text": "d) Cuando se verifica que, durante el procedimiento de selección, se presentó documentación falsa que sustentó la adjudicación de la buena pro.",
+        "isCorrect": true
+      }
+    ],
+    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
+  },
+  {
+    "id": 303,
+    "question": "33. Una entidad perfecciona un contrato con un proveedor. Posteriormente, se descubre que dicho proveedor, al momento de la suscripción, se encontraba impedido para contratar con el Estado según el Artículo 30 de la Ley. ¿Qué acción puede tomar la autoridad de la gestión administrativa de la entidad?",
+    "options": [
+      {
+        "text": "a) Resolver el contrato por incumplimiento del proveedor.",
+        "isCorrect": false
+      },
+      {
+        "text": "b) Solicitar al proveedor que subsane el impedimento y continuar con el contrato.",
+        "isCorrect": false
+      },
+      {
+        "text": "c) Declarar la nulidad del contrato.",
+        "isCorrect": true
+      },
+      {
+        "text": "d) Aplicar una penalidad al proveedor y permitir la continuación del contrato.",
+        "isCorrect": false
+      }
+    ],
+    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
+  },
+  {
+    "id": 304,
+    "question": "34. Un contrato puede ser resuelto por cualquiera de las partes si ocurre un o fuerza mayor que imposibilite su continuación.",
+    "options": [
+      {
+        "text": "a) cambio normativo menor",
+        "isCorrect": false
+      },
+      {
+        "text": "b) caso fortuito",
+        "isCorrect": true
+      },
+      {
+        "text": "c) desacuerdo en el precio",
+        "isCorrect": false
+      },
+      {
+        "text": "d) retraso justificado",
+        "isCorrect": false
+      }
+    ],
+    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
+  },
+  {
+    "id": 305,
+    "question": "35. Si un contrato es resuelto por causa imputable al contratista, ¿qué acción puede tomar la entidad respecto a las garantías otorgadas por este?",
+    "options": [
+      {
+        "text": "a) Ejecutar las garantías.",
+        "isCorrect": true
+      },
+      {
+        "text": "b) Devolver inmediatamente las garantías al contratista.",
+        "isCorrect": false
+      },
+      {
+        "text": "c) Mantener las garantías en custodia hasta un nuevo proceso.",
+        "isCorrect": false
+      },
+      {
+        "text": "d) Solicitar al contratista que incremente el monto de las garantías.",
+        "isCorrect": false
+      }
+    ],
+    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
+  },
+  {
+    "id": 306,
+    "question": "36. Cuando la resolución del contrato se produce por causa imputable a una de las partes, ¿qué corresponde adicionalmente a la parte que incumple?",
+    "options": [
+      {
+        "text": "a) Solicitar una nueva oportunidad para cumplir el contrato.",
+        "isCorrect": false
+      },
+      {
+        "text": "b) Resarcir los daños y perjuicios acreditados a la parte afectada.",
+        "isCorrect": true
+      },
+      {
+        "text": "c) Pagar una multa automática equivalente al 10% del contrato.",
+        "isCorrect": false
+      },
+      {
+        "text": "d) Iniciar un proceso de conciliación obligatoriamente.",
+        "isCorrect": false
+      }
+    ],
+    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
+  },
+  {
+    "id": 307,
+    "question": "37. Una entidad declara la nulidad de un contrato de obra por haberse suscrito con un proveedor impedido. La obra ya había iniciado su ejecución. ¿Qué procedimiento debe seguirse inmediatamente después de la declaración de nulidad, según el Reglamento, si la nulidad es por causa no atribuible al contratista (por ejemplo, el impedimento no fue detectado por la entidad oportunamente)?",
+    "options": [
+      {
+        "text": "a) La entidad debe pagar al contratista el íntegro del monto contractual pendiente.",
+        "isCorrect": false
+      },
+      {
+        "text": "b) Se debe realizar la constatación física de la obra y el inventario correspondiente.",
+        "isCorrect": true
+      },
+      {
+        "text": "c) El contratista debe demoler lo avanzado y la entidad convocar un nuevo proceso.",
+        "isCorrect": false
+      },
+      {
+        "text": "d) Se suspende el contrato y se espera la decisión del Tribunal de Contrataciones.",
+        "isCorrect": false
+      }
+    ],
+    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
+  },
+  {
+    "id": 308,
+    "question": "38. En caso de corrupción de funcionarios o servidores relacionada con un contrato, y este es resuelto por dicha causal, el pago de resarcimiento por daños y perjuicios al contratista, aun cuando este último no lo haya propiciado.",
+    "options": [
+      {
+        "text": "a) corresponde siempre",
+        "isCorrect": false
+      },
+      {
+        "text": "b) no corresponde",
+        "isCorrect": true
+      },
+      {
+        "text": "c) corresponde parcialmente",
+        "isCorrect": false
+      },
+      {
+        "text": "d) se suspende",
+        "isCorrect": false
+      }
+    ],
+    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
+  },
+  {
+    "id": 309,
+    "question": "39. Antes de declarar la nulidad de oficio de un contrato, ¿qué acción debe realizar la entidad contratante respecto al contratista?",
+    "options": [
+      {
+        "text": "a) Solicitar la aprobación previa del OECE.",
+        "isCorrect": false
+      },
+      {
+        "text": "b) Publicar la intención de nulidad en la Pladicop.",
+        "isCorrect": false
+      },
+      {
+        "text": "c) Ejecutar inmediatamente la garantía de fiel cumplimiento.",
+        "isCorrect": false
+      },
+      {
+        "text": "d) Correr traslado al contratista para que se pronuncie.",
+        "isCorrect": true
+      }
+    ],
+    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
+  },
+  {
+    "id": 310,
+    "question": "40. Aun cuando se verifique la configuración de un vicio de nulidad del contrato, ¿qué facultad excepcional tiene la autoridad de la gestión administrativa?",
+    "options": [
+      {
+        "text": "a) Modificar la causal de nulidad para evitar la resolución.",
+        "isCorrect": false
+      },
+      {
+        "text": "b) Autorizar la continuación de la ejecución del contrato, previos informes técnico y legal favorables que sustenten la necesidad basada en un análisis costo-beneficio.",
+        "isCorrect": true
+      },
+      {
+        "text": "c) Imponer una multa al contratista en lugar de declarar la nulidad.",
+        "isCorrect": false
+      },
+      {
+        "text": "d) Solicitar al Tribunal de Contrataciones que convalide el contrato.",
+        "isCorrect": false
+      }
+    ],
+    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
+  },
+  {
+    "id": 311,
+    "question": "41. Una entidad está evaluando resolver un contrato de servicios por incumplimiento del contratista. El área usuaria ha emitido un informe detallando las faltas. Antes de notificar la resolución, ¿qué procedimiento debe seguir la entidad si el incumplimiento no es uno de los que permite la resolución sin apercibimiento previo?",
+    "options": [
+      {
+        "text": "a) Notificar directamente la resolución del contrato al contratista.",
+        "isCorrect": false
+      },
+      {
+        "text": "b) Solicitar al contratista una propuesta de subsanación en un plazo no menor al 10% del plazo del contrato o entregable.",
+        "isCorrect": false
+      },
+      {
+        "text": "c) Requerir al contratista que ejecute la prestación materia de incumplimiento, bajo apercibimiento de resolver el contrato, otorgando un plazo razonable.",
+        "isCorrect": true
+      },
+      {
+        "text": "d) Elevar el caso al Tribunal de Contrataciones para que determine si procede la resolución.",
+        "isCorrect": false
+      }
+    ],
+    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
+  },
+  {
+    "id": 312,
+    "question": "42. El instrumento que dispone la declaración de nulidad del contrato debe determinar, en caso corresponda, el inicio del .",
+    "options": [
+      {
+        "text": "a) nuevo procedimiento de selección",
+        "isCorrect": false
+      },
+      {
+        "text": "b) pago de indemnizaciones",
+        "isCorrect": false
+      },
+      {
+        "text": "c) proceso de conciliación",
+        "isCorrect": false
+      },
+      {
+        "text": "d) deslinde de responsabilidades",
+        "isCorrect": true
+      }
+    ],
+    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
+  },
+  {
+    "id": 313,
+    "question": "43. ¿Cuál es una de las causales para la resolución del contrato que puede configurarse como una condición de terminación anticipada establecida en el propio contrato?",
+    "options": [
+      {
+        "text": "a) El mutuo acuerdo entre las partes.",
+        "isCorrect": false
+      },
+      {
+        "text": "b) La ocurrencia de un caso fortuito o fuerza mayor.",
+        "isCorrect": false
+      },
+      {
+        "text": "c) El incumplimiento de la cláusula anticorrupción.",
+        "isCorrect": false
+      },
+      {
+        "text": "d) La configuración de la condición de terminación anticipada establecida en el contrato, de acuerdo con los supuestos que se establezcan en el reglamento para su aplicación.",
+        "isCorrect": true
+      }
+    ],
+    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
+  },
+  {
+    "id": 314,
+    "question": "44. ¿En qué tipo de contratos se puede incluir una cláusula de resolución por terminación anticipada cuando el resultado de un componente o hito impida o haga innecesaria la continuidad del siguiente, sin que sea atribuible a alguna de las partes?",
+    "options": [
+      {
+        "text": "a) Solo en contratos de obra bajo el sistema de suma alzada.",
+        "isCorrect": false
+      },
+      {
+        "text": "b) En contratos que comprendan más de un componente o hito.",
+        "isCorrect": true
+      },
+      {
+        "text": "c) Únicamente en contratos de suministro de bienes.",
+        "isCorrect": false
+      },
+      {
+        "text": "d) En todos los contratos, independientemente de su estructura.",
+        "isCorrect": false
+      }
+    ],
+    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
+  },
+  {
+    "id": 315,
+    "question": "45. Una entidad contrata la ejecución de una obra bajo el sistema de entrega de diseño y construcción. El contrato incluye una cláusula de terminación anticipada por pérdida de viabilidad sobreviniente si durante la fase de diseño se verifica que el proyecto ya no cumple las condiciones que sustentaron su viabilidad. Durante el diseño, se determina que, por factores externos insuperables, el proyecto ya no es viable. ¿Qué consecuencia tiene esta situación para el contrato?",
+    "options": [
+      {
+        "text": "a) El contratista debe continuar con la ejecución de la obra asumiendo los riesgos.",
+        "isCorrect": false
+      },
+      {
+        "text": "b) La entidad debe modificar el contrato para ajustar el diseño a la nueva realidad.",
+        "isCorrect": false
+      },
+      {
+        "text": "c) Se configura la causal de terminación anticipada y la entidad puede resolver el contrato, pagando al contratista por los hitos o componentes ejecutados.",
+        "isCorrect": true
+      },
+      {
+        "text": "d) El contrato se suspende hasta que la entidad encuentre una solución a la pérdida de viabilidad.",
+        "isCorrect": false
+      }
+    ],
+    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
+  },
+  {
+    "id": 316,
+    "question": "46. En los contratos de obra bajo el sistema de entrega de diseño y construcción, si el presupuesto del expediente técnico elaborado por el contratista supera el ________ del monto considerado en el contrato original para el componente de ejecución de obra, y la entidad no cuenta con los recursos, se puede configurar una condición de terminación anticipada.",
+    "options": [
+      {
+        "text": "a) 25%",
+        "isCorrect": false
+      },
+      {
+        "text": "b) 30%",
+        "isCorrect": false
+      },
+      {
+        "text": "c) 40%",
+        "isCorrect": false
+      },
+      {
+        "text": "d) 50%",
+        "isCorrect": true
+      }
+    ],
+    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
+  },
+  {
+    "id": 317,
+    "question": "47. Tras declarar la nulidad de un contrato de obra (que derivó de una Licitación Pública) por haberse suscrito con un proveedor impedido y haber realizado la constatación física e inventario de la obra parcialmente ejecutada, ¿qué mecanismo principal contempla la Ley para que la entidad pueda continuar con la ejecución de las prestaciones pendientes?",
+    "options": [
+      {
+        "text": "a) Convocar obligatoriamente una nueva Licitación Pública para el saldo de obra, utilizando el inventario como base.",
+        "isCorrect": false
+      },
+      {
+        "text": "b) Contratar directamente la ejecución del saldo de obra, ajustando el requerimiento y seleccionando un nuevo proveedor.",
+        "isCorrect": true
+      },
+      {
+        "text": "c) Solicitar al contratista original, cuyo contrato fue anulado, que subsane su impedimento y continúe con la obra bajo un nuevo acuerdo.",
+        "isCorrect": false
+      },
+      {
+        "text": "d) Esperar la resolución de cualquier procedimiento sancionador contra el proveedor impedido antes de tomar cualquier acción sobre el saldo de obra.",
+        "isCorrect": false
+      }
+    ],
+    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
+  },
+  {
+    "id": 318,
+    "question": "48. El contrato puede contener una cláusula de resolución por terminación anticipada cuando comprenda más de un componente o hito y el resultado de alguno de estos la continuidad del siguiente, sin que resulte atribuible a alguna de las partes.",
+    "options": [
+      {
+        "text": "a) garantice",
+        "isCorrect": false
+      },
+      {
+        "text": "b) acelere",
+        "isCorrect": false
+      },
+      {
+        "text": "c) impida o haga innecesaria",
+        "isCorrect": true
+      },
+      {
+        "text": "d) modifique ligeramente",
+        "isCorrect": false
+      }
+    ],
+    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
+  },
+  {
+    "id": 319,
+    "question": "49. Una entidad contrata un servicio de investigación y desarrollo (I+D) mediante una Asociación para la Innovación (API). El contrato establece hitos de avance y resultados mínimos para cada uno. Al finalizar el segundo hito, el área usuaria evalúa que los resultados obtenidos por el contratista no alcanzan los mínimos esperados y decide no continuar con el siguiente hito. El contrato prevé esta situación como una causal de terminación anticipada. ¿Qué consecuencia tiene esta decisión para el contratista?",
+    "options": [
+      {
+        "text": "a) El contratista debe devolver todos los pagos recibidos y pagar una penalidad.",
+        "isCorrect": false
+      },
+      {
+        "text": "b) El contrato se resuelve y la entidad debe pagar al contratista una indemnización por lucro cesante.",
+        "isCorrect": false
+      },
+      {
+        "text": "c) El contrato se resuelve por terminación anticipada y corresponde el pago al contratista por el o los hitos alcanzados que tengan conformidad, sin indemnización.",
+        "isCorrect": true
+      },
+      {
+        "text": "d) El contratista está obligado a repetir el segundo hito sin costo adicional hasta alcanzar los resultados esperados.",
+        "isCorrect": false
+      }
+    ],
+    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
+  },
+  {
+    "id": 320,
+    "question": "50. En los contratos estandarizados de ingeniería y construcción de uso internacional, si las modificaciones que inciden en el monto contractual superan el del valor del presupuesto de obra consignado en el expediente técnico aprobado (o del monto del contrato de obra), se configura la condición de terminación anticipada que ocasiona la resolución del contrato.",
+    "options": [
+      {
+        "text": "a) 25%",
+        "isCorrect": false
+      },
+      {
+        "text": "b) 30%",
+        "isCorrect": false
+      },
+      {
+        "text": "c) 40%",
+        "isCorrect": false
+      },
+      {
+        "text": "d) 50%",
+        "isCorrect": true
+      }
+    ],
+    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
+  },
+  {
+    "id": 321,
+    "question": "51. En el caso de la adquisición de bienes, ¿según qué normativa se rige la recepción de los bienes adquiridos por la entidad?",
+    "options": [
+      {
+        "text": "a) Exclusivamente por lo establecido en el contrato.",
+        "isCorrect": false
+      },
+      {
+        "text": "b) Por la normativa del Sistema Nacional de Abastecimiento.",
+        "isCorrect": true
+      },
+      {
+        "text": "c) Por las directivas internas del área usuaria.",
+        "isCorrect": false
+      },
+      {
+        "text": "d) Por las indicaciones del proveedor.",
+        "isCorrect": false
+      }
+    ],
+    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
+  },
+  {
+    "id": 322,
+    "question": "52. La sola recepción de bienes en la entidad o en el destino final, según sea el caso, no constituye la del área usuaria.",
+    "options": [
+      {
+        "text": "a) aceptación de la factura",
+        "isCorrect": false
+      },
+      {
+        "text": "b) conformidad",
+        "isCorrect": true
+      },
+      {
+        "text": "c) aprobación del pago",
+        "isCorrect": false
+      },
+      {
+        "text": "d) liquidación del contrato",
+        "isCorrect": false
+      }
+    ],
+    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
+  },
+  {
+    "id": 323,
+    "question": "53. Una entidad contrata el suministro periódico de alimentos. El contrato establece entregas mensuales. Al recibir la primera entrega en el almacén de la entidad, el personal de almacén firma una guía de remisión. ¿Este acto de firma de la guía de remisión por el personal de almacén implica automáticamente la conformidad del área usuaria sobre los bienes entregados?",
+    "options": [
+      {
+        "text": "a) Sí, la firma de la guía por el almacén equivale a la conformidad del área usuaria.",
+        "isCorrect": false
+      },
+      {
+        "text": "b) No, la recepción en almacén es un acto distinto a la conformidad, la cual debe ser emitida por el área usuaria tras verificar el cumplimiento de las especificaciones.",
+        "isCorrect": true
+      },
+      {
+        "text": "c) Sí, pero solo si el jefe de almacén es también el responsable del área usuaria.",
+        "isCorrect": false
+      },
+      {
+        "text": "d) No, la conformidad solo se otorga después de que el proveedor emita la factura correspondiente.",
+        "isCorrect": false
+      }
+    ],
+    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
+  },
+  {
+    "id": 324,
+    "question": "54. ¿Qué actor es el responsable principal de brindar la conformidad de la prestación en un contrato de bienes o servicios?",
+    "options": [
+      {
+        "text": "a) La Dependencia Encargada de las Contrataciones (DEC).",
+        "isCorrect": false
+      },
+      {
+        "text": "b) La Oficina de Control Interno.",
+        "isCorrect": false
+      },
+      {
+        "text": "c) El Titular de la Entidad.",
+        "isCorrect": false
+      },
+      {
+        "text": "d) El área usuaria.",
+        "isCorrect": true
+      }
+    ],
+    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
+  },
+  {
+    "id": 325,
+    "question": "55. ¿Cuál es el plazo máximo general para que el área usuaria emita la conformidad de un servicio, una vez recibido el entregable, salvo que se requieran pruebas o se trate de consultorías?",
+    "options": [
+      {
+        "text": "a) Tres días hábiles.",
+        "isCorrect": false
+      },
+      {
+        "text": "b) Cinco días calendario.",
+        "isCorrect": false
+      },
+      {
+        "text": "c) Siete días.",
+        "isCorrect": true
+      },
+      {
+        "text": "d) Diez días hábiles.",
+        "isCorrect": false
+      }
+    ],
+    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
+  },
+  {
+    "id": 326,
+    "question": "56. Una entidad contrata una consultoría especializada. El consultor entrega el informe final. El área usuaria considera que necesita realizar un análisis exhaustivo y pruebas de validación de los resultados del informe antes de emitir la conformidad. ¿Cuál es el plazo máximo que tiene el área usuaria para emitir la conformidad en este caso?",
+    "options": [
+      {
+        "text": "a) Siete días, ya que es el plazo general para servicios.",
+        "isCorrect": false
+      },
+      {
+        "text": "b) Diez días hábiles, por la complejidad de la revisión.",
+        "isCorrect": false
+      },
+      {
+        "text": "c) Veinte días.",
+        "isCorrect": true
+      },
+      {
+        "text": "d) No hay plazo máximo, depende de la complejidad de las pruebas.",
+        "isCorrect": false
+      }
+    ],
+    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
+  },
+  {
+    "id": 327,
+    "question": "57. Si la Dependencia Encargada de las Contrataciones (DEC) comunica observaciones al contratista sobre un entregable, ¿qué debe indicar claramente en dicha comunicación?",
+    "options": [
+      {
+        "text": "a) El sentido de las observaciones.",
+        "isCorrect": true
+      },
+      {
+        "text": "b) La penalidad que se aplicará si no subsana.",
+        "isCorrect": false
+      },
+      {
+        "text": "c) La posibilidad de resolver el contrato.",
+        "isCorrect": false
+      },
+      {
+        "text": "d) El nombre del funcionario que realizó las observaciones.",
+        "isCorrect": false
+      }
+    ],
+    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
+  },
+  {
+    "id": 328,
+    "question": "58. Cuando la entidad comunica observaciones al contratista, le otorga un plazo para subsanar que no debe ser mayor del del plazo del entregable correspondiente.",
+    "options": [
+      {
+        "text": "a) 10%",
+        "isCorrect": false
+      },
+      {
+        "text": "b) 20%",
+        "isCorrect": false
+      },
+      {
+        "text": "c) 30%",
+        "isCorrect": true
+      },
+      {
+        "text": "d) 50%",
+        "isCorrect": false
+      }
+    ],
+    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
+  },
+  {
+    "id": 329,
+    "question": "59. Un contratista entrega un bien. El área usuaria observa deficiencias y la DEC se lo comunica, otorgándole un plazo de 5 días para subsanar. El contratista subsana las observaciones dentro de esos 5 días. ¿Corresponde aplicar penalidades por mora al contratista por el tiempo utilizado en la subsanación?",
+    "options": [
+      {
+        "text": "a) Sí, siempre se aplican penalidades por cualquier retraso, incluyendo la subsanación.",
+        "isCorrect": false
+      },
+      {
+        "text": "b) No, si las observaciones son subsanadas dentro del plazo otorgado, no corresponde la aplicación de penalidades.",
+        "isCorrect": true
+      },
+      {
+        "text": "c) Sí, pero solo si las observaciones fueron por defectos mayores.",
+        "isCorrect": false
+      },
+      {
+        "text": "d) Depende de si el contrato original preveía penalidades por subsanación.",
+        "isCorrect": false
+      }
+    ],
+    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
+  },
+  {
+    "id": 330,
+    "question": "60. ¿Cuál de las siguientes acciones por parte de la entidad contratante durante la ejecución contractual podría generar una controversia con el contratista?",
+    "options": [
+      {
+        "text": "a) Realizar el pago de la contraprestación dentro del plazo establecido en el contrato.",
+        "isCorrect": false
+      },
+      {
+        "text": "b) Demorar injustificadamente la emisión de la conformidad de una prestación correctamente ejecutada.",
+        "isCorrect": true
+      },
+      {
+        "text": "c) Solicitar al contratista la subsanación de observaciones válidas dentro del plazo contractual.",
+        "isCorrect": false
+      },
+      {
+        "text": "d) Aprobar una ampliación de plazo solicitada y sustentada por el contratista.",
+        "isCorrect": false
+      }
+    ],
+    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
+  },
+  {
+    "id": 331,
+    "question": "61. Si un contratista incumple injustificadamente con la ejecución de las prestaciones objeto del contrato, y la entidad le aplica la penalidad por mora correspondiente, ¿podría este incumplimiento del contratista ser una situación que genere una controversia?",
+    "options": [
+      {
+        "text": "a) No, la aplicación de penalidades resuelve automáticamente cualquier disputa.",
+        "isCorrect": false
+      },
+      {
+        "text": "b) No, el incumplimiento del contratista solo da lugar a la resolución del contrato, no a controversias.",
+        "isCorrect": false
+      },
+      {
+        "text": "c) Solo si la penalidad aplicada supera el 10% del monto del contrato.",
+        "isCorrect": false
+      },
+      {
+        "text": "d) Sí, el contratista podría discrepar con la configuración del retraso o la imputabilidad del mismo, dando lugar a una controversia.",
+        "isCorrect": true
+      }
+    ],
+    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
+  },
+  {
+    "id": 332,
+    "question": "62. Durante la ejecución de un contrato de obra, la entidad no cumple con absolver una consulta formulada por el contratista a través del cuaderno de incidencias dentro del plazo establecido en el Reglamento. Esta omisión de la entidad impacta la ruta crítica del programa de ejecución. ¿Qué tipo de controversia podría surgir directamente de este incumplimiento de procedimiento por parte de la entidad?",
+    "options": [
+      {
+        "text": "a) Una controversia relacionada con la solicitud de ampliación de plazo y el reconocimiento de mayores gastos generales por parte del contratista.",
+        "isCorrect": true
+      },
+      {
+        "text": "b) Una controversia sobre la calidad de los materiales utilizados por el contratista.",
+        "isCorrect": false
+      },
+      {
+        "text": "c) Una controversia sobre la validez de la garantía de fiel cumplimiento presentada por el contratista.",
+        "isCorrect": false
+      },
+      {
+        "text": "d) Una controversia sobre la necesidad de ejecutar prestaciones adicionales no vinculadas a la consulta.",
+        "isCorrect": false
+      }
+    ],
+    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
+  },
+  {
+    "id": 333,
+    "question": "63. La falta de pago de valorizaciones consecutivas por parte de la entidad en un contrato de obra, puede ocasionar la suspensión del plazo de ejecución contractual por parte del contratista, lo cual podría derivar en una controversia si no se llega a un acuerdo sobre los costos asociados.",
+    "options": [
+      {
+        "text": "a) una",
+        "isCorrect": false
+      },
+      {
+        "text": "b) dos",
+        "isCorrect": true
+      },
+      {
+        "text": "c) tres",
+        "isCorrect": false
+      },
+      {
+        "text": "d) cuatro",
+        "isCorrect": false
+      }
+    ],
+    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
+  },
+  {
+    "id": 334,
+    "question": "64. ¿Cuál es el propósito principal de la gestión de riesgos durante la ejecución contractual?",
+    "options": [
+      {
+        "text": "a) Eliminar toda posibilidad de que ocurran eventos imprevistos.",
+        "isCorrect": false
+      },
+      {
+        "text": "b) Transferir automáticamente todos los riesgos identificados al contratista.",
+        "isCorrect": false
+      },
+      {
+        "text": "c) Identificar, analizar, valorar, gestionar, controlar y monitorear los riesgos para tomar decisiones informadas y mitigar impactos negativos.",
+        "isCorrect": true
+      },
+      {
+        "text": "d) Asegurar que el contrato se ejecute exactamente como fue planificado, sin ninguna desviación.",
+        "isCorrect": false
+      }
+    ],
+    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
+  },
+  {
+    "id": 335,
+    "question": "65. Si un riesgo identificado en la matriz de gestión de riesgos se materializa durante la ejecución contractual y no fue adecuadamente asignado o su plan de mitigación resulta insuficiente, ¿qué podría generar esta situación?",
+    "options": [
+      {
+        "text": "a) La renegociación automática de todo el contrato.",
+        "isCorrect": false
+      },
+      {
+        "text": "b) La aplicación de penalidades al responsable de la matriz de riesgos.",
+        "isCorrect": false
+      },
+      {
+        "text": "c) Una controversia entre las partes sobre la responsabilidad y los costos asociados al impacto del riesgo.",
+        "isCorrect": true
+      },
+      {
+        "text": "d) La suspensión inmediata del contrato por parte del OECE.",
+        "isCorrect": false
+      }
+    ],
+    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
+  },
+  {
+    "id": 336,
+    "question": "66. En un contrato de obra, la matriz de gestión de riesgos asignó a la entidad la responsabilidad de obtener un permiso ambiental específico antes de iniciar una fase crítica de la obra. La entidad demora excesivamente en obtener dicho permiso, paralizando el avance del contratista. El contratista alega que esta demora, producto de la materialización de un riesgo mal gestionado por la entidad, le ha generado mayores costos y una afectación a su ruta crítica. ¿Qué tipo de controversia es más probable que surja y sobre qué fundamentos?",
+    "options": [
+      {
+        "text": "a) Controversia por vicios ocultos en el expediente técnico, reclamando la nulidad del contrato",
+        "isCorrect": false
+      },
+      {
+        "text": "b) Controversia por la calidad de los materiales, solicitando su reemplazo.",
+        "isCorrect": false
+      },
+      {
+        "text": "c) Controversia por la aplicación de penalidades por parte de la entidad al contratista por el retraso.",
+        "isCorrect": false
+      },
+      {
+        "text": "d) Controversia por ampliación de plazo y reconocimiento de mayores gastos generales y costos directos, debido al incumplimiento de la entidad en la gestión del riesgo asignado.",
+        "isCorrect": true
+      }
+    ],
+    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
+  },
+  {
+    "id": 337,
+    "question": "67. La gestión de riesgos en la contratación pública es un proceso y abarca todas las etapas de la contratación pública, desde las actuaciones preparatorias hasta la ejecución contractual.",
+    "options": [
+      {
+        "text": "a) estático",
+        "isCorrect": false
+      },
+      {
+        "text": "b) opcional",
+        "isCorrect": false
+      },
+      {
+        "text": "c) dinámico",
+        "isCorrect": true
+      },
+      {
+        "text": "d) exclusivo del contratista",
+        "isCorrect": false
+      }
+    ],
+    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
+  },
+  {
+    "id": 338,
+    "question": "68. ¿Cuál de los siguientes principios rectores de la contratación pública es fundamental al momento de interpretar las normas para resolver una controversia contractual?",
+    "options": [
+      {
+        "text": "a) Principio de Innovación.",
+        "isCorrect": false
+      },
+      {
+        "text": "b) Principio de Legalidad.",
+        "isCorrect": true
+      },
+      {
+        "text": "c) Principio de Vigencia Tecnológica.",
+        "isCorrect": false
+      },
+      {
+        "text": "d) Principio de Gestión por Resultados.",
+        "isCorrect": false
+      }
+    ],
+    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
+  },
+  {
+    "id": 339,
+    "question": "69. En una controversia donde la entidad y el contratista tienen interpretaciones distintas sobre una cláusula contractual ambigua, ¿qué principio podría guiar al árbitro o conciliador para buscar una solución que preserve la finalidad del contrato?",
+    "options": [
+      {
+        "text": "a) Principio de Eficacia y Eficiencia, priorizando la interpretación que mejor permita el cumplimiento de los fines públicos del contrato.",
+        "isCorrect": true
+      },
+      {
+        "text": "b) Principio de Competencia, buscando la interpretación más ventajosa para la entidad.",
+        "isCorrect": false
+      },
+      {
+        "text": "c) Principio de Publicidad, asegurando que la interpretación sea conocida por todos.",
+        "isCorrect": false
+      },
+      {
+        "text": "d) Principio de Integridad, verificando la honestidad de las partes al proponer sus interpretaciones.",
+        "isCorrect": false
+      }
+    ],
+    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
+  },
+  {
+    "id": 340,
+    "question": "70. Un contratista solicita el reconocimiento de mayores gastos generales debido a una paralización de obra no imputable a él. La entidad se niega, argumentando una formalidad no esencial en la presentación de la solicitud. Al resolver la controversia, el árbitro considera que la formalidad omitida no afecta el fondo del derecho del contratista y que la paralización efectivamente ocurrió y generó costos. ¿Qué principio de la Ley de Contrataciones estaría aplicando el árbitro al priorizar el fondo sobre la formalidad no esencial?",
+    "options": [
+      {
+        "text": "a) Principio de Valor por Dinero.",
+        "isCorrect": false
+      },
+      {
+        "text": "b) Principio de Libertad de Concurrencia.",
+        "isCorrect": false
+      },
+      {
+        "text": "c) Principio de Eficacia y Eficiencia.",
+        "isCorrect": true
+      },
+      {
+        "text": "d) Principio de Sostenibilidad de las Contrataciones Públicas.",
+        "isCorrect": false
+      }
+    ],
+    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
+  },
+  {
+    "id": 341,
+    "question": "71. Según la Ley, los principios que rigen las contrataciones públicas sirven de criterio de interpretación para la aplicación de la Ley y su reglamento, de ante sus vacíos y como parámetros para la actuación de todos aquellos involucrados en el proceso de contratación.",
+    "options": [
+      {
+        "text": "a) derogación",
+        "isCorrect": false
+      },
+      {
+        "text": "b) modificación",
+        "isCorrect": false
+      },
+      {
+        "text": "c) integración",
+        "isCorrect": true
+      },
+      {
+        "text": "d) suspensión",
+        "isCorrect": false
+      }
+    ],
+    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
+  },
+  {
+    "id": 342,
+    "question": "72. ¿Cuál de los siguientes NO es un mecanismo de resolución de controversias surgidas durante la ejecución contractual?",
+    "options": [
+      {
+        "text": "a) Junta de Prevención y Resolución de Disputas (JPRD).",
+        "isCorrect": false
+      },
+      {
+        "text": "b) Conciliación.",
+        "isCorrect": false
+      },
+      {
+        "text": "c) Recurso de Apelación ante el Tribunal de Contrataciones.",
+        "isCorrect": true
+      },
+      {
+        "text": "d) Arbitraje.",
+        "isCorrect": false
+      }
+    ],
+    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
+  },
+  {
+    "id": 343,
+    "question": "73. ¿Qué tipo de controversias contractuales NO pueden ser sometidas a la junta de prevención y resolución de disputas, conciliación o arbitraje, según la Ley?",
+    "options": [
+      {
+        "text": "a) Controversias sobre ampliaciones de plazo contractual.",
+        "isCorrect": false
+      },
+      {
+        "text": "b) Pretensiones referidas a enriquecimiento sin causa o indebido derivado de la falta de aprobación de adicionales por la Contraloría.",
+        "isCorrect": true
+      },
+      {
+        "text": "c) Discrepancias sobre la recepción y conformidad de la prestación.",
+        "isCorrect": false
+      },
+      {
+        "text": "d) Controversias sobre la liquidación del contrato de obra.",
+        "isCorrect": false
+      }
+    ],
+    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
+  },
+  {
+    "id": 344,
+    "question": "74. En un contrato de obra que supera los S/ 10 000 000,00, surge una controversia técn ica sobre la calidad de una partida ejecutada. El contrato no menciona explícitamente la JPRD, pero sí incluye una cláusula arbitral estándar. ¿Qué mecanismo de solución de controversias debería agotarse primero antes de recurrir al arbitraje, considerando la obligatoriedad establecida en el Reglamento?",
+    "options": [
+      {
+        "text": "a) Trato directo entre las partes, y si no hay acuerdo, directamente al arbitraje.",
+        "isCorrect": false
+      },
+      {
+        "text": "b) La Junta de Prevención y Resolución de Disputas (JPRD), ya que su uso es obligatorio para obras de esa cuantía.",
+        "isCorrect": true
+      },
+      {
+        "text": "c) La Conciliación ante un centro acreditado, por ser un requisito previo al arbitraje en todos los casos.",
+        "isCorrect": false
+      },
+      {
+        "text": "d) Una consulta técnica al OECE para que dirima la controversia.",
+        "isCorrect": false
+      }
+    ],
+    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
+  },
+  {
+    "id": 345,
+    "question": "75. El inicio de un procedimiento de solución de controversias, como el arbitraje, por regla general, ____ las obligaciones contractuales de las partes, salvo disposición contraria de la entidad o del órgano jurisdiccional competente.",
+    "options": [
+      {
+        "text": "a) no suspende o paraliza",
+        "isCorrect": true
+      },
+      {
+        "text": "b) suspende automáticamente",
+        "isCorrect": false
+      },
+      {
+        "text": "c) modifica sustancialmente",
+        "isCorrect": false
+      },
+      {
+        "text": "d) anula inmediatamente",
+        "isCorrect": false
+      }
+    ],
+    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
+  },
+  {
+    "id": 346,
+    "question": "76. En un contrato de obra, se produce un retraso. El contratista alega que fue causado por la demora de la entidad en aprobar unos planos complementarios. La entidad, por su parte, sostiene que el retraso se debió a la falta de personal del contratista en otro frente de trabajo no relacionado con los planos. Al resolver la controversia sobre la procedencia de una ampliación de plazo y el pago de mayores gastos generales, ¿qué principio es crucial para que el árbitro determine correctamente la imputabilidad del retraso y, por ende, la responsabilidad de asumir las consecuencias económicas?",
+    "options": [
+      {
+        "text": "a) Principio de Equidad y Colaboración.",
+        "isCorrect": false
+      },
+      {
+        "text": "b) Principio de Causalidad.",
+        "isCorrect": true
+      },
+      {
+        "text": "c) Principio de Publicidad.",
+        "isCorrect": false
+      },
+      {
+        "text": "d) Principio de Integridad.",
+        "isCorrect": false
+      }
+    ],
+    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
+  },
+  {
+    "id": 347,
+    "question": "77. Una entidad contrató un servicio de desarrollo de una plataforma digital. Durante la ejecución, el contratista propone una modificación tecnológica no prevista originalmente, que no altera la finalidad pública pero sí mejora significativamente la eficiencia y seguridad de la plataforma, aunq ue implica un ligero ajuste en el cronograma y un costo adicional mínimo. La entidad se niega a la modificación argumentando que se debe cumplir estrictamente lo pactado. Si esto genera una controversia, ¿qué principio podría invocar el contratista (y ser considerado por el árbitro) para sustentar la conveniencia de la modificación propuesta, en el marco de la búsqueda de mejores soluciones para la entidad?",
+    "options": [
+      {
+        "text": "a) Principio de Legalidad.",
+        "isCorrect": false
+      },
+      {
+        "text": "b) Principio de Innovación.",
+        "isCorrect": true
+      },
+      {
+        "text": "c) Principio de Presunción de Veracidad.",
+        "isCorrect": false
+      },
+      {
+        "text": "d) Principio de Igualdad de Trato.",
+        "isCorrect": false
+      }
+    ],
+    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
+  },
+  {
+    "id": 348,
+    "question": "78. ¿Cuál es uno de los requisitos adicionales que debe presentar el proveedor ganador de la buena pro para el perfeccionamiento de un contrato de obra, según el Reglamento?",
+    "options": [
+      {
+        "text": "a) Un cronograma detallado de subcontrataciones.",
+        "isCorrect": false
+      },
+      {
+        "text": "b) La Constancia de Capacidad Libre de Contratación (CCLC) de ejecutor de obra expedida por el RNP.",
+        "isCorrect": true
+      },
+      {
+        "text": "c) Un estudio de impacto ambiental actualizado.",
+        "isCorrect": false
+      },
+      {
+        "text": "d) La póliza de seguro CAR (Todo Riesgo Contratista) por el 100% del valor de la obra.",
+        "isCorrect": false
+      }
+    ],
+    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
+  },
+  {
+    "id": 349,
+    "question": "79. En un contrato de obra bajo el sistema de entrega de solo construcción, ¿qué acción debe realizar el contratista respecto al expediente técnico dentro de los doce días siguientes a la suscripción del contrato?",
+    "options": [
+      {
+        "text": "a) Solicitar su modificación integral para adaptarlo a sus métodos constructivos.",
+        "isCorrect": false
+      },
+      {
+        "text": "b) Obtener la aprobación del expediente técnico por parte del Colegio de Ingenieros del Perú",
+        "isCorrect": false
+      },
+      {
+        "text": "c) Iniciar la ejecución de la obra sin necesidad de revisar el expediente, asumiendo que es correcto.",
+        "isCorrect": false
+      },
+      {
+        "text": "d) Presentar a la entidad y al supervisor un informe técnico de revisión del expediente técnico para detectar posibles deficiencias u omisiones.",
+        "isCorrect": true
+      }
+    ],
+    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
+  },
+  {
+    "id": 350,
+    "question": "80. Una entidad pública está por iniciar la ejecución de un contrato de obra bajo el sistema de entrega de diseño y construcción. ¿Cuál de las siguientes condiciones debe cumplir la entidad para que inicie el plazo de ejecución contractual del componente de ejecución de obra, una vez culminado el diseño?",
+    "options": [
+      {
+        "text": "a) Entregar al contratista el adelanto directo para el componente de diseño.",
+        "isCorrect": false
+      },
+      {
+        "text": "b) Notificar al contratista el expediente técnico de obra debidamente aprobado y cumplir con la identificación del supervisor y la entrega del adelanto directo para obra (si fue solicitado).",
+        "isCorrect": true
+      },
+      {
+        "text": "c) Obtener la licencia de construcción y entregar la totalidad del terreno libre de interferencias.",
+        "isCorrect": false
+      },
+      {
+        "text": "d) Suscribir un acta de inicio de obra con la participación del Colegio de Ingenieros y el OECE.",
+        "isCorrect": false
+      }
+    ],
+    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
+  },
+  {
+    "id": 351,
+    "question": "81. Desde el inicio de la ejecución de la obra en los sistemas de entrega de solo construcción y diseño y construcción, se debe contar con un , de modo permanente y exclusivo, quien es un profesional colegiado y habilitado de ingeniería o arquitectura.",
+    "options": [
+      {
+        "text": "a) gerente de proyecto",
+        "isCorrect": false
+      },
+      {
+        "text": "b) coordinador de obra",
+        "isCorrect": false
+      },
+      {
+        "text": "c) residente de obra",
+        "isCorrect": true
+      },
+      {
+        "text": "d) especialista en costos",
+        "isCorrect": false
+      }
+    ],
+    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
+  },
+  {
+    "id": 352,
+    "question": "82. Una entidad pública y un contratista sometieron a arbitraje una controversia sobre el pago de valorizaciones, emitiéndose un laudo definitivo a favor del contratista. Meses después, la Oficina de Control Institucional (OCI) detecta que el contrato original se perfeccionó a pesar de que el proveedor se encontraba impedido para contratar con el Estado al momento de la suscripción, una causal de nulidad prevista en el Artículo 71.1(a) de la Ley General de Contrataciones Públicas. Esta causal de impedimento no fue advertida ni discutida durante el proceso arbitral. ¿Puede la autoridad de la gestión administrativa declarar la nulidad de dicho contrato?",
+    "options": [
+      {
+        "text": "a) No, el laudo arbitral es definitivo y ha saneado cualquier vicio contractual preexistente, incluyendo los impedimentos.",
+        "isCorrect": false
+      },
+      {
+        "text": "b) Sí, pero únicamente si el Titular de la Entidad autoriza expresamente la declaración de nulidad y se demuestra que el árbitro actuó con negligencia.",
+        "isCorrect": false
+      },
+      {
+        "text": "c) Sí, la autoridad de la gestión administrativa puede declarar la nulidad del contrato por la causal de proveedor impedido, ya que esta es una potestad de la entidad para vicios que afectan el orden público y no fue materia del arbitraje anterior.",
+        "isCorrect": true
+      },
+      {
+        "text": "d) Solo podría hacerlo el Poder Judicial a través de un proceso de revisión del contrato, previa anulación del laudo arbitral.",
+        "isCorrect": false
+      }
+    ],
+    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
+  },
+  {
+    "id": 353,
+    "question": "83. ¿Cuál de los siguientes documentos es un componente esencial que debe incluir un expediente técnico de obra?",
+    "options": [
+      {
+        "text": "a) El Plan Anual de Contrataciones de la entidad.",
+        "isCorrect": false
+      },
+      {
+        "text": "b) La memoria descriptiva, planos de ejecución de obra y especificaciones técnicas.",
+        "isCorrect": true
+      },
+      {
+        "text": "c) El contrato de consorcio del postor ganador.",
+        "isCorrect": false
+      },
+      {
+        "text": "d) El informe de evaluación de ofertas del comité de selección.",
+        "isCorrect": false
+      }
+    ],
+    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
+  },
+  {
+    "id": 354,
+    "question": "84. ¿En qué momento el área usuaria debe proporcionar retroalimentación a la Unidad Formuladora que viabilizó el proyecto, respecto a cambios de alcance, costos y plazos del expediente técnico?",
+    "options": [
+      {
+        "text": "a) Antes de la elaboración del expediente técnico.",
+        "isCorrect": false
+      },
+      {
+        "text": "b) Durante la ejecución de la obra.",
+        "isCorrect": false
+      },
+      {
+        "text": "c) Terminada la elaboración del expediente técnico.",
+        "isCorrect": true
+      },
+      {
+        "text": "d) Únicamente si el expediente técnico es observado por la Contraloría.",
+        "isCorrect": false
+      }
+    ],
+    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
+  },
+  {
+    "id": 355,
+    "question": "85. Una entidad contrata a un consultor para la elaboración de un expediente técnico de obra. El consultor presenta el entregable final. ¿Qué plazo máximo tiene el órgano a cargo de la aprobación del expediente técnico en la entidad para emitir la resolución correspondiente, una vez otorgada la conformidad al consultor?",
+    "options": [
+      {
+        "text": "a) Cinco días calendario.",
+        "isCorrect": false
+      },
+      {
+        "text": "b) Cinco días hábiles.",
+        "isCorrect": false
+      },
+      {
+        "text": "c) Diez días calendario.",
+        "isCorrect": false
+      },
+      {
+        "text": "d) Diez días hábiles.",
+        "isCorrect": true
+      }
+    ],
+    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
+  },
+  {
+    "id": 356,
+    "question": "86. El expediente técnico de la obra debe guardar coherencia con los objetivos, alcances y parámetros que sustentan la o aprobación de las inversiones.",
+    "options": [
+      {
+        "text": "a) rentabilidad",
+        "isCorrect": false
+      },
+      {
+        "text": "b) viabilidad",
+        "isCorrect": true
+      },
+      {
+        "text": "c) popularidad",
+        "isCorrect": false
+      },
+      {
+        "text": "d) urgencia",
+        "isCorrect": false
+      }
+    ],
+    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
+  },
+  {
+    "id": 357,
+    "question": "87. Si durante la elaboración de un expediente técnico derivado de un Concurso de Proyectos Arquitectónicos y Urbanísticos, el contratista identifica oportunidades de mejora con innovaciones no contempladas en los parámetros técnicos nacionales vigentes, ¿qué procedimiento debe seguir?",
+    "options": [
+      {
+        "text": "a) Implementar las innovaciones directamente, asumiendo que mejoran el proyecto.",
+        "isCorrect": false
+      },
+      {
+        "text": "b) Proponer a la entidad la aplicación de dichas innovaciones, y la entidad, de ser el caso, las comunica al Sector competente para su evaluación.",
+        "isCorrect": true
+      },
+      {
+        "text": "c) Descartar las innovaciones, ya que el expediente debe ceñirse estrictamente a los parámetros nacionales vigentes.",
+        "isCorrect": false
+      },
+      {
+        "text": "d) Solicitar al OECE una autorización especial para aplicar las innovaciones propuestas.",
+        "isCorrect": false
+      }
+    ],
+    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
+  },
+  {
+    "id": 358,
+    "question": "88. ¿Quién es el responsable técnico de la obra por parte del contratista, presente de modo permanente y exclusivo en obras bajo sistemas de solo construcción y diseño y construcción?",
+    "options": [
+      {
+        "text": "a) El Gerente de Proyecto del contratista.",
+        "isCorrect": false
+      },
+      {
+        "text": "b) El Residente de Obra.",
+        "isCorrect": true
+      },
+      {
+        "text": "c) El Supervisor de Obra.",
+        "isCorrect": false
+      },
+      {
+        "text": "d) El Coordinador de Contrato de la entidad.",
+        "isCorrect": false
+      }
+    ],
+    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
+  },
+  {
+    "id": 359,
+    "question": "89. ¿Cuál es una de las funciones principales del supervisor de obra en los sistemas de entrega de solo construcción y diseño y construcción?",
+    "options": [
+      {
+        "text": "a) Aprobar las prestaciones adicionales de obra.",
+        "isCorrect": false
+      },
+      {
+        "text": "b) Modificar el plazo contractual de la obra.",
+        "isCorrect": false
+      },
+      {
+        "text": "c) Representar legalmente a la entidad contratante ante terceros.",
+        "isCorrect": false
+      },
+      {
+        "text": "d) Velar directa y permanentemente por la correcta ejecución técnica, económica y administrativa de la prestación y del cumplimiento del contrato.",
+        "isCorrect": true
+      }
+    ],
+    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
+  },
+  {
+    "id": 360,
+    "question": "90. Durante la ejecución de una obra, el supervisor detecta que el contratista está utilizando materiales que no se ajustan a las especificaciones técnicas del contrato. ¿Qué atribución tiene el supervisor en esta situación, según las funciones detalladas en el Reglamento?",
+    "options": [
+      {
+        "text": "a) Rechazar y ordenar el retiro de los materiales por mala calidad o por no ajustarse al contrato.",
+        "isCorrect": true
+      },
+      {
+        "text": "b) Aplicar directamente una penalidad económica al contratista.",
+        "isCorrect": false
+      },
+      {
+        "text": "c) Ordenar la resolución inmediata del contrato de obra.",
+        "isCorrect": false
+      },
+      {
+        "text": "d) Solicitar al OECE que intervenga y sancione al contratista.",
+        "isCorrect": false
+      }
+    ],
+    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
+  },
+  {
+    "id": 361,
+    "question": "91. Previo al inicio de la ejecución de un contrato de obra, la entidad contratante designa un _______ , quien se encarga de gestionar uno o más contratos asignados, sin ser responsable de las opiniones técnicas de la supervisión.",
+    "options": [
+      {
+        "text": "a) residente de obra",
+        "isCorrect": false
+      },
+      {
+        "text": "b) gerente de proyecto",
+        "isCorrect": false
+      },
+      {
+        "text": "c) coordinador",
+        "isCorrect": true
+      },
+      {
+        "text": "d) inspector de obra",
+        "isCorrect": false
+      }
+    ],
+    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
+  },
+  {
+    "id": 362,
+    "question": "92. En el contexto de la aplicación de contratos estandarizados de ingeniería y construcción de uso internacional, ¿quién es el profesional asignado por la entidad contratante para gestionar las actividades correspondientes de acuerdo con las facultades que el contrato suscrito establezca?",
+    "options": [
+      {
+        "text": "a) El Coordinador de Obra",
+        "isCorrect": false
+      },
+      {
+        "text": "b) El Gerente de Proyecto",
+        "isCorrect": true
+      },
+      {
+        "text": "c) El Residente de Obra",
+        "isCorrect": false
+      },
+      {
+        "text": "d) El Supervisor de Aseguramiento de Calidad",
+        "isCorrect": false
+      }
+    ],
+    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
+  },
+  {
+    "id": 363,
+    "question": "93. ¿Cuáles son los tipos de adelantos que pueden otorgarse en los contratos de obras?",
+    "options": [
+      {
+        "text": "a) Directos y para equipamiento menor únicamente.",
+        "isCorrect": false
+      },
+      {
+        "text": "b) Para materiales e insumos, y para mano de obra.",
+        "isCorrect": false
+      },
+      {
+        "text": "c) Directos, para materiales e insumos, equipamiento y mobiliario, y por avance.",
+        "isCorrect": true
+      },
+      {
+        "text": "d) Solo adelantos directos, hasta un 30% del contrato.",
+        "isCorrect": false
+      }
+    ],
+    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
+  },
+  {
+    "id": 364,
+    "question": "94. En los contratos de consultoría de obras, ¿qué tipo de adelanto es el único que procede?",
+    "options": [
+      {
+        "text": "a) Adelanto para materiales e insumos.",
+        "isCorrect": false
+      },
+      {
+        "text": "b) Adelanto por avance.",
+        "isCorrect": false
+      },
+      {
+        "text": "c) Adelanto directo.",
+        "isCorrect": true
+      },
+      {
+        "text": "d) No proceden adelantos en consultoría de obras.",
+        "isCorrect": false
+      }
+    ],
+    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
+  },
+  {
+    "id": 365,
+    "question": "95. Una entidad contrata la ejecución de una obra bajo el sistema de entrega de diseño y construcción. ¿Qué tipos de adelantos podrían establecerse en las bases para el componente de ejecución de obra?",
+    "options": [
+      {
+        "text": "a) Solo adelanto directo, hasta el 30% del monto del componente de ejecución de obra.",
+        "isCorrect": false
+      },
+      {
+        "text": "b) Adelanto directo (hasta 10%), adelanto para materiales e insumos, equipamiento y mobiliario (hasta 20%), y adelanto por avance (hasta 10%), todos calculados sobre el monto de la obra aprobado en el expediente técnico.",
+        "isCorrect": true
+      },
+      {
+        "text": "c) Únicamente adelanto para materiales e insumos, hasta el 50% del monto del componente de ejecución de obra.",
+        "isCorrect": false
+      },
+      {
+        "text": "d) No proceden adelantos para el componente de ejecución de obra en el sistema de diseño y construcción, solo para el diseño.",
+        "isCorrect": false
+      }
+    ],
+    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
+  },
+  {
+    "id": 366,
+    "question": "96. El adelanto directo que puede otorgarse en un contrato de obra bajo el sistema de entrega de solo construcción no debe exceder el del monto del contrato original.",
+    "options": [
+      {
+        "text": "a) 5%",
+        "isCorrect": false
+      },
+      {
+        "text": "b) 10%",
+        "isCorrect": true
+      },
+      {
+        "text": "c) 15%",
+        "isCorrect": false
+      },
+      {
+        "text": "d) 20%",
+        "isCorrect": false
+      }
+    ],
+    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
+  },
+  {
+    "id": 367,
+    "question": "97. ¿En qué tipo de contratos de bienes y servicios, además de obras, el Reglamento contempla explícitamente la posibilidad de otorgar adelantos directos, siempre que se sustente en la estrategia de contratación o por condiciones de mercado?",
+    "options": [
+      {
+        "text": "a) En todos los contratos de bienes, sin excepción.",
+        "isCorrect": false
+      },
+      {
+        "text": "b) Únicamente en contratos de servicios de limpieza y seguridad.",
+        "isCorrect": false
+      },
+      {
+        "text": "c) En bienes de alta complejidad bajo llave en mano, servicio especializado de gestión de instalaciones, servicio de mantenimiento vial, y ASISTE.",
+        "isCorrect": true
+      },
+      {
+        "text": "d) Solo en contratos de servicios cuya ejecución supere los 12 meses.",
+        "isCorrect": false
+      }
+    ],
+    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
+  },
+  {
+    "id": 368,
+    "question": "98. ¿Qué debe entregar el contratista, como mínimo, al momento de solicitar un adelanto directo en un contrato de obra?",
+    "options": [
+      {
+        "text": "a) El programa de ejecución de obra actualizado.",
+        "isCorrect": false
+      },
+      {
+        "text": "b) La garantía por el adelanto y el comprobante de pago de dicha garantía.",
+        "isCorrect": true
+      },
+      {
+        "text": "c) Un informe detallado del uso que se le dará al adelanto.",
+        "isCorrect": false
+      },
+      {
+        "text": "d) La factura correspondiente al monto del adelanto.",
+        "isCorrect": false
+      }
+    ],
+    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
+  },
+  {
+    "id": 369,
+    "question": "99. ¿Cómo se realiza generalmente la amortización del adelanto directo otorgado en un contrato de obra?",
+    "options": [
+      {
+        "text": "a) Mediante descuentos proporcionales en cada una de las valorizaciones del componente.",
+        "isCorrect": true
+      },
+      {
+        "text": "b) Mediante un único descuento en la liquidación final del contrato.",
+        "isCorrect": false
+      },
+      {
+        "text": "c) A través de la ejecución de la garantía de fiel cumplimiento.",
+        "isCorrect": false
+      },
+      {
+        "text": "d) El contratista devuelve el monto total del adelanto antes de la recepción de la obra.",
+        "isCorrect": false
+      }
+    ],
+    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
+  },
+  {
+    "id": 370,
+    "question": "100. En un contrato de obra, la entidad otorga un adelanto directo. Si durante la ejecución se producen diferencias en la amortización parcial de dicho adelanto en una valorización, ¿cómo se maneja esta situación según el Reglamento?",
+    "options": [
+      {
+        "text": "a) La entidad debe resolver el contrato por incorrecta amortización.",
+        "isCorrect": false
+      },
+      {
+        "text": "b) El contratista debe devolver inmediatamente la diferencia a la entidad.",
+        "isCorrect": false
+      },
+      {
+        "text": "c) La diferencia se toma en cuenta al efectuar el siguiente pago al contratista o al momento de la liquidación del contrato.",
+        "isCorrect": true
+      },
+      {
+        "text": "d) Se debe solicitar una pericia contable para determinar la responsabilidad por la diferencia.",
+        "isCorrect": false
+      }
+    ],
+    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
+  },
+  {
+    "id": 371,
+    "question": "101. La garantía por adelantos directos debe tener un plazo mínimo de vigencia de ________ , renovable hasta la amortización total, salvo que el plazo de ejecución contractual sea menor.",
+    "options": [
+      {
+        "text": "a) un mes",
+        "isCorrect": false
+      },
+      {
+        "text": "b) dos meses",
+        "isCorrect": false
+      },
+      {
+        "text": "c) tres meses",
+        "isCorrect": true
+      },
+      {
+        "text": "d) seis meses",
+        "isCorrect": false
+      }
+    ],
+    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
+  },
+  {
+    "id": 372,
+    "question": "102. ¿En qué momento proceden las solicitudes de adelantos para materiales e insumos, equipamiento y mobiliario en obras bajo los sistemas de entrega de solo construcción y diseño y construcción?",
+    "options": [
+      {
+        "text": "a) Desde la suscripción del contrato, antes del inicio del plazo de ejecución.",
+        "isCorrect": false
+      },
+      {
+        "text": "b) Solo si el contratista no solicitó el adelanto directo.",
+        "isCorrect": false
+      },
+      {
+        "text": "c) Únicamente después de alcanzar el 50% de avance físico de la obra.",
+        "isCorrect": false
+      },
+      {
+        "text": "d) Una vez iniciado el plazo de ejecución de la obra, teniendo en consideración el Calendario de Adquisición de Materiales.",
+        "isCorrect": true
+      }
+    ],
+    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
+  },
+  {
+    "id": 373,
+    "question": "103. ¿En qué circunstancia el contratista puede solicitar la sustitución de su personal clave del plantel técnico en un contrato de obra?",
+    "options": [
+      {
+        "text": "a) En cualquier momento y sin necesidad de justificación.",
+        "isCorrect": false
+      },
+      {
+        "text": "b) Únicamente si el personal original renuncia voluntariamente.",
+        "isCorrect": false
+      },
+      {
+        "text": "c) Excepcionalmente y con el sustento debido, siempre que el reemplazante tenga un perfil igual o mayor.",
+        "isCorrect": true
+      },
+      {
+        "text": "d) Solo si la entidad lo requiere por bajo rendimiento del personal original.",
+        "isCorrect": false
+      }
+    ],
+    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
+  },
+  {
+    "id": 374,
+    "question": "104. Si un contratista solicita la sustitución permanente del personal clave de su plantel técnico en una obra, ¿con qué anticipación debe presentar la solicitud a la entidad contratante antes de la fecha en que operaría la sustitución?",
+    "options": [
+      {
+        "text": "a) Tres días hábiles.",
+        "isCorrect": false
+      },
+      {
+        "text": "b) Cinco días hábiles.",
+        "isCorrect": false
+      },
+      {
+        "text": "c) Diez días hábiles.",
+        "isCorrect": true
+      },
+      {
+        "text": "d) No hay plazo de anticipación, puede ser el mismo día.",
+        "isCorrect": false
+      }
+    ],
+    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
+  },
+  {
+    "id": 375,
+    "question": "105. Un contratista solicita por segunda vez la sustitución del mismo integrante de su plantel técnico clave en una obra. La entidad aprueba la sustitución. ¿Qué consecuencia adicional podría enfrentar el contratista en esta situación, asumiendo que la sustitución no se origina por caso fortuito, fuerza mayor o hecho no imputable al contratista?",
+    "options": [
+      {
+        "text": "a) La entidad debe resolver el contrato de obra.",
+        "isCorrect": false
+      },
+      {
+        "text": "b) No hay ninguna consecuencia adicional si la entidad aprueba la sustitución.",
+        "isCorrect": false
+      },
+      {
+        "text": "c) El contratista debe presentar una garantía adicional por el nuevo personal.",
+        "isCorrect": false
+      },
+      {
+        "text": "d) La entidad debe aplicar una penalidad al contratista.",
+        "isCorrect": true
+      }
+    ],
+    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
+  },
+  {
+    "id": 376,
+    "question": "106. La sustitución _________del personal clave del plantel técnico ocurre cuando la fecha de retorno del profesional original se encuentra dentro del plazo de ejecución y se debe al régimen laboral aplicable del integrante, no ocasionando penalidades.",
+    "options": [
+      {
+        "text": "a) permanente",
+        "isCorrect": false
+      },
+      {
+        "text": "b) excepcional",
+        "isCorrect": false
+      },
+      {
+        "text": "c) temporal",
+        "isCorrect": true
+      },
+      {
+        "text": "d) no autorizada",
+        "isCorrect": false
+      }
+    ],
+    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
+  },
+  {
+    "id": 377,
+    "question": "107. ¿Cuál es el porcentaje máximo del monto del contrato original hasta el cual la autoridad de la gestión administrativa puede autorizar prestaciones adicionales en obras bajo el sistema de entrega de solo construcción, sin requerir autorización del Titular de la Entidad ni de la Contraloría?",
+    "options": [
+      {
+        "text": "a) 10%",
+        "isCorrect": false
+      },
+      {
+        "text": "b) 15%",
+        "isCorrect": true
+      },
+      {
+        "text": "c) 20%",
+        "isCorrect": false
+      },
+      {
+        "text": "d) 25%",
+        "isCorrect": false
+      }
+    ],
+    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
+  },
+  {
+    "id": 378,
+    "question": "108. En obras bajo el sistema de entrega de solo construcción, si se requiere una prestación adicional que supera el 15% pero no excede el 30% del monto originalmente contratado (restando deductivos vinculados), ¿quién está facultado para autorizar dicha prestación adicional?",
+    "options": [
+      {
+        "text": "a) La autoridad de la gestión administrativa, con opinión favorable del supervisor.",
+        "isCorrect": false
+      },
+      {
+        "text": "b) El Titular de la Entidad, siempre que cuente con los recursos necesarios.",
+        "isCorrect": true
+      },
+      {
+        "text": "c) El supervisor de obra, con cargo a regularización por la entidad.",
+        "isCorrect": false
+      },
+      {
+        "text": "d) La Contraloría General de la República, previa solicitud de la entidad.",
+        "isCorrect": false
+      }
+    ],
+    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
+  },
+  {
+    "id": 379,
+    "question": "109. Una entidad necesita ejecutar una prestación adicional en una obra bajo el sistema de entrega de solo construcción. El costo de este adicional representa el 40% del monto del contrato original. ¿Qué procedimiento debe seguir la entidad para aprobar esta prestación adicional, según la Ley?",
+    "options": [
+      {
+        "text": "a) La autoridad de la gestión administrativa lo aprueba directamente, informando luego a la Contraloría.",
+        "isCorrect": false
+      },
+      {
+        "text": "b) El Titular de la Entidad lo aprueba, previa opinión favorable del área usuaria y de la supervisión.",
+        "isCorrect": false
+      },
+      {
+        "text": "c) El Titular de la Entidad puede autorizarla, previa autorización de la Contraloría General de la República.",
+        "isCorrect": true
+      },
+      {
+        "text": "d) No es posible aprobar adicionales que superen el 30%, se debe resolver el contrato.",
+        "isCorrect": false
+      }
+    ],
+    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
+  },
+  {
+    "id": 380,
+    "question": "110. Las prestaciones adicionales en obras bajo el sistema de entrega de solo construcción, en conjunto, no pueden superar el del monto del contrato original; en caso contrario, se procede a la resolución del contrato.",
+    "options": [
+      {
+        "text": "a) 25%",
+        "isCorrect": false
+      },
+      {
+        "text": "b) 30%",
+        "isCorrect": false
+      },
+      {
+        "text": "c) 40%",
+        "isCorrect": false
+      },
+      {
+        "text": "d) 50%",
+        "isCorrect": true
+      }
+    ],
+    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
+  },
+  {
+    "id": 381,
+    "question": "111. ¿Cuál es una de las causales por las cuales el contratista puede solicitar una ampliación de plazo en un contrato de obra?",
+    "options": [
+      {
+        "text": "a) Cuando el contratista decide utilizar una tecnología constructiva más lenta pero de mejor calidad.",
+        "isCorrect": false
+      },
+      {
+        "text": "b) Por atrasos y/o paralizaciones por causas no atribuibles al contratista que modifiquen la ruta crítica.",
+        "isCorrect": true
+      },
+      {
+        "text": "c) Cuando el contratista no cuenta con suficiente personal para cumplir el cronograma.",
+        "isCorrect": false
+      },
+      {
+        "text": "d) Si la entidad realiza los pagos de valorizaciones antes de la fecha pactada.",
+        "isCorrect": false
+      }
+    ],
+    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
+  },
+  {
+    "id": 382,
+    "question": "112. En un contrato de obra, si se aprueba una prestación adicional, ¿cuándo puede el contratista solicitar una ampliación de plazo por esta causal?",
+    "options": [
+      {
+        "text": "a) Automáticamente con la aprobación del adicional, sin necesidad de solicitud.",
+        "isCorrect": false
+      },
+      {
+        "text": "b) Solo si la ejecución de la prestación adicional afecta la ruta crítica del programa de ejecución vigente.",
+        "isCorrect": true
+      },
+      {
+        "text": "c) Únicamente si el costo del adicional supera el 5% del monto del contrato.",
+        "isCorrect": false
+      },
+      {
+        "text": "d) En cualquier momento, incluso después de haber ejecutado el adicional.",
+        "isCorrect": false
+      }
+    ],
+    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
+  },
+  {
+    "id": 383,
+    "question": "113. Un contratista de obra solicita una ampliación de plazo debido a una paralización generada por conflictos sociales en la zona, evento no atribuible a él. Presenta su solicitud al supervisor. Si el supervisor no emite su opinión técnica a la entidad dentro del plazo de cinco días hábiles, ¿cómo debe proceder la entidad para resolver la solicitud de ampliación de plazo?",
+    "options": [
+      {
+        "text": "a) Dar respuesta a la solicitud de ampliación de plazo sin el pronunciamiento del supervisor, sin perjuicio de aplicar penalidades a este último.",
+        "isCorrect": true
+      },
+      {
+        "text": "b) Otorgar al supervisor un plazo adicional de cinco días hábiles para que emita su opinión.",
+        "isCorrect": false
+      },
+      {
+        "text": "c) Denegar automáticamente la solicitud por falta de opinión del supervisor.",
+        "isCorrect": false
+      },
+      {
+        "text": "d) Devolver la solicitud al contratista para que la presente nuevamente cuando el supervisor esté disponible.",
+        "isCorrect": false
+      }
+    ],
+    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
+  },
+  {
+    "id": 384,
+    "question": "114. Cuando las ampliaciones de plazo en la ejecución de obras se sustentan en causales que no corresponden a un mismo periodo de tiempo, cada solicitud de ampliación de plazo se tramita y resuelve .",
+    "options": [
+      {
+        "text": "a) conjuntamente al final de la obra",
+        "isCorrect": false
+      },
+      {
+        "text": "b) previa autorización de la Contraloría",
+        "isCorrect": false
+      },
+      {
+        "text": "c) solo si superan los 15 días",
+        "isCorrect": false
+      },
+      {
+        "text": "d) independientemente",
+        "isCorrect": true
+      }
+    ],
+    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
+  },
+  {
+    "id": 385,
+    "question": "115. ¿Cuál es una condición para que las partes puedan acordar por escrito la suspensión del plazo de ejecución contractual de una obra?",
+    "options": [
+      {
+        "text": "a) Que el contratista lo solicite debido a problemas financieros internos.",
+        "isCorrect": false
+      },
+      {
+        "text": "b) Que la entidad decida realizar una revisión completa del expediente técnico.",
+        "isCorrect": false
+      },
+      {
+        "text": "c) Que se produzcan eventos no atribuibles a las partes que originen la interrupción de la ejecución.",
+        "isCorrect": true
+      },
+      {
+        "text": "d) Que el supervisor de obra recomiende la suspensión por conveniencia técnica.",
+        "isCorrect": false
+      }
+    ],
+    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
+  },
+  {
+    "id": 386,
+    "question": "116. Durante la suspensión del plazo de ejecución de una obra acordada por las partes, ¿qué tipo de actividades pueden realizarse?",
+    "options": [
+      {
+        "text": "a) Ninguna actividad relacionada con el contrato, todo queda completamente paralizado.",
+        "isCorrect": false
+      },
+      {
+        "text": "b) Solo actividades de mantenimiento menor del campamento de obra.",
+        "isCorrect": false
+      },
+      {
+        "text": "c) Trámites propios de la gestión del contrato, como aprobación de adicionales o valorizaciones pendientes, si es posible.",
+        "isCorrect": true
+      },
+      {
+        "text": "d) Únicamente la ejecución de partidas críticas que no puedan esperar.",
+        "isCorrect": false
+      }
+    ],
+    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
+  },
+  {
+    "id": 387,
+    "question": "117. En un contrato de obra, la entidad no paga al contratista dos valorizaciones mensuales consecutivas. El contratista requiere el pago de al menos una, pero la entidad no cumple en el p lazo otorgado. ¿Qué acción puede tomar el contratista y qué consecuencia económica tiene para la entidad si se produce la suspensión?",
+    "options": [
+      {
+        "text": "a) Resolver el contrato inmediatamente; la entidad no tiene responsabilidad económica adicional.",
+        "isCorrect": false
+      },
+      {
+        "text": "b) Anotar en el cuaderno de incidencias la suspensión del plazo de ejecución; la entidad debe reconocer al contratista los costos directos y/o mayores gastos generales vinculados y acreditados.",
+        "isCorrect": true
+      },
+      {
+        "text": "c) Continuar la obra bajo protesta y solicitar el pago de intereses moratorios únicamente.",
+        "isCorrect": false
+      },
+      {
+        "text": "d) Solicitar la intervención económica de la obra por parte de la Contraloría.",
+        "isCorrect": false
+      }
+    ],
+    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
+  },
+  {
+    "id": 388,
+    "question": "118. Si se acuerda la suspensión del plazo de ejecución de una obra, y esta suspensión no supone el reconocimiento de mayores gastos generales y/o costos directos, sí pueden reconocerse aquellos que resulten necesarios para la suspensión.",
+    "options": [
+      {
+        "text": "a) acelerar",
+        "isCorrect": false
+      },
+      {
+        "text": "b) evitar",
+        "isCorrect": false
+      },
+      {
+        "text": "c) documentar",
+        "isCorrect": false
+      },
+      {
+        "text": "d) viabilizar",
+        "isCorrect": true
+      }
+    ],
+    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
+  },
+  {
+    "id": 389,
+    "question": "119. ¿En qué supuestos la entidad contratante puede intervenir económicamente una obra?",
+    "options": [
+      {
+        "text": "a) Solo cuando el contratista lo solicite por problemas de flujo de caja.",
+        "isCorrect": false
+      },
+      {
+        "text": "b) En caso fortuito, fuerza mayor o por incumplimiento de estipulaciones contractuales que no permitan la terminación de los trabajos.",
+        "isCorrect": true
+      },
+      {
+        "text": "c) Únicamente si el avance de obra es menor al 50% de lo programado.",
+        "isCorrect": false
+      },
+      {
+        "text": "d) Cuando el supervisor de obra renuncia a su cargo.",
+        "isCorrect": false
+      }
+    ],
+    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
+  },
+  {
+    "id": 390,
+    "question": "120. ¿Cuál es la finalidad principal de la intervención económica de una obra por parte de la entidad?",
+    "options": [
+      {
+        "text": "a) Sancionar económicamente al contratista por sus incumplimientos.",
+        "isCorrect": false
+      },
+      {
+        "text": "b) Asumir la ejecución directa de la obra con personal de la entidad.",
+        "isCorrect": false
+      },
+      {
+        "text": "c) Culminar la ejecución de los trabajos sin llegar a resolver el contrato.",
+        "isCorrect": true
+      },
+      {
+        "text": "d) Realizar una auditoría financiera completa al contrato de obra.",
+        "isCorrect": false
+      }
+    ],
+    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
+  },
+  {
+    "id": 391,
+    "question": "121. Una entidad decide intervenir económicamente una obra debido a graves incumplimientos del contratista que impedían su culminación. El contratista rechaza la intervención económica. ¿Cuál es la consecuencia directa de este rechazo por parte del contratista?",
+    "options": [
+      {
+        "text": "a) El contrato es resuelto por incumplimiento del contratista.",
+        "isCorrect": true
+      },
+      {
+        "text": "b) La entidad debe iniciar un proceso de conciliación para convencer al contratista.",
+        "isCorrect": false
+      },
+      {
+        "text": "c) El contratista debe proponer un nuevo cronograma acelerado de trabajos.",
+        "isCorrect": false
+      },
+      {
+        "text": "d) Se suspende la intervención económica y se busca un nuevo supervisor.",
+        "isCorrect": false
+      }
+    ],
+    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
+  },
+  {
+    "id": 392,
+    "question": "122. La intervención económica de la obra no deja al contratista al margen de su participación contractual y sus obligaciones; sin embargo, pierde el derecho al reconocimiento de mayores gastos generales o indemnización cuando la intervención sea consecuencia del",
+    "options": [
+      {
+        "text": "a) caso fortuito",
+        "isCorrect": false
+      },
+      {
+        "text": "b) incumplimiento del contratista",
+        "isCorrect": true
+      },
+      {
+        "text": "c) fuerza mayor",
+        "isCorrect": false
+      },
+      {
+        "text": "d) acuerdo entre las partes",
+        "isCorrect": false
+      }
+    ],
+    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
+  },
+  {
+    "id": 393,
+    "question": "123. ¿Quién es el principal responsable de realizar el monitoreo y control para evaluar el desempeño de la obra en términos de alcance, costo y tiempo, según las funciones de la supervisión detalladas en el Reglamento?",
+    "options": [
+      {
+        "text": "a) El Residente de obra.",
+        "isCorrect": false
+      },
+      {
+        "text": "b) La Supervisión (supervisor o inspector).",
+        "isCorrect": true
+      },
+      {
+        "text": "c) El Coordinador de obra de la entidad.",
+        "isCorrect": false
+      },
+      {
+        "text": "d) El área usuaria de la entidad.",
+        "isCorrect": false
+      }
+    ],
+    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
+  },
+  {
+    "id": 394,
+    "question": "124. Si el supervisor de obra verifica que la valorización acumulada ejecutada es menor al 80% de la valorización acumulada programada, o existe atraso en la ruta crítica, ¿qué acción debe ordenar al contratista?",
+    "options": [
+      {
+        "text": "a) La suspensión inmediata de los trabajos hasta regularizar el avance.",
+        "isCorrect": false
+      },
+      {
+        "text": "b) La presentación de una nueva garantía de fiel cumplimiento.",
+        "isCorrect": false
+      },
+      {
+        "text": "c) La reducción del monto del contrato en proporción al retraso.",
+        "isCorrect": false
+      },
+      {
+        "text": "d) La presentación de un nuevo programa de ejecución que contemple la aceleración de trabajos.",
+        "isCorrect": true
+      }
+    ],
+    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
+  },
+  {
+    "id": 395,
+    "question": "125. Un contratista presenta un nuevo programa de ejecución con aceleración de trabajos debido a un retraso injustificado. Posteriormente, el supervisor verifica que el monto de la valorización acumulada ejecutada es menor al 80% del monto acumulado programado de este nuevo calendario. ¿Qué consecuencia podría acarrear este segundo incumplimiento para el contratista?",
+    "options": [
+      {
+        "text": "a) El contratista solo estaría sujeto a la aplicación de la penalidad por mora.",
+        "isCorrect": false
+      },
+      {
+        "text": "b) El supervisor debe otorgar un nuevo plazo para presentar otro programa de aceleración.",
+        "isCorrect": false
+      },
+      {
+        "text": "c) Dicho retraso puede ser considerado como causal de resolución del contrato o de intervención económica de la obra, no siendo necesario apercibimiento.",
+        "isCorrect": true
+      },
+      {
+        "text": "d) La entidad debe aprobar automáticamente una ampliación de plazo para compensar el retraso.",
+        "isCorrect": false
+      }
+    ],
+    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
+  },
+  {
+    "id": 396,
+    "question": "126. El nuevo programa de ejecución que contempla la aceleración de trabajos, presentado por el contratista debido a un retraso, solo se toma en cuenta para el control de los avances físicos reprogramados y no para el análisis de afectación de la con fines de trámite de ampliaciones de plazo.",
+    "options": [
+      {
+        "text": "a) calidad de los materiales",
+        "isCorrect": false
+      },
+      {
+        "text": "b) ruta crítica",
+        "isCorrect": true
+      },
+      {
+        "text": "c) estructura de costos",
+        "isCorrect": false
+      },
+      {
+        "text": "d) asignación de personal",
+        "isCorrect": false
+      }
+    ],
+    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
+  },
+  {
+    "id": 397,
+    "question": "127. En un contrato de obra bajo el sistema de entrega de solo construcción, ¿con qué frecuencia general se realizan las valorizaciones, considerándose estas como pagos a cuenta?",
+    "options": [
+      {
+        "text": "a) Semanalmente.",
+        "isCorrect": false
+      },
+      {
+        "text": "b) Mensualmente.",
+        "isCorrect": true
+      },
+      {
+        "text": "c) Trimestralmente.",
+        "isCorrect": false
+      },
+      {
+        "text": "d) Al finalizar cada hito constructivo importante.",
+        "isCorrect": false
+      }
+    ],
+    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
+  },
+  {
+    "id": 398,
+    "question": "128. En un contrato de obra, si el supervisor no se presenta para la valorización conjunta de los metrados ejecutados con el contratista, ¿quién efectúa la valorización?",
+    "options": [
+      {
+        "text": "a) El contratista la efectúa y la presenta directamente a la entidad.",
+        "isCorrect": true
+      },
+      {
+        "text": "b) La entidad contratante a través de su personal técnico.",
+        "isCorrect": false
+      },
+      {
+        "text": "c) Se debe esperar a que el supervisor esté disponible, reprogramando la valorización.",
+        "isCorrect": false
+      },
+      {
+        "text": "d) El coordinador de obra de la entidad asume la responsabilidad de la valorización.",
+        "isCorrect": false
+      }
+    ],
+    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
+  },
+  {
+    "id": 399,
+    "question": "129. Un contratista presenta su valorización mensual de obra al supervisor y a la entidad. El supervisor presenta su informe favorable a la entidad dentro del plazo. La entidad, sin embargo, demora 40 días calendario desde la presentación de la valorización por el contratista para efectuar el pago, sin que exista caso fortuito o fuerza mayor. ¿Qué consecuencia principal tiene esta demora en el pago por parte de la entidad?",
+    "options": [
+      {
+        "text": "a) El contratista puede resolver el contrato inmediatamente.",
+        "isCorrect": false
+      },
+      {
+        "text": "b) El contratista debe esperar el pago sin derecho a compensación por la demora.",
+        "isCorrect": false
+      },
+      {
+        "text": "c) Se aplica una penalidad automática a la entidad, deducible de futuras valorizaciones.",
+        "isCorrect": false
+      },
+      {
+        "text": "d) La entidad debe reconocer al contratista los intereses legales correspondientes y repetir contra los responsables de la demora.",
+        "isCorrect": true
+      }
+    ],
+    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
+  },
+  {
+    "id": 400,
+    "question": "130. Una vez culminada la ejecución de la obra, ¿a quién solicita el contratista la recepción de la misma a través de una anotación en el cuaderno de incidencias?",
+    "options": [
+      {
+        "text": "a) Al Titular de la Entidad.",
+        "isCorrect": false
+      },
+      {
+        "text": "b) Al Coordinador de obra.",
+        "isCorrect": false
+      },
+      {
+        "text": "c) Al Supervisor de obra.",
+        "isCorrect": true
+      },
+      {
+        "text": "d) Al Comité de Recepción directamente.",
+        "isCorrect": false
+      }
+    ],
+    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
+  },
+  {
+    "id": 401,
+    "question": "131. Si durante el proceso de recepción de obra, el comité de recepción designado por la entidad formula observaciones, ¿qué plazo máximo tiene el contratista para subsanarlas?",
+    "options": [
+      {
+        "text": "a) Un décimo del plazo de ejecución vigente de la obra o cuarenta días, el que resulte menor.",
+        "isCorrect": true
+      },
+      {
+        "text": "b) Quince días calendario, prorrogables por una única vez.",
+        "isCorrect": false
+      },
+      {
+        "text": "c) Treinta días hábiles, contados desde la notificación del pliego de observaciones.",
+        "isCorrect": false
+      },
+      {
+        "text": "d) El plazo que el propio comité de recepción determine en el acta.",
+        "isCorrect": false
+      }
+    ],
+    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
+  },
+  {
+    "id": 402,
+    "question": "132. El comité de recepción de una obra, al verificar el levantamiento de observaciones previamente formuladas, constata que persisten algunas de ellas y, además, identifica nuevos vicios o defectos distintos a las observaciones originales. ¿Cómo debe proceder el comité?",
+    "options": [
+      {
+        "text": "a) No suscribir el Acta de Recepción de Obra hasta que todos los vicios, originales y nuevos, sean subsanados.",
+        "isCorrect": false
+      },
+      {
+        "text": "b) Suscribir el Acta de Recepción de Obra, pero dejar constancia de los vicios nuevos para que la entidad solicite su subsanación al contratista como vicios ocultos.",
+        "isCorrect": true
+      },
+      {
+        "text": "c) Formular un nuevo pliego de observaciones que incluya los defectos persistentes y los nuevos, otorgando un nuevo plazo de subsanación.",
+        "isCorrect": false
+      },
+      {
+        "text": "d) Suscribir el Acta de Recepción de Obra sin observaciones y reportar los nuevos vicios directamente a la Contraloría.",
+        "isCorrect": false
+      }
+    ],
+    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
+  },
+  {
+    "id": 403,
+    "question": "133. ¿Cuál es el propósito principal de la liquidación de un contrato de obra?",
+    "options": [
+      {
+        "text": "a) Determinar las penalidades finales a aplicar al contratista.",
+        "isCorrect": false
+      },
+      {
+        "text": "b) Aprobar el expediente técnico de la obra.",
+        "isCorrect": false
+      },
+      {
+        "text": "c) Determinar el costo total del contrato y su saldo económico.",
+        "isCorrect": true
+      },
+      {
+        "text": "d) Evaluar el desempeño del supervisor de obra.",
+        "isCorrect": false
+      }
+    ],
+    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
+  },
+  {
+    "id": 404,
+    "question": "134. El contratista presenta la liquidación debidamente sustentada en un plazo contado desde el día siguiente de otorgada la conformidad de la última prestación, de la recepción de la obra, o desde que la JPRD emite la última opinión vinculante sobre controversias hasta la recepción, o de consentida la______ del contrato, según sea el caso.",
+    "options": [
+      {
+        "text": "a) modificación",
+        "isCorrect": false
+      },
+      {
+        "text": "b) suspensión",
+        "isCorrect": false
+      },
+      {
+        "text": "c) resolución",
+        "isCorrect": true
+      },
+      {
+        "text": "d) ampliación",
+        "isCorrect": false
+      }
+    ],
+    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
+  },
+  {
+    "id": 405,
+    "question": "135. En un contrato de obra, el contratista presenta la liquidación a la entidad. La entidad, dentro del plazo establecido, formula observaciones a dicha liquidación. ¿Qué sucede si el contratista, habiendo recibido las observaciones, no las subsana dentro del plazo que se le otorga?",
+    "options": [
+      {
+        "text": "a) La entidad debe elaborar su propia liquidación y notificarla al contratista.",
+        "isCorrect": false
+      },
+      {
+        "text": "b) La liquidación se considera consentida o aprobada con las observaciones formuladas por la entidad.",
+        "isCorrect": true
+      },
+      {
+        "text": "c) Se debe iniciar automáticamente un proceso de conciliación para resolver las discrepancias.",
+        "isCorrect": false
+      },
+      {
+        "text": "d) El contrato se considera resuelto por incumplimiento del contratista en el proceso de liquidación.",
+        "isCorrect": false
+      }
+    ],
+    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
+  },
+  {
+    "id": 406,
+    "question": "136. ¿En qué fase del proceso de contratación se debe evaluar y sustentar la utilización de un contrato estandarizado de ingeniería y construcción de uso internacional, según el Reglamento?",
+    "options": [
+      {
+        "text": "a) Durante la ejecución de la obra, si surgen complejidades.",
+        "isCorrect": false
+      },
+      {
+        "text": "b) Solo si el OECE lo recomienda expresamente para el proyecto.",
+        "isCorrect": false
+      },
+      {
+        "text": "c) Al momento de la liquidación del contrato, si hubo controversias.",
+        "isCorrect": false
+      },
+      {
+        "text": "d) En la fase de actuaciones preparatorias, como parte de la estrategia de contratación.",
+        "isCorrect": true
+      }
+    ],
+    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
+  },
+  {
+    "id": 407,
+    "question": "137. ¿Qué tipo de cláusulas deben incluir obligatoriamente los contratos estandarizados de ingeniería y construcción de uso internacional, además de las propias del modelo elegido?",
+    "options": [
+      {
+        "text": "a) Únicamente cláusulas referidas a la solución de controversias mediante arbitraje internacional.",
+        "isCorrect": false
+      },
+      {
+        "text": "b) Las cláusulas obligatorias señaladas en el artículo 60 de la Ley (garantías, anticorrupción, solución de controversias, resolución por incumplimiento, gestión de riesgos).",
+        "isCorrect": true
+      },
+      {
+        "text": "c) Cláusulas que permitan la modificación unilateral del contrato por parte de la entidad sin límites.",
+        "isCorrect": false
+      },
+      {
+        "text": "d) Cláusulas que exoneren al contratista de responsabilidad por vicios ocultos.",
+        "isCorrect": false
+      }
+    ],
+    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
+  },
+  {
+    "id": 408,
+    "question": "138. Una entidad utiliza un contrato estandarizado de ingeniería y construcción de uso internacional para una obra compleja. Durante la ejecución, se requieren modificaciones que inciden en el monto contractual, superando el 50% del valor del presupuesto de obra original. Según las condiciones que deben incluirse en estos contratos, ¿cuál es la consecuencia de superar este límite?",
+    "options": [
+      {
+        "text": "a) La entidad debe solicitar una autorización especial a la Contraloría General de la República para continuar.",
+        "isCorrect": false
+      },
+      {
+        "text": "b) Se configura la condición de terminación anticipada que ocasiona la resolución del contrato.",
+        "isCorrect": true
+      },
+      {
+        "text": "c) El contratista debe asumir el costo que exceda el 50% sin derecho a reclamo.",
+        "isCorrect": false
+      },
+      {
+        "text": "d) El contrato puede continuar, pero se debe renegociar la totalidad de las condiciones con el contratista.",
+        "isCorrect": false
+      }
+    ],
+    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
+  },
+  {
+    "id": 409,
+    "question": "139. ¿Cuál es una causal de nulidad en la etapa del procedimiento de selección?",
+    "options": [
+      {
+        "text": "a) El acto administrativo es emitido por un órgano competente y conforme a ley.",
+        "isCorrect": false
+      },
+      {
+        "text": "b) El acto administrativo prescinde de una formalidad no esencial del procedimiento.",
+        "isCorrect": false
+      },
+      {
+        "text": "c) El acto administrativo contraviene normas legales.",
+        "isCorrect": true
+      },
+      {
+        "text": "d) El acto administrativo se encuentra debidamente motivado y presenta vicios.",
+        "isCorrect": false
+      }
+    ],
+    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
+  },
+  {
+    "id": 410,
+    "question": "140. ¿Cuál de los siguientes enunciados es correcto respecto a la subcontratación?",
+    "options": [
+      {
+        "text": "a) La subcontratación es aprobada por el área usuaria.",
+        "isCorrect": false
+      },
+      {
+        "text": "b) La subcontratación se puede realizar hasta por un máximo del 50% del monto del contrato original.",
+        "isCorrect": false
+      },
+      {
+        "text": "c) El contratista no es responsable por las prestaciones subcontratadas.",
+        "isCorrect": false
+      },
+      {
+        "text": "d) El subcontratista debe estar inscrito en el RNP y no estar impedido para contratar con el Estado.",
+        "isCorrect": true
+      }
+    ],
+    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
+  },
+  {
+    "id": 411,
+    "question": "141. Sobre las condiciones de inicio del plazo de ejecución, es correcto decir qué:",
+    "options": [
+      {
+        "text": "a) La entidad contratante cuenta con un plazo máximo de doce días para cumplir con las condiciones del contratista.",
+        "isCorrect": false
+      },
+      {
+        "text": "b) De no cumplir el contratista puede solicitar resarcimiento de daños y perjuicios, debidamente acreditados, por el 5% del monto del contrato por día con un tope de 20%.",
+        "isCorrect": false
+      },
+      {
+        "text": "c) No se puede optar por la resolución del contrato.",
+        "isCorrect": false
+      },
+      {
+        "text": "d) Este procedimiento no es aplicable cuando la entidad contratante haya informado al contratista dentro del plazo para el inicio de la ejecución de la obra la necesidad de acordar diferir su inicio.",
+        "isCorrect": true
+      }
+    ],
+    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
+  },
+  {
+    "id": 412,
+    "question": "142. ¿Cuál de los siguientes enunciados corresponde a uno de los pilares del cambio en la nueva ley de contrataciones públicas?",
+    "options": [
+      {
+        "text": "a) Eliminación de todas las garantías financieras en los procesos de contratación.",
+        "isCorrect": false
+      },
+      {
+        "text": "b) Evaluación y elección del ganador de buena pro basada únicamente en el precio más bajo.",
+        "isCorrect": false
+      },
+      {
+        "text": "c) Fortalecimiento de la Junta de Prevención y Resolución de Disputas (JPRD).",
+        "isCorrect": true
+      },
+      {
+        "text": "d) Sustitución completa de los contratos nacionales por modelos informales no estandarizados.",
+        "isCorrect": false
+      }
+    ],
+    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
+  },
+  {
+    "id": 413,
+    "question": "143. La definición: “ejecución de una nueva obra en el mismo lugar de una existente que fue destruida o colapsada, usando o no parte de la estructura anterior.”, pertenece a:",
+    "options": [
+      {
+        "text": "a) Restauración",
+        "isCorrect": false
+      },
+      {
+        "text": "b) Reconstrucción",
+        "isCorrect": true
+      },
+      {
+        "text": "c) Ampliación",
+        "isCorrect": false
+      },
+      {
+        "text": "d) Remodelación",
+        "isCorrect": false
+      }
+    ],
+    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
+  },
+  {
+    "id": 414,
+    "question": "144. ¿Cuál de los siguientes enunciados describe correctamente el procedimiento respecto a las Propuestas de Cambio de Ingeniería de Valor (PCIV)?",
+    "options": [
+      {
+        "text": "a) La supervisión tiene un plazo máximo de cinco días para pronunciarse sobre la propuesta y no puede remitirla al proyectista.",
+        "isCorrect": false
+      },
+      {
+        "text": "b) El proyectista puede pronunciarse sobre la PCIV incluso si han pasado más de dos años desde la conformidad del expediente técnico.",
+        "isCorrect": false
+      },
+      {
+        "text": "c) La supervisión debe pronunciarse sobre la PCIV en un plazo máximo de diez días y, si corresponde, remitirla al proyectista.",
+        "isCorrect": true
+      },
+      {
+        "text": "d) El proyectista tiene quince días hábiles para pronunciarse sobre la PCIV, sin importar las condiciones.",
+        "isCorrect": false
+      }
+    ],
+    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
+  },
+  {
+    "id": 415,
+    "question": "145. Una vez que se anota en el cuaderno de incidencias la necesidad de ejecutar una prestación adicional de obra, ¿cuál es la acción inmediata que debe realizar el inspector o supervisor en un plazo máximo de cinco (5) días?",
+    "options": [
+      {
+        "text": "a) Emitir la orden de ejecución de la prestación adicional.",
+        "isCorrect": false
+      },
+      {
+        "text": "b) Ratificar a la Entidad la anotación realizada, adjuntando un informe técnico que sustente la necesidad de la prestación adicional.",
+        "isCorrect": true
+      },
+      {
+        "text": "c) Elaborar el presupuesto detallado de la obra adicional.",
+        "isCorrect": false
+      },
+      {
+        "text": "d) Coordinar con el contratista la modificación del expediente técnico.",
+        "isCorrect": false
+      }
+    ],
+    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
+  },
+  {
+    "id": 416,
+    "question": "146. El plazo para pronunciarse sobre la liquidación en la ejecución de obra:",
+    "options": [
+      {
+        "text": "a) 15 días calendario",
+        "isCorrect": false
+      },
+      {
+        "text": "b) 20 días calendario",
+        "isCorrect": false
+      },
+      {
+        "text": "c) 30 días calendario",
+        "isCorrect": false
+      },
+      {
+        "text": "d) 50 días calendario",
+        "isCorrect": true
+      }
+    ],
+    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
+  },
+  {
+    "id": 417,
+    "question": "147. ¿Cuáles de las siguientes cláusulas son obligatorias en los contratos regulados por la Ley 32069?",
+    "options": [
+      {
+        "text": "a) Cláusula de confidencialidad y cláusula de penalidades.",
+        "isCorrect": false
+      },
+      {
+        "text": "b) Garantías, cláusula anticorrupción y antisoborno, solución de controversias.",
+        "isCorrect": true
+      },
+      {
+        "text": "c) Gestión de riesgos, cláusula de exclusividad y términos de pago.",
+        "isCorrect": false
+      },
+      {
+        "text": "d) Penalidades, prórroga automática y cláusula ambiental.",
+        "isCorrect": false
+      }
+    ],
+    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
+  },
+  {
+    "id": 418,
+    "question": "148. ¿En qué casos se permite la modificación de los contratos?",
+    "options": [
+      {
+        "text": "a) Solo por decisión unilateral de la entidad contratante.",
+        "isCorrect": false
+      },
+      {
+        "text": "b) Únicamente si el contratista presenta una solicitud justificada.",
+        "isCorrect": false
+      },
+      {
+        "text": "c) Por acuerdo de las partes, disposición de la entidad contratante o solicitud del contratista, siempre que se respete el equilibrio económico financiero del contrato.",
+        "isCorrect": true
+      },
+      {
+        "text": "d) Solo cuando se presenten causas fortuitas o de fuerza mayor que impidan la ejecución del contrato.",
+        "isCorrect": false
+      }
+    ],
+    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
+  },
+  {
+    "id": 419,
+    "question": "149. ¿Cuáles de los siguientes documentos forman parte del Expediente Técnico de Obra?",
+    "options": [
+      {
+        "text": "a) Carta de intención del contratista, informe financiero anual, garantía de fiel cumplimiento.",
+        "isCorrect": false
+      },
+      {
+        "text": "b) Memoria descriptiva, especificaciones técnicas, análisis de precios unitarios, calendario de avance valorizado.",
+        "isCorrect": true
+      },
+      {
+        "text": "c) Reglamento interno de seguridad, manual de operación del proyecto, licencias municipales.",
+        "isCorrect": false
+      },
+      {
+        "text": "d) Informe de inspección del supervisor, contrato de obra y cronograma de pagos mensuales.",
+        "isCorrect": false
+      }
+    ],
+    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
+  },
+  {
+    "id": 420,
+    "question": "150. ¿Cuál de las siguientes afirmaciones es correcta acerca del laudo arbitral?",
+    "options": [
+      {
+        "text": "a) Si la Entidad desea anular el laudo, puede hacerlo sin necesidad de autorización previa.",
+        "isCorrect": false
+      },
+      {
+        "text": "b) El laudo es apelable ante el Poder Judicial en todos los casos.",
+        "isCorrect": false
+      },
+      {
+        "text": "c) Si el contratista solicita la anulación del laudo, debe presentar una fianza bancaria solidaria a favor de la Entidad.",
+        "isCorrect": true
+      },
+      {
+        "text": "d) El árbitro no puede ser recusado después de que el laudo haya sido anulado, incluso por vulneración del derecho de defensa.",
+        "isCorrect": false
+      }
+    ],
+    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
+  },
+  {
+    "id": 421,
+    "question": "151. Durante la ejecución de un contrato de obra bajo el sistema \"solo construcción\", el contratista anota en el cuaderno de incidencias la necesidad de ejecutar una prestación adicional debido a una deficiencia en el expediente técnico. ¿Quién es el responsable de elaborar el expediente técnico del adicional de obra?",
+    "options": [
+      {
+        "text": "a) Exclusivamente el proyectista original del expediente técnico de la obra.",
+        "isCorrect": false
+      },
+      {
+        "text": "b) Siempre el contratista ejecutor de la obra, asumiendo los costos de su elaboración.",
+        "isCorrect": false
+      },
+      {
+        "text": "c) El supervisor de la obra, sin excepción, como parte de sus funciones de control.",
+        "isCorrect": false
+      },
+      {
+        "text": "d) La entidad, el contratista o el supervisor, según lo que la entidad haya determinado en las bases del procedimiento de selección.",
+        "isCorrect": true
+      }
+    ],
+    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
+  },
+  {
+    "id": 422,
+    "question": "152. El supervisor de una obra, bajo el sistema de entrega \"diseño y construcción\", verifica que el avance físico real acumulado de la obra es menor al 80% del avance físico programado. ¿Qué acción debe ordenar inmediatamente el supervisor al contratista?",
+    "options": [
+      {
+        "text": "a) La suspensión inmediata de la obra hasta que se regularice el cronograma.",
+        "isCorrect": false
+      },
+      {
+        "text": "b) La presentación de un nuevo programa de ejecución que contemple la aceleración de los trabajos.",
+        "isCorrect": true
+      },
+      {
+        "text": "c) La ejecución de la garantía de fiel cumplimiento por el retraso injustificado.",
+        "isCorrect": false
+      },
+      {
+        "text": "d) La aplicación de la penalidad por mora máxima y solicitar la resolución del contrato.",
+        "isCorrect": false
+      }
+    ],
+    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
+  },
+  {
+    "id": 423,
+    "question": "153. En un contrato de obra bajo el sistema de entrega \"solo construcción\", el contratista tiene la obligación de revisar el expediente técnico para detectar posibles deficiencias. ¿Dentro de qué plazo, contado desde la suscripción del contrato, debe presentar su informe técnico de revisión?",
+    "options": [
+      {
+        "text": "a) Dentro de los 10 días siguientes a la suscripción del contrato.",
+        "isCorrect": false
+      },
+      {
+        "text": "b) Dentro de los 12 días siguientes a la suscripción del contrato.",
+        "isCorrect": true
+      },
+      {
+        "text": "c) Dentro de los 15 días siguientes a la entrega del terreno.",
+        "isCorrect": false
+      },
+      {
+        "text": "d) Dentro de los 7 días siguientes al inicio del plazo de ejecución de la obra.",
+        "isCorrect": false
+      }
+    ],
+    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
+  },
+  {
+    "id": 424,
+    "question": "154. Durante la ejecución de una obra, ocurren protestas sociales que impiden el acceso al sitio por 15 días, afectando la ruta crítica del proyecto. El contratista desea solicitar una ampliación de plazo. ¿Cuál es el primer paso que debe realizar y dentro de qué plazo, una vez finalizado el evento?",
+    "options": [
+      {
+        "text": "a) Anotar el hecho en el cuaderno de incidencias y solicitar la ampliación en un plazo de 7 días hábiles.",
+        "isCorrect": false
+      },
+      {
+        "text": "b) Presentar un informe técnico al supervisor para que este gestione la ampliación de oficio.",
+        "isCorrect": false
+      },
+      {
+        "text": "c) Notificar su solicitud de ampliación de plazo a la entidad y a la supervisión en un plazo no mayor de 10 días hábiles.",
+        "isCorrect": true
+      },
+      {
+        "text": "d) Esperar a la siguiente valorización para incluir ahí el sustento de la paralización y solicitar el plazo adicional.",
+        "isCorrect": false
+      }
+    ],
+    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
+  },
+  {
+    "id": 425,
+    "question": "155. En los contratos de ejecución de obra, el plazo de responsabilidad del contratista por vicios ocultos no puede ser inferior a:",
+    "options": [
+      {
+        "text": "a) Un (1) año, contado a partir de la conformidad de la recepción total.",
+        "isCorrect": false
+      },
+      {
+        "text": "b) Tres (3) años, contado a partir de la liquidación final consentida.",
+        "isCorrect": false
+      },
+      {
+        "text": "c) Cinco (5) años, contado a partir de la recepción total de la obra.",
+        "isCorrect": false
+      },
+      {
+        "text": "d) Siete (7) años, contado a partir de la conformidad de la recepción total o parcial de la obra.",
+        "isCorrect": true
+      }
+    ],
+    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
+  },
+  {
+    "id": 426,
+    "question": "156. Luego de un retraso injustificado, el supervisor ordena al contratista de una obra presentar un nuevo programa de ejecución acelerado. Si el contratista incumple nuevamente y su valorización acumulada ejecutada es menor al 80% del nuevo programa, ¿qué medida, además de la resolución del contrato, podría adoptar la entidad para culminar los trabajos?",
+    "options": [
+      {
+        "text": "a) La suspensión del contrato hasta que el contratista garantice el financiamiento.",
+        "isCorrect": false
+      },
+      {
+        "text": "b) La ejecución inmediata de la garantía de fiel cumplimiento para contratar a un tercero.",
+        "isCorrect": false
+      },
+      {
+        "text": "c) La intervención económica de la obra.",
+        "isCorrect": true
+      },
+      {
+        "text": "d) La aprobación de una ampliación de plazo sin reconocimiento de gastos generales.",
+        "isCorrect": false
+      }
+    ],
+    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
+  },
+  {
+    "id": 427,
+    "question": "157. En un contrato de supervisión de obra, se aprueba una prestación adicional en el contrato de ejecución de obra principal que impacta directamente en la ruta crítica, generando una ampliación de plazo. El supervisor sustenta que necesita más personal y recursos para controlar adecuadamente este adicional. ¿Cómo se gestiona esta necesidad en el contrato de supervisión según el Reglamento?",
+    "options": [
+      {
+        "text": "a) Se tramita como una prestación adicional de supervisión, sujeta al límite del 25% del monto del contrato original de supervisión.",
+        "isCorrect": false
+      },
+      {
+        "text": "b) Se aprueba como una prestación derivada del adicional de obra, la cual no se considera un adicional del contrato de supervisión y no está sujeta al límite del 25%.",
+        "isCorrect": true
+      },
+      {
+        "text": "c) El supervisor debe asumir el costo con sus propios gastos generales, ya que es una contingencia previsible de su servicio.",
+        "isCorrect": false
+      },
+      {
+        "text": "d) Se debe resolver el contrato de supervisión y convocar uno nuevo que incluya el alcance de las prestaciones adicionales de la obra.",
+        "isCorrect": false
+      }
+    ],
+    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
+  },
+  {
+    "id": 428,
+    "question": "158. Una obra contratada bajo el sistema de \"diseño y construcción\" se ejecuta mediante la metodología fast track. Durante la ejecución del primer componente de la obra (cimentación), el contratista detecta la necesidad de una modificación en el diseño del segundo componente (estructuras), que aún no ha sido aprobado. ¿Qué procedimiento corresponde seguir?",
+    "options": [
+      {
+        "text": "a) El contratista debe paralizar la obra y presentar el expediente técnico completo y modificado para su aprobación total antes de continuar.",
+        "isCorrect": false
+      },
+      {
+        "text": "b) El contratista debe continuar con la ejecución del primer componente y, en paralelo, gestionar la modificación del diseño del segundo componente como una prestación adicional.",
+        "isCorrect": false
+      },
+      {
+        "text": "c) Las partes deben acordar la suspensión del plazo de ejecución del contrato hasta que la entidad, con un consultor externo, valide la modificación propuesta.",
+        "isCorrect": false
+      },
+      {
+        "text": "d) El contratista debe proponer la modificación en el siguiente entregable parcial del expediente técnico, y la entidad, previa opinión del supervisor, la aprueba para que la ejecución continúe sin interrupciones.",
+        "isCorrect": true
+      }
+    ],
+    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
+  },
+  {
+    "id": 429,
+    "question": "159. Un contratista presenta su valorización mensual de obra. La entidad, al revisarla, formula observaciones sobre ciertas partidas que considera sobrevaloradas, pero está de acuerdo con el resto del monto. El contratista no subsana las observaciones en el plazo otorgado. ¿Qué acción debe tomar la entidad?",
+    "options": [
+      {
+        "text": "a) Retener el pago íntegro de la valorización hasta que el contratista subsane la totalidad de las observaciones.",
+        "isCorrect": false
+      },
+      {
+        "text": "b) Resolver el contrato por incumplimiento, al no levantar las observaciones formuladas a la valorización.",
+        "isCorrect": false
+      },
+      {
+        "text": "c) Realizar el pago del monto de la valorización que no ha sido cuestionado, dejando el saldo pendiente a la subsanación o a la liquidación final.",
+        "isCorrect": true
+      },
+      {
+        "text": "d) Pagar el íntegro de la valorización para no incurrir en mora, pero iniciar un procedimiento de solución de controversias por el monto observado.",
+        "isCorrect": false
+      }
+    ],
+    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
+  },
+  {
+    "id": 430,
+    "question": "160. En un contrato de obra a precios unitarios, el contratista ejecuta mayores metrados que han sido debidamente autorizados por el supervisor en el cuaderno de incidencias. Al momento de presentar la valorización, el contratista incluye el pago de dichos mayores metrados. ¿Cuál es el procedimiento correcto para el pago de estos?",
+    "options": [
+      {
+        "text": "a) El pago es automático, ya que la autorización del supervisor es suficiente para que la entidad proceda con el desembolso.",
+        "isCorrect": false
+      },
+      {
+        "text": "b) Los mayores metrados se pagan únicamente en la liquidación final del contrato, no en las valorizaciones mensuales.",
+        "isCorrect": false
+      },
+      {
+        "text": "c) El pago requiere una resolución de aprobación previa por parte de la autoridad de la gestión administrativa de la entidad.",
+        "isCorrect": true
+      },
+      {
+        "text": "d) El contratista debe tramitarlo como una prestación adicional de obra para que pueda ser incluido en la valorización y pagado.",
+        "isCorrect": false
+      }
+    ],
+    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
+  },
+  {
+    "id": 431,
+    "question": "161. El residente de una obra bajo el sistema \"solo construcción\" anota una consulta en el cuaderno de incidencias que podría implicar una modificación del expediente técnico. El supervisor está en desacuerdo con la solución propuesta por el contratista. ¿Cuál es el procedimiento correcto que debe seguir el supervisor?",
+    "options": [
+      {
+        "text": "a) Rechazar la consulta en el cuaderno de incidencias y ordenar al contratista que continúe la ejecución según el expediente técnico original, bajo su responsabilidad.",
+        "isCorrect": false
+      },
+      {
+        "text": "b) Remitir la consulta junto con su propia opinión técnica a la entidad contratante para que esta, a su vez, la derive al proyectista (si corresponde) y emita un pronunciamiento final.",
+        "isCorrect": true
+      },
+      {
+        "text": "c) Convocar a una reunión tripartita con la entidad y el contratista para votar y decidir por mayoría la solución técnica a implementar.",
+        "isCorrect": false
+      },
+      {
+        "text": "d) para que emita una decisión vinculante.",
+        "isCorrect": false
+      }
+    ],
+    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
+  },
+  {
+    "id": 432,
+    "question": "162. Durante la recepción de una obra, el comité de recepción formula un pliego de observaciones. El contratista subsana dichas observaciones dentro del plazo otorgado. En la segunda visita de verificación, el comité constata que, si bien se levantaron las observaciones iniciales, han aparecido nuevos defectos en otras partes de la obra que no fueron advertidos previamente. ¿Qué debe hacer el comité de recepción?",
+    "options": [
+      {
+        "text": "a) Negarse a recibir la obra y emitir un nuevo pliego de observaciones, otorgando un nuevo plazo al contratista.",
+        "isCorrect": false
+      },
+      {
+        "text": "b) Suscribir el Acta de Recepción de Obra, pero dejando constancia de los nuevos vicios o defectos para que la entidad solicite su subsanación posterior como vicios ocultos.",
+        "isCorrect": true
+      },
+      {
+        "text": "c) Declarar la resolución del contrato por incumplimiento en la calidad de la prestación, ya que la obra no está en condiciones de ser recibida.",
+        "isCorrect": false
+      },
+      {
+        "text": "d) Recibir la obra y autorizar a la entidad a contratar a un tercero para que repare los nuevos defectos, con cargo al contratista.",
+        "isCorrect": false
+      }
+    ],
+    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
+  },
+  {
+    "id": 433,
+    "question": "163. Una obra se ejecuta bajo un contrato estandarizado de ingeniería y construcción de uso internacional. Durante la ejecución, se aprueban diversas modificaciones que inciden en el monto contractual, y el costo acumulado de estas alcanza el 50% del valor del presupuesto de obra original. Si surge la necesidad de una nueva modificación que incrementaría aún más el costo, ¿qué procede según el Reglamento?",
+    "options": [
+      {
+        "text": "a) Se puede aprobar la nueva modificación con la autorización expresa de la Contraloría General de la República.",
+        "isCorrect": false
+      },
+      {
+        "text": "b) Se configura una condición de terminación anticipada que ocasiona la resolución del contrato, al haberse superado el límite máximo para modificaciones.",
+        "isCorrect": true
+      },
+      {
+        "text": "c) El contratista debe asumir el costo de la nueva modificación sin que ello incremente el monto del contrato.",
+        "isCorrect": false
+      },
+      {
+        "text": "d) La entidad puede aprobar la modificación, pero debe sustentar la capacidad presupuestal ante la Dirección General de Presupuesto Público (DGPP).",
+        "isCorrect": false
+      }
+    ],
+    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
+  },
+  {
+    "id": 434,
+    "question": "164. Para la gestión de un proyecto de obra que se ejecutará con un contrato estandarizado, la entidad necesita contratar a un profesional clave que se encargue de administrar las actividades conforme a las facultades que el propio contrato establece. ¿Cómo se denomina a este profesional y qué requisito de certificación es indispensable?",
+    "options": [
+      {
+        "text": "a) Se denomina Supervisor de Obra y debe contar con certificación del Colegio de Ingenieros del Perú.",
+        "isCorrect": false
+      },
+      {
+        "text": "b) Se denomina Residente de Proyecto y debe contar con certificación en metodologías BIM.",
+        "isCorrect": false
+      },
+      {
+        "text": "c) Se denomina Gerente de Proyecto y debe contar con certificación oficial en el contrato estandarizado elegido.",
+        "isCorrect": true
+      },
+      {
+        "text": "d) Se denomina Coordinador de Contrato y debe contar con la certificación de Comprador Público nivel avanzado.",
+        "isCorrect": false
+      }
+    ],
+    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
+  },
+  {
+    "id": 435,
+    "question": "165. Un contratista ha entregado un lote de bienes a una entidad pública. ¿Cuál es el plazo máximo que tiene el área usuaria para emitir la conformidad de la prestación, siempre que no se requieran pruebas especiales?",
+    "options": [
+      {
+        "text": "a) 5 días calendario desde la recepción.",
+        "isCorrect": false
+      },
+      {
+        "text": "b) 7 días calendario desde la recepción.",
+        "isCorrect": true
+      },
+      {
+        "text": "c) 10 días hábiles desde la recepción.",
+        "isCorrect": false
+      },
+      {
+        "text": "d) 15 días calendario desde la recepción.",
+        "isCorrect": false
+      }
+    ],
+    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
+  },
+  {
+    "id": 436,
+    "question": "166. Un contratista solicita la subcontratación de una parte de las prestaciones. ¿Cuál es el plazo que tiene la entidad para aprobar o denegar dicha solicitud, y qué ocurre si no se pronuncia en dicho plazo?",
+    "options": [
+      {
+        "text": "a) 3 días hábiles; si no hay pronunciamiento, se considera aprobada.",
+        "isCorrect": false
+      },
+      {
+        "text": "b) 5 días hábiles; si no hay pronunciamiento, se considera denegada.",
+        "isCorrect": true
+      },
+      {
+        "text": "c) 7 días hábiles; si no hay pronunciamiento, se considera aprobada.",
+        "isCorrect": false
+      },
+      {
+        "text": "d) 10 días hábiles; si no hay pronunciamiento, se considera denegada.",
+        "isCorrect": false
+      }
+    ],
+    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
+  },
+  {
+    "id": 437,
+    "question": "167. Un Gobierno Regional ejecuta una obra que es paralizada por un evento de fuerza mayor (un aluvión que destruye el acceso principal). Si el evento imposibilita de manera definitiva la continuación del contrato, ¿qué acción pueden tomar las partes?",
+    "options": [
+      {
+        "text": "a) Acordar la suspensión del plazo de ejecución hasta que la entidad construya un nuevo acceso.",
+        "isCorrect": false
+      },
+      {
+        "text": "b) Solicitar una prestación adicional para cubrir los costos de la paralización y reanudar los trabajos.",
+        "isCorrect": false
+      },
+      {
+        "text": "c) Cualquiera de las partes puede resolver el contrato por la causal de caso fortuito o fuerza mayor.",
+        "isCorrect": true
+      },
+      {
+        "text": "d) El contratista debe continuar la obra asumiendo los sobrecostos, para luego solicitar un reembolso.",
+        "isCorrect": false
+      }
+    ],
+    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
+  },
+  {
+    "id": 438,
+    "question": "168. Durante la ejecución de un contrato de obra, el contratista anota una consulta en el cuaderno de incidencias. El supervisor remite la consulta a la entidad, pero esta no absuelve la consulta en el plazo establecido, generando un retraso en la ruta crítica. ¿Qué derecho le asiste al contratista?",
+    "options": [
+      {
+        "text": "a) Resolver el contrato por incumplimiento de la entidad.",
+        "isCorrect": false
+      },
+      {
+        "text": "b) Ejecutar la garantía de fiel cumplimiento de la entidad.",
+        "isCorrect": false
+      },
+      {
+        "text": "c) Solicitar una ampliación de plazo contractual por el tiempo correspondiente a la demora.",
+        "isCorrect": true
+      },
+      {
+        "text": "d) Continuar la obra según su propio criterio técnico, bajo responsabilidad de la entidad.",
+        "isCorrect": false
+      }
+    ],
+    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
+  },
+  {
+    "id": 439,
+    "question": "169. Una vez resuelto un contrato de obra por causa imputable al contratista, la entidad necesita iniciar un arbitraje para reclamar los daños y perjuicios. ¿Cuál es el plazo máximo de caducidad para solicitar el inicio del arbitraje?",
+    "options": [
+      {
+        "text": "a) 20 días hábiles desde la notificación de la resolución del contrato.",
+        "isCorrect": false
+      },
+      {
+        "text": "b) 30 días hábiles desde la notificación de la resolución del contrato.",
+        "isCorrect": true
+      },
+      {
+        "text": "c) 45 días hábiles desde la constatación física de la obra.",
+        "isCorrect": false
+      },
+      {
+        "text": "d) 60 días hábiles desde que la resolución quedó consentida.",
+        "isCorrect": false
+      }
+    ],
+    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
+  },
+  {
+    "id": 440,
+    "question": "170. Una obra sufre una paralización por causas no atribuibles al contratista. Este solicita una ampliación de plazo, pero la entidad no resuelve ni notifica su decisión en el plazo legal. ¿Cuál es la consecuencia de este silencio administrativo?",
+    "options": [
+      {
+        "text": "a) La solicitud de ampliación de plazo se considera automáticamente denegada.",
+        "isCorrect": false
+      },
+      {
+        "text": "b) El contratista debe reiterar su solicitud para que la entidad se pronuncie.",
+        "isCorrect": false
+      },
+      {
+        "text": "c) La solicitud se tiene por aprobada, en los términos informados por el supervisor, o en su defecto, en los términos solicitados por el contratista.",
+        "isCorrect": true
+      },
+      {
+        "text": "d) El contratista debe iniciar un procedimiento de solución de controversias para que un árbitro decida sobre la ampliación.",
+        "isCorrect": false
+      }
+    ],
+    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
+  },
+  {
+    "id": 441,
+    "question": "171. La autoridad de la gestión administrativa de un Gobierno Regional aprueba una prestación adicional de obra que representa el 12% del monto del contrato original. ¿Es correcta su actuación?",
+    "options": [
+      {
+        "text": "a) No, porque todas las prestaciones adicionales de obra deben ser aprobadas por el Titular de la Entidad.",
+        "isCorrect": false
+      },
+      {
+        "text": "b) Sí, porque la autoridad de la gestión administrativa está facultada para aprobar adicionales de obra hasta por el 15% del monto original.",
+        "isCorrect": true
+      },
+      {
+        "text": "c) No, porque cualquier adicional, sin importar el monto, requiere la autorización previa de la Contraloría General de la República.",
+        "isCorrect": false
+      },
+      {
+        "text": "d) Sí, pero solo si cuenta con la delegación expresa del Titular de la Entidad para aprobar adicionales de obra.",
+        "isCorrect": false
+      }
+    ],
+    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
+  },
+  {
+    "id": 442,
+    "question": "172. Un Gobierno Regional ejecuta una obra de infraestructura vial. Un conflicto social prolongado, calificado como fuerza mayor, impide de manera definitiva la continuación de los trabajos. La Autoridad de la Gestión Administrativa, basándose en informes técnicos y legales, decide resolver el contrato. ¿Es correcta su actuación y es esta facultad delegable?",
+    "options": [
+      {
+        "text": "a) Es correcta, pues la resolución por fuerza mayor es potestad de la Autoridad de la Gestión Administrativa y es una facultad delegable.",
+        "isCorrect": false
+      },
+      {
+        "text": "b) No es correcta, la resolución de un contrato por cualquier causal es una facultad indelegable del Titular de la Entidad.",
+        "isCorrect": false
+      },
+      {
+        "text": "c) Es correcta, ya que la resolución es una facultad de la Autoridad de la Gestión Administrativa, pero esta facultad específica de resolver contratos es indelegable.",
+        "isCorrect": false
+      },
+      {
+        "text": "d) Es correcta, ya que la resolución del contrato puede ser iniciada por cualquiera de las partes, y la decisión administrativa de la entidad recae en la Autoridad de la Gestión Administrativa, siendo una función propia de su cargo.",
+        "isCorrect": true
+      }
+    ],
+    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
+  },
+  {
+    "id": 443,
+    "question": "173. Tras la adjudicación de la buena pro, pero antes de la firma del contrato, la Autoridad de la Gestión Administrativa advierte un vicio trascendente en el procedimiento que podría afectar la finalidad de la contratación. Sin embargo, por un análisis costo-beneficio, decide autorizar la suscripción del contrato. ¿Es esta decisión de \"autorizar la suscripción\" delegable?",
+    "options": [
+      {
+        "text": "a) Sí, puede delegarla en el jefe de la Dependencia Encargada de las Contrataciones (DEC).",
+        "isCorrect": false
+      },
+      {
+        "text": "b) No, la facultad de autorizar la suscripción del contrato pese a un vicio es indelegable.",
+        "isCorrect": true
+      },
+      {
+        "text": "c) Sí, siempre y cuando el Titular de la Entidad ratifique la decisión posteriormente.",
+        "isCorrect": false
+      },
+      {
+        "text": "d) No, porque en este caso la única opción legal es declarar la nulidad del procedimiento.",
+        "isCorrect": false
+      }
+    ],
+    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
+  },
+  {
+    "id": 444,
+    "question": "174. Un contrato de obra es resuelto por causal de fuerza mayor. Al momento de la liquidación, el contratista solicita el reconocimiento de los daños y perjuicios sufridos por la terminación abrupta del contrato. ¿Corresponde a la entidad reconocer dicho pago?",
+    "options": [
+      {
+        "text": "a) Sí, la entidad debe indemnizar al contratista por los daños y perjuicios debidamente acreditados.",
+        "isCorrect": false
+      },
+      {
+        "text": "b) No, cuando la resolución se produce por caso fortuito o fuerza mayor, no corresponde el resarcimiento de daños y perjuicios a ninguna de las partes.",
+        "isCorrect": true
+      },
+      {
+        "text": "c) Sí, pero solo si se demuestra que la entidad tuvo alguna responsabilidad indirecta en la materialización del evento de fuerza mayor.",
+        "isCorrect": false
+      },
+      {
+        "text": "d) No, en este caso la entidad debe ejecutar la garantía de fiel cumplimiento para cubrir sus propios costos administrativos por la resolución.",
+        "isCorrect": false
+      }
+    ],
+    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
+  },
+  {
+    "id": 445,
+    "question": "175. En un procedimiento de selección, la Autoridad de la Gestión Administrativa declara la nulidad de oficio después de otorgada la buena pro, pero antes de su consentimiento. ¿Es esta actuación correcta y es esta facultad delegable?",
+    "options": [
+      {
+        "text": "a) Es correcta, y la facultad de declarar la nulidad de oficio es siempre delegable.",
+        "isCorrect": true
+      },
+      {
+        "text": "b) No es correcta, porque después de la buena pro solo el Titular de la Entidad puede declarar la nulidad.",
+        "isCorrect": false
+      },
+      {
+        "text": "c) Es correcta, y la Ley establece que esta facultad específica es indelegable.",
+        "isCorrect": false
+      },
+      {
+        "text": "d) No es correcta, porque la nulidad de oficio solo puede ser declarada por el Tribunal de Contrataciones Públicas en esta etapa.",
+        "isCorrect": false
+      }
+    ],
+    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
+  },
+  {
+    "id": 446,
+    "question": "176. Una entidad ha recibido el informe final de un contrato de consultoría para la elaboración de un expediente técnico de obra. ¿Cuál es el plazo máximo que tiene el área usuaria para emitir la conformidad de dicha prestación?",
+    "options": [
+      {
+        "text": "a) 7 días calendario, al igual que para los bienes.",
+        "isCorrect": false
+      },
+      {
+        "text": "b) 10 días hábiles, por la complejidad de la revisión.",
+        "isCorrect": false
+      },
+      {
+        "text": "c) 15 días calendario, prorrogables por 15 días más.",
+        "isCorrect": false
+      },
+      {
+        "text": "d) 20 días calendario, por tratarse de una consultoría.",
+        "isCorrect": true
+      }
+    ],
+    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
+  },
+  {
+    "id": 447,
+    "question": "177. Debido a lluvias torrenciales que bloquean temporalmente las vías de acceso, la ejecución de una obra se interrumpe por un evento no atribuible a las partes. ¿Qué acción corresponde acordar entre la entidad y el contratista y qué consecuencia económica tiene?",
+    "options": [
+      {
+        "text": "a) Resolver el contrato por fuerza mayor, sin reconocimiento de daños y perjuicios.",
+        "isCorrect": false
+      },
+      {
+        "text": "b) Aprobar una ampliación de plazo, con reconocimiento de mayores gastos generales y costos directos.",
+        "isCorrect": false
+      },
+      {
+        "text": "c) Acordar la suspensión del plazo de ejecución contractual, sin que ello suponga el reconocimiento de mayores gastos generales y/o costos directos.",
+        "isCorrect": true
+      },
+      {
+        "text": "d) Continuar con los trabajos que sean posibles en la obra, asumiendo el contratista los riesgos del evento.",
+        "isCorrect": false
+      }
+    ],
+    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
+  },
+  {
+    "id": 448,
+    "question": "178. En un Gobierno Regional, se necesita aprobar una prestación adicional de obra por un monto equivalente al 18% del contrato original. La Autoridad de la Gestión Administrativa recibe el sustento técnico y legal. ¿Quién es la autoridad competente para aprobar este adicional y puede delegar dicha facultad?",
+    "options": [
+      {
+        "text": "a) La Autoridad de la Gestión Administrativa, y es una facultad delegable.",
+        "isCorrect": false
+      },
+      {
+        "text": "b) El Titular de la Entidad (Gobernador Regional), y es una facultad que puede delegar.",
+        "isCorrect": true
+      },
+      {
+        "text": "c) El Titular de la Entidad (Gobernador Regional), pero solo con la autorización previa de la Contraloría.",
+        "isCorrect": false
+      },
+      {
+        "text": "d) El Consejo Regional, por tratarse de una modificación presupuestal significativa.",
+        "isCorrect": false
+      }
+    ],
+    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
+  },
+  {
+    "id": 449,
+    "question": "179. Una vez que se ha suscrito el acta de recepción de una obra, ¿cuál es el plazo máximo que tiene el contratista para presentar la liquidación del contrato debidamente sustentada?",
+    "options": [
+      {
+        "text": "a) 15 días calendario.",
+        "isCorrect": false
+      },
+      {
+        "text": "b) 30 días calendario.",
+        "isCorrect": true
+      },
+      {
+        "text": "c) 50 días calendario.",
+        "isCorrect": false
+      },
+      {
+        "text": "d) 60 días hábiles.",
+        "isCorrect": false
+      }
+    ],
+    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
+  },
+  {
+    "id": 450,
+    "question": "180. Una vez otorgada la conformidad de una prestación de servicios, ¿cuál es el plazo máximo que tiene la entidad para efectuar el pago al contratista?",
+    "options": [
+      {
+        "text": "a) 10 días calendario.",
+        "isCorrect": false
+      },
+      {
+        "text": "b) 15 días hábiles.",
+        "isCorrect": false
+      },
+      {
+        "text": "c) 7 días calendario.",
+        "isCorrect": false
+      },
+      {
+        "text": "d) 10 días hábiles.",
+        "isCorrect": true
+      }
+    ],
+    "tema": "FASE DE EJECUCIÓN CONTRACTUAL"
+  },
 ];
