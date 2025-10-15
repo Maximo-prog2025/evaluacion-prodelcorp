@@ -1,5 +1,8 @@
 const questions = [
-    {
+  {
+    block: "🔷 FASE 1 — ACTUACIONES PREPARATORIAS"
+  },  
+  {
     "id": 1,
     "question": "1. Establezca la relación correcta entre el número y la letra respecto a la determinación del método de contratación que corresponda: 1. Subasta Inversa Electrónica 2. Catalogo Electrónico de Acuerdo Marco 3. Licitación Pública a. Arroz pilado superior por el monto de S/ 50 000.00. b. Construcción de centro educativo por el monto de S/ 7,500,000.00 c. Gas licuado de petróleo por el monto de S/ 60 000.00. d. Servicio de pasajes aéreos nacionales por el monto de S/ 80 000.00",
     "options": [
