@@ -110,7 +110,7 @@
 
 <script>
 /* ====== CONTROL DE ACCESO ====== */
-const AUTH_USERS = ["maxponcep@gmail.com","consulbf12@gmail.com","victor_41437@hotmail.com"];
+const AUTH_USERS = ["maxponcep@gmail.com","consulbf12@gmail.com","victor_41437@hotmail.com","ginamu@gmail.com"];
 const CLIENT_ID = "447366046291-0ted51mtkamjnrj7vv015vb7bvcs39eh.apps.googleusercontent.com";
 
 function parseJwt(token) {
@@ -201,44 +201,63 @@ function startExam(){
   function shuffleArray(a){for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]];}}
 
   function buildUI(){
-    questionsArea.innerHTML = "";
-    let currentBlock = "";
-    questions.forEach((q) => {
-      if(q.block && q.block !== currentBlock){
-        currentBlock = q.block;
-        const h = document.createElement("div");
-        h.className = "section-title";
-        h.textContent = currentBlock;
-        questionsArea.appendChild(h);
-      }
-      const opts = q.options.map(o => ({...o}));
-      shuffleArray(opts);
-      const div = document.createElement("div");
-      div.className = "question";
-      const qtext = document.createElement("div");
-      qtext.className = "qtext";
-      qtext.innerHTML = `<strong>Pregunta ${q.id}.</strong> ${q.question}`;
-      div.appendChild(qtext);
-      const optsDiv = document.createElement("div");
-      optsDiv.className = "options";
-      opts.forEach(o => {
-        const label = document.createElement("label");
-        label.className = "option";
-        const radio = document.createElement("input");
-        radio.type = "radio";
-        radio.name = "q_" + q.id;
-        radio.value = o.text;
-        radio.addEventListener("change", () => { answered[q.id] = o.text; });
-        label.appendChild(radio);
-        const span = document.createElement("span");
-        span.innerHTML = o.text;
-        label.appendChild(span);
-        optsDiv.appendChild(label);
+  questionsArea.innerHTML = "";
+  let currentBlock = "";
+
+  questions.forEach((q) => {
+    // Si es un bloque/título, muéstralo y salta al siguiente
+    if(q.block && q.block !== currentBlock){
+      currentBlock = q.block;
+      const h = document.createElement("div");
+      h.className = "section-title";
+      h.innerHTML = `<strong>${currentBlock}</strong>`;
+      questionsArea.appendChild(h);
+      return; // ¡Esto evita que intente procesarlo como una pregunta!
+    }
+
+    // Si no tiene opciones, tampoco lo proceses
+    if (!q.options) return;
+
+    const opts = q.options.map(o => ({...o}));
+    shuffleArray(opts);
+
+    const div = document.createElement("div");
+    div.className = "question";
+
+    const qtext = document.createElement("div");
+    qtext.className = "qtext";
+    qtext.innerHTML = `<strong>Pregunta ${q.id}.</strong> ${q.question}`;
+    div.appendChild(qtext);
+
+    const optsDiv = document.createElement("div");
+    optsDiv.className = "options";
+
+    opts.forEach(o => {
+      const label = document.createElement("label");
+      label.className = "option";
+
+      const radio = document.createElement("input");
+      radio.type = "radio";
+      radio.name = "q_" + q.id;
+      radio.value = o.text;
+      radio.addEventListener("change", () => {
+        answered[q.id] = o.text;
       });
-      div.appendChild(optsDiv);
-      questionsArea.appendChild(div);
+
+      label.appendChild(radio);
+
+      const span = document.createElement("span");
+      span.innerHTML = o.text;
+      label.appendChild(span);
+
+      optsDiv.appendChild(label);
     });
-  }
+
+    div.appendChild(optsDiv);
+    questionsArea.appendChild(div);
+  });
+}
+
 
   function updateTimerDisplay(){
     const mm = String(Math.floor(timeLeft/60)).padStart(2,"0");
