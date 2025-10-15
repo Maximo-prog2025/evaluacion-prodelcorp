@@ -44,10 +44,11 @@
     padding: 80px 20px;
     background: var(--card);
     border-radius: 12px;
-    box-shadow: 0 6px 18px rgba(12,30,60,0.06);
+    box-shadow: 0 6px 18px rgba(40, 85, 161, 0.06);
+    
   }
   #welcomeScreen h2 { color: var(--accent); }
-  #welcomeScreen p { color: var(--muted); margin-bottom: 20px; }
+  #welcomeScreen p { color: var(--muted); margin-bottom: 12px; line-height: 1.2; }
 </style>
 
 <script src="https://accounts.google.com/gsi/client" async defer></script>
@@ -82,9 +83,17 @@
   </header>
 
   <!-- Pantalla de bienvenida -->
-  <div id="welcomeScreen">
-    <h2>Bienvenido a tu examen</h2>
-    <p>Concéntrate, confía en ti y da lo mejor de ti. ¡Adelante!</p>
+  <div id="welcomeScreen" >
+    <!-- Logo -->
+    <img src="logo.png" alt="Logo OSCE" style="width: 200px; display: block; margin: 0 auto 20px;">
+    <h2>Bienvenido al Simulacro del Examen de Certificación OECE 2025</h2>
+    <p>Recuerda que para aprobar el <strong>NIVEL BÁSICO </strong>necesitas de 30 puntos a más,</p>
+    <p>para el <strong>NIVEL INTERMEDIO </strong>necesitas de 43 puntos a más y para el <strong>NIVEL AVANZADO </strong>necesitas de 58 puntos a más.</p>
+    <p>Para tal efecto, el Simulacro consta de 450 preguntas en tres fases a desarrollarse en 60 minutos:</p>
+    <p>1. <strong>Actuaciones Preparatorias:</strong> desde el número 1 hasta el 127</p>
+    <p>2. <strong>Fase de Selección:</strong> desde el número 128 hasta el 270</p>
+    <p>3. <strong>Fase de Ejecución Contractual:</strong> desde el número 271 hasta el 450</p>
+    <p>Concéntrate, confía y da lo mejor de ti. PRODELCORP Constante actualización a tu alcance...!</p>
     <button id="startExamBtn">Comenzar</button>
   </div>
 
@@ -101,7 +110,7 @@
 
 <script>
 /* ====== CONTROL DE ACCESO ====== */
-const AUTH_USERS = ["maxponcep@gmail.com","consulbf12@gmail.com","victor_41437@hotmail.com"];
+const AUTH_USERS = ["maxponcep@gmail.com","consulbf12@gmail.com","victor_41437@hotmail.com","ginamu@gmail.com"];
 const CLIENT_ID = "447366046291-0ted51mtkamjnrj7vv015vb7bvcs39eh.apps.googleusercontent.com";
 
 function parseJwt(token) {
@@ -258,7 +267,7 @@ function startExam(){
     if(correctCount >= 58) levelText = "Felicitaciones!!! Alcanzaste el Nivel Avanzado... Prodelcorp !!!";
     else if(correctCount >= 43) levelText = "Felicitaciones!!! Alcanzaste el Nivel Intermedio — ¡Sigue preparándote!";
     else if(correctCount >= 30) levelText = "Felicitaciones!!! Alcanzaste el Nivel Básico — No te rindas, puedes mejorar.";
-    else levelText = "No aprobaste — tú puedes!!! sigue intentándolo...Prodelcorp!!!";
+    else levelText = "No aprobaste — No te desanimes, tú puedes!!! sigue intentándolo...Prodelcorp!!!";
   }
 
   html += `<p>Nivel: <strong>${levelText}</strong></p>`;
