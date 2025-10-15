@@ -44,11 +44,10 @@
     padding: 80px 20px;
     background: var(--card);
     border-radius: 12px;
-    box-shadow: 0 6px 18px rgba(40, 85, 161, 0.06);
-    
+    box-shadow: 0 6px 18px rgba(12,30,60,0.06);
   }
   #welcomeScreen h2 { color: var(--accent); }
-  #welcomeScreen p { color: var(--muted); margin-bottom: 12px; line-height: 1.2; }
+  #welcomeScreen p { color: var(--muted); margin-bottom: 20px; }
 </style>
 
 <script src="https://accounts.google.com/gsi/client" async defer></script>
@@ -83,17 +82,9 @@
   </header>
 
   <!-- Pantalla de bienvenida -->
-  <div id="welcomeScreen" >
-    <!-- Logo -->
-    <img src="logo.png" alt="Logo OSCE" style="width: 200px; display: block; margin: 0 auto 20px;">
-    <h2>Bienvenido al Simulacro del Examen de Certificación OECE 2025</h2>
-    <p>Recuerda que para aprobar el <strong>NIVEL BÁSICO </strong>necesitas de 30 puntos a más,</p>
-    <p>para el <strong>NIVEL INTERMEDIO </strong>necesitas de 43 puntos a más y para el <strong>NIVEL AVANZADO </strong>necesitas de 58 puntos a más.</p>
-    <p>Para tal efecto, el Simulacro consta de 450 preguntas en tres fases a desarrollarse en 60 minutos:</p>
-    <p>1. <strong>Actuaciones Preparatorias:</strong> desde el número 1 hasta el 127</p>
-    <p>2. <strong>Fase de Selección:</strong> desde el número 128 hasta el 270</p>
-    <p>3. <strong>Fase de Ejecución Contractual:</strong> desde el número 271 hasta el 450</p>
-    <p>Concéntrate, confía y da lo mejor de ti. PRODELCORP Constante actualización a tu alcance...!</p>
+  <div id="welcomeScreen">
+    <h2>Bienvenido a tu examen</h2>
+    <p>Concéntrate, confía en ti y da lo mejor de ti. ¡Adelante!</p>
     <button id="startExamBtn">Comenzar</button>
   </div>
 
@@ -110,7 +101,7 @@
 
 <script>
 /* ====== CONTROL DE ACCESO ====== */
-const AUTH_USERS = ["maxponcep@gmail.com","consulbf12@gmail.com","victor_41437@hotmail.com","ginamu@gmail.com"];
+const AUTH_USERS = ["maxponcep@gmail.com","consulbf12@gmail.com","victor_41437@hotmail.com"];
 const CLIENT_ID = "447366046291-0ted51mtkamjnrj7vv015vb7bvcs39eh.apps.googleusercontent.com";
 
 function parseJwt(token) {
@@ -201,63 +192,44 @@ function startExam(){
   function shuffleArray(a){for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]];}}
 
   function buildUI(){
-  questionsArea.innerHTML = "";
-  let currentBlock = "";
-
-  questions.forEach((q) => {
-    // Si es un bloque/título, muéstralo y salta al siguiente
-    if(q.block && q.block !== currentBlock){
-      currentBlock = q.block;
-      const h = document.createElement("div");
-      h.className = "section-title";
-      h.innerHTML = `<strong>${currentBlock}</strong>`;
-      questionsArea.appendChild(h);
-      return; // ¡Esto evita que intente procesarlo como una pregunta!
-    }
-
-    // Si no tiene opciones, tampoco lo proceses
-    if (!q.options) return;
-
-    const opts = q.options.map(o => ({...o}));
-    shuffleArray(opts);
-
-    const div = document.createElement("div");
-    div.className = "question";
-
-    const qtext = document.createElement("div");
-    qtext.className = "qtext";
-    qtext.innerHTML = `<strong>Pregunta ${q.id}.</strong> ${q.question}`;
-    div.appendChild(qtext);
-
-    const optsDiv = document.createElement("div");
-    optsDiv.className = "options";
-
-    opts.forEach(o => {
-      const label = document.createElement("label");
-      label.className = "option";
-
-      const radio = document.createElement("input");
-      radio.type = "radio";
-      radio.name = "q_" + q.id;
-      radio.value = o.text;
-      radio.addEventListener("change", () => {
-        answered[q.id] = o.text;
+    questionsArea.innerHTML = "";
+    let currentBlock = "";
+    questions.forEach((q) => {
+      if(q.block && q.block !== currentBlock){
+        currentBlock = q.block;
+        const h = document.createElement("div");
+        h.className = "section-title";
+        h.textContent = currentBlock;
+        questionsArea.appendChild(h);
+      }
+      const opts = q.options.map(o => ({...o}));
+      shuffleArray(opts);
+      const div = document.createElement("div");
+      div.className = "question";
+      const qtext = document.createElement("div");
+      qtext.className = "qtext";
+      qtext.innerHTML = `<strong>Pregunta ${q.id}.</strong> ${q.question}`;
+      div.appendChild(qtext);
+      const optsDiv = document.createElement("div");
+      optsDiv.className = "options";
+      opts.forEach(o => {
+        const label = document.createElement("label");
+        label.className = "option";
+        const radio = document.createElement("input");
+        radio.type = "radio";
+        radio.name = "q_" + q.id;
+        radio.value = o.text;
+        radio.addEventListener("change", () => { answered[q.id] = o.text; });
+        label.appendChild(radio);
+        const span = document.createElement("span");
+        span.innerHTML = o.text;
+        label.appendChild(span);
+        optsDiv.appendChild(label);
       });
-
-      label.appendChild(radio);
-
-      const span = document.createElement("span");
-      span.innerHTML = o.text;
-      label.appendChild(span);
-
-      optsDiv.appendChild(label);
+      div.appendChild(optsDiv);
+      questionsArea.appendChild(div);
     });
-
-    div.appendChild(optsDiv);
-    questionsArea.appendChild(div);
-  });
-}
-
+  }
 
   function updateTimerDisplay(){
     const mm = String(Math.floor(timeLeft/60)).padStart(2,"0");
@@ -286,7 +258,7 @@ function startExam(){
     if(correctCount >= 58) levelText = "Felicitaciones!!! Alcanzaste el Nivel Avanzado... Prodelcorp !!!";
     else if(correctCount >= 43) levelText = "Felicitaciones!!! Alcanzaste el Nivel Intermedio — ¡Sigue preparándote!";
     else if(correctCount >= 30) levelText = "Felicitaciones!!! Alcanzaste el Nivel Básico — No te rindas, puedes mejorar.";
-    else levelText = "No aprobaste — No te desanimes, tú puedes!!! sigue intentándolo...Prodelcorp!!!";
+    else levelText = "No aprobaste — tú puedes!!! sigue intentándolo...Prodelcorp!!!";
   }
 
   html += `<p>Nivel: <strong>${levelText}</strong></p>`;
