@@ -2924,6 +2924,9 @@ const questions = [
     "tema": "ACTUACIONES PREPARATORIAS"
   },
   {
+    block: "🔷 FASE 2 — FASE DE SELECCIÓN"
+  },
+  {
     "id": 128,
     "question": "1. ¿Cuál es el procedimiento de selección competitivo que se utiliza para la contratación de servicios?",
     "options": [
@@ -6212,6 +6215,9 @@ const questions = [
     ],
     "tema": "FASE DE SELECCIÓN"
   },
+  {
+    block: "🔷 FASE 3 — FASE DE EJECUCIÓN CONTRACTUAL"
+  },  
     {
     "id": 271,
     "question": "1. ¿Cuál de los siguientes elementos forma parte obligatoria del contrato?",
