@@ -16,7 +16,7 @@
   .chip{background:#f0f6ff;color:var(--accent);padding:6px 10px;border-radius:999px;font-weight:600}
   .timer{margin-left:auto;font-weight:800;color:var(--accent)}
   .card{background:var(--card);padding:14px;border-radius:12px;box-shadow:0 6px 18px rgba(12,30,60,0.06)}
-  .section-title{font-weight:700;margin-top:14px;margin-bottom:6px}
+  .section-title{text-decoration: underline;letter-spacing: 1px;text-align: center;font-weight:700;margin-top:20px;margin-bottom:10px;font-size:16px;color:var(--accent);border-bottom:2px solid #e5edff;padding-bottom:4px;}
   .question{padding:12px;border-radius:10px;margin-bottom:10px;border:1px solid #eef2f8;background:#fff}
   .qtext{font-size:15px;margin-bottom:8px}
   .options{display:flex;flex-direction:column;gap:8px}
@@ -45,7 +45,6 @@
     background: var(--card);
     border-radius: 12px;
     box-shadow: 0 6px 18px rgba(40, 85, 161, 0.06);
-    
   }
   #welcomeScreen h2 { color: var(--accent); }
   #welcomeScreen p { color: var(--muted); margin-bottom: 12px; line-height: 1.2; }
@@ -84,16 +83,15 @@
 
   <!-- Pantalla de bienvenida -->
   <div id="welcomeScreen" >
-    <!-- Logo -->
     <img src="logo.png" alt="Logo OSCE" style="width: 200px; display: block; margin: 0 auto 20px;">
     <h2>Bienvenido al Simulacro del Examen de Certificación OECE 2025</h2>
-    <p>Recuerda que para aprobar el <strong>NIVEL BÁSICO </strong>necesitas de 30 puntos a más,</p>
-    <p>para el <strong>NIVEL INTERMEDIO </strong>necesitas de 43 puntos a más y para el <strong>NIVEL AVANZADO </strong>necesitas de 58 puntos a más.</p>
+    <p>Recuerda que para aprobar el <strong>NIVEL BÁSICO</strong> necesitas de 30 puntos a más,</p>
+    <p>para el <strong>NIVEL INTERMEDIO</strong> necesitas de 43 puntos a más y para el <strong>NIVEL AVANZADO</strong> necesitas de 58 puntos a más.</p>
     <p>Para tal efecto, el Simulacro consta de 450 preguntas en tres fases a desarrollarse en 60 minutos:</p>
     <p>1. <strong>Actuaciones Preparatorias:</strong> desde el número 1 hasta el 127</p>
     <p>2. <strong>Fase de Selección:</strong> desde el número 128 hasta el 270</p>
     <p>3. <strong>Fase de Ejecución Contractual:</strong> desde el número 271 hasta el 450</p>
-    <p>Concéntrate, confía y da lo mejor de ti. PRODELCORP Constante actualización a tu alcance...!</p>
+    <p>Concéntrate, confía y da lo mejor de ti. PRODELCORP — ¡Constante actualización a tu alcance!</p>
     <button id="startExamBtn">Comenzar</button>
   </div>
 
@@ -175,6 +173,8 @@ window.onload=()=>{
   if(s){try{showExamFor(JSON.parse(s));return;}catch(e){}}
   document.getElementById("login").style.display="block";
   document.getElementById("loginBtn").addEventListener("click",()=>{iniciarGoogle();});
+  // 👇 Agrega esta línea temporalmente://PARA SALTEAR EL CORREO Y PONER COMO COMENTARIO LAS 4FILAS ANTERIORES
+  //showExamFor({name:"Modo prueba", email:"test@local"});
 };
 
 function cerrarSesion(){
@@ -202,17 +202,21 @@ function startExam(){
 
   function shuffleArray(a){for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]];}}
 
+  // 🟢 MODIFICACIÓN AQUÍ — ahora usa "q.tema" en lugar de "q.block"
   function buildUI(){
     questionsArea.innerHTML = "";
-    let currentBlock = "";
+    let currentTema = "";
+
     questions.forEach((q) => {
-      if(q.block && q.block !== currentBlock){
-        currentBlock = q.block;
+      if(q.tema && q.tema !== currentTema){
+        currentTema = q.tema;
         const h = document.createElement("div");
         h.className = "section-title";
-        h.textContent = currentBlock;
+       // h.textContent = currentTema;
+        h.textContent = `*** ${currentTema.toUpperCase()} ***`;
         questionsArea.appendChild(h);
       }
+
       const opts = q.options.map(o => ({...o}));
       shuffleArray(opts);
       const div = document.createElement("div");
@@ -261,43 +265,37 @@ function startExam(){
   }
 
   function buildDetail(correctCount, total){
-  let html = `<div class="result"><h3>Resultado</h3>
-    <p>Aciertos: <strong>${correctCount}</strong> de ${total}</p>`;
-
-  let levelText = "No aplicable (prueba corta)";
-  if(total >= 58){
-    if(correctCount >= 58) levelText = "Felicitaciones!!! Alcanzaste el Nivel Avanzado... Prodelcorp !!!";
-    else if(correctCount >= 43) levelText = "Felicitaciones!!! Alcanzaste el Nivel Intermedio — ¡Sigue preparándote!";
-    else if(correctCount >= 30) levelText = "Felicitaciones!!! Alcanzaste el Nivel Básico — No te rindas, puedes mejorar.";
-    else levelText = "No aprobaste — No te desanimes, tú puedes!!! sigue intentándolo...Prodelcorp!!!";
-  }
-
-  html += `<p>Nivel: <strong>${levelText}</strong></p>`;
-  html += `<h4>Detalle de tus respuestas</h4>`;
-
-  // Solo mostrar preguntas que el usuario respondió
-  const answeredQuestions = questions.filter(q => answered[q.id]);
-  if (answeredQuestions.length === 0) {
-    html += `<p><em>No respondiste ninguna pregunta.</em></p>`;
-  } else {
-    answeredQuestions.forEach(q => {
-      const sel = answered[q.id];
-      const correctOpt = q.options.find(o => o.isCorrect === true);
-      const correctText = correctOpt ? correctOpt.text : "—";
-      const wasCorrect = sel && sel.trim() === correctText.trim();
-      const cls = wasCorrect ? "detail-item ok" : "detail-item bad";
-      html += `<div class="${cls}">
-        <div style="font-weight:700">Pregunta ${q.id}.</div>
-        <div class="meta">${q.question}</div>
-        <div style="margin-top:8px"><strong>Tu respuesta:</strong> <pre>${sel}</pre></div>
-        <div><strong>Respuesta correcta:</strong> <pre>${correctText}</pre></div>
-      </div>`;
-    });
-  }
-
-  html += `</div>`;
-  return html;
-
+    let html = `<div class="result"><h3>Resultado</h3>
+      <p>Aciertos: <strong>${correctCount}</strong> de ${total}</p>`;
+    let levelText = "No aplicable (prueba corta)";
+    if(total >= 58){
+      if(correctCount >= 58) levelText = "Felicitaciones!!! Alcanzaste el Nivel Avanzado.";
+      else if(correctCount >= 43) levelText = "Nivel Intermedio — ¡Sigue preparándote!";
+      else if(correctCount >= 30) levelText = "Nivel Básico — Puedes mejorar.";
+      else levelText = "No aprobaste — ¡Sigue intentándolo!";
+    }
+    html += `<p>Nivel: <strong>${levelText}</strong></p>`;
+    html += `<h4>Detalle de tus respuestas</h4>`;
+    const answeredQuestions = questions.filter(q => answered[q.id]);
+    if (answeredQuestions.length === 0) {
+      html += `<p><em>No respondiste ninguna pregunta.</em></p>`;
+    } else {
+      answeredQuestions.forEach(q => {
+        const sel = answered[q.id];
+        const correctOpt = q.options.find(o => o.isCorrect === true);
+        const correctText = correctOpt ? correctOpt.text : "—";
+        const wasCorrect = sel && sel.trim() === correctText.trim();
+        const cls = wasCorrect ? "detail-item ok" : "detail-item bad";
+        html += `<div class="${cls}">
+          <div style="font-weight:700">Pregunta ${q.id}.</div>
+          <div class="meta">${q.question}</div>
+          <div style="margin-top:8px"><strong>Tu respuesta:</strong> <pre>${sel}</pre></div>
+          <div><strong>Respuesta correcta:</strong> <pre>${correctText}</pre></div>
+        </div>`;
+      });
+    }
+    html += `</div>`;
+    return html;
   }
 
   function finishExam(auto=false){
