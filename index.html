@@ -15,9 +15,9 @@
   h1{margin:0;font-size:20px}
   .chip{background:#f0f6ff;color:var(--accent);padding:6px 10px;border-radius:999px;font-weight:600}
   .timer{margin-left:auto;font-weight:800;color:var(--accent)}
-  .card{background:var(--card);padding:14px;border-radius:12px;box-shadow:0 6px 18px rgba(12,30,60,0.06)}
+  .card{background:#e3f2fd;padding:14px;border-radius:12px;box-shadow:0 6px 18px rgba(0,0,0,0.08)}
   .section-title{text-decoration: underline;letter-spacing: 1px;text-align: center;font-weight:700;margin-top:20px;margin-bottom:10px;font-size:16px;color:var(--accent);border-bottom:2px solid #e5edff;padding-bottom:4px;}
-  .question{padding:12px;border-radius:10px;margin-bottom:10px;border:1px solid #eef2f8;background:#fff}
+  /*.question{padding:12px;border-radius:10px;margin-bottom:10px;border:1px solid #eef2f8;background:#fff}*/
   .qtext{font-size:15px;margin-bottom:8px}
   .options{display:flex;flex-direction:column;gap:8px}
   .option{padding:8px;border-radius:8px;border:1px solid #e6e9ef;cursor:pointer;user-select:none}
@@ -36,18 +36,35 @@
   .small{font-size:13px;padding:6px 10px}
   pre{white-space:pre-wrap;font-family:inherit}
   @media (max-width:640px){.wrap{padding:12px}}
+  #questionsArea { background-color: #e3f2fd; /* azul claro, puedes cambiarlo */ padding: 14px; border-radius: 12px;
 
   /* Pantalla de bienvenida */
   #welcomeScreen {
     display: none;
     text-align: center;
     padding: 80px 20px;
-    background: var(--card);
+    /*background: var(--card);*/
+    background: linear-gradient(to bottom, #b3e5fc, #e1f5fe);
     border-radius: 12px;
     box-shadow: 0 6px 18px rgba(40, 85, 161, 0.06);
+    color: #024a86;
   }
   #welcomeScreen h2 { color: var(--accent); }
   #welcomeScreen p { color: var(--muted); margin-bottom: 12px; line-height: 1.2; }
+
+/* Estilo profesional para texto de bienvenida */
+#welcomeScreen .welcome-text {
+  text-align: center;      /* centra horizontalmente */
+  font-size: 16px;
+  color: #024a86;
+  line-height: 1.5;
+  max-width: 700px;        /* limita el ancho del texto para mejor lectura */
+  margin: 0 auto 20px;     /* centra el bloque en la pantalla */
+}
+#welcomeScreen .welcome-text p {
+  margin-bottom: 12px;     /* espacio entre párrafos */
+}
+
 </style>
 
 <script src="https://accounts.google.com/gsi/client" async defer></script>
@@ -82,17 +99,23 @@
   </header>
 
   <!-- Pantalla de bienvenida -->
-  <div id="welcomeScreen" >
-    <img src="logo.png" alt="Logo OSCE" style="width: 200px; display: block; margin: 0 auto 20px;">
-    <h2>Bienvenido al Simulacro del Examen de Certificación OECE 2025</h2>
-    <p>Recuerda que para aprobar el <strong>NIVEL BÁSICO</strong> necesitas de 30 puntos a más,</p>
-    <p>para el <strong>NIVEL INTERMEDIO</strong> necesitas de 43 puntos a más y para el <strong>NIVEL AVANZADO</strong> necesitas de 58 puntos a más.</p>
-    <p>Para tal efecto, el Simulacro consta de 450 preguntas en tres fases a desarrollarse en 60 minutos:</p>
-    <p>1. <strong>Actuaciones Preparatorias:</strong> desde el número 1 hasta el 127</p>
-    <p>2. <strong>Fase de Selección:</strong> desde el número 128 hasta el 270</p>
-    <p>3. <strong>Fase de Ejecución Contractual:</strong> desde el número 271 hasta el 450</p>
+  <div id="welcomeScreen">
+  <img src="logo.png" alt="Logo OSCE" style="width: 200px; display: block; margin: 0 auto 20px;">
+  <h2>Bienvenido al Simulacro del Examen de Certificación OECE 2025</h2>
+  <div class="welcome-text">
+    <p>Recuerda que para aprobar cada nivel necesitas los siguientes puntajes:</p>
+    <p><strong>NIVEL BÁSICO:</strong> de 30 puntos o más</p>
+    <p><strong>NIVEL INTERMEDIO:</strong> de 43 puntos o más</p>
+    <p><strong>NIVEL AVANZADO:</strong> de 58 puntos o más</p>
+
+    <p>El simulacro consta de 450 preguntas distribuidas en tres fases, a desarrollarse en 60 minutos:</p>
+    <p><strong>1. Actuaciones Preparatorias:</strong> preguntas desde el número 1 hasta el 127</p>
+    <p><strong>2. Fase de Selección:</strong> preguntas desde el número 128 hasta el 270</p>
+    <p><strong>3. Fase de Ejecución Contractual:</strong> preguntas desde el número 271 hasta el 450</p>
+
     <p>Concéntrate, confía y da lo mejor de ti. PRODELCORP — ¡Constante actualización a tu alcance!</p>
-    <button id="startExamBtn">Comenzar</button>
+  </div>
+  <button id="startExamBtn">Comenzar</button>
   </div>
 
   <div class="card" id="card" style="display:none">
