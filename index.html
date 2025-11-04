@@ -172,6 +172,13 @@ function iniciarGoogle() {
   //}
 //}
 
+function handleCredentialResponse(response) {
+  const data = parseJwt(response.credential);
+  if (!data || !data.email) return showDenied();
+
+  const email = data.email;
+  const name = data.name || data.email;
+
 if (AUTH_USERS.includes(email)) {
   // ✅ Guardar usuario en sesión
   sessionStorage.setItem("sim_user", JSON.stringify({ email, name }));
@@ -194,6 +201,7 @@ if (AUTH_USERS.includes(email)) {
   showExamFor({ email, name });
 } else {
   showDenied();
+}
 }
 
 
