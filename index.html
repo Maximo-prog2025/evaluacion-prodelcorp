@@ -157,20 +157,45 @@ function iniciarGoogle() {
   google.accounts.id.prompt();
 }
 
-function handleCredentialResponse(response) {
-  const data = parseJwt(response.credential);
-  if (!data || !data.email) return showDenied();
+//function handleCredentialResponse(response) {
+  //const data = parseJwt(response.credential);
+  //if (!data || !data.email) return showDenied();
 
-  const email = data.email;
-  const name = data.name || data.email;
+  //const email = data.email;
+  //const name = data.name || data.email;
 
-  if (AUTH_USERS.includes(email)) {
-    sessionStorage.setItem("sim_user", JSON.stringify({email, name}));
-    showExamFor({email, name});
-  } else {
-    showDenied();
-  }
+  //if (AUTH_USERS.includes(email)) {
+    //sessionStorage.setItem("sim_user", JSON.stringify({email, name}));
+    //showExamFor({email, name});
+  //} else {
+  //  showDenied();
+  //}
+//}
+
+if (AUTH_USERS.includes(email)) {
+  // ✅ Guardar usuario en sesión
+  sessionStorage.setItem("sim_user", JSON.stringify({ email, name }));
+
+  // ✅ Registrar acceso en Google Sheets mediante Apps Script
+  // Reemplaza la siguiente URL por la tuya (la que copiaste al publicar tu script)
+  const SCRIPT_URL = "https://script.google.com/macros/s/AKfycbwY3guBOMNpEhlY4Nd4kk3tEA088BoOqk0cw9D-XJKf3ZQ-mBi-BjuDoYDM79VDTl728Q/exec";
+
+  // Enviar datos al script
+  fetch(SCRIPT_URL, {
+    method: "POST",
+    body: JSON.stringify({ name, email }),
+    headers: { "Content-Type": "application/json" }
+  })
+  .then(res => res.text())
+  .then(txt => console.log("Registro guardado:", txt))
+  .catch(err => console.error("Error al registrar:", err));
+
+  // ✅ Mostrar simulador
+  showExamFor({ email, name });
+} else {
+  showDenied();
 }
+
 
 function showDenied(){
   document.getElementById("login").style.display="none";
