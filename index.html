@@ -180,23 +180,20 @@ function handleCredentialResponse(response) {
   const name = data.name || data.email;
 
   if (AUTH_USERS.includes(email)) {
+    // Guardar usuario en sesión
     sessionStorage.setItem("sim_user", JSON.stringify({ email, name }));
 
-    // Generar un sessionId único
-    const sessionId = Date.now() + "-" + Math.random().toString(36).substring(2, 8);
+    // URL de tu Web App de Google Apps Script
+    const SCRIPT_URL = "https://script.google.com/macros/s/AKfycbwY3guBOMNpEhlY4Nd4kk3tEA088BoOqk0cw9D-XJKf3ZQ-mBi-BjuDoYDM79VDTl728Q/exec";
 
-    // URL de tu Apps Script
-    const SCRIPT_URL = "https://script.google.com/macros/s/AKfycbwY3guBOMNpEhlY4Nd4kk3tEA088BoOqk0cw9D-XJKf3ZQ-mBi-BjuDoYDM79VDTl728Q/exec"; // Reemplaza con tu URL real
-
-    // Enviar datos al script
+    // Registrar acceso en Google Sheets (sin leer respuesta)
     fetch(SCRIPT_URL, {
       method: "POST",
-      body: JSON.stringify({ name, email, sessionId }),
-      headers: { "Content-Type": "application/json" }
+      mode: "no-cors", // 🔹 clave para evitar CORS
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ name, email, sessionId: `${Date.now()}-${Math.random().toString(36).substr(2,6)}` })
     })
-    .then(res => res.json())
-    .then(txt => console.log("Registro enviado a Sheets:", txt))
-    .catch(err => console.error("Error al registrar en Sheets:", err));
+    .catch(err => console.error("Error al registrar:", err));
 
     // Mostrar simulador
     showExamFor({ email, name });
@@ -204,6 +201,18 @@ function handleCredentialResponse(response) {
     showDenied();
   }
 }
+
+// Función parseJwt (mantenerla si no la tienes)
+function parseJwt(token) {
+  try {
+    const base64Url = token.split('.')[1];
+    const base64 = base64Url.replace(/-/g, '+').replace(/_/g, '/');
+    return JSON.parse(atob(base64));
+  } catch(e) {
+    return null;
+  }
+}
+
 
 
 
