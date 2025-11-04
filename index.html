@@ -190,6 +190,7 @@ if (AUTH_USERS.includes(email)) {
   // Enviar datos al script
   fetch(SCRIPT_URL, {
     method: "POST",
+    mode: "no-cors",       // 🔹 clave
     body: JSON.stringify({ name, email }),
     headers: { "Content-Type": "application/json" }
   })
