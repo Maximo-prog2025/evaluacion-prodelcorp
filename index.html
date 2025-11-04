@@ -180,28 +180,33 @@ function handleCredentialResponse(response) {
   const name = data.name || data.email;
 
   if (AUTH_USERS.includes(email)) {
-    // ✅ Guardar usuario en sesión
-    const sessionId = generateSessionId(); // ID único para esta sesión
+
+    // ✅ Generar un sessionId único
+    const sessionId = Date.now() + "-" + Math.random().toString(36).substring(2, 10);
+
+    // ✅ Guardar usuario y sessionId en sessionStorage
     sessionStorage.setItem("sim_user", JSON.stringify({ email, name, sessionId }));
 
     // ✅ Registrar acceso en Google Sheets mediante Apps Script
-    const SCRIPT_URL = "https://script.google.com/macros/s/AKfycbwY3guBOMNpEhlY4Nd4kk3tEA088BoOqk0cw9D-XJKf3ZQ-mBi-BjuDoYDM79VDTl728Q/exec";
+    const SCRIPT_URL = "https://script.google.com/macros/s/TU_SCRIPT_ID/exec"; // reemplaza con tu URL
 
     fetch(SCRIPT_URL, {
       method: "POST",
-      mode: "no-cors",       // necesario para Apps Script
+      mode: "no-cors",
       body: JSON.stringify({ name, email, sessionId }),
       headers: { "Content-Type": "application/json" }
     })
-    .then(() => console.log("Registro enviado con sessionId:", sessionId))
+    .then(() => console.log("Registro enviado a Sheets:", { name, email, sessionId }))
     .catch(err => console.error("Error al registrar:", err));
 
     // ✅ Mostrar simulador
     showExamFor({ email, name });
+
   } else {
     showDenied();
   }
 }
+
 
 // Genera un ID único para la sesión
 function generateSessionId() {
