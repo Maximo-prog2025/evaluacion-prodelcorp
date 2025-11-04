@@ -187,7 +187,7 @@ function handleCredentialResponse(response) {
     sessionStorage.setItem("sim_user", JSON.stringify({ email, name, sessionId }));
 
     // ✅ Registrar acceso en Google Sheets mediante Apps Script
-    const SCRIPT_URL = "TU_URL_DE_APPS_SCRIPT"; // Reemplaza con tu URL
+    const SCRIPT_URL = "https://script.google.com/macros/s/AKfycbwY3guBOMNpEhlY4Nd4kk3tEA088BoOqk0cw9D-XJKf3ZQ-mBi-BjuDoYDM79VDTl728Q/exec"; // Reemplaza con tu URL
 
     fetch(SCRIPT_URL, {
       method: "POST",
