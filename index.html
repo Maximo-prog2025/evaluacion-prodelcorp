@@ -194,7 +194,7 @@ if (AUTH_USERS.includes(email)) {
     body: JSON.stringify({ name, email }),
     headers: { "Content-Type": "application/json" }
   })
-  .then(res => res.text())
+  //.then(res => res.text())
   .then(txt => console.log("Registro guardado:", txt))
   .catch(err => console.error("Error al registrar:", err));
 
