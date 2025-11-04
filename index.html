@@ -177,33 +177,34 @@ function handleCredentialResponse(response) {
   if (!data || !data.email) return showDenied();
 
   const email = data.email;
-  const name = data.name || data.email;
+  const name = data.name || email;
 
-if (AUTH_USERS.includes(email)) {
-  // ✅ Guardar usuario en sesión
-  sessionStorage.setItem("sim_user", JSON.stringify({ email, name }));
+  // Verifica si el usuario está autorizado
+  if (AUTH_USERS.includes(email)) {
 
-  // ✅ Registrar acceso en Google Sheets mediante Apps Script
-  // Reemplaza la siguiente URL por la tuya (la que copiaste al publicar tu script)
-  const SCRIPT_URL = "https://script.google.com/macros/s/AKfycbwY3guBOMNpEhlY4Nd4kk3tEA088BoOqk0cw9D-XJKf3ZQ-mBi-BjuDoYDM79VDTl728Q/exec";
+    // 1️⃣ Guardar usuario en sessionStorage
+    sessionStorage.setItem("sim_user", JSON.stringify({ email, name }));
 
-  // Enviar datos al script
-  fetch(SCRIPT_URL, {
-    method: "POST",
-    mode: "no-cors",       // 🔹 clave
-    body: JSON.stringify({ name, email }),
-    headers: { "Content-Type": "application/json" }
-  })
-  //.then(res => res.text())
-  .then(txt => console.log("Registro guardado:", txt))
-  .catch(err => console.error("Error al registrar:", err));
+    // 2️⃣ Registrar acceso en Google Sheets mediante Apps Script
+    const SCRIPT_URL = "https://script.google.com/macros/s/AKfycbwY3guBOMNpEhlY4Nd4kk3tEA088BoOqk0cw9D-XJKf3ZQ-mBi-BjuDoYDM79VDTl728Q/exec"; // ⚡ reemplaza con tu URL
 
-  // ✅ Mostrar simulador
-  showExamFor({ email, name });
-} else {
-  showDenied();
+    fetch(SCRIPT_URL, {
+      method: "POST",
+      mode: "no-cors",           // evita bloqueos CORS
+      body: JSON.stringify({ name, email }),
+      headers: { "Content-Type": "application/json" }
+    })
+    .then(() => console.log("Registro enviado a Sheets"))
+    .catch(err => console.error("Error al enviar registro:", err));
+
+    // 3️⃣ Mostrar el simulador
+    showExamFor({ email, name });
+
+  } else {
+    showDenied();
+  }
 }
-}
+
 
 
 function showDenied(){
