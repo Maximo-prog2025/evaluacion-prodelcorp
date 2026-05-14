@@ -238,12 +238,12 @@ function showExamFor(user){
 }
 
 window.onload=()=>{
-  //const s=sessionStorage.getItem("sim_user");
-  //if(s){try{showExamFor(JSON.parse(s));return;}catch(e){}}
-  //document.getElementById("login").style.display="block";
-  //document.getElementById("loginBtn").addEventListener("click",()=>{iniciarGoogle();});
+  const s=sessionStorage.getItem("sim_user");
+  if(s){try{showExamFor(JSON.parse(s));return;}catch(e){}}
+  document.getElementById("login").style.display="block";
+  document.getElementById("loginBtn").addEventListener("click",()=>{iniciarGoogle();});
   // 👇 Agrega esta línea temporalmente://PARA SALTEAR EL CORREO Y PONER COMO COMENTARIO LAS 4FILAS ANTERIORES
-  showExamFor({name:"Modo prueba", email:"test@local"});
+  //showExamFor({name:"Modo prueba", email:"test@local"});
 };
 
 function cerrarSesion(){
