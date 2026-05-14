@@ -1,7 +1,7 @@
-const questions = [
+let questions = [
   {
     "id": 1,
-    "question": "1. Establezca la relación correcta entre el número y la letra respecto a la determinación del método de contratación que corresponda: 1. Subasta Inversa Electrónica 2. Catalogo Electrónico de Acuerdo Marco 3. Licitación Pública a. Arroz pilado superior por el monto de S/ 50 000.00. b. Construcción de centro educativo por el monto de S/ 7,500,000.00 c. Gas licuado de petróleo por el monto de S/ 60 000.00. d. Servicio de pasajes aéreos nacionales por el monto de S/ 80 000.00",
+    "question": "Establezca la relación correcta entre el número y la letra respecto a la determinación del método de contratación que corresponda: 1. Subasta Inversa Electrónica 2. Catalogo Electrónico de Acuerdo Marco 3. Licitación Pública a. Arroz pilado superior por el monto de S/ 50 000.00. b. Construcción de centro educativo por el monto de S/ 7,500,000.00 c. Gas licuado de petróleo por el monto de S/ 60 000.00. d. Servicio de pasajes aéreos nacionales por el monto de S/ 80 000.00",
     "options": [
       {
         "text": "a) 1a, 1b, 2c, 3d",
@@ -24,7 +24,7 @@ const questions = [
   },
   {
     "id": 2,
-    "question": "2. De la revisión del requerimiento, se advierte que, se exige una (1) camioneta 4 x 4 doble cabina, sin embargo, no se ha precisado las características de la camioneta. ¿Qué principio se ha vulnerado?",
+    "question": "De la revisión del requerimiento, se advierte que, se exige una (1) camioneta 4 x 4 doble cabina, sin embargo, no se ha precisado las características de la camioneta. ¿Qué principio se ha vulnerado?",
     "options": [
       {
         "text": "a) Principio de Publicidad",
@@ -47,7 +47,7 @@ const questions = [
   },
   {
     "id": 3,
-    "question": "3. De la revisión de los requisitos para la suscripción del contrato se advierte que, se requiere la presentación de una declaración jurada de cada personal propuesto señalando que no se encuentra trabajando en otra Entidad Pública o Privada y que no lo realizará durante la prestación de sus servicios en la ejecución de la presente obra, adjuntado copia legible de su DNI. ¿Qué principio se ha vulnerado?",
+    "question": "De la revisión de los requisitos para la suscripción del contrato se advierte que, se requiere la presentación de una declaración jurada de cada personal propuesto señalando que no se encuentra trabajando en otra Entidad Pública o Privada y que no lo realizará durante la prestación de sus servicios en la ejecución de la presente obra, adjuntado copia legible de su DNI. ¿Qué principio se ha vulnerado?",
     "options": [
       {
         "text": "a) Principio de Competencia",
@@ -70,7 +70,7 @@ const questions = [
   },
   {
     "id": 4,
-    "question": "4. El principio de Equidad es aplicable durante:",
+    "question": "El principio de Equidad es aplicable durante:",
     "options": [
       {
         "text": "a) La fase de actuaciones preparatorias",
@@ -93,7 +93,7 @@ const questions = [
   },
   {
     "id": 5,
-    "question": "5. En qué casos, se incurre en fraccionamiento.",
+    "question": "En qué casos, se incurre en fraccionamiento.",
     "options": [
       {
         "text": "a) Surge una necesidad imprevisible adicional a la programada.",
@@ -116,7 +116,7 @@ const questions = [
   },
   {
     "id": 6,
-    "question": "6. Según la Ley General de Contrataciones Públicas, ¿cuál es el propósito fundamental del expediente de contratación?",
+    "question": "Según la Ley General de Contrataciones Públicas, ¿cuál es el propósito fundamental del expediente de contratación?",
     "options": [
       {
         "text": "a) Servir como registro exclusivo de la fase de selección.",
@@ -139,7 +139,7 @@ const questions = [
   },
   {
     "id": 7,
-    "question": "7. ¿Qué documento debe formar parte del expediente de contratación antes de la fase de selección?",
+    "question": "¿Qué documento debe formar parte del expediente de contratación antes de la fase de selección?",
     "options": [
       {
         "text": "a) El contrato perfeccionado.",
@@ -162,7 +162,7 @@ const questions = [
   },
   {
     "id": 8,
-    "question": "8. Además de la fase de actuaciones preparatorias, ¿qué otras fases del proceso de contratación deben estar documentadas en el expediente de contratación según la Ley?",
+    "question": "Además de la fase de actuaciones preparatorias, ¿qué otras fases del proceso de contratación deben estar documentadas en el expediente de contratación según la Ley?",
     "options": [
       {
         "text": "a) Solo la fase de selección.",
@@ -185,7 +185,7 @@ const questions = [
   },
   {
     "id": 9,
-    "question": "9. ¿Es obligatorio incluir la cuantía de la contratación y la certificación presupuestal en el expediente de contratación antes de la fase de selección, según el Reglamento?",
+    "question": "¿Es obligatorio incluir la cuantía de la contratación y la certificación presupuestal en el expediente de contratación antes de la fase de selección, según el Reglamento?",
     "options": [
       {
         "text": "a) No, solo se incluye la cuantía si es un procedimiento competitivo.",
@@ -208,7 +208,7 @@ const questions = [
   },
   {
     "id": 10,
-    "question": "10. ¿Qué autoridad es la responsable de aprobar el expediente de contratación antes de iniciar la fase de selección?",
+    "question": "¿Qué autoridad es la responsable de aprobar el expediente de contratación antes de iniciar la fase de selección?",
     "options": [
       {
         "text": "a) El Titular de la Entidad.",
@@ -231,7 +231,7 @@ const questions = [
   },
   {
     "id": 11,
-    "question": "11. Para que se pueda aprobar un expediente de contratación, ¿qué requisito relacionado con la planificación de la entidad debe cumplirse?",
+    "question": "Para que se pueda aprobar un expediente de contratación, ¿qué requisito relacionado con la planificación de la entidad debe cumplirse?",
     "options": [
       {
         "text": "a) Contar con la opinión favorable del OECE.",
@@ -254,7 +254,7 @@ const questions = [
   },
   {
     "id": 12,
-    "question": "12. Si un procedimiento de selección es declarado desierto, ¿es siempre necesaria una nueva aprobación del expediente de contratación para la siguiente convocatoria?",
+    "question": "Si un procedimiento de selección es declarado desierto, ¿es siempre necesaria una nueva aprobación del expediente de contratación para la siguiente convocatoria?",
     "options": [
       {
         "text": "a) Sí, siempre se requiere una nueva aprobación.",
@@ -277,7 +277,7 @@ const questions = [
   },
   {
     "id": 13,
-    "question": "13. En el caso de procedimientos de selección no competitivos, ¿qué autoridad es competente para aprobar la contratación directa por la causal de \"situación de emergencia\"?",
+    "question": "En el caso de procedimientos de selección no competitivos, ¿qué autoridad es competente para aprobar la contratación directa por la causal de \"situación de emergencia\"?",
     "options": [
       {
         "text": "a) La autoridad de la gestión administrativa.",
@@ -300,7 +300,7 @@ const questions = [
   },
   {
     "id": 14,
-    "question": "14. Qué medio debe ser privilegiado para la custodia y resguardo del expediente de contratación?",
+    "question": "Qué medio debe ser privilegiado para la custodia y resguardo del expediente de contratación?",
     "options": [
       {
         "text": "a) Medios físicos tradicionales.",
@@ -323,7 +323,7 @@ const questions = [
   },
   {
     "id": 15,
-    "question": "15. ¿Qué unidad de organización es responsable de la custodia del expediente de contratación y de asegurar su disponibilidad?",
+    "question": "¿Qué unidad de organización es responsable de la custodia del expediente de contratación y de asegurar su disponibilidad?",
     "options": [
       {
         "text": "a) El área usuaria.",
@@ -346,7 +346,7 @@ const questions = [
   },
   {
     "id": 16,
-    "question": "16. ¿Los actos y actuaciones registrados en la Plataforma Digital para las Contrataciones Públicas (Pladicop) tienen validez legal equivalente a los realizados manualmente para efectos del expediente?",
+    "question": "¿Los actos y actuaciones registrados en la Plataforma Digital para las Contrataciones Públicas (Pladicop) tienen validez legal equivalente a los realizados manualmente para efectos del expediente?",
     "options": [
       {
         "text": "a) No, los actos manuales tienen mayor validez.",
@@ -369,7 +369,7 @@ const questions = [
   },
   {
     "id": 17,
-    "question": "17. ¿Qué periodo del proceso de contratación debe estar documentado en el expediente de contratación para su custodia, según la Ley?",
+    "question": "¿Qué periodo del proceso de contratación debe estar documentado en el expediente de contratación para su custodia, según la Ley?",
     "options": [
       {
         "text": "a) Desde la convocatoria hasta el otorgamiento de la buena pro.",
@@ -392,7 +392,7 @@ const questions = [
   },
   {
     "id": 18,
-    "question": "18. ¿Cuál es uno de los propósitos de incluir el requerimiento en el expediente de contratación?",
+    "question": "¿Cuál es uno de los propósitos de incluir el requerimiento en el expediente de contratación?",
     "options": [
       {
         "text": "a) Establecer los criterios de evaluación económica.",
@@ -415,7 +415,7 @@ const questions = [
   },
   {
     "id": 19,
-    "question": "19. Un funcionario de la Dependencia Encargada de las Contrataciones (DEC) está preparando un expediente de contratación para un servicio. ¿Qué documento no es un requisito mínimo para la aprobación del expediente en esta etapa?",
+    "question": "Un funcionario de la Dependencia Encargada de las Contrataciones (DEC) está preparando un expediente de contratación para un servicio. ¿Qué documento no es un requisito mínimo para la aprobación del expediente en esta etapa?",
     "options": [
       {
         "text": "a) El requerimiento final.",
@@ -438,7 +438,7 @@ const questions = [
   },
   {
     "id": 20,
-    "question": "20. La Dependencia Encargada de las Contrataciones (DEC) de una entidad está armando el expediente de contratación para la adquisición de equipos informáticos. Han finalizado el requerimiento, elaborado la estrategia de contratación y obtenido la certificación presupuestal. ¿Qué otro documento, según el Reglamento, es un requisito mínimo para que la autoridad competente apruebe este expediente antes de la fase de selección?",
+    "question": "La Dependencia Encargada de las Contrataciones (DEC) de una entidad está armando el expediente de contratación para la adquisición de equipos informáticos. Han finalizado el requerimiento, elaborado la estrategia de contratación y obtenido la certificación presupuestal. ¿Qué otro documento, según el Reglamento, es un requisito mínimo para que la autoridad competente apruebe este expediente antes de la fase de selección?",
     "options": [
       {
         "text": "a) El informe de conformidad del área usuaria.",
@@ -461,7 +461,7 @@ const questions = [
   },
   {
     "id": 21,
-    "question": "21. En un procedimiento de selección no competitivo por la causal de \"proveedor único\", ¿qué autoridad es responsable de aprobar la contratación directa?",
+    "question": "En un procedimiento de selección no competitivo por la causal de \"proveedor único\", ¿qué autoridad es responsable de aprobar la contratación directa?",
     "options": [
       {
         "text": "a) El Titular de la Entidad.",
@@ -484,7 +484,7 @@ const questions = [
   },
   {
     "id": 22,
-    "question": "22. ¿La autoridad de la gestión administrativa puede delegar la facultad de aprobar los procedimientos de selección no competitivos?",
+    "question": "¿La autoridad de la gestión administrativa puede delegar la facultad de aprobar los procedimientos de selección no competitivos?",
     "options": [
       {
         "text": "a) Sí, puede delegarla a cualquier funcionario de la entidad.",
@@ -507,7 +507,7 @@ const questions = [
   },
   {
     "id": 23,
-    "question": "23. El Gerente Municipal de una Municipalidad (quien ejerce la autoridad de la gestión administrativa) debe aprobar el expediente de contratación para la adquisición de mobiliario de oficina. La Dependencia Encargada de las Contrataciones (DEC) ha preparado el expediente con todos los documentos requeridos por el Reglamento. ¿Puede el Gerente Municipal delegar esta aprobación en el jefe de la DEC?",
+    "question": "El Gerente Municipal de una Municipalidad (quien ejerce la autoridad de la gestión administrativa) debe aprobar el expediente de contratación para la adquisición de mobiliario de oficina. La Dependencia Encargada de las Contrataciones (DEC) ha preparado el expediente con todos los documentos requeridos por el Reglamento. ¿Puede el Gerente Municipal delegar esta aprobación en el jefe de la DEC?",
     "options": [
       {
         "text": "a) Sí, la Ley permite la delegación de facultades de la autoridad de la gestión administrativa.",
@@ -530,7 +530,7 @@ const questions = [
   },
   {
     "id": 24,
-    "question": "24. Un servidor público de la Dependencia Encargada de las Contrataciones (DEC) registra un acta de una reunión de evaluación en la Plataforma Digital para las Contrataciones Públicas (Pladicop). Según la Ley, ¿qué validez tiene este acto registrado digitalmente en comparación con un acta firmada manualmente?",
+    "question": "Un servidor público de la Dependencia Encargada de las Contrataciones (DEC) registra un acta de una reunión de evaluación en la Plataforma Digital para las Contrataciones Públicas (Pladicop). Según la Ley, ¿qué validez tiene este acto registrado digitalmente en comparación con un acta firmada manualmente?",
     "options": [
       {
         "text": "a) Menor validez, requiere validación posterior.",
@@ -553,7 +553,7 @@ const questions = [
   },
   {
     "id": 25,
-    "question": "25. Considerando que el Reglamento prioriza el uso de medios electrónicos para la custodia del expediente de contratación en la Plataforma Digital para las Contrataciones Públicas (Pladicop) y que la Ley establece la validez de los actos registrados digitalmente, ¿cuál es la principal implicación para la Dependencia Encargada de las Contrataciones (DEC) en relación con la gestión de la información del expediente?",
+    "question": "Considerando que el Reglamento prioriza el uso de medios electrónicos para la custodia del expediente de contratación en la Plataforma Digital para las Contrataciones Públicas (Pladicop) y que la Ley establece la validez de los actos registrados digitalmente, ¿cuál es la principal implicación para la Dependencia Encargada de las Contrataciones (DEC) en relación con la gestión de la información del expediente?",
     "options": [
       {
         "text": "a) La DEC solo necesita conservar copias de seguridad de los documentos físicos, ya que la Pladicop es la fuente oficial.",
@@ -576,7 +576,7 @@ const questions = [
   },
   {
     "id": 26,
-    "question": "26. La Dependencia Encargada de las Contrataciones (DEC) de una entidad ha privilegiado el uso de medios electrónicos para la custodia de los expedientes de contratación en la Plataforma Digital para las Contrataciones Públicas (Pladicop). Sin embargo, se detecta que un documento clave de un expediente, que solo existía en formato físico, no fue digitalizado ni incluido en la Pladicop. Posteriormente, este documento es requerido para una auditoría y no está disponible. Según la normativa, ¿cuál es la responsabilidad de la DEC en esta situación?",
+    "question": "La Dependencia Encargada de las Contrataciones (DEC) de una entidad ha privilegiado el uso de medios electrónicos para la custodia de los expedientes de contratación en la Plataforma Digital para las Contrataciones Públicas (Pladicop). Sin embargo, se detecta que un documento clave de un expediente, que solo existía en formato físico, no fue digitalizado ni incluido en la Pladicop. Posteriormente, este documento es requerido para una auditoría y no está disponible. Según la normativa, ¿cuál es la responsabilidad de la DEC en esta situación?",
     "options": [
       {
         "text": "a) La DEC no tiene responsabilidad, ya que la prioridad es la custodia electrónica y el documento no fue entregado digitalmente.",
@@ -599,7 +599,7 @@ const questions = [
   },
   {
     "id": 27,
-    "question": "27. ¿Cuál es una de las responsabilidades de la Dependencia Encargada de las Contrataciones (DEC) en relación con el requerimiento, según el Reglamento?",
+    "question": "¿Cuál es una de las responsabilidades de la Dependencia Encargada de las Contrataciones (DEC) en relación con el requerimiento, según el Reglamento?",
     "options": [
       {
         "text": "a) Aprobar el requerimiento final sin consulta al área usuaria.",
@@ -622,7 +622,7 @@ const questions = [
   },
   {
     "id": 28,
-    "question": "28. ¿Qué tipo de exigencias no debe incluir el requerimiento?",
+    "question": "¿Qué tipo de exigencias no debe incluir el requerimiento?",
     "options": [
       {
         "text": "a) Requisitos funcionales o técnicos.",
@@ -645,7 +645,7 @@ const questions = [
   },
   {
     "id": 29,
-    "question": "29. El área usuaria de una entidad ha formulado un requerimiento para un servicio especializado. La Dependencia Encargada de las Contrataciones (DEC) revisa el requerimiento y propone una modificación a su contenido por considerar que mejora la eficiencia del proceso. Según el Reglamento, ¿qué acción debe realizar la DEC y qué facultad tiene el área usuaria ante esta propuesta?",
+    "question": "El área usuaria de una entidad ha formulado un requerimiento para un servicio especializado. La Dependencia Encargada de las Contrataciones (DEC) revisa el requerimiento y propone una modificación a su contenido por considerar que mejora la eficiencia del proceso. Según el Reglamento, ¿qué acción debe realizar la DEC y qué facultad tiene el área usuaria ante esta propuesta?",
     "options": [
       {
         "text": "a) La DEC debe aceptar el requerimiento original sin modificaciones; el área usuaria no tiene facultad para objetar.",
@@ -668,7 +668,7 @@ const questions = [
   },
   {
     "id": 30,
-    "question": "30. ¿Cuál es uno de los objetivos de la segmentación de las contrataciones, según el Reglamento?",
+    "question": "¿Cuál es uno de los objetivos de la segmentación de las contrataciones, según el Reglamento?",
     "options": [
       {
         "text": "a) Determinar el monto exacto de la certificación presupuestal.",
@@ -691,7 +691,7 @@ const questions = [
   },
   {
     "id": 31,
-    "question": "31. ¿Cuáles son las categorías de clasificación para la segmentación de las contrataciones de bienes y servicios?",
+    "question": "¿Cuáles son las categorías de clasificación para la segmentación de las contrataciones de bienes y servicios?",
     "options": [
       {
         "text": "a) Menores, Mayores, Especializados.",
@@ -714,7 +714,7 @@ const questions = [
   },
   {
     "id": 32,
-    "question": "32. La segmentación de las contrataciones de bienes y servicios se realiza considerando su cuantía y riesgos. ¿Cuáles son las cuatro categorías de clasificación establecidas por el Reglamento para esta segmentación?",
+    "question": "La segmentación de las contrataciones de bienes y servicios se realiza considerando su cuantía y riesgos. ¿Cuáles son las cuatro categorías de clasificación establecidas por el Reglamento para esta segmentación?",
     "options": [
       {
         "text": "a) Rutinarios, Críticos, Prioritarios, Estratégicos.",
@@ -737,7 +737,7 @@ const questions = [
   },
   {
     "id": 33,
-    "question": "33. La Dependencia Encargada de las Contrataciones (DEC) de una entidad está realizando la segmentación de las contrataciones para el próximo año. Identifican un requerimiento de un bien que, en los últimos dos años, ha tenido procedimientos de selección declarados desiertos en más de una ocasión y cuyo promedio de postores ha sido menor a tres. Según el Reglamento, ¿en qué categoría de riesgo se clasificaría esta contratación y cuál sería la orientación principal de su estrategia?",
+    "question": "La Dependencia Encargada de las Contrataciones (DEC) de una entidad está realizando la segmentación de las contrataciones para el próximo año. Identifican un requerimiento de un bien que, en los últimos dos años, ha tenido procedimientos de selección declarados desiertos en más de una ocasión y cuyo promedio de postores ha sido menor a tres. Según el Reglamento, ¿en qué categoría de riesgo se clasificaría esta contratación y cuál sería la orientación principal de su estrategia?",
     "options": [
       {
         "text": "a) Categoría Operacional; orientación a la reducción de costos.",
@@ -760,7 +760,7 @@ const questions = [
   },
   {
     "id": 34,
-    "question": "34. ¿Quién es el responsable de elaborar la estrategia de contratación, según la Ley?",
+    "question": "¿Quién es el responsable de elaborar la estrategia de contratación, según la Ley?",
     "options": [
       {
         "text": "a) El área usuaria.",
@@ -783,7 +783,7 @@ const questions = [
   },
   {
     "id": 35,
-    "question": "35. ¿Cuál es el principio fundamental que debe guiar el análisis de la estrategia de contratación?",
+    "question": "¿Cuál es el principio fundamental que debe guiar el análisis de la estrategia de contratación?",
     "options": [
       {
         "text": "a) El principio de legalidad.",
@@ -806,7 +806,7 @@ const questions = [
   },
   {
     "id": 36,
-    "question": "36. La Dependencia Encargada de las Contrataciones (DEC) de una entidad está elaborando la estrategia de contratación para una obra de alta complejidad técnica. Según la Ley, ¿qué elementos adicionales debe incluir la propuesta de estrategia de contratación para este tipo de obra?",
+    "question": "La Dependencia Encargada de las Contrataciones (DEC) de una entidad está elaborando la estrategia de contratación para una obra de alta complejidad técnica. Según la Ley, ¿qué elementos adicionales debe incluir la propuesta de estrategia de contratación para este tipo de obra?",
     "options": [
       {
         "text": "a) El análisis del consumo histórico del bien y la verificación de existencias en almacén.",
@@ -829,7 +829,7 @@ const questions = [
   },
   {
     "id": 37,
-    "question": "37. ¿Cuál es uno de los propósitos de la interacción con el mercado?",
+    "question": "¿Cuál es uno de los propósitos de la interacción con el mercado?",
     "options": [
       {
         "text": "a) Determinar la capacidad máxima de contratación de los proveedores.",
@@ -852,7 +852,7 @@ const questions = [
   },
   {
     "id": 38,
-    "question": "38. ¿Cuáles son los dos tipos principales de interacción con el mercado?",
+    "question": "¿Cuáles son los dos tipos principales de interacción con el mercado?",
     "options": [
       {
         "text": "a) Consulta y Diálogo.",
@@ -875,7 +875,7 @@ const questions = [
   },
   {
     "id": 39,
-    "question": "39. Una entidad necesita adquirir un bien que considera estratégico y de alta cuantía. ¿Qué nivel de interacción con el mercado se recomienda para este tipo de contratación y qué herramienta de consulta al mercado es una opción para obtener retroalimentación de varios proveedores?",
+    "question": "Una entidad necesita adquirir un bien que considera estratégico y de alta cuantía. ¿Qué nivel de interacción con el mercado se recomienda para este tipo de contratación y qué herramienta de consulta al mercado es una opción para obtener retroalimentación de varios proveedores?",
     "options": [
       {
         "text": "a) Indagación básica; herramienta de reuniones uno a uno.",
@@ -898,7 +898,7 @@ const questions = [
   },
   {
     "id": 40,
-    "question": "40. ¿En qué fase del proceso de contratación se determina la modalidad de pago?",
+    "question": "¿En qué fase del proceso de contratación se determina la modalidad de pago?",
     "options": [
       {
         "text": "a) Fase de selección.",
@@ -921,7 +921,7 @@ const questions = [
   },
   {
     "id": 41,
-    "question": "41. ¿Cuál de las siguientes no es una modalidad de pago que la entidad contratante puede considerar para bienes y servicios?",
+    "question": "¿Cuál de las siguientes no es una modalidad de pago que la entidad contratante puede considerar para bienes y servicios?",
     "options": [
       {
         "text": "a) Suma alzada.",
@@ -944,7 +944,7 @@ const questions = [
   },
   {
     "id": 42,
-    "question": "42. Una entidad está elaborando la estrategia de contratación para la supervisión de una obra. Según el Reglamento, ¿qué modalidad de pago debe utilizarse obligatoriamente para este servicio?",
+    "question": "Una entidad está elaborando la estrategia de contratación para la supervisión de una obra. Según el Reglamento, ¿qué modalidad de pago debe utilizarse obligatoriamente para este servicio?",
     "options": [
       {
         "text": "a) Suma alzada.",
@@ -967,7 +967,7 @@ const questions = [
   },
   {
     "id": 43,
-    "question": "43. ¿En qué fase del proceso de contratación se determina el sistema de entrega?",
+    "question": "¿En qué fase del proceso de contratación se determina el sistema de entrega?",
     "options": [
       {
         "text": "a) Fase de selección.",
@@ -990,7 +990,7 @@ const questions = [
   },
   {
     "id": 44,
-    "question": "44. ¿Cuál de los siguientes no es un sistema de entrega que la entidad contratante puede determinar para obras?",
+    "question": "¿Cuál de los siguientes no es un sistema de entrega que la entidad contratante puede determinar para obras?",
     "options": [
       {
         "text": "a) Solo construcción.",
@@ -1013,7 +1013,7 @@ const questions = [
   },
   {
     "id": 45,
-    "question": "45. Una entidad está evaluando el sistema de entrega más adecuado para una obra de alta complejidad según la clasificación del SNPMGI, donde se busca que el contratista se involucre desde las primeras etapas para gestionar el diseño y la ejecución. Según el Reglamento, ¿qué sistema de entrega se ajustaría a esta necesidad y qué tipo de contrato estandarizado internacional se utilizaría obligatoriamente?",
+    "question": "Una entidad está evaluando el sistema de entrega más adecuado para una obra de alta complejidad según la clasificación del SNPMGI, donde se busca que el contratista se involucre desde las primeras etapas para gestionar el diseño y la ejecución. Según el Reglamento, ¿qué sistema de entrega se ajustaría a esta necesidad y qué tipo de contrato estandarizado internacional se utilizaría obligatoriamente?",
     "options": [
       {
         "text": "a) Solo construcción; no requiere contrato estandarizado internacional.",
@@ -1036,7 +1036,7 @@ const questions = [
   },
   {
     "id": 46,
-    "question": "46. ¿Cuál es uno de los objetivos de la gestión de riesgos en la contratación pública?",
+    "question": "¿Cuál es uno de los objetivos de la gestión de riesgos en la contratación pública?",
     "options": [
       {
         "text": "a) Aumentar la probabilidad e impacto de riesgos positivos y disminuir los negativos.",
@@ -1059,7 +1059,7 @@ const questions = [
   },
   {
     "id": 47,
-    "question": "47. ¿En qué momento del proceso de contratación se inicia la identificación y evaluación de riesgos asociados?",
+    "question": "¿En qué momento del proceso de contratación se inicia la identificación y evaluación de riesgos asociados?",
     "options": [
       {
         "text": "a) Durante la fase de selección.",
@@ -1082,7 +1082,7 @@ const questions = [
   },
   {
     "id": 48,
-    "question": "48. Una entidad está planificando la contratación de una obra segmentada como avanzada, cuya cuantía supera los S/ 50 000 000,00. ¿Qué mecanismo de gestión de riesgos es obligatorio implementar para esta contratación y cuál es una de sus funciones?",
+    "question": "Una entidad está planificando la contratación de una obra segmentada como avanzada, cuya cuantía supera los S/ 50 000 000,00. ¿Qué mecanismo de gestión de riesgos es obligatorio implementar para esta contratación y cuál es una de sus funciones?",
     "options": [
       {
         "text": "a) Un comité de recepción de obra; su función es verificar el cumplimiento contractual in situ.",
@@ -1105,7 +1105,7 @@ const questions = [
   },
   {
     "id": 49,
-    "question": "49. ¿Qué herramienta administra el OECE para publicitar el desempeño de los proveedores como un incentivo positivo?",
+    "question": "¿Qué herramienta administra el OECE para publicitar el desempeño de los proveedores como un incentivo positivo?",
     "options": [
       {
         "text": "a) El Registro Nacional de Árbitros.",
@@ -1128,7 +1128,7 @@ const questions = [
   },
   {
     "id": 50,
-    "question": "50. ¿Qué incentivo se contempla en las bases estándar para las micro y pequeñas empresas (MYPEs) en los procedimientos de selección o ítems cuya cuantía corresponda a una modalidad abreviada?",
+    "question": "¿Qué incentivo se contempla en las bases estándar para las micro y pequeñas empresas (MYPEs) en los procedimientos de selección o ítems cuya cuantía corresponda a una modalidad abreviada?",
     "options": [
       {
         "text": "a) Exoneración de presentar garantías.",
@@ -1151,7 +1151,7 @@ const questions = [
   },
   {
     "id": 51,
-    "question": "51. Una entidad está contratando una obra bajo el sistema de entrega de solo construcción. Para incentivar al contratista a finalizar la obra antes del plazo programado, ¿qué incentivo puede establecer la entidad en las bases,?",
+    "question": "Una entidad está contratando una obra bajo el sistema de entrega de solo construcción. Para incentivar al contratista a finalizar la obra antes del plazo programado, ¿qué incentivo puede establecer la entidad en las bases,?",
     "options": [
       {
         "text": "a) Un pago adicional equivalente al 50% del monto del contrato.",
@@ -1174,7 +1174,7 @@ const questions = [
   },
   {
     "id": 52,
-    "question": "52. Al revisar el requerimiento del área usuaria, ¿qué verificaciones debe realizar la Dependencia Encargada de las Contrataciones (DEC)?",
+    "question": "Al revisar el requerimiento del área usuaria, ¿qué verificaciones debe realizar la Dependencia Encargada de las Contrataciones (DEC)?",
     "options": [
       {
         "text": "a) Que el requerimiento esté previsto en el CMN, si se encuentra estandarizado y si hay existencias en almacén.",
@@ -1197,7 +1197,7 @@ const questions = [
   },
   {
     "id": 53,
-    "question": "53. Si la Dependencia Encargada de las Contrataciones (DEC) verifica que un requerimiento se encuentra definido en una ficha técnica o ficha de homologación vigente, ¿qué implicación tiene esto para la elaboración del requerimiento, según el Reglamento?",
+    "question": "Si la Dependencia Encargada de las Contrataciones (DEC) verifica que un requerimiento se encuentra definido en una ficha técnica o ficha de homologación vigente, ¿qué implicación tiene esto para la elaboración del requerimiento, según el Reglamento?",
     "options": [
       {
         "text": "a) El requerimiento debe ser modificado por el área usuaria.",
@@ -1220,7 +1220,7 @@ const questions = [
   },
   {
     "id": 54,
-    "question": "54. ¿Cómo se realiza la segmentación de las contrataciones en el caso de obras y consultorías de obra?",
+    "question": "¿Cómo se realiza la segmentación de las contrataciones en el caso de obras y consultorías de obra?",
     "options": [
       {
         "text": "a) Se clasifican en Rutinarias, Operacionales, Críticas y Estratégicas, igual que bienes y servicios.",
@@ -1243,7 +1243,7 @@ const questions = [
   },
   {
     "id": 55,
-    "question": "55.  ¿En qué documento debe constar el análisis de la estrategia de contratación realizado por la Dependencia Encargada de las Contrataciones (DEC)?",
+    "question": "¿En qué documento debe constar el análisis de la estrategia de contratación realizado por la Dependencia Encargada de las Contrataciones (DEC)?",
     "options": [
       {
         "text": "a) En un informe que forma parte del expediente de contratación.",
@@ -1266,7 +1266,7 @@ const questions = [
   },
   {
     "id": 56,
-    "question": "56. La estrategia de contratación debe incluir los roles y responsabilidades de los involucrados al interior de la entidad contratante durante la fase de selección. ¿Quiénes son estos involucrados?",
+    "question": "La estrategia de contratación debe incluir los roles y responsabilidades de los involucrados al interior de la entidad contratante durante la fase de selección. ¿Quiénes son estos involucrados?",
     "options": [
       {
         "text": "a) El Titular de la Entidad y la autoridad de la gestión administrativa.",
@@ -1289,7 +1289,7 @@ const questions = [
   },
   {
     "id": 57,
-    "question": "57. Durante la interacción con el mercado, ¿qué obligación tiene la entidad contratante respecto de la información confidencial a la que acceda?",
+    "question": "Durante la interacción con el mercado, ¿qué obligación tiene la entidad contratante respecto de la información confidencial a la que acceda?",
     "options": [
       {
         "text": "a) Puede utilizarla libremente si beneficia a la entidad.",
@@ -1312,7 +1312,7 @@ const questions = [
   },
   {
     "id": 58,
-    "question": "58. ¿Qué fuentes de información se pueden emplear para la \"indagación\" como tipo de interacción con el mercado?",
+    "question": "¿Qué fuentes de información se pueden emplear para la \"indagación\" como tipo de interacción con el mercado?",
     "options": [
       {
         "text": "a) Únicamente información histórica de la propia entidad.",
@@ -1335,7 +1335,7 @@ const questions = [
   },
   {
     "id": 59,
-    "question": "59. ¿Qué modalidades de pago pueden ser empleadas para la contratación de obra bajo los sistemas de entrega de solo construcción y diseño y construcción, así como para las consultorías de obras distintas a supervisión de obras?",
+    "question": "¿Qué modalidades de pago pueden ser empleadas para la contratación de obra bajo los sistemas de entrega de solo construcción y diseño y construcción, así como para las consultorías de obras distintas a supervisión de obras?",
     "options": [
       {
         "text": "a) Suma alzada, precios unitarios, esquema mixto y costo reembolsable.",
@@ -1358,7 +1358,7 @@ const questions = [
   },
   {
     "id": 60,
-    "question": "60. Al elegir el sistema de entrega para obras y consultoría de obras, ¿qué criterios se deben evaluar como mínimo?",
+    "question": "Al elegir el sistema de entrega para obras y consultoría de obras, ¿qué criterios se deben evaluar como mínimo?",
     "options": [
       {
         "text": "a) El nivel de experiencia del área usuaria y la disponibilidad de personal certificado.",
@@ -1381,7 +1381,7 @@ const questions = [
   },
   {
     "id": 61,
-    "question": "61. En la estrategia de contratación de bienes y servicios segmentados como estratégicos, ¿qué debe incluir la matriz de gestión de riesgos?",
+    "question": "En la estrategia de contratación de bienes y servicios segmentados como estratégicos, ¿qué debe incluir la matriz de gestión de riesgos?",
     "options": [
       {
         "text": "a) Únicamente la identificación de riesgos negativos.",
@@ -1404,7 +1404,7 @@ const questions = [
   },
   {
     "id": 62,
-    "question": "62. ¿Quién es responsable de asignar los riesgos identificados en la matriz de gestión de riesgos a alguna de las partes?",
+    "question": "¿Quién es responsable de asignar los riesgos identificados en la matriz de gestión de riesgos a alguna de las partes?",
     "options": [
       {
         "text": "a) El área usuaria.",
@@ -1427,7 +1427,7 @@ const questions = [
   },
   {
     "id": 63,
-    "question": "63. ¿Qué información se considera para la valoración del desempeño de los proveedores en el mecanismo administrado por el OECE?",
+    "question": "¿Qué información se considera para la valoración del desempeño de los proveedores en el mecanismo administrado por el OECE?",
     "options": [
       {
         "text": "a) Solo las sanciones impuestas por el Tribunal de Contrataciones Públicas.",
@@ -1450,7 +1450,7 @@ const questions = [
   },
   {
     "id": 64,
-    "question": "64. Las___son los documentos del procedimiento de selección que tienen como objetivo establecer sus reglas y son elaboradas por el oficial de compra o el comité, según corresponda, o la DEC, en caso se hubiera designado un jurado.",
+    "question": "Las___son los documentos del procedimiento de selección que tienen como objetivo establecer sus reglas y son elaboradas por el oficial de compra o el comité, según corresponda, o la DEC, en caso se hubiera designado un jurado.",
     "options": [
       {
         "text": "a) Actas de evaluación",
@@ -1473,7 +1473,7 @@ const questions = [
   },
   {
     "id": 65,
-    "question": "65. ¿Cuál de los siguientes documentos, elaborados en la fase de actuaciones preparatorias, sirve de insumo principal para la elaboración de las bases por parte de los evaluadores?",
+    "question": "¿Cuál de los siguientes documentos, elaborados en la fase de actuaciones preparatorias, sirve de insumo principal para la elaboración de las bases por parte de los evaluadores?",
     "options": [
       {
         "text": "a) El Plan Anual de Contrataciones.",
@@ -1496,7 +1496,7 @@ const questions = [
   },
   {
     "id": 66,
-    "question": "66. Si durante la fase de selección, como resultado de una consulta u observación a las bases, se determina que es necesario precisar o ajustar el requerimiento, ¿qué deben hacer los evaluadores según el Reglamento?",
+    "question": "Si durante la fase de selección, como resultado de una consulta u observación a las bases, se determina que es necesario precisar o ajustar el requerimiento, ¿qué deben hacer los evaluadores según el Reglamento?",
     "options": [
       {
         "text": "a) Declarar la nulidad del procedimiento de selección y devolver el expediente al área usuaria. b) Rechazar la consulta u observación por modificar el requerimiento.",
@@ -1519,7 +1519,7 @@ const questions = [
   },
   {
     "id": 67,
-    "question": "67. ¿Cuáles son los tres tipos de evaluadores que pueden estar a cargo de los procedimientos de selección competitivos?",
+    "question": "¿Cuáles son los tres tipos de evaluadores que pueden estar a cargo de los procedimientos de selección competitivos?",
     "options": [
       {
         "text": "a) Titular de la Entidad, Área Usuaria, DEC.",
@@ -1542,7 +1542,7 @@ const questions = [
   },
   {
     "id": 68,
-    "question": "68. En un procedimiento de Licitación Pública para bienes, donde no se trata de bienes especializados ni se ha optado por una modalidad diferenciada, el evaluador puede ser un _________ o un ________ .",
+    "question": "En un procedimiento de Licitación Pública para bienes, donde no se trata de bienes especializados ni se ha optado por una modalidad diferenciada, el evaluador puede ser un _________ o un ________ .",
     "options": [
       {
         "text": "a) Oficial de compra / comité",
@@ -1565,7 +1565,7 @@ const questions = [
   },
   {
     "id": 69,
-    "question": "69. Una entidad va a convocar una Licitación Pública de Obras con Precalificación debido a que la cuantía es de S/ 80 000 000,00. Según el Reglamento, ¿qué tipo de evaluador debe estar a cargo de este procedimiento de selección?",
+    "question": "Una entidad va a convocar una Licitación Pública de Obras con Precalificación debido a que la cuantía es de S/ 80 000 000,00. Según el Reglamento, ¿qué tipo de evaluador debe estar a cargo de este procedimiento de selección?",
     "options": [
       {
         "text": "a) Solo un Oficial de compra.",
@@ -1588,7 +1588,7 @@ const questions = [
   },
   {
     "id": 70,
-    "question": "70. ¿Cuál de las siguientes es considerada una modalidad de contratación pública eficiente según la Ley?",
+    "question": "¿Cuál de las siguientes es considerada una modalidad de contratación pública eficiente según la Ley?",
     "options": [
       {
         "text": "a) Procedimiento de Selección No Competitivo.",
@@ -1611,7 +1611,7 @@ const questions = [
   },
   {
     "id": 71,
-    "question": "71. La Compra Pública de Innovación (CPI) se utiliza para la generación de soluciones innovadoras soportadas por actividades de investigación y desarrollo cuando la solución:",
+    "question": "La Compra Pública de Innovación (CPI) se utiliza para la generación de soluciones innovadoras soportadas por actividades de investigación y desarrollo cuando la solución:",
     "options": [
       {
         "text": "a) Ya existe en el mercado y es de bajo costo.",
@@ -1634,7 +1634,7 @@ const questions = [
   },
   {
     "id": 72,
-    "question": "72. Una entidad necesita adquirir una tecnología sanitaria para tratar una enfermedad oncológica, y busca gestionar la incertidumbre sobre su funcionalidad y minimizar el impacto presupuestal. Según el Reglamento, ¿qué modalidad de contratación pública eficiente sería la más adecuada para este fin y qué tipo de acuerdos podría implicar?",
+    "question": "Una entidad necesita adquirir una tecnología sanitaria para tratar una enfermedad oncológica, y busca gestionar la incertidumbre sobre su funcionalidad y minimizar el impacto presupuestal. Según el Reglamento, ¿qué modalidad de contratación pública eficiente sería la más adecuada para este fin y qué tipo de acuerdos podría implicar?",
     "options": [
       {
         "text": "a) Acuerdo Marco; implicaría acuerdos de suministro periódico.",
@@ -1657,7 +1657,7 @@ const questions = [
   },
   {
     "id": 73,
-    "question": "73. ¿Cuál es el procedimiento de selección competitivo utilizado para la contratación de obras, según la Ley?",
+    "question": "¿Cuál es el procedimiento de selección competitivo utilizado para la contratación de obras, según la Ley?",
     "options": [
       {
         "text": "a) Concurso Público.",
@@ -1680,7 +1680,7 @@ const questions = [
   },
   {
     "id": 74,
-    "question": "74. Las entidades contratantes están facultadas para contratar directamente en el supuesto de _________ que afecte o impida el funcionamiento de la entidad o el cumplimiento de sus funciones.",
+    "question": "Las entidades contratantes están facultadas para contratar directamente en el supuesto de _________ que afecte o impida el funcionamiento de la entidad o el cumplimiento de sus funciones.",
     "options": [
       {
         "text": "a) Sobrestock de bienes",
@@ -1703,7 +1703,7 @@ const questions = [
   },
   {
     "id": 75,
-    "question": "75.   ¿Cuál es la principal diferencia en la evaluación de ofertas entre una Licitación Pública para obras (modalidad sin precalificación, sin diálogo competitivo) y una Subasta Inversa Electrónica para bienes?",
+    "question": "¿Cuál es la principal diferencia en la evaluación de ofertas entre una Licitación Pública para obras (modalidad sin precalificación, sin diálogo competitivo) y una Subasta Inversa Electrónica para bienes?",
     "options": [
       {
         "text": "a) En la Licitación Pública de obras se evalúan ofertas técnicas y económicas, mientras que en la Subasta Inversa Electrónica solo se evalúa el precio mediante lances.",
@@ -1726,7 +1726,7 @@ const questions = [
   },
   {
     "id": 76,
-    "question": "76. ¿Cuál es una de las características del Plan Anual de Contrataciones (PAC)?",
+    "question": "¿Cuál es una de las características del Plan Anual de Contrataciones (PAC)?",
     "options": [
       {
         "text": "a) Es un documento de aprobación única y no puede ser modificado.",
@@ -1749,7 +1749,7 @@ const questions = [
   },
   {
     "id": 77,
-    "question": "77. Cuando una entidad necesita realizar una contratación no planificada que no fue considerada en el PAC del CMN, ¿qué acción debe realizar el área usuaria antes de que la DEC efectúe la segmentación de dicha contratación?",
+    "question": "Cuando una entidad necesita realizar una contratación no planificada que no fue considerada en el PAC del CMN, ¿qué acción debe realizar el área usuaria antes de que la DEC efectúe la segmentación de dicha contratación?",
     "options": [
       {
         "text": "a) Solicitar la cancelación del PAC del CMN.",
@@ -1772,7 +1772,7 @@ const questions = [
   },
   {
     "id": 78,
-    "question": "78. Una entidad aprobó su PAC del CMN al inicio del año fiscal. A mitad del año, debido a una nueva política sectorial, surge la necesidad imprevista de contratar un servicio especializado que no estaba incluido. Según el Reglamento, para poder incluir esta contratación en su planificación y proceder con su segmentación y posterior contratación, ¿qué debe ocurrir primero con el CMN?",
+    "question": "Una entidad aprobó su PAC del CMN al inicio del año fiscal. A mitad del año, debido a una nueva política sectorial, surge la necesidad imprevista de contratar un servicio especializado que no estaba incluido. Según el Reglamento, para poder incluir esta contratación en su planificación y proceder con su segmentación y posterior contratación, ¿qué debe ocurrir primero con el CMN?",
     "options": [
       {
         "text": "a) La entidad debe convocar un procedimiento de selección no competitivo y regularizar la inclusión en el CMN posteriormente.",
@@ -1795,7 +1795,7 @@ const questions = [
   },
   {
     "id": 79,
-    "question": "79. Según el Reglamento, ¿qué tipo de contrataciones están exceptuadas de la clasificación mediante segmentación en el PAC del CMN?",
+    "question": "Según el Reglamento, ¿qué tipo de contrataciones están exceptuadas de la clasificación mediante segmentación en el PAC del CMN?",
     "options": [
       {
         "text": "a) Las contrataciones de obras.",
@@ -1818,7 +1818,7 @@ const questions = [
   },
   {
     "id": 80,
-    "question": "80. En el contexto del Plan Anual del Cuadro Multianual de Necesidades (PAC del CMN), las contrataciones se clasifican mediante segmentación, y este proceso ayuda a determinar la y optimizar los recursos de la DEC y las áreas usuarias.",
+    "question": "En el contexto del Plan Anual del Cuadro Multianual de Necesidades (PAC del CMN), las contrataciones se clasifican mediante segmentación, y este proceso ayuda a determinar la y optimizar los recursos de la DEC y las áreas usuarias.",
     "options": [
       {
         "text": "a) modalidad de pago",
@@ -1841,7 +1841,7 @@ const questions = [
   },
   {
     "id": 81,
-    "question": "81. Una entidad está formulando su PAC del CMN. Tiene previsto realizar varias adquisiciones de bienes de uso recurrente que, individualmente, podrían calificar como contratos menores. Sin embargo, al consolidar la necesidad anual, el monto total supera el umbral de 8 UIT. ¿Cómo debe proceder la entidad respecto a la inclusión de estas adquisiciones en el PAC del CMN y su posterior tratamiento?",
+    "question": "Una entidad está formulando su PAC del CMN. Tiene previsto realizar varias adquisiciones de bienes de uso recurrente que, individualmente, podrían calificar como contratos menores. Sin embargo, al consolidar la necesidad anual, el monto total supera el umbral de 8 UIT. ¿Cómo debe proceder la entidad respecto a la inclusión de estas adquisiciones en el PAC del CMN y su posterior tratamiento?",
     "options": [
       {
         "text": "a) Excluirlas del PAC del CMN y gestionarlas individualmente como contratos menores.",
@@ -1864,7 +1864,7 @@ const questions = [
   },
   {
     "id": 82,
-    "question": "82. ¿Quién es responsable de elaborar las bases del procedimiento de selección cuando se ha designado un jurado como evaluador?",
+    "question": "¿Quién es responsable de elaborar las bases del procedimiento de selección cuando se ha designado un jurado como evaluador?",
     "options": [
       {
         "text": "a) El jurado de expertos",
@@ -1887,7 +1887,7 @@ const questions = [
   },
   {
     "id": 83,
-    "question": "83. En un procedimiento de selección, si se designa un comité como evaluador, ¿quién es responsable de la conducción y realización de la fase de selección, incluyendo la preparación de las bases?",
+    "question": "En un procedimiento de selección, si se designa un comité como evaluador, ¿quién es responsable de la conducción y realización de la fase de selección, incluyendo la preparación de las bases?",
     "options": [
       {
         "text": "a) El área usuaria.",
@@ -1910,7 +1910,7 @@ const questions = [
   },
   {
     "id": 84,
-    "question": "84. Durante un procedimiento de selección competitivo, el oficial de compra necesita una opinión técnica sobre un aspecto específico del requerimiento para absolver una consulta. ¿Están los evaluadores facultados para solicitar esta opinión a cualquier unidad de organización de la entidad y es vinculante dicha opinión?",
+    "question": "Durante un procedimiento de selección competitivo, el oficial de compra necesita una opinión técnica sobre un aspecto específico del requerimiento para absolver una consulta. ¿Están los evaluadores facultados para solicitar esta opinión a cualquier unidad de organización de la entidad y es vinculante dicha opinión?",
     "options": [
       {
         "text": "a) Sí, están facultados y la opinión es vinculante para su decisión.",
@@ -1933,7 +1933,7 @@ const questions = [
   },
   {
     "id": 85,
-    "question": "85. ¿Cuál de las siguientes acciones relacionadas con las actuaciones preparatorias no se registra necesariamente en la Pladicop por la DEC?",
+    "question": "¿Cuál de las siguientes acciones relacionadas con las actuaciones preparatorias no se registra necesariamente en la Pladicop por la DEC?",
     "options": [
       {
         "text": "a) El requerimiento formulado por el área usuaria en contratos menores.",
@@ -1956,7 +1956,7 @@ const questions = [
   },
   {
     "id": 86,
-    "question": "86. La Dependencia Encargada de las Contrataciones (DEC) debe registrar oportunamente en la Pladicop ________ de las tres fases del proceso de contratación que realiza la entidad.",
+    "question": "La Dependencia Encargada de las Contrataciones (DEC) debe registrar oportunamente en la Pladicop ________ de las tres fases del proceso de contratación que realiza la entidad.",
     "options": [
       {
         "text": "a) solo los actos de la fase de selección",
@@ -1979,7 +1979,7 @@ const questions = [
   },
   {
     "id": 87,
-    "question": "87. Una entidad decide realizar la difusión del requerimiento como herramienta de consulta al mercado para una contratación estratégica. Después de recibir las consultas de los proveedores y absolverlas, se lleva a cabo una reunión de confirmación. Según el Reglamento, ¿qué información derivada de esta interacción con el mercado debe ser registrada en la Pladicop por la Dependencia Encargada de las Contrataciones (DEC)?",
+    "question": "Una entidad decide realizar la difusión del requerimiento como herramienta de consulta al mercado para una contratación estratégica. Después de recibir las consultas de los proveedores y absolverlas, se lleva a cabo una reunión de confirmación. Según el Reglamento, ¿qué información derivada de esta interacción con el mercado debe ser registrada en la Pladicop por la Dependencia Encargada de las Contrataciones (DEC)?",
     "options": [
       {
         "text": "a) Solo el requerimiento original antes de la difusión.",
@@ -2002,7 +2002,7 @@ const questions = [
   },
   {
     "id": 88,
-    "question": "88. En un Concurso Público para la contratación de servicios de consultoría, si la entidad opta por designar un comité de selección como evaluador, ¿cuál es la conformación mínima que debe tener dicho comité?",
+    "question": "En un Concurso Público para la contratación de servicios de consultoría, si la entidad opta por designar un comité de selección como evaluador, ¿cuál es la conformación mínima que debe tener dicho comité?",
     "options": [
       {
         "text": "a) Tres miembros, de los cuales al menos dos deben ser compradores públicos de la Dependencia Encargada de las Contrataciones (DEC) y uno del área usuaria.",
@@ -2025,7 +2025,7 @@ const questions = [
   },
   {
     "id": 89,
-    "question": "89.    Establezca la relación más adecuada entre el tipo de procedimiento o modalidad de contratación (columna numérica) y el objeto contractual con su cuantía (columna alfabética). Asuma que los bienes/servicios listados no se encuentran obligatoriamente en Catálogos Electrónicos de Acuerdo Marco, a menos que sea la opción más evidente, y que los bienes pueden tener ficha técnica para SIE. 1. Subasta Inversa Electrónica (SIE) 2. Catálogo Electrónico de Acuerdo Marco (CEAM) 3. Procedimiento Abreviado (Licitación Pública Abreviada para bienes / Concurso Público Abreviado para servicios) a. Adquisición de cemento portland tipo I por un monto de S/ 200,000.00. b. Contratación del Seguro Obligatorio de Accidentes de Tránsito (SOAT) para la flota vehicular de una entidad, por un monto de S/ 60,000.00. c. Adquisición de frazadas de algodón para una campaña de friaje, por un monto de S/ 80,000.00. d. Contratación del Seguro Complementario de Trabajo de Riesgo (SCTR) para el personal obrero de una municipalidad, por un monto de S/ 100,000.00.",
+    "question": "Establezca la relación más adecuada entre el tipo de procedimiento o modalidad de contratación (columna numérica) y el objeto contractual con su cuantía (columna alfabética). Asuma que los bienes/servicios listados no se encuentran obligatoriamente en Catálogos Electrónicos de Acuerdo Marco, a menos que sea la opción más evidente, y que los bienes pueden tener ficha técnica para SIE. 1. Subasta Inversa Electrónica (SIE) 2. Catálogo Electrónico de Acuerdo Marco (CEAM) 3. Procedimiento Abreviado (Licitación Pública Abreviada para bienes / Concurso Público Abreviado para servicios) a. Adquisición de cemento portland tipo I por un monto de S/ 200,000.00. b. Contratación del Seguro Obligatorio de Accidentes de Tránsito (SOAT) para la flota vehicular de una entidad, por un monto de S/ 60,000.00. c. Adquisición de frazadas de algodón para una campaña de friaje, por un monto de S/ 80,000.00. d. Contratación del Seguro Complementario de Trabajo de Riesgo (SCTR) para el personal obrero de una municipalidad, por un monto de S/ 100,000.00.",
     "options": [
       {
         "text": "a) 1a, 2c, 3b, 3d",
@@ -2048,7 +2048,7 @@ const questions = [
   },
   {
     "id": 90,
-    "question": "90. El Ministerio de Salud del Perú gestiona un proyecto financiado por un organismo multilateral, y para una consultoría especializada se utilizarán los procedimientos de selección propios de dicho organismo, conforme al supuesto excluido previsto en el literal f) del numeral 7.1 del artículo 7 de la Ley N° 32069. Se ha identificado a una firma consultora internacional no domiciliada en el Perú como potencial proveedora. ¿Está esta firma consultora obligada a inscribirse en el Registro Nacional de Proveedores (RNP) para ser contratada bajo este esquema?",
+    "question": "El Ministerio de Salud del Perú gestiona un proyecto financiado por un organismo multilateral, y para una consultoría especializada se utilizarán los procedimientos de selección propios de dicho organismo, conforme al supuesto excluido previsto en el literal f) del numeral 7.1 del artículo 7 de la Ley N° 32069. Se ha identificado a una firma consultora internacional no domiciliada en el Perú como potencial proveedora. ¿Está esta firma consultora obligada a inscribirse en el Registro Nacional de Proveedores (RNP) para ser contratada bajo este esquema?",
     "options": [
       {
         "text": "a) Sí, la inscripción en el RNP es un requisito indispensable para cualquier proveedor, nacional o extranjero, que contrate con cualquier entidad del Estado peruano, sin importar la fuente de financiamiento.",
@@ -2071,7 +2071,7 @@ const questions = [
   },
   {
     "id": 91,
-    "question": "91. La Gerencia de Mantenimiento de una entidad pública, después de haber formulado el requerimiento para un servicio de reparación de equipos, emite un documento interno señalando que dicha Gerencia asumirá la custodia del expediente de contratación durante todo el proceso. Respecto a esta afirmación, y de acuerdo con el Reglamento de la Ley General de Contrataciones Públicas, se debe indicar que:",
+    "question": "La Gerencia de Mantenimiento de una entidad pública, después de haber formulado el requerimiento para un servicio de reparación de equipos, emite un documento interno señalando que dicha Gerencia asumirá la custodia del expediente de contratación durante todo el proceso. Respecto a esta afirmación, y de acuerdo con el Reglamento de la Ley General de Contrataciones Públicas, se debe indicar que:",
     "options": [
       {
         "text": "a) Es correcto, ya que el área usuaria que elabora el requerimiento es la responsable final de la custodia del expediente.",
@@ -2094,7 +2094,7 @@ const questions = [
   },
   {
     "id": 92,
-    "question": "92. Una Municipalidad Provincial necesita adquirir camiones compactadores de residuos sólidos y, debido a la cuantía y la estrategia de contratación, ha decidido que el procedimiento de selección (una Licitación Pública Abreviada) será conducido por un comité de selección. ¿Cómo debería estar integrado este comité, según el Reglamento de la Ley General de Contrataciones Públicas ?",
+    "question": "Una Municipalidad Provincial necesita adquirir camiones compactadores de residuos sólidos y, debido a la cuantía y la estrategia de contratación, ha decidido que el procedimiento de selección (una Licitación Pública Abreviada) será conducido por un comité de selección. ¿Cómo debería estar integrado este comité, según el Reglamento de la Ley General de Contrataciones Públicas ?",
     "options": [
       {
         "text": "a) Tres miembros, donde al menos dos deben ser compradores públicos de la Dependencia Encargada de las Contrataciones (DEC) y el tercero debe ser un experto externo.",
@@ -2117,7 +2117,7 @@ const questions = [
   },
   {
     "id": 93,
-    "question": "93. El área usuaria de una entidad, al formular su requerimiento para la adquisición de equipos de cómputo, identifica que existe una ficha de homologación aprobada y vigente para dichos equipos, por lo que adecúa su requerimiento a esta. La Dependencia Encargada de las Contrataciones (DEC) determina que el valor estimado de la contratación es de S/ 300,000.00. Adicionalmente, se verifica que estos equipos de cómputo homologados también cuentan con una ficha técnica en el Listado de Bienes y Servicios Comunes y su contratación por Subasta Inversa Electrónica (SIE) es obligatoria. Al respecto, señale la alternativa correcta:",
+    "question": "El área usuaria de una entidad, al formular su requerimiento para la adquisición de equipos de cómputo, identifica que existe una ficha de homologación aprobada y vigente para dichos equipos, por lo que adecúa su requerimiento a esta. La Dependencia Encargada de las Contrataciones (DEC) determina que el valor estimado de la contratación es de S/ 300,000.00. Adicionalmente, se verifica que estos equipos de cómputo homologados también cuentan con una ficha técnica en el Listado de Bienes y Servicios Comunes y su contratación por Subasta Inversa Electrónica (SIE) es obligatoria. Al respecto, señale la alternativa correcta:",
     "options": [
       {
         "text": "a) La entidad debe convocar una Licitación Pública Abreviada, ya que el monto es S/ 300,000.00 y la homologación prevalece sobre la ficha técnica.",
@@ -2140,7 +2140,7 @@ const questions = [
   },
   {
     "id": 94,
-    "question": "94. Una Entidad Pública aprueba una modificación a su Plan Anual de Contrataciones (PAC) durante el periodo transitorio hasta la plena implementación del PAC del Cuadro Multianual de Necesidades. Asumiendo que las directivas de la Dirección General de Abastecimiento (DGA) mantienen los estándares de publicidad previos, ¿cuál sería la obligación de la Entidad respecto a la difusión de esta modificación?",
+    "question": "Una Entidad Pública aprueba una modificación a su Plan Anual de Contrataciones (PAC) durante el periodo transitorio hasta la plena implementación del PAC del Cuadro Multianual de Necesidades. Asumiendo que las directivas de la Dirección General de Abastecimiento (DGA) mantienen los estándares de publicidad previos, ¿cuál sería la obligación de la Entidad respecto a la difusión de esta modificación?",
     "options": [
       {
         "text": "a) Publicar la modificación del PAC únicamente en la Plataforma Digital para las Contrataciones Públicas (Pladicop) dentro de los diez (10) días hábiles siguientes a su aprobación.",
@@ -2163,7 +2163,7 @@ const questions = [
   },
   {
     "id": 95,
-    "question": "95. Cuando en un proceso de contratación se establece que el postor debe formular su oferta proponiendo un monto fijo integral por toda la actividad necesaria para el cumplimiento contractual, y las cantidades, magnitudes y calidades de la prestación están completamente definidas en el requerimiento, ¿a qué modalidad de pago se refiere esta condición según el Reglamento de la Ley General de Contrataciones Públicas?",
+    "question": "Cuando en un proceso de contratación se establece que el postor debe formular su oferta proponiendo un monto fijo integral por toda la actividad necesaria para el cumplimiento contractual, y las cantidades, magnitudes y calidades de la prestación están completamente definidas en el requerimiento, ¿a qué modalidad de pago se refiere esta condición según el Reglamento de la Ley General de Contrataciones Públicas?",
     "options": [
       {
         "text": "a) Precios Unitarios.",
@@ -2186,7 +2186,7 @@ const questions = [
   },
   {
     "id": 96,
-    "question": "96. Una entidad necesita contratar servicios de consultoría legal para la defensa en un proceso arbitral complejo. Debido a la naturaleza del servicio, no es posible conocer con precisión el tiempo total que demandará la prestación del servicio, aunque sí se puede estimar un tiempo referencial. En este escenario, ¿qué modalidad de pago sería la más adecuada para que el postor formule su oferta, considerando que el pago se realizará multiplicando la tarifa propuesta por el tiempo real de ejecución?",
+    "question": "Una entidad necesita contratar servicios de consultoría legal para la defensa en un proceso arbitral complejo. Debido a la naturaleza del servicio, no es posible conocer con precisión el tiempo total que demandará la prestación del servicio, aunque sí se puede estimar un tiempo referencial. En este escenario, ¿qué modalidad de pago sería la más adecuada para que el postor formule su oferta, considerando que el pago se realizará multiplicando la tarifa propuesta por el tiempo real de ejecución?",
     "options": [
       {
         "text": "a) Suma Alzada, ya que se conoce el objeto general del servicio.",
@@ -2209,7 +2209,7 @@ const questions = [
   },
   {
     "id": 97,
-    "question": "97. Una entidad va a contratar la ejecución de una obra que incluye la construcción de un edificio principal (cuyas cantidades y calidades están perfectamente definidas) y, adicionalmente, trabajos de remediación ambiental en un área adyacente donde no se conocen con exactitud las cantidades de material contaminado a remover. ¿Qué modalidad de pago sería la más apropiada para estructurar este contrato, considerando la naturaleza de sus componentes?",
+    "question": "Una entidad va a contratar la ejecución de una obra que incluye la construcción de un edificio principal (cuyas cantidades y calidades están perfectamente definidas) y, adicionalmente, trabajos de remediación ambiental en un área adyacente donde no se conocen con exactitud las cantidades de material contaminado a remover. ¿Qué modalidad de pago sería la más apropiada para estructurar este contrato, considerando la naturaleza de sus componentes?",
     "options": [
       {
         "text": "a) Suma Alzada para la totalidad del contrato, asumiendo el contratista el riesgo de las cantidades de remediación.",
@@ -2232,7 +2232,7 @@ const questions = [
   },
   {
     "id": 98,
-    "question": "98. Cuando una entidad necesita contratar un servicio de mantenimiento de áreas verdes, y no puede conocer con exactitud las cantidades de insumos (ej. metros cúbicos de tierra de chacra, número de plantones) que se requerirán durante el periodo contractual, pero sí puede definir el precio por cada unidad de estos insumos y de la mano de obra, la modalidad de pago más adecuada sería la de , donde se valoriza en relación con la ejecución real.",
+    "question": "Cuando una entidad necesita contratar un servicio de mantenimiento de áreas verdes, y no puede conocer con exactitud las cantidades de insumos (ej. metros cúbicos de tierra de chacra, número de plantones) que se requerirán durante el periodo contractual, pero sí puede definir el precio por cada unidad de estos insumos y de la mano de obra, la modalidad de pago más adecuada sería la de , donde se valoriza en relación con la ejecución real.",
     "options": [
       {
         "text": "a) Precios Unitarios",
@@ -2255,7 +2255,7 @@ const questions = [
   },
   {
     "id": 99,
-    "question": "99. Una entidad se prepara para convocar la ejecución de una obra de solo construcción. Ya tiene un presupuesto inicial en su PAC del CMN y ha realizado la interacción con el mercado. Según el Reglamento, ¿cómo se determina la cuantía de la contratación que finalmente se publicará en la convocatoria?",
+    "question": "Una entidad se prepara para convocar la ejecución de una obra de solo construcción. Ya tiene un presupuesto inicial en su PAC del CMN y ha realizado la interacción con el mercado. Según el Reglamento, ¿cómo se determina la cuantía de la contratación que finalmente se publicará en la convocatoria?",
     "options": [
       {
         "text": "a) Se utiliza la cuantía original del PAC del CMN, sin importar los resultados de la interacción con el mercado.",
@@ -2278,7 +2278,7 @@ const questions = [
   },
   {
     "id": 100,
-    "question": "100. Indique cuál de los siguientes tipos de contratos, por su naturaleza y régimen normativo específico, no se encuentra directamente regulado por las disposiciones de la Ley General de Contrataciones Públicas N° 32069 y su Reglamento:",
+    "question": "Indique cuál de los siguientes tipos de contratos, por su naturaleza y régimen normativo específico, no se encuentra directamente regulado por las disposiciones de la Ley General de Contrataciones Públicas N° 32069 y su Reglamento:",
     "options": [
       {
         "text": "a) La contratación del servicio de elaboración de un expediente técnico para la rehabilitación de un colegio.",
@@ -2301,7 +2301,7 @@ const questions = [
   },
   {
     "id": 101,
-    "question": "101. Respecto a la designación de un Comité de Selección, ¿qué información esencial concerniente a este órgano debe ser obligatoriamente consignada por la Pladicop durante la fase de actuaciones preparatorias?",
+    "question": "Respecto a la designación de un Comité de Selección, ¿qué información esencial concerniente a este órgano debe ser obligatoriamente consignada por la Pladicop durante la fase de actuaciones preparatorias?",
     "options": [
       {
         "text": "a) Únicamente la lista de los integrantes titulares del comité, siendo opcional el registro del acto de designación y los datos del funcionario aprobador.",
@@ -2324,7 +2324,7 @@ const questions = [
   },
   {
     "id": 102,
-    "question": "102. Considerando las definiciones y clasificaciones establecidas en el Reglamento de la Ley General de Contrataciones Públicas, ¿cuál de las siguientes opciones corresponde a un \"Sistema de Entrega\"?",
+    "question": "Considerando las definiciones y clasificaciones establecidas en el Reglamento de la Ley General de Contrataciones Públicas, ¿cuál de las siguientes opciones corresponde a un \"Sistema de Entrega\"?",
     "options": [
       {
         "text": "a) Tarifas",
@@ -2347,7 +2347,7 @@ const questions = [
   },
   {
     "id": 103,
-    "question": "103. En un ______ para la contratación de servicios de consultoría de obras, si la entidad opta por un comité de selección, este debe estar conformado por _____.",
+    "question": "En un ______ para la contratación de servicios de consultoría de obras, si la entidad opta por un comité de selección, este debe estar conformado por _____.",
     "options": [
       {
         "text": "a) Concurso Público Abreviado / dos miembros, uno de la DEC y un experto técnico.",
@@ -2370,7 +2370,7 @@ const questions = [
   },
   {
     "id": 104,
-    "question": "104. Cuando una entidad requiere la entrega periódica de bienes, este proceso se denomina y se realiza mediante .",
+    "question": "Cuando una entidad requiere la entrega periódica de bienes, este proceso se denomina y se realiza mediante .",
     "options": [
       {
         "text": "a) suministro / contratos de servicios",
@@ -2393,7 +2393,7 @@ const questions = [
   },
   {
     "id": 105,
-    "question": "105. La modalidad de pago en la que el postor propone tarifas basadas en el tiempo estimado de ejecución, se llama y las tarifas incluyen .",
+    "question": "La modalidad de pago en la que el postor propone tarifas basadas en el tiempo estimado de ejecución, se llama y las tarifas incluyen .",
     "options": [
       {
         "text": "a) en base a un honorario / gastos administrativos",
@@ -2416,7 +2416,7 @@ const questions = [
   },
   {
     "id": 106,
-    "question": "106. En la adquisición de mobiliario para 15 colegios, se propone usar el sistema de llave en mano. ¿Es el sistema adecuado para esta contratación?",
+    "question": "En la adquisición de mobiliario para 15 colegios, se propone usar el sistema de llave en mano. ¿Es el sistema adecuado para esta contratación?",
     "options": [
       {
         "text": "a) Sí, si se entrega mobiliario completamente instalado",
@@ -2439,7 +2439,7 @@ const questions = [
   },
   {
     "id": 107,
-    "question": "107. Durante la ejecución de una obra en zona altoandina, se producen demoras por heladas no previstas en la matriz de riesgos. ¿Qué responsabilidad tiene la entidad?",
+    "question": "Durante la ejecución de una obra en zona altoandina, se producen demoras por heladas no previstas en la matriz de riesgos. ¿Qué responsabilidad tiene la entidad?",
     "options": [
       {
         "text": "a) Debió prever estos riesgos y definir medidas de mitigación desde el expediente técnico",
@@ -2462,7 +2462,7 @@ const questions = [
   },
   {
     "id": 108,
-    "question": "108. Una entidad desarrolla todo el expediente de contratación, pero no registra las actuaciones preparatorias en la plataforma que corresponde antes de convocar el procedimiento. ¿Qué implicancia tiene esta omisión?",
+    "question": "Una entidad desarrolla todo el expediente de contratación, pero no registra las actuaciones preparatorias en la plataforma que corresponde antes de convocar el procedimiento. ¿Qué implicancia tiene esta omisión?",
     "options": [
       {
         "text": "a) Ninguna, si el proceso se ejecuta correctamente",
@@ -2485,7 +2485,7 @@ const questions = [
   },
   {
     "id": 109,
-    "question": "109. Una empresa culmina exitosamente un contrato con calificación ‘A’ y participa meses después en una licitación. La entidad, por decisión del comité, no toma en cuenta esta calificación al evaluar su propuesta. ¿La actuación de la entidad es válida?",
+    "question": "Una empresa culmina exitosamente un contrato con calificación ‘A’ y participa meses después en una licitación. La entidad, por decisión del comité, no toma en cuenta esta calificación al evaluar su propuesta. ¿La actuación de la entidad es válida?",
     "options": [
       {
         "text": "a) Sí, porque la evaluación pasada no es vinculante",
@@ -2508,7 +2508,7 @@ const questions = [
   },
   {
     "id": 110,
-    "question": "110. Una entidad pública convoca un concurso público para consultoría jurídica, y el comité de evaluación está integrado por un ingeniero civil, un economista y un técnico administrativo. ¿Qué incumplimiento se configura?",
+    "question": "Una entidad pública convoca un concurso público para consultoría jurídica, y el comité de evaluación está integrado por un ingeniero civil, un economista y un técnico administrativo. ¿Qué incumplimiento se configura?",
     "options": [
       {
         "text": "a) Falta de imparcialidad del comité",
@@ -2531,7 +2531,7 @@ const questions = [
   },
   {
     "id": 111,
-    "question": "111. Una entidad necesita contratar vigilancia para una nueva sede no contemplada en el Plan Anual. Se convoca el proceso y se registra después en el PAC. ¿El procedimiento es conforme al reglamento?",
+    "question": "Una entidad necesita contratar vigilancia para una nueva sede no contemplada en el Plan Anual. Se convoca el proceso y se registra después en el PAC. ¿El procedimiento es conforme al reglamento?",
     "options": [
       {
         "text": "a) Sí, si el contrato se perfecciona luego de la modificación",
@@ -2554,7 +2554,7 @@ const questions = [
   },
   {
     "id": 112,
-    "question": "112. La Unidad de Logística detecta que algunas contrataciones incluidas en el PAC no se ejecutarán, pero no registra su exclusión por considerarlas innecesarias. ¿Esta omisión afecta el cumplimiento del Reglamento?",
+    "question": "La Unidad de Logística detecta que algunas contrataciones incluidas en el PAC no se ejecutarán, pero no registra su exclusión por considerarlas innecesarias. ¿Esta omisión afecta el cumplimiento del Reglamento?",
     "options": [
       {
         "text": "a) Sí, porque el PAC debe reflejar contrataciones efectivamente previstas",
@@ -2577,7 +2577,7 @@ const questions = [
   },
   {
     "id": 113,
-    "question": "113. En un procedimiento complejo, la dependencia encargada de contrataciones no designa evaluadores especializados y traslada la responsabilidad al comité de selección. ¿Qué n orma es vulnerada?",
+    "question": "En un procedimiento complejo, la dependencia encargada de contrataciones no designa evaluadores especializados y traslada la responsabilidad al comité de selección. ¿Qué n orma es vulnerada?",
     "options": [
       {
         "text": "a) Solo la ley de responsabilidad funcional",
@@ -2600,7 +2600,7 @@ const questions = [
   },
   {
     "id": 114,
-    "question": "114. ¿Qué elemento es fundamental para la evaluación de propuestas en los procedimientos de selección?",
+    "question": "¿Qué elemento es fundamental para la evaluación de propuestas en los procedimientos de selección?",
     "options": [
       {
         "text": "a) La experiencia del contratado en otras áreas",
@@ -2623,7 +2623,7 @@ const questions = [
   },
   {
     "id": 115,
-    "question": "115. ¿Qué rol desempeña el evaluador en el proceso de selección?",
+    "question": "¿Qué rol desempeña el evaluador en el proceso de selección?",
     "options": [
       {
         "text": "a) Firmar el contrato con el proveedor",
@@ -2646,7 +2646,7 @@ const questions = [
   },
   {
     "id": 116,
-    "question": "116. Cuando se requiere garantizar la competencia efectiva y evitar distorsiones en el procedimiento, la modalidad diferenciada que puede utilizarse es",
+    "question": "Cuando se requiere garantizar la competencia efectiva y evitar distorsiones en el procedimiento, la modalidad diferenciada que puede utilizarse es",
     "options": [
       {
         "text": "a) La compra directa",
@@ -2669,7 +2669,7 @@ const questions = [
   },
   {
     "id": 117,
-    "question": "117. La modalidad en la que el pago se realiza en base a un porcentaje de recuperación o cobranzas, se llama",
+    "question": "La modalidad en la que el pago se realiza en base a un porcentaje de recuperación o cobranzas, se llama",
     "options": [
       {
         "text": "a) pago fijo mensual",
@@ -2692,7 +2692,7 @@ const questions = [
   },
   {
     "id": 118,
-    "question": "118. El procedimiento que permite la homologación de requerimientos nacionales e internacionales, en el marco de políticas de estandarización, se denomina",
+    "question": "El procedimiento que permite la homologación de requerimientos nacionales e internacionales, en el marco de políticas de estandarización, se denomina",
     "options": [
       {
         "text": "a) certificación de calidad",
@@ -2715,7 +2715,7 @@ const questions = [
   },
   {
     "id": 119,
-    "question": "119. El documento que especifica la descripción y las características de un bien o servicio para facilitar su identificación y verificación, se denomina .",
+    "question": "El documento que especifica la descripción y las características de un bien o servicio para facilitar su identificación y verificación, se denomina .",
     "options": [
       {
         "text": "a) ficha técnica / documento de información complementaria",
@@ -2738,7 +2738,7 @@ const questions = [
   },
   {
     "id": 120,
-    "question": "120. La metodología utilizada para definir requerimientos homogéneos de bienes o servicios, es conocida como y .",
+    "question": "La metodología utilizada para definir requerimientos homogéneos de bienes o servicios, es conocida como y .",
     "options": [
       {
         "text": "a) análisis comparativo / homologación",
@@ -2761,7 +2761,7 @@ const questions = [
   },
   {
     "id": 121,
-    "question": "121. Una entidad pública necesita convocar un procedimiento de selección para la ejecución de una obra bajo el sistema de entrega de \"solo construcción\". Además de contar con el expediente de contratación debidamente aprobado, ¿qué requisitos adicionales son indispensables para poder realizar la convocatoria?",
+    "question": "Una entidad pública necesita convocar un procedimiento de selección para la ejecución de una obra bajo el sistema de entrega de \"solo construcción\". Además de contar con el expediente de contratación debidamente aprobado, ¿qué requisitos adicionales son indispensables para poder realizar la convocatoria?",
     "options": [
       {
         "text": "a) Contar con la designación del supervisor de obra y la disponibilidad del adelanto directo.",
@@ -2784,7 +2784,7 @@ const questions = [
   },
   {
     "id": 122,
-    "question": "122. Durante las actuaciones preparatorias para una obra compleja, la entidad determina en su estrategia de contratación que no está en condiciones de definir por sí misma el requerimiento idóneo, dada la necesidad de plantear soluciones innovadoras. El monto de la obra supera los S/ 79 000 000,00. ¿Qué tipo de procedimiento de selección y modalidad correspondería utilizar?",
+    "question": "Durante las actuaciones preparatorias para una obra compleja, la entidad determina en su estrategia de contratación que no está en condiciones de definir por sí misma el requerimiento idóneo, dada la necesidad de plantear soluciones innovadoras. El monto de la obra supera los S/ 79 000 000,00. ¿Qué tipo de procedimiento de selección y modalidad correspondería utilizar?",
     "options": [
       {
         "text": "a) Licitación Pública de Obras con Precalificación.",
@@ -2807,7 +2807,7 @@ const questions = [
   },
   {
     "id": 123,
-    "question": "123. Una entidad pública necesita adquirir de manera recurrente un tipo de bien que no se encuentra en los Catálogos Electrónicos gestionados por Perú Compras. Sin embargo, no puede determinar con exactitud las fechas y cantidades de cada entrega durante el año fiscal. ¿Qué modalidad de la contratación pública eficiente podría utilizar?",
+    "question": "Una entidad pública necesita adquirir de manera recurrente un tipo de bien que no se encuentra en los Catálogos Electrónicos gestionados por Perú Compras. Sin embargo, no puede determinar con exactitud las fechas y cantidades de cada entrega durante el año fiscal. ¿Qué modalidad de la contratación pública eficiente podría utilizar?",
     "options": [
       {
         "text": "a) Compra Corporativa Facultativa.",
@@ -2830,7 +2830,7 @@ const questions = [
   },
   {
     "id": 124,
-    "question": "124. La entidad está elaborando la estrategia de contratación para una obra de gran envergadura. Como parte de la gestión de riesgos, se establece que el contratista asumirá el riesgo de variaciones de precio de los insumos. ¿En qué documento del expediente de contratación debe quedar formalmente establecida esta asignación de riesgos?",
+    "question": "La entidad está elaborando la estrategia de contratación para una obra de gran envergadura. Como parte de la gestión de riesgos, se establece que el contratista asumirá el riesgo de variaciones de precio de los insumos. ¿En qué documento del expediente de contratación debe quedar formalmente establecida esta asignación de riesgos?",
     "options": [
       {
         "text": "a) En el resumen ejecutivo del expediente de contratación.",
@@ -2853,7 +2853,7 @@ const questions = [
   },
   {
     "id": 125,
-    "question": "125. Una entidad, como parte de su planificación en la gestión del riesgo de desastres, necesita asegurar la disponibilidad futura de bienes y servicios para una respuesta rápida ante una posible emergencia, pero no puede determinar el momento exacto de la necesidad. ¿Qué modalidad de contratación es la más idónea para este fin?",
+    "question": "Una entidad, como parte de su planificación en la gestión del riesgo de desastres, necesita asegurar la disponibilidad futura de bienes y servicios para una respuesta rápida ante una posible emergencia, pero no puede determinar el momento exacto de la necesidad. ¿Qué modalidad de contratación es la más idónea para este fin?",
     "options": [
       {
         "text": "a) Contratación directa por situación de emergencia inminente.",
@@ -2876,7 +2876,7 @@ const questions = [
   },
   {
     "id": 126,
-    "question": "126. En el marco de una Compra Corporativa Facultativa, donde varias entidades han suscrito un convenio, ¿quién es responsable de consolidar los requerimientos, proponer modificaciones y efectuar las acciones de las actuaciones preparatorias?",
+    "question": "En el marco de una Compra Corporativa Facultativa, donde varias entidades han suscrito un convenio, ¿quién es responsable de consolidar los requerimientos, proponer modificaciones y efectuar las acciones de las actuaciones preparatorias?",
     "options": [
       {
         "text": "a) La Dirección General de Abastecimiento (DGA) como ente rector.",
@@ -2899,7 +2899,7 @@ const questions = [
   },
   {
     "id": 127,
-    "question": "127. Una entidad necesita contratar directamente un servicio por una situación de desabastecimiento inminente que afecta sus operaciones. ¿Qué autoridad es la competente para aprobar este procedimiento de selección no competitivo y es dicha facultad delegable?",
+    "question": "Una entidad necesita contratar directamente un servicio por una situación de desabastecimiento inminente que afecta sus operaciones. ¿Qué autoridad es la competente para aprobar este procedimiento de selección no competitivo y es dicha facultad delegable?",
     "options": [
       {
         "text": "a) La Autoridad de la Gestión Administrativa, y su facultad es delegable.",
@@ -2922,7 +2922,7 @@ const questions = [
   },
   {
     "id": 128,
-    "question": "1. ¿Cuál es el procedimiento de selección competitivo que se utiliza para la contratación de servicios?",
+    "question": "¿Cuál es el procedimiento de selección competitivo que se utiliza para la contratación de servicios?",
     "options": [
       {
         "text": "a) Licitación Pública.",
@@ -2945,7 +2945,7 @@ const questions = [
   },
   {
     "id": 129,
-    "question": "2. ¿En qué supuesto una entidad contratante puede utilizar un procedimiento de selección no competitivo (contratación directa)?",
+    "question": "¿En qué supuesto una entidad contratante puede utilizar un procedimiento de selección no competitivo (contratación directa)?",
     "options": [
       {
         "text": "a) Cuando se busca obtener el precio más bajo del mercado.",
@@ -2968,7 +2968,7 @@ const questions = [
   },
   {
     "id": 130,
-    "question": "3. La Licitación Pública Abreviada para bienes se utiliza, entre otros supuestos, cuando se trata de la adquisición de bienes según la cuantía establecida en la Ley de Presupuesto del Sector Público para el Año Fiscal correspondiente, o cuando se trate de la adquisición de bienes .",
+    "question": "La Licitación Pública Abreviada para bienes se utiliza, entre otros supuestos, cuando se trata de la adquisición de bienes según la cuantía establecida en la Ley de Presupuesto del Sector Público para el Año Fiscal correspondiente, o cuando se trate de la adquisición de bienes .",
     "options": [
       {
         "text": "a) altamente especializados",
@@ -2991,7 +2991,7 @@ const questions = [
   },
   {
     "id": 131,
-    "question": "4. ¿Cuál es el objetivo principal de la etapa de \"Consultas y Observaciones\" en un procedimiento de selección competitivo como la Licitación Pública?",
+    "question": "¿Cuál es el objetivo principal de la etapa de \"Consultas y Observaciones\" en un procedimiento de selección competitivo como la Licitación Pública?",
     "options": [
       {
         "text": "a) Permitir a los proveedores presentar sus ofertas económicas.",
@@ -3014,7 +3014,7 @@ const questions = [
   },
   {
     "id": 132,
-    "question": "5. ¿Qué ocurre si en un procedimiento de selección competitivo no se recibe ninguna oferta válida?",
+    "question": "¿Qué ocurre si en un procedimiento de selección competitivo no se recibe ninguna oferta válida?",
     "options": [
       {
         "text": "a) Se adjudica la buena pro al único proveedor registrado.",
@@ -3037,7 +3037,7 @@ const questions = [
   },
   {
     "id": 133,
-    "question": "6. ¿Cuál es el procedimiento de selección que se utiliza para contratar bienes y servicios comunes que cuenten con ficha técnica, donde los proveedores pujan y el ganador es quien oferta el menor precio?",
+    "question": "¿Cuál es el procedimiento de selección que se utiliza para contratar bienes y servicios comunes que cuenten con ficha técnica, donde los proveedores pujan y el ganador es quien oferta el menor precio?",
     "options": [
       {
         "text": "a) Comparación de Precios.",
@@ -3060,7 +3060,7 @@ const questions = [
   },
   {
     "id": 134,
-    "question": "7. ¿Cuál es el plazo mínimo, en días hábiles, entre la convocatoria y la presentación de ofertas en una Licitación Pública para obras (sin ser abreviada ni diferenciada)?",
+    "question": "¿Cuál es el plazo mínimo, en días hábiles, entre la convocatoria y la presentación de ofertas en una Licitación Pública para obras (sin ser abreviada ni diferenciada)?",
     "options": [
       {
         "text": "a) Diez días hábiles.",
@@ -3083,7 +3083,7 @@ const questions = [
   },
   {
     "id": 135,
-    "question": "8. En un procedimiento de selección no competitivo por la causal de \"servicios personalísimos\", ¿qué tipo de proveedor puede ser contratado según la Ley?",
+    "question": "En un procedimiento de selección no competitivo por la causal de \"servicios personalísimos\", ¿qué tipo de proveedor puede ser contratado según la Ley?",
     "options": [
       {
         "text": "a) Cualquier persona jurídica con experiencia.",
@@ -3106,7 +3106,7 @@ const questions = [
   },
   {
     "id": 136,
-    "question": "9. ¿Cuál es la principal diferencia entre una Licitación Pública para bienes y una Licitación Pública Abreviada para bienes, en términos de las condiciones para su uso?",
+    "question": "¿Cuál es la principal diferencia entre una Licitación Pública para bienes y una Licitación Pública Abreviada para bienes, en términos de las condiciones para su uso?",
     "options": [
       {
         "text": "a) La Licitación Pública Abreviada siempre requiere precalificación, la Licitación Pública no.",
@@ -3129,7 +3129,7 @@ const questions = [
   },
   {
     "id": 137,
-    "question": "10. En un Concurso Público para consultorías de obra con una cuantía mayor a S/ 2 000 000,00, la entidad puede optar por la modalidad diferenciada de Concurso Público con_____ , donde se evalúan requisitos de calificación en una fase inicial.",
+    "question": "En un Concurso Público para consultorías de obra con una cuantía mayor a S/ 2 000 000,00, la entidad puede optar por la modalidad diferenciada de Concurso Público con_____ , donde se evalúan requisitos de calificación en una fase inicial.",
     "options": [
       {
         "text": "a) diálogo competitivo",
@@ -3152,7 +3152,7 @@ const questions = [
   },
   {
     "id": 138,
-    "question": "11. ¿En qué tipo de procedimiento de selección la entidad contratante invita a un mínimo de tres proveedores a presentar ofertas, adjuntando las bases, y la buena pro se otorga al menor monto ofertado tras verificar requisitos de calificación?",
+    "question": "¿En qué tipo de procedimiento de selección la entidad contratante invita a un mínimo de tres proveedores a presentar ofertas, adjuntando las bases, y la buena pro se otorga al menor monto ofertado tras verificar requisitos de calificación?",
     "options": [
       {
         "text": "a) Subasta Inversa Electrónica.",
@@ -3175,7 +3175,7 @@ const questions = [
   },
   {
     "id": 139,
-    "question": "12. ¿Cuál es una de las condiciones para que una entidad utilice la Licitación Pública con Diálogo Competitivo para la contratación de bienes?",
+    "question": "¿Cuál es una de las condiciones para que una entidad utilice la Licitación Pública con Diálogo Competitivo para la contratación de bienes?",
     "options": [
       {
         "text": "a) Que los bienes sean comunes y cuenten con ficha técnica.",
@@ -3198,7 +3198,7 @@ const questions = [
   },
   {
     "id": 140,
-    "question": "13. Si una entidad necesita contratar servicios de publicidad estatal, ¿qué tipo de procedimiento de selección debe utilizar según la Ley?",
+    "question": "Si una entidad necesita contratar servicios de publicidad estatal, ¿qué tipo de procedimiento de selección debe utilizar según la Ley?",
     "options": [
       {
         "text": "a) Concurso Público.",
@@ -3221,7 +3221,7 @@ const questions = [
   },
   {
     "id": 141,
-    "question": "14. ¿En qué etapa de un procedimiento de selección competitivo se realiza la integración de las bases, incorporando las modificaciones o precisiones formuladas como consecuencia de las consultas y observaciones?",
+    "question": "¿En qué etapa de un procedimiento de selección competitivo se realiza la integración de las bases, incorporando las modificaciones o precisiones formuladas como consecuencia de las consultas y observaciones?",
     "options": [
       {
         "text": "a) En la convocatoria.",
@@ -3244,7 +3244,7 @@ const questions = [
   },
   {
     "id": 142,
-    "question": "15. ¿Cuál es la consecuencia si, en un procedimiento de selección competitivo, la entidad contratante o el Tribunal de Contrataciones del Estado no resuelven ni notifican sus resoluciones sobre un recurso de apelación dentro del plazo establecido?",
+    "question": "¿Cuál es la consecuencia si, en un procedimiento de selección competitivo, la entidad contratante o el Tribunal de Contrataciones del Estado no resuelven ni notifican sus resoluciones sobre un recurso de apelación dentro del plazo establecido?",
     "options": [
       {
         "text": "a) El recurso se considera automáticamente fundado.",
@@ -3267,7 +3267,7 @@ const questions = [
   },
   {
     "id": 143,
-    "question": "16. Una entidad requiere contratar un servicio altamente especializado. En la estrategia de contratación, se determina que, debido a la complejidad y la necesidad de soluciones innovadoras, no se puede definir el requerimiento idóneo. Además, se busca que el proveedor no solo desarrolle la solución (I+D) sino que también la implemente. ¿Qué procedimiento de selección sería el más adecuado y qué característica principal tendría su desarrollo según el Reglamento?",
+    "question": "Una entidad requiere contratar un servicio altamente especializado. En la estrategia de contratación, se determina que, debido a la complejidad y la necesidad de soluciones innovadoras, no se puede definir el requerimiento idóneo. Además, se busca que el proveedor no solo desarrolle la solución (I+D) sino que también la implemente. ¿Qué procedimiento de selección sería el más adecuado y qué característica principal tendría su desarrollo según el Reglamento?",
     "options": [
       {
         "text": "a) Compra Pública Precomercial (CPP); se adjudica a uno o más proveedores para obtener prototipos, sin garantizar la contratación de la solución final.",
@@ -3290,7 +3290,7 @@ const questions = [
   },
   {
     "id": 144,
-    "question": "17. Una entidad necesita contratar la elaboración del expediente técnico y la posterior ejecución de una obra urbana. En la estrategia de contratación, se ha determinado que el sistema de entrega más adecuado es el de \"Diseño y Construcción\". Según el Reglamento, ¿qué procedimiento de selección competitivo se utilizaría y cómo se evaluaría la oferta económica si la cuantía de la obra es de S/ 15 000 000,00?",
+    "question": "Una entidad necesita contratar la elaboración del expediente técnico y la posterior ejecución de una obra urbana. En la estrategia de contratación, se ha determinado que el sistema de entrega más adecuado es el de \"Diseño y Construcción\". Según el Reglamento, ¿qué procedimiento de selección competitivo se utilizaría y cómo se evaluaría la oferta económica si la cuantía de la obra es de S/ 15 000 000,00?",
     "options": [
       {
         "text": "a) Licitación Pública para obras; la oferta económica se evalúa sobre 100 puntos considerando el costo total (diseño y construcción).",
@@ -3313,7 +3313,7 @@ const questions = [
   },
   {
     "id": 145,
-    "question": "18. Una entidad requiere contratar un servicio de mantenimiento vial. En la estrategia de contratación, se ha optado por un Concurso Público para servicios de mantenimiento vial y se ha determinado que la cuantía de la contratación será punto de referencia para las ofertas. La entidad desea asegurar que las ofertas económicas no sean excesivamente bajas ni demasiado altas. ¿Qué método de evaluación de ofertas económicas podría establecer la entidad en las bases para lograr este objetivo?",
+    "question": "Una entidad requiere contratar un servicio de mantenimiento vial. En la estrategia de contratación, se ha optado por un Concurso Público para servicios de mantenimiento vial y se ha determinado que la cuantía de la contratación será punto de referencia para las ofertas. La entidad desea asegurar que las ofertas económicas no sean excesivamente bajas ni demasiado altas. ¿Qué método de evaluación de ofertas económicas podría establecer la entidad en las bases para lograr este objetivo?",
     "options": [
       {
         "text": "a) Oferta económica fija al 100% de la cuantía de la contratación.",
@@ -3336,7 +3336,7 @@ const questions = [
   },
   {
     "id": 146,
-    "question": "19. ¿En qué se diferencia fundamentalmente el desarrollo de un procedimiento de selección para una Compra Corporativa Facultativa de un procedimiento de selección estándar (ej. Licitación Pública individual), considerando la etapa de perfeccionamiento del contrato, según el Reglamento?",
+    "question": "¿En qué se diferencia fundamentalmente el desarrollo de un procedimiento de selección para una Compra Corporativa Facultativa de un procedimiento de selección estándar (ej. Licitación Pública individual), considerando la etapa de perfeccionamiento del contrato, según el Reglamento?",
     "options": [
       {
         "text": "a) En la Compra Corporativa, la entidad encargada suscribe un único contrato con el proveedor en representación de todas las entidades participantes.",
@@ -3359,7 +3359,7 @@ const questions = [
   },
   {
     "id": 147,
-    "question": "20. Una entidad necesita adquirir bienes de uso recurrente y decide utilizar un Acuerdo Marco (sin catálogo electrónico) debido a que no puede determinar con exactitud la oportunidad de entrega durante el periodo contractual. Según el Reglamento, ¿cuál es una característica distintiva del proceso de contratación mediante esta modalidad y qué ocurre en su primera etapa?",
+    "question": "Una entidad necesita adquirir bienes de uso recurrente y decide utilizar un Acuerdo Marco (sin catálogo electrónico) debido a que no puede determinar con exactitud la oportunidad de entrega durante el periodo contractual. Según el Reglamento, ¿cuál es una característica distintiva del proceso de contratación mediante esta modalidad y qué ocurre en su primera etapa?",
     "options": [
       {
         "text": "a) Se realiza una única etapa de adjudicación directa al proveedor con la mejor oferta histórica; en la primera etapa se define el presupuesto.",
@@ -3382,7 +3382,7 @@ const questions = [
   },
   {
     "id": 148,
-    "question": "21. En el marco de una Compra Corporativa Facultativa, si una entidad participante desea desistirse del proceso después de la aprobación del expediente de contratación, ¿bajo qué supuestos puede hacerlo según el Reglamento?",
+    "question": "En el marco de una Compra Corporativa Facultativa, si una entidad participante desea desistirse del proceso después de la aprobación del expediente de contratación, ¿bajo qué supuestos puede hacerlo según el Reglamento?",
     "options": [
       {
         "text": "a) Por cualquier motivo, siempre que lo comunique con anticipación a la entidad encargada.",
@@ -3405,7 +3405,7 @@ const questions = [
   },
   {
     "id": 149,
-    "question": "22. Una entidad del sector salud, autorizada por el Ministerio de Salud, decide utilizar un Mecanismo Diferenciado de Adquisición (MDA) para contratar una tecnología sanitaria innovadora para el tratamiento de una enfermedad de alto costo. En la estrategia de contratación, se ha determinado que el MDA será de tipo \"riesgo compartido basado en desempeño\". ¿Cuál de las siguientes condiciones de pago es característica de este tipo de acuerdo?",
+    "question": "Una entidad del sector salud, autorizada por el Ministerio de Salud, decide utilizar un Mecanismo Diferenciado de Adquisición (MDA) para contratar una tecnología sanitaria innovadora para el tratamiento de una enfermedad de alto costo. En la estrategia de contratación, se ha determinado que el MDA será de tipo \"riesgo compartido basado en desempeño\". ¿Cuál de las siguientes condiciones de pago es característica de este tipo de acuerdo?",
     "options": [
       {
         "text": "a) Un descuento sobre el precio ofertado, aplicado al inicio de la ejecución contractual.",
@@ -3428,7 +3428,7 @@ const questions = [
   },
   {
     "id": 150,
-    "question": "23. Una entidad pública, en el marco de su planificación para la gestión del riesgo de desastres, identifica la necesidad de asegurar la disponibilidad de alimentos ante una potencial emergencia. Decide utilizar un Acuerdo Marco (sin catálogo electrónico) y, dentro de este, un \"contrato de contingencia\" con modalidad de \"pago por disponibilidad\". Si al finalizar el plazo contractual inicial de tres años no se ha producido el evento que activa la ejecución del contrato, ¿qué opciones tiene la entidad, y qué consideración debe haberse previsto en la oferta del contratista si la entidad opta por ampliar el plazo contractual?",
+    "question": "Una entidad pública, en el marco de su planificación para la gestión del riesgo de desastres, identifica la necesidad de asegurar la disponibilidad de alimentos ante una potencial emergencia. Decide utilizar un Acuerdo Marco (sin catálogo electrónico) y, dentro de este, un \"contrato de contingencia\" con modalidad de \"pago por disponibilidad\". Si al finalizar el plazo contractual inicial de tres años no se ha producido el evento que activa la ejecución del contrato, ¿qué opciones tiene la entidad, y qué consideración debe haberse previsto en la oferta del contratista si la entidad opta por ampliar el plazo contractual?",
     "options": [
       {
         "text": "a) La entidad puede optar por suscribir una adenda para ampliar el plazo, recibir los bienes, o modificar el contrato para que los servicios se presten en prevención. Si amplía el plazo, la oferta del contratista debió incluir el costo de esta ampliación, que no excederá el 50% del monto original para bienes.",
@@ -3451,7 +3451,7 @@ const questions = [
   },
   {
     "id": 151,
-    "question": "24. ¿Cuál es la primera etapa formal de un procedimiento de selección competitivo, después de la cual los proveedores pueden registrarse como participantes?",
+    "question": "¿Cuál es la primera etapa formal de un procedimiento de selección competitivo, después de la cual los proveedores pueden registrarse como participantes?",
     "options": [
       {
         "text": "a) Evaluación de ofertas.",
@@ -3474,7 +3474,7 @@ const questions = [
   },
   {
     "id": 152,
-    "question": "25. En una Licitación Pública para bienes (sin ser abreviada ni diferenciada), el plazo entre la convocatoria y la presentación de ofertas no puede ser menor de días hábiles, según el Reglamento.",
+    "question": "En una Licitación Pública para bienes (sin ser abreviada ni diferenciada), el plazo entre la convocatoria y la presentación de ofertas no puede ser menor de días hábiles, según el Reglamento.",
     "options": [
       {
         "text": "a) diez",
@@ -3497,7 +3497,7 @@ const questions = [
   },
   {
     "id": 153,
-    "question": "26. ¿En qué etapa de un procedimiento de selección competitivo se publican las bases integradas, que contienen las reglas definitivas del procedimiento tras la absolución de consultas y observaciones?",
+    "question": "¿En qué etapa de un procedimiento de selección competitivo se publican las bases integradas, que contienen las reglas definitivas del procedimiento tras la absolución de consultas y observaciones?",
     "options": [
       {
         "text": "a) En la etapa de Convocatoria.",
@@ -3520,7 +3520,7 @@ const questions = [
   },
   {
     "id": 154,
-    "question": "27. Si una entidad publica un \"anuncio de contratación futura\" con una anticipación no menor de cuarenta días calendario a la fecha de convocatoria para una Licitación Pública, ¿cómo puede afectar esto el plazo mínimo entre la convocatoria y la presentación de ofertas?",
+    "question": "Si una entidad publica un \"anuncio de contratación futura\" con una anticipación no menor de cuarenta días calendario a la fecha de convocatoria para una Licitación Pública, ¿cómo puede afectar esto el plazo mínimo entre la convocatoria y la presentación de ofertas?",
     "options": [
       {
         "text": "a) El plazo mínimo puede reducirse, pero no ser menor a diez días calendario.",
@@ -3543,7 +3543,7 @@ const questions = [
   },
   {
     "id": 155,
-    "question": "28. En un procedimiento de selección competitivo que incluye la etapa de precalificación, ¿cuándo concluye el registro de participantes?",
+    "question": "En un procedimiento de selección competitivo que incluye la etapa de precalificación, ¿cuándo concluye el registro de participantes?",
     "options": [
       {
         "text": "a) Antes del inicio de la presentación de ofertas definitivas",
@@ -3566,7 +3566,7 @@ const questions = [
   },
   {
     "id": 156,
-    "question": "29. En una Licitación Pública Abreviada para bienes, el plazo para que los participantes formulen consultas y/o observaciones a las bases es no menor de días hábiles contabilizados desde el día siguiente de la convocatoria.",
+    "question": "En una Licitación Pública Abreviada para bienes, el plazo para que los participantes formulen consultas y/o observaciones a las bases es no menor de días hábiles contabilizados desde el día siguiente de la convocatoria.",
     "options": [
       {
         "text": "a) siete",
@@ -3589,7 +3589,7 @@ const questions = [
   },
   {
     "id": 157,
-    "question": "30. El Ministerio de Salud está llevando a cabo una Licitación Pública para la adquisición de equipos médicos altamente sofisticados, utilizando la modalidad de \"Licitación pública para bienes especializados\" que incluye precalificación. Después de la etapa de consultas y observaciones, y la integración de bases, la entidad debe publicar los resultados de la precalificación. Si un proveedor desea apelar el otorgamiento de la buena pro, ¿a partir de qué momento se contabiliza el plazo para interponer el recurso, considerando las etapas de este procedimiento específico?",
+    "question": "El Ministerio de Salud está llevando a cabo una Licitación Pública para la adquisición de equipos médicos altamente sofisticados, utilizando la modalidad de \"Licitación pública para bienes especializados\" que incluye precalificación. Después de la etapa de consultas y observaciones, y la integración de bases, la entidad debe publicar los resultados de la precalificación. Si un proveedor desea apelar el otorgamiento de la buena pro, ¿a partir de qué momento se contabiliza el plazo para interponer el recurso, considerando las etapas de este procedimiento específico?",
     "options": [
       {
         "text": "a) Desde la publicación de los resultados de la precalificación.",
@@ -3612,7 +3612,7 @@ const questions = [
   },
   {
     "id": 158,
-    "question": "31. Una Municipalidad Provincial convoca una Licitación Pública Abreviada para la adquisición de bienes homologados. Durante la etapa de consultas y observaciones, no se presenta ninguna. ¿Qué acción puede tomar la entidad respecto al cronograma y la integración de bases, y qué principio rector de la contratación pública se estaría optimizando?",
+    "question": "Una Municipalidad Provincial convoca una Licitación Pública Abreviada para la adquisición de bienes homologados. Durante la etapa de consultas y observaciones, no se presenta ninguna. ¿Qué acción puede tomar la entidad respecto al cronograma y la integración de bases, y qué principio rector de la contratación pública se estaría optimizando?",
     "options": [
       {
         "text": "a) Puede modificar el cronograma de las demás etapas e integrar las bases al día siguiente de concluido el plazo de consultas, siempre que se cumplan los plazos mínimos; optimizando el principio de Eficacia y Eficiencia.",
@@ -3635,7 +3635,7 @@ const questions = [
   },
   {
     "id": 159,
-    "question": "32. En un procedimiento de selección que contempla la elevación del pliego de absolución de consultas y observaciones al OECE, ¿cuál es el plazo máximo que tiene el OECE para notificar su pronunciamiento con la integración definitiva de bases, y qué sucede si el OECE solicita información adicional a la entidad contratante?",
+    "question": "En un procedimiento de selección que contempla la elevación del pliego de absolución de consultas y observaciones al OECE, ¿cuál es el plazo máximo que tiene el OECE para notificar su pronunciamiento con la integración definitiva de bases, y qué sucede si el OECE solicita información adicional a la entidad contratante?",
     "options": [
       {
         "text": "a) Diez días hábiles desde el registro de la elevación; el plazo no se prorroga por solicitud de información.",
@@ -3658,7 +3658,7 @@ const questions = [
   },
   {
     "id": 160,
-    "question": "33. Una semejanza entre la Licitación Pública para obras y el Concurso Público para servicios es que ambos son:",
+    "question": "Una semejanza entre la Licitación Pública para obras y el Concurso Público para servicios es que ambos son:",
     "options": [
       {
         "text": "a) Procedimientos de selección no competitivos.",
@@ -3681,7 +3681,7 @@ const questions = [
   },
   {
     "id": 161,
-    "question": "34. Una diferencia fundamental en el objeto de contratación entre una Licitación Pública y un Concurso Público es que la Licitación Pública se utiliza para , mientras que el Concurso Público se utiliza para ___ .",
+    "question": "Una diferencia fundamental en el objeto de contratación entre una Licitación Pública y un Concurso Público es que la Licitación Pública se utiliza para , mientras que el Concurso Público se utiliza para ___ .",
     "options": [
       {
         "text": "a) servicios / bienes y obras",
@@ -3704,7 +3704,7 @@ const questions = [
   },
   {
     "id": 162,
-    "question": "35. ¿Cuál de las siguientes etapas es común a la mayoría de los procedimientos de selección competitivos, como la Licitación Pública y el Concurso Público (en sus versiones no abreviadas ni diferenciadas con omisión de etapas)?",
+    "question": "¿Cuál de las siguientes etapas es común a la mayoría de los procedimientos de selección competitivos, como la Licitación Pública y el Concurso Público (en sus versiones no abreviadas ni diferenciadas con omisión de etapas)?",
     "options": [
       {
         "text": "a) Diálogo competitivo.",
@@ -3727,7 +3727,7 @@ const questions = [
   },
   {
     "id": 163,
-    "question": "36. ¿Cuál es una diferencia clave en la evaluación de ofertas entre una Subasta Inversa Electrónica y una Licitación Pública para bienes (modalidad estándar)?",
+    "question": "¿Cuál es una diferencia clave en la evaluación de ofertas entre una Subasta Inversa Electrónica y una Licitación Pública para bienes (modalidad estándar)?",
     "options": [
       {
         "text": "a) En la Subasta Inversa Electrónica no hay evaluación técnica, solo puja de precios; en la Licitación Pública se evalúan aspectos técnicos y económicos.",
@@ -3750,7 +3750,7 @@ const questions = [
   },
   {
     "id": 164,
-    "question": "37. Una diferencia entre un procedimiento de selección competitivo con precalificación (ej. Licitación Pública de obras con precalificación) y uno sin precalificación (ej. Licitación Pública de obras estándar) es que:",
+    "question": "Una diferencia entre un procedimiento de selección competitivo con precalificación (ej. Licitación Pública de obras con precalificación) y uno sin precalificación (ej. Licitación Pública de obras estándar) es que:",
     "options": [
       {
         "text": "a) En el procedimiento con precalificación, las ofertas se presentan en una sola fase; en el sin precalificación, en dos fases.",
@@ -3773,7 +3773,7 @@ const questions = [
   },
   {
     "id": 165,
-    "question": "38. Una semejanza entre la Licitación Pública con Diálogo Competitivo y la Asociación para la Innovación (API) es que ambas modalidades incluyen una etapa de con los postores precalificados para desarrollar o definir la solución.",
+    "question": "Una semejanza entre la Licitación Pública con Diálogo Competitivo y la Asociación para la Innovación (API) es que ambas modalidades incluyen una etapa de con los postores precalificados para desarrollar o definir la solución.",
     "options": [
       {
         "text": "a) subasta inversa",
@@ -3796,7 +3796,7 @@ const questions = [
   },
   {
     "id": 166,
-    "question": "39. El Ministerio de Transportes y Comunicaciones requiere contratar un servicio de consultoría altamente especializado para el diseño de una nueva infraestructura portuaria, con una cuantía de S/ 3000 000,00. La entidad considera que es crucial asegurar la capacidad y experiencia de los postores desde el inicio. ¿Qué procedimiento de selección y modalidad sería más apropiado, y qué etapa distintiva tendría este procedimiento en comparación con un Concurso Público estándar para consultorías?",
+    "question": "El Ministerio de Transportes y Comunicaciones requiere contratar un servicio de consultoría altamente especializado para el diseño de una nueva infraestructura portuaria, con una cuantía de S/ 3000 000,00. La entidad considera que es crucial asegurar la capacidad y experiencia de los postores desde el inicio. ¿Qué procedimiento de selección y modalidad sería más apropiado, y qué etapa distintiva tendría este procedimiento en comparación con un Concurso Público estándar para consultorías?",
     "options": [
       {
         "text": "a) Concurso Público Abreviado; se omitiría la etapa de consultas y observaciones.",
@@ -3819,7 +3819,7 @@ const questions = [
   },
   {
     "id": 167,
-    "question": "40. Analizando las etapas de los procedimientos de selección, ¿cuál es una diferencia fundamental e n el desarrollo de la fase de \"Evaluación de ofertas\" entre una Licitación Pública para obras con sistema de entrega \"Solo Construcción\" donde la oferta económica es fija al 100% de la cuantía, y una Licitación Pública para bienes donde la oferta económica es un factor de evaluación?",
+    "question": "Analizando las etapas de los procedimientos de selección, ¿cuál es una diferencia fundamental e n el desarrollo de la fase de \"Evaluación de ofertas\" entre una Licitación Pública para obras con sistema de entrega \"Solo Construcción\" donde la oferta económica es fija al 100% de la cuantía, y una Licitación Pública para bienes donde la oferta económica es un factor de evaluación?",
     "options": [
       {
         "text": "a) En la obra con oferta fija, no hay evaluación técnica, solo se verifica el cumplimiento del precio; en bienes, se evalúan factores técnicos y el precio.",
@@ -3842,7 +3842,7 @@ const questions = [
   },
   {
     "id": 168,
-    "question": "41. El Seguro Social de Salud (ESSALUD) necesita contratar tecnologías sanitarias para el diagnóstico de enfermedades raras. Se ha decidido utilizar un Mecanismo Diferenciado de Adquisición (MDA) y, en la fase de selección, se invitará a los titulares del registro sanitario. ¿Qué etapa es crucial en este procedimiento de selección específico, según el Reglamento, para definir los términos del acuerdo y seleccionar al proveedor final, y cómo se diferencia de la etapa de \"Consultas y Observaciones\" de una Licitación Pública estándar?",
+    "question": "El Seguro Social de Salud (ESSALUD) necesita contratar tecnologías sanitarias para el diagnóstico de enfermedades raras. Se ha decidido utilizar un Mecanismo Diferenciado de Adquisición (MDA) y, en la fase de selección, se invitará a los titulares del registro sanitario. ¿Qué etapa es crucial en este procedimiento de selección específico, según el Reglamento, para definir los términos del acuerdo y seleccionar al proveedor final, y cómo se diferencia de la etapa de \"Consultas y Observaciones\" de una Licitación Pública estándar?",
     "options": [
       {
         "text": "a) Etapa de \"Diálogo Competitivo\", donde se define el requerimiento; se diferencia porque en la Licitación estándar solo se aclaran las bases.",
@@ -3865,7 +3865,7 @@ const questions = [
   },
   {
     "id": 169,
-    "question": "42. ¿Cuál es una condición para que una entidad utilice la modalidad de Compra por Encargo a un Organismo Internacional?",
+    "question": "¿Cuál es una condición para que una entidad utilice la modalidad de Compra por Encargo a un Organismo Internacional?",
     "options": [
       {
         "text": "a) Que el monto de la contratación sea inferior a 8 UIT.",
@@ -3888,7 +3888,7 @@ const questions = [
   },
   {
     "id": 170,
-    "question": "43. La modalidad de Acuerdo Marco (sin catálogo electrónico) puede ser utilizada por las entidades cuando el objeto de la contratación es requerido de manera constante pero no se puede determinar con exactitud la de la entrega o prestación durante el periodo previsto.",
+    "question": "La modalidad de Acuerdo Marco (sin catálogo electrónico) puede ser utilizada por las entidades cuando el objeto de la contratación es requerido de manera constante pero no se puede determinar con exactitud la de la entrega o prestación durante el periodo previsto.",
     "options": [
       {
         "text": "a) calidad",
@@ -3911,7 +3911,7 @@ const questions = [
   },
   {
     "id": 171,
-    "question": "44. Qué tipo de entidades pueden contratar bajo la modalidad de Compra Pública de Innovación (CPI), según el Reglamento?",
+    "question": "Qué tipo de entidades pueden contratar bajo la modalidad de Compra Pública de Innovación (CPI), según el Reglamento?",
     "options": [
       {
         "text": "a) Los Ministerios y sus organismos públicos, programas y proyectos adscritos, así como las universidades públicas.",
@@ -3934,7 +3934,7 @@ const questions = [
   },
   {
     "id": 172,
-    "question": "45. ¿Cuál es una condición para que una entidad encargue a Perú Compras u otra entidad contratante la realización de una Compra Centralizada?",
+    "question": "¿Cuál es una condición para que una entidad encargue a Perú Compras u otra entidad contratante la realización de una Compra Centralizada?",
     "options": [
       {
         "text": "a) Que la entidad encargante no tenga presupuesto asignado.",
@@ -3957,7 +3957,7 @@ const questions = [
   },
   {
     "id": 173,
-    "question": "46. Para que una entidad utilice la modalidad de Compra por Encargo a un Organismo Internacional para la fase de actuaciones preparatorias, ¿qué debe acreditar la entidad contratante respecto a su propia capacidad?",
+    "question": "Para que una entidad utilice la modalidad de Compra por Encargo a un Organismo Internacional para la fase de actuaciones preparatorias, ¿qué debe acreditar la entidad contratante respecto a su propia capacidad?",
     "options": [
       {
         "text": "a) Que cuenta con personal altamente especializado pero requiere apoyo logístico.",
@@ -3980,7 +3980,7 @@ const questions = [
   },
   {
     "id": 174,
-    "question": "47. En una Compra Corporativa Obligatoria, la DGA aprueba la modalidad y establece los bienes y servicios a contratar, así como las entidades participantes. Perú Compras emite una directiva que regula los procedimientos y plazos, y las entidades omisas en remitir su requerimiento e información en la oportunidad requerida son del proceso, bajo responsabilidad.",
+    "question": "En una Compra Corporativa Obligatoria, la DGA aprueba la modalidad y establece los bienes y servicios a contratar, así como las entidades participantes. Perú Compras emite una directiva que regula los procedimientos y plazos, y las entidades omisas en remitir su requerimiento e información en la oportunidad requerida son del proceso, bajo responsabilidad.",
     "options": [
       {
         "text": "a) sancionadas por el TCP",
@@ -4003,7 +4003,7 @@ const questions = [
   },
   {
     "id": 175,
-    "question": "48. El Ministerio de Economía y Finanzas (MEF) identifica que varias entidades del Poder Ejecutivo requieren un software especializado de gestión presupuestal. El MEF considera que una compra centralizada sería beneficiosa por la complejidad y la necesidad de especialización. Según la Ley y el Reglamento, si el MEF actúa como entidad encargante y encarga a Perú Compras la totalidad del proceso hasta el pago, ¿qué acción presupuestal es fundamental para viabilizar esta compra centralizada y cómo se gestiona si la ejecución supera el año fiscal?",
+    "question": "El Ministerio de Economía y Finanzas (MEF) identifica que varias entidades del Poder Ejecutivo requieren un software especializado de gestión presupuestal. El MEF considera que una compra centralizada sería beneficiosa por la complejidad y la necesidad de especialización. Según la Ley y el Reglamento, si el MEF actúa como entidad encargante y encarga a Perú Compras la totalidad del proceso hasta el pago, ¿qué acción presupuestal es fundamental para viabilizar esta compra centralizada y cómo se gestiona si la ejecución supera el año fiscal?",
     "options": [
       {
         "text": "a) El MEF debe solicitar un crédito suplementario al Congreso; la ejecución multianual no está permitida en compras centralizadas.",
@@ -4026,7 +4026,7 @@ const questions = [
   },
   {
     "id": 176,
-    "question": "49. Una entidad contratante, en el marco de la preparación para la respuesta ante un riesgo de desastre, decide utilizar un \"contrato de contingencia\" con modalidad de \"pago por disponibilidad\" para asegurar el suministro de alimentos. ¿Cuál es el plazo mínimo de este tipo de contrato y qué sucede si, al finalizar dicho plazo, el evento que activa la ejecución no se ha producido?",
+    "question": "Una entidad contratante, en el marco de la preparación para la respuesta ante un riesgo de desastre, decide utilizar un \"contrato de contingencia\" con modalidad de \"pago por disponibilidad\" para asegurar el suministro de alimentos. ¿Cuál es el plazo mínimo de este tipo de contrato y qué sucede si, al finalizar dicho plazo, el evento que activa la ejecución no se ha producido?",
     "options": [
       {
         "text": "a) Plazo mínimo de un año; el contrato se resuelve automáticamente sin pago adicional.",
@@ -4049,7 +4049,7 @@ const questions = [
   },
   {
     "id": 177,
-    "question": "50. El Centro Nacional de Abastecimiento de Recursos Estratégicos del Ministerio de Salud (CENARES) requiere contratar una tecnología sanitaria innovadora para el tratamiento de una enfermedad oncológica. Se decide utilizar un Mecanismo Diferenciado de Adquisición (MDA). ¿Qué características y requisitos definen este procedimiento según la normativa?",
+    "question": "El Centro Nacional de Abastecimiento de Recursos Estratégicos del Ministerio de Salud (CENARES) requiere contratar una tecnología sanitaria innovadora para el tratamiento de una enfermedad oncológica. Se decide utilizar un Mecanismo Diferenciado de Adquisición (MDA). ¿Qué características y requisitos definen este procedimiento según la normativa?",
     "options": [
       {
         "text": "a) Perú Compras aprueba el listado; la tecnología debe tener un costo inferior a 8 UIT.",
@@ -4072,7 +4072,7 @@ const questions = [
   },
   {
     "id": 178,
-    "question": "51. ¿Cuál de los siguientes documentos emitidos por el OECE es de obligatorio cumplimiento para la entidad contratante, los participantes y postores de un procedimiento de selección, cuando se elevan cuestionamientos al pliego de absolución de consultas y observaciones?",
+    "question": "¿Cuál de los siguientes documentos emitidos por el OECE es de obligatorio cumplimiento para la entidad contratante, los participantes y postores de un procedimiento de selección, cuando se elevan cuestionamientos al pliego de absolución de consultas y observaciones?",
     "options": [
       {
         "text": "a) Una opinión técnica sobre el requerimiento.",
@@ -4095,7 +4095,7 @@ const questions = [
   },
   {
     "id": 179,
-    "question": "52. Si un evaluador tiene dudas sobre la interpretación de un artículo específico del Reglamento de la Ley General de Contrataciones Públicas durante un procedimiento de selección, ¿a qué entidad debe recurrir la entidad contratante para obtener una opinión que tenga carácter vinculante sobre dicha interpretación?",
+    "question": "Si un evaluador tiene dudas sobre la interpretación de un artículo específico del Reglamento de la Ley General de Contrataciones Públicas durante un procedimiento de selección, ¿a qué entidad debe recurrir la entidad contratante para obtener una opinión que tenga carácter vinculante sobre dicha interpretación?",
     "options": [
       {
         "text": "a) Al Tribunal de Contrataciones Públicas (TCP).",
@@ -4118,7 +4118,7 @@ const questions = [
   },
   {
     "id": 180,
-    "question": "53. Un comité de selección, al evaluar las ofertas en una Licitación Pública, identifica una situación no prevista explícitamente en las bases ni en el Reglamento, pero que podría afectar la igualdad de trato entre los postores. Para tomar una decisión fundamentada y coherente con el sistema de contratación pública, además de la Ley y el Reglamento, ¿qué tipo de pronunciamientos emitidos por el Tribunal de Contrataciones Públicas (TCP) debería considerar el comité como criterio interpretativo relevante, según la Ley?",
+    "question": "Un comité de selección, al evaluar las ofertas en una Licitación Pública, identifica una situación no prevista explícitamente en las bases ni en el Reglamento, pero que podría afectar la igualdad de trato entre los postores. Para tomar una decisión fundamentada y coherente con el sistema de contratación pública, además de la Ley y el Reglamento, ¿qué tipo de pronunciamientos emitidos por el Tribunal de Contrataciones Públicas (TCP) debería considerar el comité como criterio interpretativo relevante, según la Ley?",
     "options": [
       {
         "text": "a) Únicamente las resoluciones sancionadoras emitidas por el TCP.",
@@ -4141,7 +4141,7 @@ const questions = [
   },
   {
     "id": 181,
-    "question": "54. ¿Cuál de los siguientes es un principio rector de la contratación pública que los evaluadores deben observar para promover el libre acceso y participación de proveedores, evitando exigencias innecesarias?",
+    "question": "¿Cuál de los siguientes es un principio rector de la contratación pública que los evaluadores deben observar para promover el libre acceso y participación de proveedores, evitando exigencias innecesarias?",
     "options": [
       {
         "text": "a) Principio de Integridad.",
@@ -4164,7 +4164,7 @@ const questions = [
   },
   {
     "id": 182,
-    "question": "55. Al evaluar las ofertas, los evaluadores deben asegurar que se contrate a quien asegure el cumplimiento de la finalidad pública, considerando la calidad, sostenibilidad, costos y plazos, y no procurando únicamente el menor precio. Esto se alinea con el principio de.....",
+    "question": "Al evaluar las ofertas, los evaluadores deben asegurar que se contrate a quien asegure el cumplimiento de la finalidad pública, considerando la calidad, sostenibilidad, costos y plazos, y no procurando únicamente el menor precio. Esto se alinea con el principio de.....",
     "options": [
       {
         "text": "a) Eficacia y Eficiencia",
@@ -4187,7 +4187,7 @@ const questions = [
   },
   {
     "id": 183,
-    "question": "56. Un comité de selección está evaluando dos ofertas para un servicio complejo. La Oferta A tiene un precio ligeramente menor, pero la Oferta B demuestra una metodología superior y un equipo técnico con mayor experiencia específica, lo que sugiere una mayor probabilidad de cumplimiento exitoso y de alcanzar la finalidad pública de manera más efectiva. Si el comité, tras un análisis sustentado, decide otorgar la buena pro a la Oferta B a pesar de no ser la de menor precio, ¿qué principio y enfoque de la Ley General de Contrataciones Públicas estaría aplicando primordialmente, y qué debe priorizar?",
+    "question": "Un comité de selección está evaluando dos ofertas para un servicio complejo. La Oferta A tiene un precio ligeramente menor, pero la Oferta B demuestra una metodología superior y un equipo técnico con mayor experiencia específica, lo que sugiere una mayor probabilidad de cumplimiento exitoso y de alcanzar la finalidad pública de manera más efectiva. Si el comité, tras un análisis sustentado, decide otorgar la buena pro a la Oferta B a pesar de no ser la de menor precio, ¿qué principio y enfoque de la Ley General de Contrataciones Públicas estaría aplicando primordialmente, y qué debe priorizar?",
     "options": [
       {
         "text": "a) Principio de Competencia y enfoque de Gestión por Resultados; priorizando la pluralidad de postores.",
@@ -4210,7 +4210,7 @@ const questions = [
   },
   {
     "id": 184,
-    "question": "57. ¿Cuándo se considera consentida la buena pro si en un procedimiento de selección se presentaron dos o más ofertas definitivas y no se interpusieron recursos de apelación?",
+    "question": "¿Cuándo se considera consentida la buena pro si en un procedimiento de selección se presentaron dos o más ofertas definitivas y no se interpusieron recursos de apelación?",
     "options": [
       {
         "text": "a) El mismo día de la notificación del otorgamiento de la buena pro.",
@@ -4233,7 +4233,7 @@ const questions = [
   },
   {
     "id": 185,
-    "question": "58. En un procedimiento de selección donde solo se presentó una única oferta válida, ¿en qué momento se produce el consentimiento del otorgamiento de la buena pro?",
+    "question": "En un procedimiento de selección donde solo se presentó una única oferta válida, ¿en qué momento se produce el consentimiento del otorgamiento de la buena pro?",
     "options": [
       {
         "text": "a) Al día siguiente de vencido el plazo para interponer recurso de apelación.",
@@ -4256,7 +4256,7 @@ const questions = [
   },
   {
     "id": 186,
-    "question": "59. Una entidad otorga la buena pro en una Licitación Pública Abreviada para bienes. Se presentaron tres ofertas válidas. El plazo para apelar en este tipo de procedimiento es de cinco días hábiles. Si ninguno de los postores apela, ¿cuándo exactamente se publica el consentimiento de la buena pro en la Pladicop?",
+    "question": "Una entidad otorga la buena pro en una Licitación Pública Abreviada para bienes. Se presentaron tres ofertas válidas. El plazo para apelar en este tipo de procedimiento es de cinco días hábiles. Si ninguno de los postores apela, ¿cuándo exactamente se publica el consentimiento de la buena pro en la Pladicop?",
     "options": [
       {
         "text": "a) El mismo día del otorgamiento de la buena pro.",
@@ -4279,7 +4279,7 @@ const questions = [
   },
   {
     "id": 187,
-    "question": "60. La buena pro queda administrativamente firme cuando, habiéndose interpuesto recurso de apelación, se publica en la Pladicop la resolución que la buena pro.",
+    "question": "La buena pro queda administrativamente firme cuando, habiéndose interpuesto recurso de apelación, se publica en la Pladicop la resolución que la buena pro.",
     "options": [
       {
         "text": "a) anula",
@@ -4302,7 +4302,7 @@ const questions = [
   },
   {
     "id": 188,
-    "question": "61. ¿Cuál de las siguientes situaciones describe correctamente cuándo la buena pro adquiere la calidad de administrativamente firme?",
+    "question": "¿Cuál de las siguientes situaciones describe correctamente cuándo la buena pro adquiere la calidad de administrativamente firme?",
     "options": [
       {
         "text": "a) Cuando el postor ganador presenta la garantía de fiel cumplimiento.",
@@ -4325,7 +4325,7 @@ const questions = [
   },
   {
     "id": 189,
-    "question": "62. En un Concurso Público para servicios, un postor interpone un recurso de apelación contra el otorgamiento de la buena pro ante el Tribunal de Contrataciones Públicas (TCP). El TCP, tras el debido proceso, emite una resolución declarando infundado el recurso y confirmando la buena pro al postor originalmente adjudicado. ¿A partir de qué momento la buena pro se considera administrativamente firme en este escenario?",
+    "question": "En un Concurso Público para servicios, un postor interpone un recurso de apelación contra el otorgamiento de la buena pro ante el Tribunal de Contrataciones Públicas (TCP). El TCP, tras el debido proceso, emite una resolución declarando infundado el recurso y confirmando la buena pro al postor originalmente adjudicado. ¿A partir de qué momento la buena pro se considera administrativamente firme en este escenario?",
     "options": [
       {
         "text": "a) Desde que se publica en la Pladicop la resolución del TCP que declara infundado el recurso y confirma la buena pro.",
@@ -4348,7 +4348,7 @@ const questions = [
   },
   {
     "id": 190,
-    "question": "63. ¿Cuál es la consecuencia directa si el postor ganador de la buena pro no perfecciona el contrato por una causa que le es imputable?",
+    "question": "¿Cuál es la consecuencia directa si el postor ganador de la buena pro no perfecciona el contrato por una causa que le es imputable?",
     "options": [
       {
         "text": "a) Se le otorga un plazo adicional para subsanar.",
@@ -4371,7 +4371,7 @@ const questions = [
   },
   {
     "id": 191,
-    "question": "64. Si el postor ganador de la buena pro pierde automáticamente la adjudicación por no perfeccionar el contrato, ¿qué acción debe realizar la Dependencia Encargada de las Contrataciones (DEC)?",
+    "question": "Si el postor ganador de la buena pro pierde automáticamente la adjudicación por no perfeccionar el contrato, ¿qué acción debe realizar la Dependencia Encargada de las Contrataciones (DEC)?",
     "options": [
       {
         "text": "a) Declarar desierto el procedimiento de selección inmediatamente.",
@@ -4394,7 +4394,7 @@ const questions = [
   },
   {
     "id": 192,
-    "question": "65. En una Licitación Pública, el postor \"Alfa SAC\" obtiene la buena pro. Dentro del plazo otorgado, \"Alfa SAC\" presenta la mayoría de los documentos para perfeccionar el contrato, pero omite la garantía de fiel cumplimiento, alegando dificultades financieras temporales. La entidad le otorga el plazo de subsanación, pero \"Alfa SAC\" no logra presentar la garantía. ¿Cuál es la consecuencia para \"Alfa SAC\" y qué debe hacer la entidad si el postor \"Beta EIRL\" ocupó el segundo lugar?",
+    "question": "En una Licitación Pública, el postor \"Alfa SAC\" obtiene la buena pro. Dentro del plazo otorgado, \"Alfa SAC\" presenta la mayoría de los documentos para perfeccionar el contrato, pero omite la garantía de fiel cumplimiento, alegando dificultades financieras temporales. La entidad le otorga el plazo de subsanación, pero \"Alfa SAC\" no logra presentar la garantía. ¿Cuál es la consecuencia para \"Alfa SAC\" y qué debe hacer la entidad si el postor \"Beta EIRL\" ocupó el segundo lugar?",
     "options": [
       {
         "text": "a) \"Alfa SAC\" es sancionado con inhabilitación, y la entidad debe declarar desierto el proceso.",
@@ -4417,7 +4417,7 @@ const questions = [
   },
   {
     "id": 193,
-    "question": "66. ¿Cuál de las siguientes es una situación que impide el perfeccionamiento del contrato?",
+    "question": "¿Cuál de las siguientes es una situación que impide el perfeccionamiento del contrato?",
     "options": [
       {
         "text": "a) Que el postor ganador solicite una ampliación de plazo para la entrega de los bienes.",
@@ -4440,7 +4440,7 @@ const questions = [
   },
   {
     "id": 194,
-    "question": "67. Si una entidad contratante se niega a perfeccionar el contrato con el postor ganador de la buena pro, alegando la desaparición de la necesidad, ¿qué implicación tiene esta decisión para futuras contrataciones del mismo objeto contractual durante el mismo ejercicio presupuestal?",
+    "question": "Si una entidad contratante se niega a perfeccionar el contrato con el postor ganador de la buena pro, alegando la desaparición de la necesidad, ¿qué implicación tiene esta decisión para futuras contrataciones del mismo objeto contractual durante el mismo ejercicio presupuestal?",
     "options": [
       {
         "text": "a) La entidad puede convocar inmediatamente un nuevo proceso para el mismo objeto.",
@@ -4463,7 +4463,7 @@ const questions = [
   },
   {
     "id": 195,
-    "question": "68. Una entidad del Gobierno Nacional otorga la buena pro para la adquisición de vehículos. Antes de la firma del contrato, se emite una norma expresa que prohíbe la adquisición de vehículos nuevos para ese sector durante el presente año fiscal, como medida de austeridad. El postor ganador ya había incurrido en gastos para la preparación de los documentos contractuales. ¿Qué sucede con el perfeccionamiento del contrato y qué responsabilidad tiene la entidad frente al postor?",
+    "question": "Una entidad del Gobierno Nacional otorga la buena pro para la adquisición de vehículos. Antes de la firma del contrato, se emite una norma expresa que prohíbe la adquisición de vehículos nuevos para ese sector durante el presente año fiscal, como medida de austeridad. El postor ganador ya había incurrido en gastos para la preparación de los documentos contractuales. ¿Qué sucede con el perfeccionamiento del contrato y qué responsabilidad tiene la entidad frente al postor?",
     "options": [
       {
         "text": "a) El contrato debe perfeccionarse, ya que la buena pro fue otorgada antes de la norma; la entidad asume el riesgo.",
@@ -4486,7 +4486,7 @@ const questions = [
   },
   {
     "id": 196,
-    "question": "69. La autoridad de la gestión administrativa de una entidad decide no perfeccionar un contrato con el postor ganador de la buena pro, argumentando razones de \"conveniencia institucional\" no contempladas explícitamente como causales de excepción en el Reglamento. El postor ganador había cumplido con presentar todos los requisitos en plazo. Según el Reglamento, ¿cuál es la principal consecuencia para los funcionarios involucrados en esta decisión?",
+    "question": "La autoridad de la gestión administrativa de una entidad decide no perfeccionar un contrato con el postor ganador de la buena pro, argumentando razones de \"conveniencia institucional\" no contempladas explícitamente como causales de excepción en el Reglamento. El postor ganador había cumplido con presentar todos los requisitos en plazo. Según el Reglamento, ¿cuál es la principal consecuencia para los funcionarios involucrados en esta decisión?",
     "options": [
       {
         "text": "a) La entidad debe pagar al postor una indemnización equivalente al 10% del valor del contrato.",
@@ -4509,7 +4509,7 @@ const questions = [
   },
   {
     "id": 197,
-    "question": "70. ¿Qué información mínima debe contener el aviso de convocatoria que se publica en la Pladicop al iniciar la fase de selección?",
+    "question": "¿Qué información mínima debe contener el aviso de convocatoria que se publica en la Pladicop al iniciar la fase de selección?",
     "options": [
       {
         "text": "a) Solo el nombre de la entidad y el objeto de la contratación.",
@@ -4532,7 +4532,7 @@ const questions = [
   },
   {
     "id": 198,
-    "question": "71. El otorgamiento de la buena pro, que declara al postor ganador del procedimiento de selección, se publica a través de la , según el Reglamento.",
+    "question": "El otorgamiento de la buena pro, que declara al postor ganador del procedimiento de selección, se publica a través de la , según el Reglamento.",
     "options": [
       {
         "text": "a) sede digital de la entidad",
@@ -4555,7 +4555,7 @@ const questions = [
   },
   {
     "id": 199,
-    "question": "72. En un procedimiento de selección competitivo, si se presentan recursos de apelación, ¿cómo se informa de su interposición a las partes interesadas?",
+    "question": "En un procedimiento de selección competitivo, si se presentan recursos de apelación, ¿cómo se informa de su interposición a las partes interesadas?",
     "options": [
       {
         "text": "a) Mediante notificación personal a cada postor.",
@@ -4578,7 +4578,7 @@ const questions = [
   },
   {
     "id": 200,
-    "question": "73. Una entidad contratante, luego de la etapa de consultas y observaciones en una Licitación Pública, elabora el pliego de absolución y las bases integradas. ¿Dónde deben publicarse estos documentos para que los participantes accedan a las reglas definitivas del procedimiento?",
+    "question": "Una entidad contratante, luego de la etapa de consultas y observaciones en una Licitación Pública, elabora el pliego de absolución y las bases integradas. ¿Dónde deben publicarse estos documentos para que los participantes accedan a las reglas definitivas del procedimiento?",
     "options": [
       {
         "text": "a) Solo se entregan físicamente a los participantes que formularon consultas.",
@@ -4601,7 +4601,7 @@ const questions = [
   },
   {
     "id": 201,
-    "question": "74. La Dependencia Encargada de las Contrataciones (DEC) de una entidad es responsable de registrar en la Pladicop los actos y actuaciones de la fase de selección. Si la DEC omite registrar oportunamente en la Pladicop el consentimiento de la buena pro de un procedimiento con múltiples ofertas, ¿qué principio de la contratación pública se vería principalmente afectado y qué implicación tiene el registro en Pladicop para la notificación de este acto?",
+    "question": "La Dependencia Encargada de las Contrataciones (DEC) de una entidad es responsable de registrar en la Pladicop los actos y actuaciones de la fase de selección. Si la DEC omite registrar oportunamente en la Pladicop el consentimiento de la buena pro de un procedimiento con múltiples ofertas, ¿qué principio de la contratación pública se vería principalmente afectado y qué implicación tiene el registro en Pladicop para la notificación de este acto?",
     "options": [
       {
         "text": "a) Principio de Integridad; la notificación se considera realizada con la comunicación física al ganador.",
@@ -4624,7 +4624,7 @@ const questions = [
   },
   {
     "id": 202,
-    "question": "75. ¿Cuál es el efecto principal inmediato que genera la interposición de un recurso de apelación en un procedimiento de selección?",
+    "question": "¿Cuál es el efecto principal inmediato que genera la interposición de un recurso de apelación en un procedimiento de selección?",
     "options": [
       {
         "text": "a) El procedimiento de selección continúa sin alteraciones.",
@@ -4647,7 +4647,7 @@ const questions = [
   },
   {
     "id": 203,
-    "question": "76. Si se interpone un recurso de apelación en un procedimiento de selección convocado según relación de ítems, ¿cuál es la consecuencia de esta interposición?",
+    "question": "Si se interpone un recurso de apelación en un procedimiento de selección convocado según relación de ítems, ¿cuál es la consecuencia de esta interposición?",
     "options": [
       {
         "text": "a) Se suspende únicamente el ítem impugnado, continuando el procedimiento para los demás ítems.",
@@ -4670,7 +4670,7 @@ const questions = [
   },
   {
     "id": 204,
-    "question": "77. Una entidad otorga la buena pro en una Licitación Pública. Un postor interpone un recurso de apelación. Mientras el recurso está en trámite y antes de que se emita la resolución, la entidad procede a perfeccionar el contrato con el postor ganador. Según la Ley, ¿cuál es la validez del contrato perfeccionado en esta situación?",
+    "question": "Una entidad otorga la buena pro en una Licitación Pública. Un postor interpone un recurso de apelación. Mientras el recurso está en trámite y antes de que se emita la resolución, la entidad procede a perfeccionar el contrato con el postor ganador. Según la Ley, ¿cuál es la validez del contrato perfeccionado en esta situación?",
     "options": [
       {
         "text": "a) El contrato es válido, pero su ejecución se suspende hasta la resolución del recurso.",
@@ -4693,7 +4693,7 @@ const questions = [
   },
   {
     "id": 205,
-    "question": "78. La interposición de una acción contencioso-administrativa contra la resolución que resuelve un recurso de apelación su ejecución, según la Ley.",
+    "question": "La interposición de una acción contencioso-administrativa contra la resolución que resuelve un recurso de apelación su ejecución, según la Ley.",
     "options": [
       {
         "text": "a) suspende automáticamente",
@@ -4716,7 +4716,7 @@ const questions = [
   },
   {
     "id": 206,
-    "question": "79. ¿Cuál es el plazo máximo general para interponer un recurso de apelación contra el otorgamiento de la buena pro en un procedimiento de selección competitivo?",
+    "question": "¿Cuál es el plazo máximo general para interponer un recurso de apelación contra el otorgamiento de la buena pro en un procedimiento de selección competitivo?",
     "options": [
       {
         "text": "a) Tres días hábiles.",
@@ -4739,7 +4739,7 @@ const questions = [
   },
   {
     "id": 207,
-    "question": "80. En un procedimiento de Comparación de Precios, ¿cuál es el plazo para interponer un recurso de apelación contra el otorgamiento de la buena pro?",
+    "question": "En un procedimiento de Comparación de Precios, ¿cuál es el plazo para interponer un recurso de apelación contra el otorgamiento de la buena pro?",
     "options": [
       {
         "text": "a) Ocho días hábiles.",
@@ -4762,7 +4762,7 @@ const questions = [
   },
   {
     "id": 208,
-    "question": "81. Si un postor desea apelar la declaratoria de desierto de un procedimiento de selección, el plazo para interponer el recurso se contabiliza desde que .",
+    "question": "Si un postor desea apelar la declaratoria de desierto de un procedimiento de selección, el plazo para interponer el recurso se contabiliza desde que .",
     "options": [
       {
         "text": "a) se convocó el procedimiento",
@@ -4785,7 +4785,7 @@ const questions = [
   },
   {
     "id": 209,
-    "question": "82. Una entidad convoca una Subasta Inversa Electrónica para la adquisición de bienes por un valor de S/ 450,000.00. Un postor desea apelar el otorgamiento de la buena pro. ¿Cuál es el plazo que tiene para interponer el recurso de apelación?",
+    "question": "Una entidad convoca una Subasta Inversa Electrónica para la adquisición de bienes por un valor de S/ 450,000.00. Un postor desea apelar el otorgamiento de la buena pro. ¿Cuál es el plazo que tiene para interponer el recurso de apelación?",
     "options": [
       {
         "text": "a) Tres días hábiles, por ser Subasta Inversa Electrónica.",
@@ -4808,7 +4808,7 @@ const questions = [
   },
   {
     "id": 210,
-    "question": "83. Una entidad convoca una Subasta Inversa Electrónica para la adquisición de bienes por un valor de S/ 500,000.00. Un postor desea apelar el otorgamiento de la buena pro. Considerando la Ley de Presupuesto Público 32185 para el año 2025, ¿cuál es el plazo que tiene para interponer el recurso de apelación, según el Reglamento?",
+    "question": "Una entidad convoca una Subasta Inversa Electrónica para la adquisición de bienes por un valor de S/ 500,000.00. Un postor desea apelar el otorgamiento de la buena pro. Considerando la Ley de Presupuesto Público 32185 para el año 2025, ¿cuál es el plazo que tiene para interponer el recurso de apelación, según el Reglamento?",
     "options": [
       {
         "text": "a) Tres días hábiles, por ser Subasta Inversa Electrónica y superar un monto específico.",
@@ -4831,7 +4831,7 @@ const questions = [
   },
   {
     "id": 211,
-    "question": "84. ¿Qué autoridad es competente para resolver un recurso de apelación cuando la cuantía de un procedimiento de selección es superior a cincuenta (50) UIT?",
+    "question": "¿Qué autoridad es competente para resolver un recurso de apelación cuando la cuantía de un procedimiento de selección es superior a cincuenta (50) UIT?",
     "options": [
       {
         "text": "a) El Titular de la Entidad.",
@@ -4854,7 +4854,7 @@ const questions = [
   },
   {
     "id": 212,
-    "question": "85. Si una entidad declara la nulidad de oficio de un procedimiento de selección antes del otorgamiento de la buena pro, y un participante desea impugnar dicha declaración, ¿ante qué instancia debe presentar su recurso de apelación, independientemente de la cuantía del procedimiento?",
+    "question": "Si una entidad declara la nulidad de oficio de un procedimiento de selección antes del otorgamiento de la buena pro, y un participante desea impugnar dicha declaración, ¿ante qué instancia debe presentar su recurso de apelación, independientemente de la cuantía del procedimiento?",
     "options": [
       {
         "text": "a) Ante la misma autoridad de la gestión administrativa que declaró la nulidad.",
@@ -4877,7 +4877,7 @@ const questions = [
   },
   {
     "id": 213,
-    "question": "86. Una entidad realiza una Compra Corporativa Facultativa para la adquisición de bienes. La entidad encargada de conducir el procedimiento de selección otorga la buena pro. Un postor no está conforme y desea apelar. ¿Quién ejerce las atribuciones de la entidad contratante para conocer y resolver el recurso de apelación si la cuantía del ítem impugnado es de 40 UIT?",
+    "question": "Una entidad realiza una Compra Corporativa Facultativa para la adquisición de bienes. La entidad encargada de conducir el procedimiento de selección otorga la buena pro. Un postor no está conforme y desea apelar. ¿Quién ejerce las atribuciones de la entidad contratante para conocer y resolver el recurso de apelación si la cuantía del ítem impugnado es de 40 UIT?",
     "options": [
       {
         "text": "a) La autoridad de la gestión administrativa de la entidad que conduce el procedimiento de selección correspondiente.",
@@ -4900,7 +4900,7 @@ const questions = [
   },
   {
     "id": 214,
-    "question": "87. Cuando un recurso de apelación es tramitado ante la entidad contratante, ¿qué debe hacer esta con el recurso al día hábil siguiente de su presentación o subsanación?",
+    "question": "Cuando un recurso de apelación es tramitado ante la entidad contratante, ¿qué debe hacer esta con el recurso al día hábil siguiente de su presentación o subsanación?",
     "options": [
       {
         "text": "a) Emitir la resolución final.",
@@ -4923,7 +4923,7 @@ const questions = [
   },
   {
     "id": 215,
-    "question": "88. En el trámite de un recurso de apelación ante el Tribunal de Contrataciones Públicas, la entidad contratante debe registrar el sustento técnico legal de su posición respecto a los fundamentos del recurso en un plazo no mayor de días hábiles desde la notificación del recurso.",
+    "question": "En el trámite de un recurso de apelación ante el Tribunal de Contrataciones Públicas, la entidad contratante debe registrar el sustento técnico legal de su posición respecto a los fundamentos del recurso en un plazo no mayor de días hábiles desde la notificación del recurso.",
     "options": [
       {
         "text": "a) dos",
@@ -4946,7 +4946,7 @@ const questions = [
   },
   {
     "id": 216,
-    "question": "89. Si durante la tramitación de un recurso de apelación ante el Tribunal de Contrataciones Públicas, la Sala considera necesario solicitar información adicional a la entidad contratante para mejor resolver, ¿qué efecto tiene este pedido en el plazo total de evaluación del recurso?",
+    "question": "Si durante la tramitación de un recurso de apelación ante el Tribunal de Contrataciones Públicas, la Sala considera necesario solicitar información adicional a la entidad contratante para mejor resolver, ¿qué efecto tiene este pedido en el plazo total de evaluación del recurso?",
     "options": [
       {
         "text": "a) No tiene ningún efecto, el plazo sigue corriendo normalmente.",
@@ -4969,7 +4969,7 @@ const questions = [
   },
   {
     "id": 217,
-    "question": "90. ¿Cuál es una de las formas en que el Tribunal de Contrataciones Públicas o la autoridad de la gestión administrativa pueden resolver un recurso de apelación?",
+    "question": "¿Cuál es una de las formas en que el Tribunal de Contrataciones Públicas o la autoridad de la gestión administrativa pueden resolver un recurso de apelación?",
     "options": [
       {
         "text": "a) Declarar la nulidad del contrato.",
@@ -4992,7 +4992,7 @@ const questions = [
   },
   {
     "id": 218,
-    "question": "91. Si al resolver un recurso de apelación, el órgano competente advierte de oficio posibles vicios de nulidad en la fase de selección, ¿qué acción debe realizar antes de pronunciarse sobre la nulidad?",
+    "question": "Si al resolver un recurso de apelación, el órgano competente advierte de oficio posibles vicios de nulidad en la fase de selección, ¿qué acción debe realizar antes de pronunciarse sobre la nulidad?",
     "options": [
       {
         "text": "a) Correr traslado a las partes para que se pronuncien en un plazo máximo de cinco días hábiles.",
@@ -5015,7 +5015,7 @@ const questions = [
   },
   {
     "id": 219,
-    "question": "92. El Tribunal de Contrataciones Públicas resuelve un recurso de apelación declarándolo fundado y, tras analizar el fondo del asunto, determina que la buena pro debió otorgarse a un postor distinto al adjudicado inicialmente por la entidad. ¿Qué debe hacer el Tribunal en su resolución?",
+    "question": "El Tribunal de Contrataciones Públicas resuelve un recurso de apelación declarándolo fundado y, tras analizar el fondo del asunto, determina que la buena pro debió otorgarse a un postor distinto al adjudicado inicialmente por la entidad. ¿Qué debe hacer el Tribunal en su resolución?",
     "options": [
       {
         "text": "a) Ordenar a la entidad que realice una nueva evaluación de todas las ofertas.",
@@ -5038,7 +5038,7 @@ const questions = [
   },
   {
     "id": 220,
-    "question": "93. ¿Cuál es una causal para que el Tribunal de Contrataciones Públicas o la entidad contratante declaren improcedente un recurso de apelación?",
+    "question": "¿Cuál es una causal para que el Tribunal de Contrataciones Públicas o la entidad contratante declaren improcedente un recurso de apelación?",
     "options": [
       {
         "text": "a) Cuando el recurso es presentado por el postor que ocupó el segundo lugar.",
@@ -5061,7 +5061,7 @@ const questions = [
   },
   {
     "id": 221,
-    "question": "94. Un postor participa en una Licitación Pública. Durante la evaluación, su oferta es descalificada por no cumplir un requisito técnico esencial. Posteriormente, la entidad otorga la buena pro a otro postor. El postor descalificado decide apelar directamente el otorgamiento de la buena pro, argumentando que la oferta ganadora tiene un precio muy elevado, pero en su recurso no cuestiona de ninguna manera su propia descalificación. En esta situación, el recurso de apelación será declarado improcedente porque el impugnante .",
+    "question": "Un postor participa en una Licitación Pública. Durante la evaluación, su oferta es descalificada por no cumplir un requisito técnico esencial. Posteriormente, la entidad otorga la buena pro a otro postor. El postor descalificado decide apelar directamente el otorgamiento de la buena pro, argumentando que la oferta ganadora tiene un precio muy elevado, pero en su recurso no cuestiona de ninguna manera su propia descalificación. En esta situación, el recurso de apelación será declarado improcedente porque el impugnante .",
     "options": [
       {
         "text": "a) no presentó la garantía correspondiente al monto total del procedimiento",
@@ -5084,7 +5084,7 @@ const questions = [
   },
   {
     "id": 222,
-    "question": "95. Un proveedor interpone un recurso de apelación contra el otorgamiento de la buena pro en una Licitación Pública. Sin embargo, al momento de presentar el recurso, se verifica que dicho proveedor se encuentra con sanción vigente de inhabilitación para contratar con el Estado. ¿Cómo debe proceder el órgano competente?",
+    "question": "Un proveedor interpone un recurso de apelación contra el otorgamiento de la buena pro en una Licitación Pública. Sin embargo, al momento de presentar el recurso, se verifica que dicho proveedor se encuentra con sanción vigente de inhabilitación para contratar con el Estado. ¿Cómo debe proceder el órgano competente?",
     "options": [
       {
         "text": "a) Admitir el recurso y resolver sobre el fondo del asunto, ya que la sanción no afecta el derecho a impugnar.",
@@ -5107,7 +5107,7 @@ const questions = [
   },
   {
     "id": 223,
-    "question": "96. ¿En qué situación se procede a ejecutar el íntegro de la garantía presentada por la interposición de un recurso de apelación?",
+    "question": "¿En qué situación se procede a ejecutar el íntegro de la garantía presentada por la interposición de un recurso de apelación?",
     "options": [
       {
         "text": "a) Cuando el recurso es declarado infundado o el impugnante se desiste.",
@@ -5130,7 +5130,7 @@ const questions = [
   },
   {
     "id": 224,
-    "question": "97. Si un recurso de apelación es declarado improcedente por el órgano competente, ¿qué ocurre con la garantía presentada por el impugnante?",
+    "question": "Si un recurso de apelación es declarado improcedente por el órgano competente, ¿qué ocurre con la garantía presentada por el impugnante?",
     "options": [
       {
         "text": "a) Se devuelve el íntegro de la garantía.",
@@ -5153,7 +5153,7 @@ const questions = [
   },
   {
     "id": 225,
-    "question": "98. Un postor interpone un recurso de apelación y presenta la garantía correspondiente. Posteriormente, antes de que el Tribunal emita su resolución, el postor es sancionado con inhabilitación para contratar con el Estado, lo cual configura un impedimento sobreviniente. ¿Qué debe ocurrir con la garantía presentada por el recurso de apelación en este caso?",
+    "question": "Un postor interpone un recurso de apelación y presenta la garantía correspondiente. Posteriormente, antes de que el Tribunal emita su resolución, el postor es sancionado con inhabilitación para contratar con el Estado, lo cual configura un impedimento sobreviniente. ¿Qué debe ocurrir con la garantía presentada por el recurso de apelación en este caso?",
     "options": [
       {
         "text": "a) Se ejecuta el íntegro de la garantía por la sanción sobreviniente.",
@@ -5176,7 +5176,7 @@ const questions = [
   },
   {
     "id": 226,
-    "question": "99. Una vez que la buena pro ha quedado consentida o administrativamente firme, ¿cuál es la obligación principal tanto de la entidad contratante como del postor ganador?",
+    "question": "Una vez que la buena pro ha quedado consentida o administrativamente firme, ¿cuál es la obligación principal tanto de la entidad contratante como del postor ganador?",
     "options": [
       {
         "text": "a) Iniciar inmediatamente la ejecución de las prestaciones.",
@@ -5199,7 +5199,7 @@ const questions = [
   },
   {
     "id": 227,
-    "question": "100. En el procedimiento para el perfeccionamiento del contrato, si la Dependencia Encargada de las Contrataciones (DEC) observa los requisitos presentados por el postor ganador, ¿qué plazo máximo se le otorga al postor para la subsanación?",
+    "question": "En el procedimiento para el perfeccionamiento del contrato, si la Dependencia Encargada de las Contrataciones (DEC) observa los requisitos presentados por el postor ganador, ¿qué plazo máximo se le otorga al postor para la subsanación?",
     "options": [
       {
         "text": "a) Dos días hábiles, sin posibilidad de prórroga.",
@@ -5222,7 +5222,7 @@ const questions = [
   },
   {
     "id": 228,
-    "question": "101. El postor ganador de la buena pro presenta todos los requisitos para perfeccionar el contrato, excepto la garantía de fiel cumplimiento, la cual informa que está en trámite. ¿Qué acción puede tomar la Dependencia Encargada de las Contrataciones (DEC) en esta situación, según el Reglamento?",
+    "question": "El postor ganador de la buena pro presenta todos los requisitos para perfeccionar el contrato, excepto la garantía de fiel cumplimiento, la cual informa que está en trámite. ¿Qué acción puede tomar la Dependencia Encargada de las Contrataciones (DEC) en esta situación, según el Reglamento?",
     "options": [
       {
         "text": "a) Otorgar un plazo adicional de hasta cuatro días hábiles para la presentación de la garantía, a solicitud expresa del postor.",
@@ -5245,7 +5245,7 @@ const questions = [
   },
   {
     "id": 229,
-    "question": "102. ¿En qué casos el contrato puede perfeccionarse con la recepción de la orden de compra o de servicio, en lugar de la suscripción del documento contractual?",
+    "question": "¿En qué casos el contrato puede perfeccionarse con la recepción de la orden de compra o de servicio, en lugar de la suscripción del documento contractual?",
     "options": [
       {
         "text": "a) En todos los contratos de bienes y servicios, independientemente de su cuantía.",
@@ -5268,7 +5268,7 @@ const questions = [
   },
   {
     "id": 230,
-    "question": "103. ¿Cuál es una de las situaciones que puede impedir que la entidad contratante perfeccione el contrato, a pesar de haberse otorgado la buena pro?",
+    "question": "¿Cuál es una de las situaciones que puede impedir que la entidad contratante perfeccione el contrato, a pesar de haberse otorgado la buena pro?",
     "options": [
       {
         "text": "a) El postor ganador solicita una modificación al requerimiento.",
@@ -5291,7 +5291,7 @@ const questions = [
   },
   {
     "id": 231,
-    "question": "104. Si el postor ganador de la buena pro se niega a perfeccionar el contrato sin una justificación válida, ¿cuál es la consecuencia principal para dicho postor?",
+    "question": "Si el postor ganador de la buena pro se niega a perfeccionar el contrato sin una justificación válida, ¿cuál es la consecuencia principal para dicho postor?",
     "options": [
       {
         "text": "a) La entidad debe renegociar los términos del contrato con el postor.",
@@ -5314,7 +5314,7 @@ const questions = [
   },
   {
     "id": 232,
-    "question": "105. Una entidad otorga la buena pro. El postor ganador presenta los documentos para perfeccionar el contrato, pero la entidad no cumple con suscribirlo dentro de los plazos establecidos. El postor requiere el cumplimiento, otorgando un plazo de cinco días hábiles. Vencido este plazo sin que la entidad perfeccione el contrato, ¿qué ocurre con la obligación del postor ganador?",
+    "question": "Una entidad otorga la buena pro. El postor ganador presenta los documentos para perfeccionar el contrato, pero la entidad no cumple con suscribirlo dentro de los plazos establecidos. El postor requiere el cumplimiento, otorgando un plazo de cinco días hábiles. Vencido este plazo sin que la entidad perfeccione el contrato, ¿qué ocurre con la obligación del postor ganador?",
     "options": [
       {
         "text": "a) El postor sigue obligado a contratar, pero puede solicitar una indemnización.",
@@ -5337,7 +5337,7 @@ const questions = [
   },
   {
     "id": 233,
-    "question": "106. Si el postor que ocupó el primer lugar pierde automáticamente la buena pro por no perfeccionar el contrato, la Dependencia Encargada de las Contrataciones (DEC) debe requerir al postor que ocupó el lugar en el orden de prelación que presente los requisitos para perfeccionar el contrato.",
+    "question": "Si el postor que ocupó el primer lugar pierde automáticamente la buena pro por no perfeccionar el contrato, la Dependencia Encargada de las Contrataciones (DEC) debe requerir al postor que ocupó el lugar en el orden de prelación que presente los requisitos para perfeccionar el contrato.",
     "options": [
       {
         "text": "a) último",
@@ -5360,7 +5360,7 @@ const questions = [
   },
   {
     "id": 234,
-    "question": "107. ¿Cuál de los siguientes es un requisito que el postor ganador de la buena pro debe presentar para perfeccionar el contrato?",
+    "question": "¿Cuál de los siguientes es un requisito que el postor ganador de la buena pro debe presentar para perfeccionar el contrato?",
     "options": [
       {
         "text": "a) El Plan Anual de Contrataciones de su empresa.",
@@ -5383,7 +5383,7 @@ const questions = [
   },
   {
     "id": 235,
-    "question": "108. ¿Cuál es el plazo general que tiene el postor ganador de la buena pro para presentar los requisitos para perfeccionar el contrato, contabilizado desde el día siguiente al registro del consentimiento de la buena pro o de que esta haya quedado administrativamente firme?",
+    "question": "¿Cuál es el plazo general que tiene el postor ganador de la buena pro para presentar los requisitos para perfeccionar el contrato, contabilizado desde el día siguiente al registro del consentimiento de la buena pro o de que esta haya quedado administrativamente firme?",
     "options": [
       {
         "text": "a) Cinco días hábiles.",
@@ -5406,7 +5406,7 @@ const questions = [
   },
   {
     "id": 236,
-    "question": "109. Un consorcio gana la buena pro para la ejecución de una obra. Al momento de presentar los documentos para perfeccionar el contrato, además de las garantías y el CCI, ¿qué documento específico relacionado con su conformación debe presentar obligatoriamente, y qué característica deben tener las firmas en dicho documento?",
+    "question": "Un consorcio gana la buena pro para la ejecución de una obra. Al momento de presentar los documentos para perfeccionar el contrato, además de las garantías y el CCI, ¿qué documento específico relacionado con su conformación debe presentar obligatoriamente, y qué característica deben tener las firmas en dicho documento?",
     "options": [
       {
         "text": "a) La promesa de consorcio original; firmas simples de cada integrante.",
@@ -5429,7 +5429,7 @@ const questions = [
   },
   {
     "id": 237,
-    "question": "110. Si no se requiere la presentación de la garantía de fiel cumplimiento, ¿cuál es el plazo que tiene el postor ganador para presentar los demás requisitos para perfeccionar el contrato?",
+    "question": "Si no se requiere la presentación de la garantía de fiel cumplimiento, ¿cuál es el plazo que tiene el postor ganador para presentar los demás requisitos para perfeccionar el contrato?",
     "options": [
       {
         "text": "a) Ocho días hábiles.",
@@ -5452,7 +5452,7 @@ const questions = [
   },
   {
     "id": 238,
-    "question": "111. Respecto a la finalidad de la Ley General de Contrataciones Públicas, señale cuál de las siguientes afirmaciones es correcta:",
+    "question": "Respecto a la finalidad de la Ley General de Contrataciones Públicas, señale cuál de las siguientes afirmaciones es correcta:",
     "options": [
       {
         "text": "a) Busca que las contrataciones de bienes, servicios y obras se realicen maximizando el uso de los recursos públicos en términos de eficacia, eficiencia y economía.",
@@ -5475,7 +5475,7 @@ const questions = [
   },
   {
     "id": 239,
-    "question": "112. El Ministerio \"LOS ANGELITOS\" convoca una Licitación Pública Abreviada para la adquisición de uniformes institucionales. En las bases del procedimiento, se establece que se otorgará una bonificación adicional en el puntaje a aquellos postores cuya planta de confección principal se encuentre ubicada en los distritos de Gamarra o San Juan de Lurigancho en Lima, argumentando un supuesto fomento a la industria local. Esta disposición, al no estar amparada en una excepción legal específica como la prevista para zonas fuera de Lima y Callao, ¿qué principio(s) de la Ley General de Contrataciones Públicas vulneraría principalmente?",
+    "question": "El Ministerio \"LOS ANGELITOS\" convoca una Licitación Pública Abreviada para la adquisición de uniformes institucionales. En las bases del procedimiento, se establece que se otorgará una bonificación adicional en el puntaje a aquellos postores cuya planta de confección principal se encuentre ubicada en los distritos de Gamarra o San Juan de Lurigancho en Lima, argumentando un supuesto fomento a la industria local. Esta disposición, al no estar amparada en una excepción legal específica como la prevista para zonas fuera de Lima y Callao, ¿qué principio(s) de la Ley General de Contrataciones Públicas vulneraría principalmente?",
     "options": [
       {
         "text": "a) Únicamente el Principio de Publicidad, al no difundirse esta condición a nivel nacional.",
@@ -5498,7 +5498,7 @@ const questions = [
   },
   {
     "id": 240,
-    "question": "113. La normativa de contrataciones públicas busca evitar que un proveedor que se encuentra impedido para contratar con el Estado utilice a otras personas naturales o jurídicas para seguir participando en procesos de selección o suscribiendo contratos. ¿Cuál de las siguientes situaciones describe mejor una conducta que configuraría un intento de eludir un impedimento, según el espíritu del Artículo 30 de la Ley General de Contrataciones Públicas?",
+    "question": "La normativa de contrataciones públicas busca evitar que un proveedor que se encuentra impedido para contratar con el Estado utilice a otras personas naturales o jurídicas para seguir participando en procesos de selección o suscribiendo contratos. ¿Cuál de las siguientes situaciones describe mejor una conducta que configuraría un intento de eludir un impedimento, según el espíritu del Artículo 30 de la Ley General de Contrataciones Públicas?",
     "options": [
       {
         "text": "a) Un proveedor que, tras cumplir su sanción de inhabilitación, se reinscribe en el RNP y participa nuevamente en contrataciones.",
@@ -5521,7 +5521,7 @@ const questions = [
   },
   {
     "id": 241,
-    "question": "114. ¿En cuál de los siguientes supuestos el contrato NO se perfecciona y el postor ganador ya no está obligado a firmarlo ni recibir la orden de compra o de servicio?",
+    "question": "¿En cuál de los siguientes supuestos el contrato NO se perfecciona y el postor ganador ya no está obligado a firmarlo ni recibir la orden de compra o de servicio?",
     "options": [
       {
         "text": "a) Cuando la entidad no cumple el plazo establecido para perfeccionar el contrato y no responde al requerimiento del postor ganador.",
@@ -5544,7 +5544,7 @@ const questions = [
   },
   {
     "id": 242,
-    "question": "115. Un comité de selección omite la publicación de las bases integradas, pero distribuye a los postores un resumen de condiciones vía correo electrónico antes del otorgamiento de la buena pro. ¿Qué implicancia legal tiene esta omisión?",
+    "question": "Un comité de selección omite la publicación de las bases integradas, pero distribuye a los postores un resumen de condiciones vía correo electrónico antes del otorgamiento de la buena pro. ¿Qué implicancia legal tiene esta omisión?",
     "options": [
       {
         "text": "a) La omisión invalida el procedimiento por falta de publicidad formal",
@@ -5567,7 +5567,7 @@ const questions = [
   },
   {
     "id": 243,
-    "question": "116. ¿Cuál es el alcance del impedimento de carácter personal?",
+    "question": "¿Cuál es el alcance del impedimento de carácter personal?",
     "options": [
       {
         "text": "a) Durante el ejercicio del cargo y dentro de los seis meses siguientes a la culminación de este.",
@@ -5590,7 +5590,7 @@ const questions = [
   },
   {
     "id": 244,
-    "question": "117. Una entidad requiere adquirir productos farmacéuticos que se encuentran en el Catálogo Electrónico, pero decide convocar una licitación abierta alegando mayor competitividad. ¿Es correcta esta decisión?",
+    "question": "Una entidad requiere adquirir productos farmacéuticos que se encuentran en el Catálogo Electrónico, pero decide convocar una licitación abierta alegando mayor competitividad. ¿Es correcta esta decisión?",
     "options": [
       {
         "text": "a) Sí, si se fundamenta en un estudio de mercado",
@@ -5613,7 +5613,7 @@ const questions = [
   },
   {
     "id": 245,
-    "question": "118. Una municipalidad convoca un proceso por licitación pública para contratar un estudio de impacto ambiental por S/ 500,000. ¿Qué error técnico y normativo se ha cometido?",
+    "question": "Una municipalidad convoca un proceso por licitación pública para contratar un estudio de impacto ambiental por S/ 500,000. ¿Qué error técnico y normativo se ha cometido?",
     "options": [
       {
         "text": "a) Ninguno, porque el monto lo permite",
@@ -5636,7 +5636,7 @@ const questions = [
   },
   {
     "id": 246,
-    "question": "119. En los procedimientos de selección, la modalidad que permite la participación de diversos tipos de entidades con una evaluación más flexible se denomina:",
+    "question": "En los procedimientos de selección, la modalidad que permite la participación de diversos tipos de entidades con una evaluación más flexible se denomina:",
     "options": [
       {
         "text": "a) Licitación Pública",
@@ -5659,7 +5659,7 @@ const questions = [
   },
   {
     "id": 247,
-    "question": "120. ¿Cuál es uno de los criterios para la selección en procedimientos no competitivos?",
+    "question": "¿Cuál es uno de los criterios para la selección en procedimientos no competitivos?",
     "options": [
       {
         "text": "a) La oferta más baja",
@@ -5682,7 +5682,7 @@ const questions = [
   },
   {
     "id": 248,
-    "question": "121. La evaluación de las propuestas durante un proceso de selección debe considerar aspectos cualitativos y cuantitativos, siendo fundamental",
+    "question": "La evaluación de las propuestas durante un proceso de selección debe considerar aspectos cualitativos y cuantitativos, siendo fundamental",
     "options": [
       {
         "text": "a) La preferencia por el menor precio sin análisis técnico",
@@ -5705,7 +5705,7 @@ const questions = [
   },
   {
     "id": 249,
-    "question": "122. Una de las principales justificaciones para la utilización de procedimientos no competitivos es",
+    "question": "Una de las principales justificaciones para la utilización de procedimientos no competitivos es",
     "options": [
       {
         "text": "a) La urgencia, la especificidad del bien o servicio, o condiciones que limitan la participación",
@@ -5728,7 +5728,7 @@ const questions = [
   },
   {
     "id": 250,
-    "question": "123. El proceso de selección en una modalidad abreviada, como la subasta inversa electrónica, se diferencia de la licitación pública en que",
+    "question": "El proceso de selección en una modalidad abreviada, como la subasta inversa electrónica, se diferencia de la licitación pública en que",
     "options": [
       {
         "text": "a) Solo se realiza en contratos menores",
@@ -5751,7 +5751,7 @@ const questions = [
   },
   {
     "id": 251,
-    "question": "124. Cuando un proceso de licitación es declarado desierto, generalmente implica que y ______ .",
+    "question": "Cuando un proceso de licitación es declarado desierto, generalmente implica que y ______ .",
     "options": [
       {
         "text": "a) no se presentaron oferentes / no hay interés",
@@ -5774,7 +5774,7 @@ const questions = [
   },
   {
     "id": 252,
-    "question": "125. Cuando una entidad firma un contrato con varias personas o empresas que combinan recursos y capacidades, se denomina",
+    "question": "Cuando una entidad firma un contrato con varias personas o empresas que combinan recursos y capacidades, se denomina",
     "options": [
       {
         "text": "a) Sociedad anónima",
@@ -5797,7 +5797,7 @@ const questions = [
   },
   {
     "id": 253,
-    "question": "126. El proveedor adjudicado no cuenta con inscripción vigente en el Registro Nacional de Proveedores (RNP) al momento de la firma del contrato. ¿Qué debe hacer la entidad?",
+    "question": "El proveedor adjudicado no cuenta con inscripción vigente en el Registro Nacional de Proveedores (RNP) al momento de la firma del contrato. ¿Qué debe hacer la entidad?",
     "options": [
       {
         "text": "a) Solicitar subsanación posterior",
@@ -5820,7 +5820,7 @@ const questions = [
   },
   {
     "id": 254,
-    "question": "127. Una empresa presenta recurso de apelación contra la buena pro el mismo día que la entidad iba a firmar el contrato con el postor adjudicado. ¿Qué debe hacer la entidad?",
+    "question": "Una empresa presenta recurso de apelación contra la buena pro el mismo día que la entidad iba a firmar el contrato con el postor adjudicado. ¿Qué debe hacer la entidad?",
     "options": [
       {
         "text": "a) Firmar el contrato si el recurso no tiene fundamentos",
@@ -5843,7 +5843,7 @@ const questions = [
   },
   {
     "id": 255,
-    "question": "128. En un Concurso Público Abreviado, la buena pro fue notificada el martes 2. Un postor presenta apelación el jueves 11. ¿Este recurso es procedente?",
+    "question": "En un Concurso Público Abreviado, la buena pro fue notificada el martes 2. Un postor presenta apelación el jueves 11. ¿Este recurso es procedente?",
     "options": [
       {
         "text": "a) Sí, si se presentó dentro del horario laboral",
@@ -5866,7 +5866,7 @@ const questions = [
   },
   {
     "id": 256,
-    "question": "129. Una empresa presenta recurso de apelación sin adjuntar la garantía exigida. El órgano competente lo admite para revisión. ¿Es válida esta actuación?",
+    "question": "Una empresa presenta recurso de apelación sin adjuntar la garantía exigida. El órgano competente lo admite para revisión. ¿Es válida esta actuación?",
     "options": [
       {
         "text": "a) No, porque el recurso debe ser inadmitido por incumplir requisitos",
@@ -5889,7 +5889,7 @@ const questions = [
   },
   {
     "id": 257,
-    "question": "130. Una entidad distrital adjudica un proceso de S/ 230,000. Un postor interpone apelación. ¿Quién debe resolver?",
+    "question": "Una entidad distrital adjudica un proceso de S/ 230,000. Un postor interpone apelación. ¿Quién debe resolver?",
     "options": [
       {
         "text": "a) La DEC",
@@ -5912,7 +5912,7 @@ const questions = [
   },
   {
     "id": 258,
-    "question": "131. En un procedimiento de Licitación Pública de Obras bajo el sistema de entrega \"solo construcción\", la entidad ha establecido en las bases que el método de evaluación de ofertas económicas será de \"oferta económica limitada\". ¿Qué condición deben cumplir las ofertas económicas de los postores para ser admitidas?",
+    "question": "En un procedimiento de Licitación Pública de Obras bajo el sistema de entrega \"solo construcción\", la entidad ha establecido en las bases que el método de evaluación de ofertas económicas será de \"oferta económica limitada\". ¿Qué condición deben cumplir las ofertas económicas de los postores para ser admitidas?",
     "options": [
       {
         "text": "a) Deben ser iguales o inferiores al 90% de la cuantía de la contratación.",
@@ -5935,7 +5935,7 @@ const questions = [
   },
   {
     "id": 259,
-    "question": "132. Una entidad pública resuelve un contrato de obra por incumplimiento del contratista, cuando este ya había iniciado la ejecución de las prestaciones. La entidad requiere contratar de manera inmediata el saldo de obra para no afectar la finalidad pública. ¿Qué acción puede realizar la entidad?",
+    "question": "Una entidad pública resuelve un contrato de obra por incumplimiento del contratista, cuando este ya había iniciado la ejecución de las prestaciones. La entidad requiere contratar de manera inmediata el saldo de obra para no afectar la finalidad pública. ¿Qué acción puede realizar la entidad?",
     "options": [
       {
         "text": "a) Convocar una Licitación Pública Abreviada de Obras, por tratarse de un saldo de obra.",
@@ -5958,7 +5958,7 @@ const questions = [
   },
   {
     "id": 260,
-    "question": "133. El proceso de contratación mediante Acuerdo Marco se caracteriza por desarrollarse en dos etapas claramente definidas. ¿Cuáles son estas etapas?",
+    "question": "El proceso de contratación mediante Acuerdo Marco se caracteriza por desarrollarse en dos etapas claramente definidas. ¿Cuáles son estas etapas?",
     "options": [
       {
         "text": "a) Primera etapa de precalificación de proveedores y segunda etapa de subasta de precios.",
@@ -5981,7 +5981,7 @@ const questions = [
   },
   {
     "id": 261,
-    "question": "134. De acuerdo con el Reglamento, ¿cuál es la secuencia correcta de las etapas en un procedimiento de selección de Subasta Inversa Electrónica?",
+    "question": "De acuerdo con el Reglamento, ¿cuál es la secuencia correcta de las etapas en un procedimiento de selección de Subasta Inversa Electrónica?",
     "options": [
       {
         "text": "a) Convocatoria, Registro de participantes, Consultas y observaciones, Evaluación de ofertas, Otorgamiento de la buena pro.",
@@ -6004,7 +6004,7 @@ const questions = [
   },
   {
     "id": 262,
-    "question": "135. En una Subasta Inversa Electrónica para la adquisición de bienes comunes con ficha técnica, el oficial de compra se dispone a evaluar las ofertas. ¿Cuál es el procedimiento correcto para la revisión de los requisitos de calificación de los postores?",
+    "question": "En una Subasta Inversa Electrónica para la adquisición de bienes comunes con ficha técnica, el oficial de compra se dispone a evaluar las ofertas. ¿Cuál es el procedimiento correcto para la revisión de los requisitos de calificación de los postores?",
     "options": [
       {
         "text": "a) Se revisan los requisitos de calificación de todos los postores registrados antes de iniciar la etapa de lances.",
@@ -6027,7 +6027,7 @@ const questions = [
   },
   {
     "id": 263,
-    "question": "136. Varias entidades del sector Salud necesitan adquirir un mismo tipo de equipamiento médico. Para obtener mejores condiciones, deciden unirse en una Compra Corporativa Facultativa. ¿Cuál es el resultado final del procedimiento de selección y cómo se formalizan los contratos?",
+    "question": "Varias entidades del sector Salud necesitan adquirir un mismo tipo de equipamiento médico. Para obtener mejores condiciones, deciden unirse en una Compra Corporativa Facultativa. ¿Cuál es el resultado final del procedimiento de selección y cómo se formalizan los contratos?",
     "options": [
       {
         "text": "a) La entidad encargada suscribe un único contrato consolidado y luego distribuye los equipos a las entidades participantes.",
@@ -6050,7 +6050,7 @@ const questions = [
   },
   {
     "id": 264,
-    "question": "137. ¿En qué supuesto una entidad participante puede desistirse de una Compra Corporativa Facultativa ya iniciada?",
+    "question": "¿En qué supuesto una entidad participante puede desistirse de una Compra Corporativa Facultativa ya iniciada?",
     "options": [
       {
         "text": "a) Si encuentra un proveedor que ofrece un precio ligeramente menor fuera del proceso corporativo.",
@@ -6073,7 +6073,7 @@ const questions = [
   },
   {
     "id": 265,
-    "question": "138. Una entidad necesita adquirir un bien que cuenta con Ficha Técnica y cuyo uso obligatorio es a través de Subasta Inversa Electrónica. ¿En qué supuesto excepcional la entidad podría contratar mediante un procedimiento distinto, sin necesidad de autorización de Perú Compras?",
+    "question": "Una entidad necesita adquirir un bien que cuenta con Ficha Técnica y cuyo uso obligatorio es a través de Subasta Inversa Electrónica. ¿En qué supuesto excepcional la entidad podría contratar mediante un procedimiento distinto, sin necesidad de autorización de Perú Compras?",
     "options": [
       {
         "text": "a) Cuando el área usuaria considere que el procedimiento es muy largo y necesita los bienes con urgencia.",
@@ -6096,7 +6096,7 @@ const questions = [
   },
   {
     "id": 266,
-    "question": "139. En un procedimiento de selección, un postor desea interponer un recurso de apelación contra el otorgamiento de la buena pro ante la propia entidad contratante. ¿Cuál es el plazo máximo para hacerlo en una Licitación Pública Abreviada?",
+    "question": "En un procedimiento de selección, un postor desea interponer un recurso de apelación contra el otorgamiento de la buena pro ante la propia entidad contratante. ¿Cuál es el plazo máximo para hacerlo en una Licitación Pública Abreviada?",
     "options": [
       {
         "text": "a) 3 días hábiles",
@@ -6119,7 +6119,7 @@ const questions = [
   },
   {
     "id": 267,
-    "question": "140. Un postor ganador de la buena pro debe presentar los documentos para el perfeccionamiento del contrato. Si el contrato no requiere la presentación de una garantía de fiel cumplimiento, ¿cuál es el plazo máximo que tiene para presentar dichos documentos?",
+    "question": "Un postor ganador de la buena pro debe presentar los documentos para el perfeccionamiento del contrato. Si el contrato no requiere la presentación de una garantía de fiel cumplimiento, ¿cuál es el plazo máximo que tiene para presentar dichos documentos?",
     "options": [
       {
         "text": "a) 5 días calendario.",
@@ -6142,7 +6142,7 @@ const questions = [
   },
   {
     "id": 268,
-    "question": "141. Una entidad aprueba un procedimiento de selección no competitivo por la causal de \"proveedor único\". La decisión es aprobada por la Autoridad de la Gestión Administrativa. Posteriormente , durante una acción de control, se determina que existían otros proveedores en el mercado. ¿Es la aprobación realizada por la Autoridad de la Gestión Administrativa correcta y es su facultad para aprobar esta causal delegable?",
+    "question": "Una entidad aprueba un procedimiento de selección no competitivo por la causal de \"proveedor único\". La decisión es aprobada por la Autoridad de la Gestión Administrativa. Posteriormente , durante una acción de control, se determina que existían otros proveedores en el mercado. ¿Es la aprobación realizada por la Autoridad de la Gestión Administrativa correcta y es su facultad para aprobar esta causal delegable?",
     "options": [
       {
         "text": "a) La aprobación es correcta y la facultad es delegable.",
@@ -6165,7 +6165,7 @@ const questions = [
   },
   {
     "id": 269,
-    "question": "142. Una vez que el expediente de un recurso de apelación es declarado \"listo para resolver\" por una Sala del Tribunal de Contrataciones Públicas (TCP), ¿cuál es el plazo máximo que tiene dicha Sala para emitir y notificar su resolución?",
+    "question": "Una vez que el expediente de un recurso de apelación es declarado \"listo para resolver\" por una Sala del Tribunal de Contrataciones Públicas (TCP), ¿cuál es el plazo máximo que tiene dicha Sala para emitir y notificar su resolución?",
     "options": [
       {
         "text": "a) 3 días hábiles.",
@@ -6188,7 +6188,7 @@ const questions = [
   },
   {
     "id": 270,
-    "question": "143. Después del otorgamiento de la buena pro, pero antes de su consentimiento, la entidad se ve obligada a destinar el presupuesto de la obra a una emergencia declarada por desastre natural. ¿Qué autoridad es competente para cancelar el procedimiento de selección por esta causal?",
+    "question": "Después del otorgamiento de la buena pro, pero antes de su consentimiento, la entidad se ve obligada a destinar el presupuesto de la obra a una emergencia declarada por desastre natural. ¿Qué autoridad es competente para cancelar el procedimiento de selección por esta causal?",
     "options": [
       {
         "text": "a) El Titular de la Entidad.",
@@ -6211,7 +6211,7 @@ const questions = [
   },
     {
     "id": 271,
-    "question": "1. ¿Cuál de los siguientes elementos forma parte obligatoria del contrato?",
+    "question": "¿Cuál de los siguientes elementos forma parte obligatoria del contrato?",
     "options": [
       {
         "text": "a) El Plan Anual de Contrataciones de la entidad.",
@@ -6234,7 +6234,7 @@ const questions = [
   },
   {
     "id": 272,
-    "question": "2. ¿Qué tipo de cláusulas deben incluirse obligatoriamente en los contratos regulados por la ley, bajo responsabilidad?",
+    "question": "¿Qué tipo de cláusulas deben incluirse obligatoriamente en los contratos regulados por la ley, bajo responsabilidad?",
     "options": [
       {
         "text": "a) Cláusula de confidencialidad, cláusula de penalidades y cláusula de reajuste de precios.",
@@ -6257,7 +6257,7 @@ const questions = [
   },
   {
     "id": 273,
-    "question": "3. Una entidad está por suscribir un contrato de obra. La Dependencia Encargada de las Contrataciones (DEC) verifica que el postor ganador tiene multas impagas por infracciones a la Ley de Contrataciones. ¿Qué acción debe tomar la entidad antes de suscribir el contrato?",
+    "question": "Una entidad está por suscribir un contrato de obra. La Dependencia Encargada de las Contrataciones (DEC) verifica que el postor ganador tiene multas impagas por infracciones a la Ley de Contrataciones. ¿Qué acción debe tomar la entidad antes de suscribir el contrato?",
     "options": [
       {
         "text": "a) Exigir el pago inmediato de las multas como condición previa a la firma.",
@@ -6280,7 +6280,7 @@ const questions = [
   },
   {
     "id": 274,
-    "question": "4. El contrato se ajusta a la incluida en las bases del respectivo procedimiento de selección y se publica en la Pladicop.",
+    "question": "El contrato se ajusta a la incluida en las bases del respectivo procedimiento de selección y se publica en la Pladicop.",
     "options": [
       {
         "text": "a) proforma de contrato",
@@ -6303,7 +6303,7 @@ const questions = [
   },
   {
     "id": 275,
-    "question": "5. ¿Desde qué momento rige la vigencia de un contrato?",
+    "question": "¿Desde qué momento rige la vigencia de un contrato?",
     "options": [
       {
         "text": "a) Desde la fecha de convocatoria del procedimiento de selección.",
@@ -6326,7 +6326,7 @@ const questions = [
   },
   {
     "id": 276,
-    "question": "6. En un contrato de obra, ¿hasta qué momento rige el contrato?",
+    "question": "En un contrato de obra, ¿hasta qué momento rige el contrato?",
     "options": [
       {
         "text": "a) Hasta la recepción total de la obra.",
@@ -6349,7 +6349,7 @@ const questions = [
   },
   {
     "id": 277,
-    "question": "7. Una entidad suscribe un contrato para el suministro periódico de bienes. El contrato establece que el último pago se realizará después de la última entrega y conformidad. ¿Hasta cuándo se considera vigente este contrato?",
+    "question": "Una entidad suscribe un contrato para el suministro periódico de bienes. El contrato establece que el último pago se realizará después de la última entrega y conformidad. ¿Hasta cuándo se considera vigente este contrato?",
     "options": [
       {
         "text": "a) Hasta la conformidad de la última entrega.",
@@ -6372,7 +6372,7 @@ const questions = [
   },
   {
     "id": 278,
-    "question": "8. El plazo de ejecución contractual de los contratos de supervisión se encuentra vinculado a la duración del contrato supervisado y debe comprender, como mínimo, hasta la o la conclusión del servicio.",
+    "question": "El plazo de ejecución contractual de los contratos de supervisión se encuentra vinculado a la duración del contrato supervisado y debe comprender, como mínimo, hasta la o la conclusión del servicio.",
     "options": [
       {
         "text": "a) firma del contrato principal",
@@ -6395,7 +6395,7 @@ const questions = [
   },
   {
     "id": 279,
-    "question": "9. ¿Cuál de las siguientes situaciones podría generar una modificación contractual por aplicación de normas?",
+    "question": "¿Cuál de las siguientes situaciones podría generar una modificación contractual por aplicación de normas?",
     "options": [
       {
         "text": "a) Un acuerdo entre la entidad y el contratista para mejorar las especificaciones técnicas.",
@@ -6418,7 +6418,7 @@ const questions = [
   },
   {
     "id": 280,
-    "question": "10. Si una nueva norma técnica de cumplimiento obligatorio, posterior a la firma del contrato, exige el uso de un material más costoso para la ejecución de una obra, ¿cómo debería gestionarse esta situación?",
+    "question": "Si una nueva norma técnica de cumplimiento obligatorio, posterior a la firma del contrato, exige el uso de un material más costoso para la ejecución de una obra, ¿cómo debería gestionarse esta situación?",
     "options": [
       {
         "text": "a) El contratista debe asumir el costo adicional sin modificar el contrato.",
@@ -6441,7 +6441,7 @@ const questions = [
   },
   {
     "id": 281,
-    "question": "11. Durante la ejecución de un contrato de servicios de limpieza, se promulga una ley que incrementa significativamente el sueldo mínimo vital, afectando directamente los costos de mano de obra del contratista, los cuales no fueron previstos con tal magnitud en su oferta original. El contrato no contiene una fórmula de reajuste específica para este tipo de variación. ¿Cuál sería el sustento principal para una posible modificación contractual que reconozca este incremento?",
+    "question": "Durante la ejecución de un contrato de servicios de limpieza, se promulga una ley que incrementa significativamente el sueldo mínimo vital, afectando directamente los costos de mano de obra del contratista, los cuales no fueron previstos con tal magnitud en su oferta original. El contrato no contiene una fórmula de reajuste específica para este tipo de variación. ¿Cuál sería el sustento principal para una posible modificación contractual que reconozca este incremento?",
     "options": [
       {
         "text": "a) La potestad de la entidad para ordenar prestaciones adicionales.",
@@ -6464,7 +6464,7 @@ const questions = [
   },
   {
     "id": 282,
-    "question": "12. Si una modificación contractual por aplicación de una nueva norma afecta el equilibrio económico financiero del contrato, la parte debe compensar económicamente a la parte para restablecer dicho equilibrio.",
+    "question": "Si una modificación contractual por aplicación de una nueva norma afecta el equilibrio económico financiero del contrato, la parte debe compensar económicamente a la parte para restablecer dicho equilibrio.",
     "options": [
       {
         "text": "a) contratista / entidad",
@@ -6487,7 +6487,7 @@ const questions = [
   },
   {
     "id": 283,
-    "question": "13. Una entidad contrata la construcción de un hospital. Durante la ejecución, entra en vigencia una nueva regulación sanitaria que exige estándares de ventilación más rigurosos no contemplados en el expediente técnico original, lo que implica rediseños y costos adicionales significativos. ¿Qué tipo de modificación contractual sería la más apropiada y quién debería aprobarla inicialmente si el costo adicional está dentro del 15% del monto original del contrato de obra bajo sistema de solo construcción?",
+    "question": "Una entidad contrata la construcción de un hospital. Durante la ejecución, entra en vigencia una nueva regulación sanitaria que exige estándares de ventilación más rigurosos no contemplados en el expediente técnico original, lo que implica rediseños y costos adicionales significativos. ¿Qué tipo de modificación contractual sería la más apropiada y quién debería aprobarla inicialmente si el costo adicional está dentro del 15% del monto original del contrato de obra bajo sistema de solo construcción?",
     "options": [
       {
         "text": "a) Una reducción de otras prestaciones para liberar presupuesto; aprobación del área usuaria.",
@@ -6510,7 +6510,7 @@ const questions = [
   },
   {
     "id": 284,
-    "question": "14. ¿Cuál es una de las modificaciones contractuales que la entidad contratante puede ordenar?",
+    "question": "¿Cuál es una de las modificaciones contractuales que la entidad contratante puede ordenar?",
     "options": [
       {
         "text": "a) La ejecución de prestaciones adicionales.",
@@ -6533,7 +6533,7 @@ const questions = [
   },
   {
     "id": 285,
-    "question": "15. La autoridad de la gestión administrativa de una entidad puede ordenar la reducción de prestaciones en un contrato de servicios hasta por un porcentaje del monto del contrato original. ¿Cuál es ese porcentaje máximo?",
+    "question": "La autoridad de la gestión administrativa de una entidad puede ordenar la reducción de prestaciones en un contrato de servicios hasta por un porcentaje del monto del contrato original. ¿Cuál es ese porcentaje máximo?",
     "options": [
       {
         "text": "a) 10%",
@@ -6556,7 +6556,7 @@ const questions = [
   },
   {
     "id": 286,
-    "question": "16. En un contrato de obra bajo el sistema de entrega de solo construcción, la entidad detecta que, debido a un cambio en las prioridades institucionales, una sección de la obra ya no es necesaria. Esta sección representa el 10% del monto del contrato original y aún no ha sido ejecutada. ¿Qué acción puede tomar la entidad y qué autoridad es competente para aprobarla?",
+    "question": "En un contrato de obra bajo el sistema de entrega de solo construcción, la entidad detecta que, debido a un cambio en las prioridades institucionales, una sección de la obra ya no es necesaria. Esta sección representa el 10% del monto del contrato original y aún no ha sido ejecutada. ¿Qué acción puede tomar la entidad y qué autoridad es competente para aprobarla?",
     "options": [
       {
         "text": "a) Resolver parcialmente el contrato por la sección no necesaria; aprobación del Titular de la Entidad.",
@@ -6579,7 +6579,7 @@ const questions = [
   },
   {
     "id": 287,
-    "question": "17. Para la ejecución de prestaciones adicionales en un contrato de bienes, es indispensable que estas sean para alcanzar la finalidad del contrato y que la entidad cuente con la respectiva certificación presupuestaria.",
+    "question": "Para la ejecución de prestaciones adicionales en un contrato de bienes, es indispensable que estas sean para alcanzar la finalidad del contrato y que la entidad cuente con la respectiva certificación presupuestaria.",
     "options": [
       {
         "text": "a) opcionales",
@@ -6602,7 +6602,7 @@ const questions = [
   },
   {
     "id": 288,
-    "question": "18. Una entidad contrata un servicio de consultoría. Durante la ejecución, se determina la necesidad de una prestación adicional que representa el 20% del monto del contrato original. ¿Quién aprueba esta prestación adicional y qué se requiere además del sustento técnico y legal?",
+    "question": "Una entidad contrata un servicio de consultoría. Durante la ejecución, se determina la necesidad de una prestación adicional que representa el 20% del monto del contrato original. ¿Quién aprueba esta prestación adicional y qué se requiere además del sustento técnico y legal?",
     "options": [
       {
         "text": "a) La autoridad de la gestión administrativa; se requiere la previsión y/o certificación de crédito presupuestario.",
@@ -6625,7 +6625,7 @@ const questions = [
   },
   {
     "id": 289,
-    "question": "19. ¿Cuál es una causal para que el contratista solicite una ampliación de plazo en un contrato de bienes?",
+    "question": "¿Cuál es una causal para que el contratista solicite una ampliación de plazo en un contrato de bienes?",
     "options": [
       {
         "text": "a) Cuando el contratista decide mejorar la calidad de los bienes ofertados.",
@@ -6648,7 +6648,7 @@ const questions = [
   },
   {
     "id": 290,
-    "question": "20. Si se producen eventos no atribuibles a las partes que originan la interrupción de la ejecución de las prestaciones, ¿qué pueden acordar las partes respecto al plazo de ejecución contractual?",
+    "question": "Si se producen eventos no atribuibles a las partes que originan la interrupción de la ejecución de las prestaciones, ¿qué pueden acordar las partes respecto al plazo de ejecución contractual?",
     "options": [
       {
         "text": "a) Resolver el contrato automáticamente.",
@@ -6671,7 +6671,7 @@ const questions = [
   },
   {
     "id": 291,
-    "question": "21. En un contrato de obra, el contratista solicita una ampliación de plazo debido a atrasos generados por la demora de la entidad en la entrega de una parte del terreno. El supervisor emite su opinión técnica y la entidad debe resolver. Si la entidad no notifica su decisión al contratista dentro del plazo de diez días hábiles establecido en el Reglamento, ¿cuál es la consecuencia?",
+    "question": "En un contrato de obra, el contratista solicita una ampliación de plazo debido a atrasos generados por la demora de la entidad en la entrega de una parte del terreno. El supervisor emite su opinión técnica y la entidad debe resolver. Si la entidad no notifica su decisión al contratista dentro del plazo de diez días hábiles establecido en el Reglamento, ¿cuál es la consecuencia?",
     "options": [
       {
         "text": "a) La solicitud de ampliación de plazo se considera automáticamente denegada.",
@@ -6694,7 +6694,7 @@ const questions = [
   },
   {
     "id": 292,
-    "question": "22. Las ampliaciones de plazo en contratos de bienes y servicios dan lugar al pago de los debidamente acreditados.",
+    "question": "Las ampliaciones de plazo en contratos de bienes y servicios dan lugar al pago de los debidamente acreditados.",
     "options": [
       {
         "text": "a) costos directos únicamente",
@@ -6717,7 +6717,7 @@ const questions = [
   },
   {
     "id": 293,
-    "question": "23. ¿En qué supuesto excepcional las partes pueden acordar una modificación contractual por hecho sobreviniente, aun cuando esta se deba a causa imputable a alguna de las partes?",
+    "question": "¿En qué supuesto excepcional las partes pueden acordar una modificación contractual por hecho sobreviniente, aun cuando esta se deba a causa imputable a alguna de las partes?",
     "options": [
       {
         "text": "a) Siempre que la modificación no supere el 5% del monto del contrato.",
@@ -6740,7 +6740,7 @@ const questions = [
   },
   {
     "id": 294,
-    "question": "24. Una consecuencia directa de la aprobación de una prestación adicional en un contrato es:",
+    "question": "Una consecuencia directa de la aprobación de una prestación adicional en un contrato es:",
     "options": [
       {
         "text": "a) La reducción automática del plazo de ejecución.",
@@ -6763,7 +6763,7 @@ const questions = [
   },
   {
     "id": 295,
-    "question": "25. Si una modificación contractual implica un incremento del monto del contrato, ¿qué obligación surge para el contratista respecto a las garantías otorgadas?",
+    "question": "Si una modificación contractual implica un incremento del monto del contrato, ¿qué obligación surge para el contratista respecto a las garantías otorgadas?",
     "options": [
       {
         "text": "a) No tiene ninguna obligación adicional, las garantías originales cubren las modificaciones.",
@@ -6786,7 +6786,7 @@ const questions = [
   },
   {
     "id": 296,
-    "question": "26. Una entidad aprueba una ampliación de plazo en un contrato de obra. Como consecuencia directa de esta ampliación, el contrato de supervisión de dicha obra también debe extenderse. ¿Se considera esta extensión del contrato de supervisión como una prestación adicional sujeta al límite del 25% del contrato original de supervisión?",
+    "question": "Una entidad aprueba una ampliación de plazo en un contrato de obra. Como consecuencia directa de esta ampliación, el contrato de supervisión de dicha obra también debe extenderse. ¿Se considera esta extensión del contrato de supervisión como una prestación adicional sujeta al límite del 25% del contrato original de supervisión?",
     "options": [
       {
         "text": "a) Sí, toda extensión de plazo en la supervisión es un adicional y está sujeta al límite del 25%.",
@@ -6809,7 +6809,7 @@ const questions = [
   },
   {
     "id": 297,
-    "question": "27. Cuando una modificación contractual implica una reducción del monto y/o plazo, el contratista puede solicitar la proporcional del monto y/o plazo de las garantías que hubiera otorgado.",
+    "question": "Cuando una modificación contractual implica una reducción del monto y/o plazo, el contratista puede solicitar la proporcional del monto y/o plazo de las garantías que hubiera otorgado.",
     "options": [
       {
         "text": "a) ejecución",
@@ -6832,7 +6832,7 @@ const questions = [
   },
   {
     "id": 298,
-    "question": "28. Si se aprueban prestaciones adicionales de obra por deficiencias en el expediente técnico en un contrato bajo el sistema de entrega de solo construcción, ¿qué consecuencia administrativa adicional se genera para la entidad, además de la modificación contractual?",
+    "question": "Si se aprueban prestaciones adicionales de obra por deficiencias en el expediente técnico en un contrato bajo el sistema de entrega de solo construcción, ¿qué consecuencia administrativa adicional se genera para la entidad, además de la modificación contractual?",
     "options": [
       {
         "text": "a) La entidad debe iniciar un nuevo procedimiento de selección para la supervisión del adicional.",
@@ -6855,7 +6855,7 @@ const questions = [
   },
   {
     "id": 299,
-    "question": "29. Durante la ejecución de un contrato para la construcción de un puente en una región del Perú, se producen lluvias torrenciales de magnitud excepcional, no previstas en los estudios de riesgos del proyecto, que generan el desborde del río e impiden completamente el acceso a la zona de trabajo y la continuación de las obras por un periodo indeterminado. Ni la entidad pública contratante ni la empresa constructora son responsables de este evento natural. Ante esta situación que interrumpe la ejecución de las prestaciones, ¿qué acción pueden acordar legalmente las partes respecto al plazo de ejecución contractual, conforme al Reglamento de la Ley de Contrataciones?",
+    "question": "Durante la ejecución de un contrato para la construcción de un puente en una región del Perú, se producen lluvias torrenciales de magnitud excepcional, no previstas en los estudios de riesgos del proyecto, que generan el desborde del río e impiden completamente el acceso a la zona de trabajo y la continuación de las obras por un periodo indeterminado. Ni la entidad pública contratante ni la empresa constructora son responsables de este evento natural. Ante esta situación que interrumpe la ejecución de las prestaciones, ¿qué acción pueden acordar legalmente las partes respecto al plazo de ejecución contractual, conforme al Reglamento de la Ley de Contrataciones?",
     "options": [
       {
         "text": "a) La entidad debe resolver el contrato inmediatamente por caso fortuito, pagando al contratista solo los trabajos ejecutados.",
@@ -6878,7 +6878,7 @@ const questions = [
   },
   {
     "id": 300,
-    "question": "30. Una entidad pública contrató un servicio de desarrollo de software. Durante la ejecución, debido a una deficiente especificación inicial por parte del área usuaria de la entidad (causa imputable a la entidad), se evidencia que una funcionalidad crucial, tal como está definida, no logrará el objetivo público esperado. Corregir esta deficiencia implica una modificación al alcance y costo del servicio. El contratista está dispuesto a realizar los ajustes, pero esto generará costos adicionales. La entidad considera que, a pesar del error inicial, es vital continuar con el contrato para no perder la inversión y tiempo avanzados. ¿Bajo qué condiciones excepcionales podrían la entidad y el contratista acordar una modificación contractual por este hecho sobreviniente, a pesar de ser imputable a la entidad?",
+    "question": "Una entidad pública contrató un servicio de desarrollo de software. Durante la ejecución, debido a una deficiente especificación inicial por parte del área usuaria de la entidad (causa imputable a la entidad), se evidencia que una funcionalidad crucial, tal como está definida, no logrará el objetivo público esperado. Corregir esta deficiencia implica una modificación al alcance y costo del servicio. El contratista está dispuesto a realizar los ajustes, pero esto generará costos adicionales. La entidad considera que, a pesar del error inicial, es vital continuar con el contrato para no perder la inversión y tiempo avanzados. ¿Bajo qué condiciones excepcionales podrían la entidad y el contratista acordar una modificación contractual por este hecho sobreviniente, a pesar de ser imputable a la entidad?",
     "options": [
       {
         "text": "a) Solo si el costo de la modificación no excede el 10% del monto original y el contratista renuncia a cualquier reclamo posterior.",
@@ -6901,7 +6901,7 @@ const questions = [
   },
   {
     "id": 301,
-    "question": "31. ¿Cuál de las siguientes es una causal para que cualquiera de las partes pueda resolver un contrato?",
+    "question": "¿Cuál de las siguientes es una causal para que cualquiera de las partes pueda resolver un contrato?",
     "options": [
       {
         "text": "a) La simple disconformidad con la calidad de la prestación.",
@@ -6924,7 +6924,7 @@ const questions = [
   },
   {
     "id": 302,
-    "question": "32. ¿En qué situación la autoridad de la gestión administrativa de la entidad contratante puede declarar la nulidad de un contrato ya perfeccionado?",
+    "question": "¿En qué situación la autoridad de la gestión administrativa de la entidad contratante puede declarar la nulidad de un contrato ya perfeccionado?",
     "options": [
       {
         "text": "a) Cuando el contratista solicita una ampliación de plazo injustificada.",
@@ -6947,7 +6947,7 @@ const questions = [
   },
   {
     "id": 303,
-    "question": "33. Una entidad perfecciona un contrato con un proveedor. Posteriormente, se descubre que dicho proveedor, al momento de la suscripción, se encontraba impedido para contratar con el Estado según el Artículo 30 de la Ley. ¿Qué acción puede tomar la autoridad de la gestión administrativa de la entidad?",
+    "question": "Una entidad perfecciona un contrato con un proveedor. Posteriormente, se descubre que dicho proveedor, al momento de la suscripción, se encontraba impedido para contratar con el Estado según el Artículo 30 de la Ley. ¿Qué acción puede tomar la autoridad de la gestión administrativa de la entidad?",
     "options": [
       {
         "text": "a) Resolver el contrato por incumplimiento del proveedor.",
@@ -6970,7 +6970,7 @@ const questions = [
   },
   {
     "id": 304,
-    "question": "34. Un contrato puede ser resuelto por cualquiera de las partes si ocurre un o fuerza mayor que imposibilite su continuación.",
+    "question": "Un contrato puede ser resuelto por cualquiera de las partes si ocurre un o fuerza mayor que imposibilite su continuación.",
     "options": [
       {
         "text": "a) cambio normativo menor",
@@ -6993,7 +6993,7 @@ const questions = [
   },
   {
     "id": 305,
-    "question": "35. Si un contrato es resuelto por causa imputable al contratista, ¿qué acción puede tomar la entidad respecto a las garantías otorgadas por este?",
+    "question": "Si un contrato es resuelto por causa imputable al contratista, ¿qué acción puede tomar la entidad respecto a las garantías otorgadas por este?",
     "options": [
       {
         "text": "a) Ejecutar las garantías.",
@@ -7016,7 +7016,7 @@ const questions = [
   },
   {
     "id": 306,
-    "question": "36. Cuando la resolución del contrato se produce por causa imputable a una de las partes, ¿qué corresponde adicionalmente a la parte que incumple?",
+    "question": "Cuando la resolución del contrato se produce por causa imputable a una de las partes, ¿qué corresponde adicionalmente a la parte que incumple?",
     "options": [
       {
         "text": "a) Solicitar una nueva oportunidad para cumplir el contrato.",
@@ -7039,7 +7039,7 @@ const questions = [
   },
   {
     "id": 307,
-    "question": "37. Una entidad declara la nulidad de un contrato de obra por haberse suscrito con un proveedor impedido. La obra ya había iniciado su ejecución. ¿Qué procedimiento debe seguirse inmediatamente después de la declaración de nulidad, según el Reglamento, si la nulidad es por causa no atribuible al contratista (por ejemplo, el impedimento no fue detectado por la entidad oportunamente)?",
+    "question": "Una entidad declara la nulidad de un contrato de obra por haberse suscrito con un proveedor impedido. La obra ya había iniciado su ejecución. ¿Qué procedimiento debe seguirse inmediatamente después de la declaración de nulidad, según el Reglamento, si la nulidad es por causa no atribuible al contratista (por ejemplo, el impedimento no fue detectado por la entidad oportunamente)?",
     "options": [
       {
         "text": "a) La entidad debe pagar al contratista el íntegro del monto contractual pendiente.",
@@ -7062,7 +7062,7 @@ const questions = [
   },
   {
     "id": 308,
-    "question": "38. En caso de corrupción de funcionarios o servidores relacionada con un contrato, y este es resuelto por dicha causal, el pago de resarcimiento por daños y perjuicios al contratista, aun cuando este último no lo haya propiciado.",
+    "question": "En caso de corrupción de funcionarios o servidores relacionada con un contrato, y este es resuelto por dicha causal, el pago de resarcimiento por daños y perjuicios al contratista, aun cuando este último no lo haya propiciado.",
     "options": [
       {
         "text": "a) corresponde siempre",
@@ -7085,7 +7085,7 @@ const questions = [
   },
   {
     "id": 309,
-    "question": "39. Antes de declarar la nulidad de oficio de un contrato, ¿qué acción debe realizar la entidad contratante respecto al contratista?",
+    "question": "Antes de declarar la nulidad de oficio de un contrato, ¿qué acción debe realizar la entidad contratante respecto al contratista?",
     "options": [
       {
         "text": "a) Solicitar la aprobación previa del OECE.",
@@ -7108,7 +7108,7 @@ const questions = [
   },
   {
     "id": 310,
-    "question": "40. Aun cuando se verifique la configuración de un vicio de nulidad del contrato, ¿qué facultad excepcional tiene la autoridad de la gestión administrativa?",
+    "question": "Aun cuando se verifique la configuración de un vicio de nulidad del contrato, ¿qué facultad excepcional tiene la autoridad de la gestión administrativa?",
     "options": [
       {
         "text": "a) Modificar la causal de nulidad para evitar la resolución.",
@@ -7131,7 +7131,7 @@ const questions = [
   },
   {
     "id": 311,
-    "question": "41. Una entidad está evaluando resolver un contrato de servicios por incumplimiento del contratista. El área usuaria ha emitido un informe detallando las faltas. Antes de notificar la resolución, ¿qué procedimiento debe seguir la entidad si el incumplimiento no es uno de los que permite la resolución sin apercibimiento previo?",
+    "question": "Una entidad está evaluando resolver un contrato de servicios por incumplimiento del contratista. El área usuaria ha emitido un informe detallando las faltas. Antes de notificar la resolución, ¿qué procedimiento debe seguir la entidad si el incumplimiento no es uno de los que permite la resolución sin apercibimiento previo?",
     "options": [
       {
         "text": "a) Notificar directamente la resolución del contrato al contratista.",
@@ -7154,7 +7154,7 @@ const questions = [
   },
   {
     "id": 312,
-    "question": "42. El instrumento que dispone la declaración de nulidad del contrato debe determinar, en caso corresponda, el inicio del .",
+    "question": "El instrumento que dispone la declaración de nulidad del contrato debe determinar, en caso corresponda, el inicio del .",
     "options": [
       {
         "text": "a) nuevo procedimiento de selección",
@@ -7177,7 +7177,7 @@ const questions = [
   },
   {
     "id": 313,
-    "question": "43. ¿Cuál es una de las causales para la resolución del contrato que puede configurarse como una condición de terminación anticipada establecida en el propio contrato?",
+    "question": "¿Cuál es una de las causales para la resolución del contrato que puede configurarse como una condición de terminación anticipada establecida en el propio contrato?",
     "options": [
       {
         "text": "a) El mutuo acuerdo entre las partes.",
@@ -7200,7 +7200,7 @@ const questions = [
   },
   {
     "id": 314,
-    "question": "44. ¿En qué tipo de contratos se puede incluir una cláusula de resolución por terminación anticipada cuando el resultado de un componente o hito impida o haga innecesaria la continuidad del siguiente, sin que sea atribuible a alguna de las partes?",
+    "question": "¿En qué tipo de contratos se puede incluir una cláusula de resolución por terminación anticipada cuando el resultado de un componente o hito impida o haga innecesaria la continuidad del siguiente, sin que sea atribuible a alguna de las partes?",
     "options": [
       {
         "text": "a) Solo en contratos de obra bajo el sistema de suma alzada.",
@@ -7223,7 +7223,7 @@ const questions = [
   },
   {
     "id": 315,
-    "question": "45. Una entidad contrata la ejecución de una obra bajo el sistema de entrega de diseño y construcción. El contrato incluye una cláusula de terminación anticipada por pérdida de viabilidad sobreviniente si durante la fase de diseño se verifica que el proyecto ya no cumple las condiciones que sustentaron su viabilidad. Durante el diseño, se determina que, por factores externos insuperables, el proyecto ya no es viable. ¿Qué consecuencia tiene esta situación para el contrato?",
+    "question": "Una entidad contrata la ejecución de una obra bajo el sistema de entrega de diseño y construcción. El contrato incluye una cláusula de terminación anticipada por pérdida de viabilidad sobreviniente si durante la fase de diseño se verifica que el proyecto ya no cumple las condiciones que sustentaron su viabilidad. Durante el diseño, se determina que, por factores externos insuperables, el proyecto ya no es viable. ¿Qué consecuencia tiene esta situación para el contrato?",
     "options": [
       {
         "text": "a) El contratista debe continuar con la ejecución de la obra asumiendo los riesgos.",
@@ -7246,7 +7246,7 @@ const questions = [
   },
   {
     "id": 316,
-    "question": "46. En los contratos de obra bajo el sistema de entrega de diseño y construcción, si el presupuesto del expediente técnico elaborado por el contratista supera el ________ del monto considerado en el contrato original para el componente de ejecución de obra, y la entidad no cuenta con los recursos, se puede configurar una condición de terminación anticipada.",
+    "question": "En los contratos de obra bajo el sistema de entrega de diseño y construcción, si el presupuesto del expediente técnico elaborado por el contratista supera el ________ del monto considerado en el contrato original para el componente de ejecución de obra, y la entidad no cuenta con los recursos, se puede configurar una condición de terminación anticipada.",
     "options": [
       {
         "text": "a) 25%",
@@ -7269,7 +7269,7 @@ const questions = [
   },
   {
     "id": 317,
-    "question": "47. Tras declarar la nulidad de un contrato de obra (que derivó de una Licitación Pública) por haberse suscrito con un proveedor impedido y haber realizado la constatación física e inventario de la obra parcialmente ejecutada, ¿qué mecanismo principal contempla la Ley para que la entidad pueda continuar con la ejecución de las prestaciones pendientes?",
+    "question": "Tras declarar la nulidad de un contrato de obra (que derivó de una Licitación Pública) por haberse suscrito con un proveedor impedido y haber realizado la constatación física e inventario de la obra parcialmente ejecutada, ¿qué mecanismo principal contempla la Ley para que la entidad pueda continuar con la ejecución de las prestaciones pendientes?",
     "options": [
       {
         "text": "a) Convocar obligatoriamente una nueva Licitación Pública para el saldo de obra, utilizando el inventario como base.",
@@ -7292,7 +7292,7 @@ const questions = [
   },
   {
     "id": 318,
-    "question": "48. El contrato puede contener una cláusula de resolución por terminación anticipada cuando comprenda más de un componente o hito y el resultado de alguno de estos la continuidad del siguiente, sin que resulte atribuible a alguna de las partes.",
+    "question": "El contrato puede contener una cláusula de resolución por terminación anticipada cuando comprenda más de un componente o hito y el resultado de alguno de estos la continuidad del siguiente, sin que resulte atribuible a alguna de las partes.",
     "options": [
       {
         "text": "a) garantice",
@@ -7315,7 +7315,7 @@ const questions = [
   },
   {
     "id": 319,
-    "question": "49. Una entidad contrata un servicio de investigación y desarrollo (I+D) mediante una Asociación para la Innovación (API). El contrato establece hitos de avance y resultados mínimos para cada uno. Al finalizar el segundo hito, el área usuaria evalúa que los resultados obtenidos por el contratista no alcanzan los mínimos esperados y decide no continuar con el siguiente hito. El contrato prevé esta situación como una causal de terminación anticipada. ¿Qué consecuencia tiene esta decisión para el contratista?",
+    "question": "Una entidad contrata un servicio de investigación y desarrollo (I+D) mediante una Asociación para la Innovación (API). El contrato establece hitos de avance y resultados mínimos para cada uno. Al finalizar el segundo hito, el área usuaria evalúa que los resultados obtenidos por el contratista no alcanzan los mínimos esperados y decide no continuar con el siguiente hito. El contrato prevé esta situación como una causal de terminación anticipada. ¿Qué consecuencia tiene esta decisión para el contratista?",
     "options": [
       {
         "text": "a) El contratista debe devolver todos los pagos recibidos y pagar una penalidad.",
@@ -7338,7 +7338,7 @@ const questions = [
   },
   {
     "id": 320,
-    "question": "50. En los contratos estandarizados de ingeniería y construcción de uso internacional, si las modificaciones que inciden en el monto contractual superan el del valor del presupuesto de obra consignado en el expediente técnico aprobado (o del monto del contrato de obra), se configura la condición de terminación anticipada que ocasiona la resolución del contrato.",
+    "question": "En los contratos estandarizados de ingeniería y construcción de uso internacional, si las modificaciones que inciden en el monto contractual superan el del valor del presupuesto de obra consignado en el expediente técnico aprobado (o del monto del contrato de obra), se configura la condición de terminación anticipada que ocasiona la resolución del contrato.",
     "options": [
       {
         "text": "a) 25%",
@@ -7361,7 +7361,7 @@ const questions = [
   },
   {
     "id": 321,
-    "question": "51. En el caso de la adquisición de bienes, ¿según qué normativa se rige la recepción de los bienes adquiridos por la entidad?",
+    "question": "En el caso de la adquisición de bienes, ¿según qué normativa se rige la recepción de los bienes adquiridos por la entidad?",
     "options": [
       {
         "text": "a) Exclusivamente por lo establecido en el contrato.",
@@ -7384,7 +7384,7 @@ const questions = [
   },
   {
     "id": 322,
-    "question": "52. La sola recepción de bienes en la entidad o en el destino final, según sea el caso, no constituye la del área usuaria.",
+    "question": "La sola recepción de bienes en la entidad o en el destino final, según sea el caso, no constituye la del área usuaria.",
     "options": [
       {
         "text": "a) aceptación de la factura",
@@ -7407,7 +7407,7 @@ const questions = [
   },
   {
     "id": 323,
-    "question": "53. Una entidad contrata el suministro periódico de alimentos. El contrato establece entregas mensuales. Al recibir la primera entrega en el almacén de la entidad, el personal de almacén firma una guía de remisión. ¿Este acto de firma de la guía de remisión por el personal de almacén implica automáticamente la conformidad del área usuaria sobre los bienes entregados?",
+    "question": "Una entidad contrata el suministro periódico de alimentos. El contrato establece entregas mensuales. Al recibir la primera entrega en el almacén de la entidad, el personal de almacén firma una guía de remisión. ¿Este acto de firma de la guía de remisión por el personal de almacén implica automáticamente la conformidad del área usuaria sobre los bienes entregados?",
     "options": [
       {
         "text": "a) Sí, la firma de la guía por el almacén equivale a la conformidad del área usuaria.",
@@ -7430,7 +7430,7 @@ const questions = [
   },
   {
     "id": 324,
-    "question": "54. ¿Qué actor es el responsable principal de brindar la conformidad de la prestación en un contrato de bienes o servicios?",
+    "question": "¿Qué actor es el responsable principal de brindar la conformidad de la prestación en un contrato de bienes o servicios?",
     "options": [
       {
         "text": "a) La Dependencia Encargada de las Contrataciones (DEC).",
@@ -7453,7 +7453,7 @@ const questions = [
   },
   {
     "id": 325,
-    "question": "55. ¿Cuál es el plazo máximo general para que el área usuaria emita la conformidad de un servicio, una vez recibido el entregable, salvo que se requieran pruebas o se trate de consultorías?",
+    "question": "¿Cuál es el plazo máximo general para que el área usuaria emita la conformidad de un servicio, una vez recibido el entregable, salvo que se requieran pruebas o se trate de consultorías?",
     "options": [
       {
         "text": "a) Tres días hábiles.",
@@ -7476,7 +7476,7 @@ const questions = [
   },
   {
     "id": 326,
-    "question": "56. Una entidad contrata una consultoría especializada. El consultor entrega el informe final. El área usuaria considera que necesita realizar un análisis exhaustivo y pruebas de validación de los resultados del informe antes de emitir la conformidad. ¿Cuál es el plazo máximo que tiene el área usuaria para emitir la conformidad en este caso?",
+    "question": "Una entidad contrata una consultoría especializada. El consultor entrega el informe final. El área usuaria considera que necesita realizar un análisis exhaustivo y pruebas de validación de los resultados del informe antes de emitir la conformidad. ¿Cuál es el plazo máximo que tiene el área usuaria para emitir la conformidad en este caso?",
     "options": [
       {
         "text": "a) Siete días, ya que es el plazo general para servicios.",
@@ -7499,7 +7499,7 @@ const questions = [
   },
   {
     "id": 327,
-    "question": "57. Si la Dependencia Encargada de las Contrataciones (DEC) comunica observaciones al contratista sobre un entregable, ¿qué debe indicar claramente en dicha comunicación?",
+    "question": "Si la Dependencia Encargada de las Contrataciones (DEC) comunica observaciones al contratista sobre un entregable, ¿qué debe indicar claramente en dicha comunicación?",
     "options": [
       {
         "text": "a) El sentido de las observaciones.",
@@ -7522,7 +7522,7 @@ const questions = [
   },
   {
     "id": 328,
-    "question": "58. Cuando la entidad comunica observaciones al contratista, le otorga un plazo para subsanar que no debe ser mayor del del plazo del entregable correspondiente.",
+    "question": "Cuando la entidad comunica observaciones al contratista, le otorga un plazo para subsanar que no debe ser mayor del del plazo del entregable correspondiente.",
     "options": [
       {
         "text": "a) 10%",
@@ -7545,7 +7545,7 @@ const questions = [
   },
   {
     "id": 329,
-    "question": "59. Un contratista entrega un bien. El área usuaria observa deficiencias y la DEC se lo comunica, otorgándole un plazo de 5 días para subsanar. El contratista subsana las observaciones dentro de esos 5 días. ¿Corresponde aplicar penalidades por mora al contratista por el tiempo utilizado en la subsanación?",
+    "question": "Un contratista entrega un bien. El área usuaria observa deficiencias y la DEC se lo comunica, otorgándole un plazo de 5 días para subsanar. El contratista subsana las observaciones dentro de esos 5 días. ¿Corresponde aplicar penalidades por mora al contratista por el tiempo utilizado en la subsanación?",
     "options": [
       {
         "text": "a) Sí, siempre se aplican penalidades por cualquier retraso, incluyendo la subsanación.",
@@ -7568,7 +7568,7 @@ const questions = [
   },
   {
     "id": 330,
-    "question": "60. ¿Cuál de las siguientes acciones por parte de la entidad contratante durante la ejecución contractual podría generar una controversia con el contratista?",
+    "question": "¿Cuál de las siguientes acciones por parte de la entidad contratante durante la ejecución contractual podría generar una controversia con el contratista?",
     "options": [
       {
         "text": "a) Realizar el pago de la contraprestación dentro del plazo establecido en el contrato.",
@@ -7591,7 +7591,7 @@ const questions = [
   },
   {
     "id": 331,
-    "question": "61. Si un contratista incumple injustificadamente con la ejecución de las prestaciones objeto del contrato, y la entidad le aplica la penalidad por mora correspondiente, ¿podría este incumplimiento del contratista ser una situación que genere una controversia?",
+    "question": "Si un contratista incumple injustificadamente con la ejecución de las prestaciones objeto del contrato, y la entidad le aplica la penalidad por mora correspondiente, ¿podría este incumplimiento del contratista ser una situación que genere una controversia?",
     "options": [
       {
         "text": "a) No, la aplicación de penalidades resuelve automáticamente cualquier disputa.",
@@ -7614,7 +7614,7 @@ const questions = [
   },
   {
     "id": 332,
-    "question": "62. Durante la ejecución de un contrato de obra, la entidad no cumple con absolver una consulta formulada por el contratista a través del cuaderno de incidencias dentro del plazo establecido en el Reglamento. Esta omisión de la entidad impacta la ruta crítica del programa de ejecución. ¿Qué tipo de controversia podría surgir directamente de este incumplimiento de procedimiento por parte de la entidad?",
+    "question": "Durante la ejecución de un contrato de obra, la entidad no cumple con absolver una consulta formulada por el contratista a través del cuaderno de incidencias dentro del plazo establecido en el Reglamento. Esta omisión de la entidad impacta la ruta crítica del programa de ejecución. ¿Qué tipo de controversia podría surgir directamente de este incumplimiento de procedimiento por parte de la entidad?",
     "options": [
       {
         "text": "a) Una controversia relacionada con la solicitud de ampliación de plazo y el reconocimiento de mayores gastos generales por parte del contratista.",
@@ -7637,7 +7637,7 @@ const questions = [
   },
   {
     "id": 333,
-    "question": "63. La falta de pago de valorizaciones consecutivas por parte de la entidad en un contrato de obra, puede ocasionar la suspensión del plazo de ejecución contractual por parte del contratista, lo cual podría derivar en una controversia si no se llega a un acuerdo sobre los costos asociados.",
+    "question": "La falta de pago de valorizaciones consecutivas por parte de la entidad en un contrato de obra, puede ocasionar la suspensión del plazo de ejecución contractual por parte del contratista, lo cual podría derivar en una controversia si no se llega a un acuerdo sobre los costos asociados.",
     "options": [
       {
         "text": "a) una",
@@ -7660,7 +7660,7 @@ const questions = [
   },
   {
     "id": 334,
-    "question": "64. ¿Cuál es el propósito principal de la gestión de riesgos durante la ejecución contractual?",
+    "question": "¿Cuál es el propósito principal de la gestión de riesgos durante la ejecución contractual?",
     "options": [
       {
         "text": "a) Eliminar toda posibilidad de que ocurran eventos imprevistos.",
@@ -7683,7 +7683,7 @@ const questions = [
   },
   {
     "id": 335,
-    "question": "65. Si un riesgo identificado en la matriz de gestión de riesgos se materializa durante la ejecución contractual y no fue adecuadamente asignado o su plan de mitigación resulta insuficiente, ¿qué podría generar esta situación?",
+    "question": "Si un riesgo identificado en la matriz de gestión de riesgos se materializa durante la ejecución contractual y no fue adecuadamente asignado o su plan de mitigación resulta insuficiente, ¿qué podría generar esta situación?",
     "options": [
       {
         "text": "a) La renegociación automática de todo el contrato.",
@@ -7706,7 +7706,7 @@ const questions = [
   },
   {
     "id": 336,
-    "question": "66. En un contrato de obra, la matriz de gestión de riesgos asignó a la entidad la responsabilidad de obtener un permiso ambiental específico antes de iniciar una fase crítica de la obra. La entidad demora excesivamente en obtener dicho permiso, paralizando el avance del contratista. El contratista alega que esta demora, producto de la materialización de un riesgo mal gestionado por la entidad, le ha generado mayores costos y una afectación a su ruta crítica. ¿Qué tipo de controversia es más probable que surja y sobre qué fundamentos?",
+    "question": "En un contrato de obra, la matriz de gestión de riesgos asignó a la entidad la responsabilidad de obtener un permiso ambiental específico antes de iniciar una fase crítica de la obra. La entidad demora excesivamente en obtener dicho permiso, paralizando el avance del contratista. El contratista alega que esta demora, producto de la materialización de un riesgo mal gestionado por la entidad, le ha generado mayores costos y una afectación a su ruta crítica. ¿Qué tipo de controversia es más probable que surja y sobre qué fundamentos?",
     "options": [
       {
         "text": "a) Controversia por vicios ocultos en el expediente técnico, reclamando la nulidad del contrato",
@@ -7729,7 +7729,7 @@ const questions = [
   },
   {
     "id": 337,
-    "question": "67. La gestión de riesgos en la contratación pública es un proceso y abarca todas las etapas de la contratación pública, desde las actuaciones preparatorias hasta la ejecución contractual.",
+    "question": "La gestión de riesgos en la contratación pública es un proceso y abarca todas las etapas de la contratación pública, desde las actuaciones preparatorias hasta la ejecución contractual.",
     "options": [
       {
         "text": "a) estático",
@@ -7752,7 +7752,7 @@ const questions = [
   },
   {
     "id": 338,
-    "question": "68. ¿Cuál de los siguientes principios rectores de la contratación pública es fundamental al momento de interpretar las normas para resolver una controversia contractual?",
+    "question": "¿Cuál de los siguientes principios rectores de la contratación pública es fundamental al momento de interpretar las normas para resolver una controversia contractual?",
     "options": [
       {
         "text": "a) Principio de Innovación.",
@@ -7775,7 +7775,7 @@ const questions = [
   },
   {
     "id": 339,
-    "question": "69. En una controversia donde la entidad y el contratista tienen interpretaciones distintas sobre una cláusula contractual ambigua, ¿qué principio podría guiar al árbitro o conciliador para buscar una solución que preserve la finalidad del contrato?",
+    "question": "En una controversia donde la entidad y el contratista tienen interpretaciones distintas sobre una cláusula contractual ambigua, ¿qué principio podría guiar al árbitro o conciliador para buscar una solución que preserve la finalidad del contrato?",
     "options": [
       {
         "text": "a) Principio de Eficacia y Eficiencia, priorizando la interpretación que mejor permita el cumplimiento de los fines públicos del contrato.",
@@ -7798,7 +7798,7 @@ const questions = [
   },
   {
     "id": 340,
-    "question": "70. Un contratista solicita el reconocimiento de mayores gastos generales debido a una paralización de obra no imputable a él. La entidad se niega, argumentando una formalidad no esencial en la presentación de la solicitud. Al resolver la controversia, el árbitro considera que la formalidad omitida no afecta el fondo del derecho del contratista y que la paralización efectivamente ocurrió y generó costos. ¿Qué principio de la Ley de Contrataciones estaría aplicando el árbitro al priorizar el fondo sobre la formalidad no esencial?",
+    "question": "Un contratista solicita el reconocimiento de mayores gastos generales debido a una paralización de obra no imputable a él. La entidad se niega, argumentando una formalidad no esencial en la presentación de la solicitud. Al resolver la controversia, el árbitro considera que la formalidad omitida no afecta el fondo del derecho del contratista y que la paralización efectivamente ocurrió y generó costos. ¿Qué principio de la Ley de Contrataciones estaría aplicando el árbitro al priorizar el fondo sobre la formalidad no esencial?",
     "options": [
       {
         "text": "a) Principio de Valor por Dinero.",
@@ -7821,7 +7821,7 @@ const questions = [
   },
   {
     "id": 341,
-    "question": "71. Según la Ley, los principios que rigen las contrataciones públicas sirven de criterio de interpretación para la aplicación de la Ley y su reglamento, de ante sus vacíos y como parámetros para la actuación de todos aquellos involucrados en el proceso de contratación.",
+    "question": "Según la Ley, los principios que rigen las contrataciones públicas sirven de criterio de interpretación para la aplicación de la Ley y su reglamento, de ante sus vacíos y como parámetros para la actuación de todos aquellos involucrados en el proceso de contratación.",
     "options": [
       {
         "text": "a) derogación",
@@ -7844,7 +7844,7 @@ const questions = [
   },
   {
     "id": 342,
-    "question": "72. ¿Cuál de los siguientes NO es un mecanismo de resolución de controversias surgidas durante la ejecución contractual?",
+    "question": "¿Cuál de los siguientes NO es un mecanismo de resolución de controversias surgidas durante la ejecución contractual?",
     "options": [
       {
         "text": "a) Junta de Prevención y Resolución de Disputas (JPRD).",
@@ -7867,7 +7867,7 @@ const questions = [
   },
   {
     "id": 343,
-    "question": "73. ¿Qué tipo de controversias contractuales NO pueden ser sometidas a la junta de prevención y resolución de disputas, conciliación o arbitraje, según la Ley?",
+    "question": "¿Qué tipo de controversias contractuales NO pueden ser sometidas a la junta de prevención y resolución de disputas, conciliación o arbitraje, según la Ley?",
     "options": [
       {
         "text": "a) Controversias sobre ampliaciones de plazo contractual.",
@@ -7890,7 +7890,7 @@ const questions = [
   },
   {
     "id": 344,
-    "question": "74. En un contrato de obra que supera los S/ 10 000 000,00, surge una controversia técn ica sobre la calidad de una partida ejecutada. El contrato no menciona explícitamente la JPRD, pero sí incluye una cláusula arbitral estándar. ¿Qué mecanismo de solución de controversias debería agotarse primero antes de recurrir al arbitraje, considerando la obligatoriedad establecida en el Reglamento?",
+    "question": "En un contrato de obra que supera los S/ 10 000 000,00, surge una controversia técn ica sobre la calidad de una partida ejecutada. El contrato no menciona explícitamente la JPRD, pero sí incluye una cláusula arbitral estándar. ¿Qué mecanismo de solución de controversias debería agotarse primero antes de recurrir al arbitraje, considerando la obligatoriedad establecida en el Reglamento?",
     "options": [
       {
         "text": "a) Trato directo entre las partes, y si no hay acuerdo, directamente al arbitraje.",
@@ -7913,7 +7913,7 @@ const questions = [
   },
   {
     "id": 345,
-    "question": "75. El inicio de un procedimiento de solución de controversias, como el arbitraje, por regla general, ____ las obligaciones contractuales de las partes, salvo disposición contraria de la entidad o del órgano jurisdiccional competente.",
+    "question": "El inicio de un procedimiento de solución de controversias, como el arbitraje, por regla general, ____ las obligaciones contractuales de las partes, salvo disposición contraria de la entidad o del órgano jurisdiccional competente.",
     "options": [
       {
         "text": "a) no suspende o paraliza",
@@ -7936,7 +7936,7 @@ const questions = [
   },
   {
     "id": 346,
-    "question": "76. En un contrato de obra, se produce un retraso. El contratista alega que fue causado por la demora de la entidad en aprobar unos planos complementarios. La entidad, por su parte, sostiene que el retraso se debió a la falta de personal del contratista en otro frente de trabajo no relacionado con los planos. Al resolver la controversia sobre la procedencia de una ampliación de plazo y el pago de mayores gastos generales, ¿qué principio es crucial para que el árbitro determine correctamente la imputabilidad del retraso y, por ende, la responsabilidad de asumir las consecuencias económicas?",
+    "question": "En un contrato de obra, se produce un retraso. El contratista alega que fue causado por la demora de la entidad en aprobar unos planos complementarios. La entidad, por su parte, sostiene que el retraso se debió a la falta de personal del contratista en otro frente de trabajo no relacionado con los planos. Al resolver la controversia sobre la procedencia de una ampliación de plazo y el pago de mayores gastos generales, ¿qué principio es crucial para que el árbitro determine correctamente la imputabilidad del retraso y, por ende, la responsabilidad de asumir las consecuencias económicas?",
     "options": [
       {
         "text": "a) Principio de Equidad y Colaboración.",
@@ -7959,7 +7959,7 @@ const questions = [
   },
   {
     "id": 347,
-    "question": "77. Una entidad contrató un servicio de desarrollo de una plataforma digital. Durante la ejecución, el contratista propone una modificación tecnológica no prevista originalmente, que no altera la finalidad pública pero sí mejora significativamente la eficiencia y seguridad de la plataforma, aunq ue implica un ligero ajuste en el cronograma y un costo adicional mínimo. La entidad se niega a la modificación argumentando que se debe cumplir estrictamente lo pactado. Si esto genera una controversia, ¿qué principio podría invocar el contratista (y ser considerado por el árbitro) para sustentar la conveniencia de la modificación propuesta, en el marco de la búsqueda de mejores soluciones para la entidad?",
+    "question": "Una entidad contrató un servicio de desarrollo de una plataforma digital. Durante la ejecución, el contratista propone una modificación tecnológica no prevista originalmente, que no altera la finalidad pública pero sí mejora significativamente la eficiencia y seguridad de la plataforma, aunq ue implica un ligero ajuste en el cronograma y un costo adicional mínimo. La entidad se niega a la modificación argumentando que se debe cumplir estrictamente lo pactado. Si esto genera una controversia, ¿qué principio podría invocar el contratista (y ser considerado por el árbitro) para sustentar la conveniencia de la modificación propuesta, en el marco de la búsqueda de mejores soluciones para la entidad?",
     "options": [
       {
         "text": "a) Principio de Legalidad.",
@@ -7982,7 +7982,7 @@ const questions = [
   },
   {
     "id": 348,
-    "question": "78. ¿Cuál es uno de los requisitos adicionales que debe presentar el proveedor ganador de la buena pro para el perfeccionamiento de un contrato de obra, según el Reglamento?",
+    "question": "¿Cuál es uno de los requisitos adicionales que debe presentar el proveedor ganador de la buena pro para el perfeccionamiento de un contrato de obra, según el Reglamento?",
     "options": [
       {
         "text": "a) Un cronograma detallado de subcontrataciones.",
@@ -8005,7 +8005,7 @@ const questions = [
   },
   {
     "id": 349,
-    "question": "79. En un contrato de obra bajo el sistema de entrega de solo construcción, ¿qué acción debe realizar el contratista respecto al expediente técnico dentro de los doce días siguientes a la suscripción del contrato?",
+    "question": "En un contrato de obra bajo el sistema de entrega de solo construcción, ¿qué acción debe realizar el contratista respecto al expediente técnico dentro de los doce días siguientes a la suscripción del contrato?",
     "options": [
       {
         "text": "a) Solicitar su modificación integral para adaptarlo a sus métodos constructivos.",
@@ -8028,7 +8028,7 @@ const questions = [
   },
   {
     "id": 350,
-    "question": "80. Una entidad pública está por iniciar la ejecución de un contrato de obra bajo el sistema de entrega de diseño y construcción. ¿Cuál de las siguientes condiciones debe cumplir la entidad para que inicie el plazo de ejecución contractual del componente de ejecución de obra, una vez culminado el diseño?",
+    "question": "Una entidad pública está por iniciar la ejecución de un contrato de obra bajo el sistema de entrega de diseño y construcción. ¿Cuál de las siguientes condiciones debe cumplir la entidad para que inicie el plazo de ejecución contractual del componente de ejecución de obra, una vez culminado el diseño?",
     "options": [
       {
         "text": "a) Entregar al contratista el adelanto directo para el componente de diseño.",
@@ -8051,7 +8051,7 @@ const questions = [
   },
   {
     "id": 351,
-    "question": "81. Desde el inicio de la ejecución de la obra en los sistemas de entrega de solo construcción y diseño y construcción, se debe contar con un , de modo permanente y exclusivo, quien es un profesional colegiado y habilitado de ingeniería o arquitectura.",
+    "question": "Desde el inicio de la ejecución de la obra en los sistemas de entrega de solo construcción y diseño y construcción, se debe contar con un , de modo permanente y exclusivo, quien es un profesional colegiado y habilitado de ingeniería o arquitectura.",
     "options": [
       {
         "text": "a) gerente de proyecto",
@@ -8074,7 +8074,7 @@ const questions = [
   },
   {
     "id": 352,
-    "question": "82. Una entidad pública y un contratista sometieron a arbitraje una controversia sobre el pago de valorizaciones, emitiéndose un laudo definitivo a favor del contratista. Meses después, la Oficina de Control Institucional (OCI) detecta que el contrato original se perfeccionó a pesar de que el proveedor se encontraba impedido para contratar con el Estado al momento de la suscripción, una causal de nulidad prevista en el Artículo 71.1(a) de la Ley General de Contrataciones Públicas. Esta causal de impedimento no fue advertida ni discutida durante el proceso arbitral. ¿Puede la autoridad de la gestión administrativa declarar la nulidad de dicho contrato?",
+    "question": "Una entidad pública y un contratista sometieron a arbitraje una controversia sobre el pago de valorizaciones, emitiéndose un laudo definitivo a favor del contratista. Meses después, la Oficina de Control Institucional (OCI) detecta que el contrato original se perfeccionó a pesar de que el proveedor se encontraba impedido para contratar con el Estado al momento de la suscripción, una causal de nulidad prevista en el Artículo 71.1(a) de la Ley General de Contrataciones Públicas. Esta causal de impedimento no fue advertida ni discutida durante el proceso arbitral. ¿Puede la autoridad de la gestión administrativa declarar la nulidad de dicho contrato?",
     "options": [
       {
         "text": "a) No, el laudo arbitral es definitivo y ha saneado cualquier vicio contractual preexistente, incluyendo los impedimentos.",
@@ -8097,7 +8097,7 @@ const questions = [
   },
   {
     "id": 353,
-    "question": "83. ¿Cuál de los siguientes documentos es un componente esencial que debe incluir un expediente técnico de obra?",
+    "question": "¿Cuál de los siguientes documentos es un componente esencial que debe incluir un expediente técnico de obra?",
     "options": [
       {
         "text": "a) El Plan Anual de Contrataciones de la entidad.",
@@ -8120,7 +8120,7 @@ const questions = [
   },
   {
     "id": 354,
-    "question": "84. ¿En qué momento el área usuaria debe proporcionar retroalimentación a la Unidad Formuladora que viabilizó el proyecto, respecto a cambios de alcance, costos y plazos del expediente técnico?",
+    "question": "¿En qué momento el área usuaria debe proporcionar retroalimentación a la Unidad Formuladora que viabilizó el proyecto, respecto a cambios de alcance, costos y plazos del expediente técnico?",
     "options": [
       {
         "text": "a) Antes de la elaboración del expediente técnico.",
@@ -8143,7 +8143,7 @@ const questions = [
   },
   {
     "id": 355,
-    "question": "85. Una entidad contrata a un consultor para la elaboración de un expediente técnico de obra. El consultor presenta el entregable final. ¿Qué plazo máximo tiene el órgano a cargo de la aprobación del expediente técnico en la entidad para emitir la resolución correspondiente, una vez otorgada la conformidad al consultor?",
+    "question": "Una entidad contrata a un consultor para la elaboración de un expediente técnico de obra. El consultor presenta el entregable final. ¿Qué plazo máximo tiene el órgano a cargo de la aprobación del expediente técnico en la entidad para emitir la resolución correspondiente, una vez otorgada la conformidad al consultor?",
     "options": [
       {
         "text": "a) Cinco días calendario.",
@@ -8166,7 +8166,7 @@ const questions = [
   },
   {
     "id": 356,
-    "question": "86. El expediente técnico de la obra debe guardar coherencia con los objetivos, alcances y parámetros que sustentan la o aprobación de las inversiones.",
+    "question": "El expediente técnico de la obra debe guardar coherencia con los objetivos, alcances y parámetros que sustentan la o aprobación de las inversiones.",
     "options": [
       {
         "text": "a) rentabilidad",
@@ -8189,7 +8189,7 @@ const questions = [
   },
   {
     "id": 357,
-    "question": "87. Si durante la elaboración de un expediente técnico derivado de un Concurso de Proyectos Arquitectónicos y Urbanísticos, el contratista identifica oportunidades de mejora con innovaciones no contempladas en los parámetros técnicos nacionales vigentes, ¿qué procedimiento debe seguir?",
+    "question": "Si durante la elaboración de un expediente técnico derivado de un Concurso de Proyectos Arquitectónicos y Urbanísticos, el contratista identifica oportunidades de mejora con innovaciones no contempladas en los parámetros técnicos nacionales vigentes, ¿qué procedimiento debe seguir?",
     "options": [
       {
         "text": "a) Implementar las innovaciones directamente, asumiendo que mejoran el proyecto.",
@@ -8212,7 +8212,7 @@ const questions = [
   },
   {
     "id": 358,
-    "question": "88. ¿Quién es el responsable técnico de la obra por parte del contratista, presente de modo permanente y exclusivo en obras bajo sistemas de solo construcción y diseño y construcción?",
+    "question": "¿Quién es el responsable técnico de la obra por parte del contratista, presente de modo permanente y exclusivo en obras bajo sistemas de solo construcción y diseño y construcción?",
     "options": [
       {
         "text": "a) El Gerente de Proyecto del contratista.",
@@ -8235,7 +8235,7 @@ const questions = [
   },
   {
     "id": 359,
-    "question": "89. ¿Cuál es una de las funciones principales del supervisor de obra en los sistemas de entrega de solo construcción y diseño y construcción?",
+    "question": "¿Cuál es una de las funciones principales del supervisor de obra en los sistemas de entrega de solo construcción y diseño y construcción?",
     "options": [
       {
         "text": "a) Aprobar las prestaciones adicionales de obra.",
@@ -8258,7 +8258,7 @@ const questions = [
   },
   {
     "id": 360,
-    "question": "90. Durante la ejecución de una obra, el supervisor detecta que el contratista está utilizando materiales que no se ajustan a las especificaciones técnicas del contrato. ¿Qué atribución tiene el supervisor en esta situación, según las funciones detalladas en el Reglamento?",
+    "question": "Durante la ejecución de una obra, el supervisor detecta que el contratista está utilizando materiales que no se ajustan a las especificaciones técnicas del contrato. ¿Qué atribución tiene el supervisor en esta situación, según las funciones detalladas en el Reglamento?",
     "options": [
       {
         "text": "a) Rechazar y ordenar el retiro de los materiales por mala calidad o por no ajustarse al contrato.",
@@ -8281,7 +8281,7 @@ const questions = [
   },
   {
     "id": 361,
-    "question": "91. Previo al inicio de la ejecución de un contrato de obra, la entidad contratante designa un _______ , quien se encarga de gestionar uno o más contratos asignados, sin ser responsable de las opiniones técnicas de la supervisión.",
+    "question": "Previo al inicio de la ejecución de un contrato de obra, la entidad contratante designa un _______ , quien se encarga de gestionar uno o más contratos asignados, sin ser responsable de las opiniones técnicas de la supervisión.",
     "options": [
       {
         "text": "a) residente de obra",
@@ -8304,7 +8304,7 @@ const questions = [
   },
   {
     "id": 362,
-    "question": "92. En el contexto de la aplicación de contratos estandarizados de ingeniería y construcción de uso internacional, ¿quién es el profesional asignado por la entidad contratante para gestionar las actividades correspondientes de acuerdo con las facultades que el contrato suscrito establezca?",
+    "question": "En el contexto de la aplicación de contratos estandarizados de ingeniería y construcción de uso internacional, ¿quién es el profesional asignado por la entidad contratante para gestionar las actividades correspondientes de acuerdo con las facultades que el contrato suscrito establezca?",
     "options": [
       {
         "text": "a) El Coordinador de Obra",
@@ -8327,7 +8327,7 @@ const questions = [
   },
   {
     "id": 363,
-    "question": "93. ¿Cuáles son los tipos de adelantos que pueden otorgarse en los contratos de obras?",
+    "question": "¿Cuáles son los tipos de adelantos que pueden otorgarse en los contratos de obras?",
     "options": [
       {
         "text": "a) Directos y para equipamiento menor únicamente.",
@@ -8350,7 +8350,7 @@ const questions = [
   },
   {
     "id": 364,
-    "question": "94. En los contratos de consultoría de obras, ¿qué tipo de adelanto es el único que procede?",
+    "question": "En los contratos de consultoría de obras, ¿qué tipo de adelanto es el único que procede?",
     "options": [
       {
         "text": "a) Adelanto para materiales e insumos.",
@@ -8373,7 +8373,7 @@ const questions = [
   },
   {
     "id": 365,
-    "question": "95. Una entidad contrata la ejecución de una obra bajo el sistema de entrega de diseño y construcción. ¿Qué tipos de adelantos podrían establecerse en las bases para el componente de ejecución de obra?",
+    "question": "Una entidad contrata la ejecución de una obra bajo el sistema de entrega de diseño y construcción. ¿Qué tipos de adelantos podrían establecerse en las bases para el componente de ejecución de obra?",
     "options": [
       {
         "text": "a) Solo adelanto directo, hasta el 30% del monto del componente de ejecución de obra.",
@@ -8396,7 +8396,7 @@ const questions = [
   },
   {
     "id": 366,
-    "question": "96. El adelanto directo que puede otorgarse en un contrato de obra bajo el sistema de entrega de solo construcción no debe exceder el del monto del contrato original.",
+    "question": "El adelanto directo que puede otorgarse en un contrato de obra bajo el sistema de entrega de solo construcción no debe exceder el del monto del contrato original.",
     "options": [
       {
         "text": "a) 5%",
@@ -8419,7 +8419,7 @@ const questions = [
   },
   {
     "id": 367,
-    "question": "97. ¿En qué tipo de contratos de bienes y servicios, además de obras, el Reglamento contempla explícitamente la posibilidad de otorgar adelantos directos, siempre que se sustente en la estrategia de contratación o por condiciones de mercado?",
+    "question": "¿En qué tipo de contratos de bienes y servicios, además de obras, el Reglamento contempla explícitamente la posibilidad de otorgar adelantos directos, siempre que se sustente en la estrategia de contratación o por condiciones de mercado?",
     "options": [
       {
         "text": "a) En todos los contratos de bienes, sin excepción.",
@@ -8442,7 +8442,7 @@ const questions = [
   },
   {
     "id": 368,
-    "question": "98. ¿Qué debe entregar el contratista, como mínimo, al momento de solicitar un adelanto directo en un contrato de obra?",
+    "question": "¿Qué debe entregar el contratista, como mínimo, al momento de solicitar un adelanto directo en un contrato de obra?",
     "options": [
       {
         "text": "a) El programa de ejecución de obra actualizado.",
@@ -8465,7 +8465,7 @@ const questions = [
   },
   {
     "id": 369,
-    "question": "99. ¿Cómo se realiza generalmente la amortización del adelanto directo otorgado en un contrato de obra?",
+    "question": "¿Cómo se realiza generalmente la amortización del adelanto directo otorgado en un contrato de obra?",
     "options": [
       {
         "text": "a) Mediante descuentos proporcionales en cada una de las valorizaciones del componente.",
@@ -8488,7 +8488,7 @@ const questions = [
   },
   {
     "id": 370,
-    "question": "100. En un contrato de obra, la entidad otorga un adelanto directo. Si durante la ejecución se producen diferencias en la amortización parcial de dicho adelanto en una valorización, ¿cómo se maneja esta situación según el Reglamento?",
+    "question": "En un contrato de obra, la entidad otorga un adelanto directo. Si durante la ejecución se producen diferencias en la amortización parcial de dicho adelanto en una valorización, ¿cómo se maneja esta situación según el Reglamento?",
     "options": [
       {
         "text": "a) La entidad debe resolver el contrato por incorrecta amortización.",
@@ -8511,7 +8511,7 @@ const questions = [
   },
   {
     "id": 371,
-    "question": "101. La garantía por adelantos directos debe tener un plazo mínimo de vigencia de ________ , renovable hasta la amortización total, salvo que el plazo de ejecución contractual sea menor.",
+    "question": "La garantía por adelantos directos debe tener un plazo mínimo de vigencia de ________ , renovable hasta la amortización total, salvo que el plazo de ejecución contractual sea menor.",
     "options": [
       {
         "text": "a) un mes",
@@ -8534,7 +8534,7 @@ const questions = [
   },
   {
     "id": 372,
-    "question": "102. ¿En qué momento proceden las solicitudes de adelantos para materiales e insumos, equipamiento y mobiliario en obras bajo los sistemas de entrega de solo construcción y diseño y construcción?",
+    "question": "¿En qué momento proceden las solicitudes de adelantos para materiales e insumos, equipamiento y mobiliario en obras bajo los sistemas de entrega de solo construcción y diseño y construcción?",
     "options": [
       {
         "text": "a) Desde la suscripción del contrato, antes del inicio del plazo de ejecución.",
@@ -8557,7 +8557,7 @@ const questions = [
   },
   {
     "id": 373,
-    "question": "103. ¿En qué circunstancia el contratista puede solicitar la sustitución de su personal clave del plantel técnico en un contrato de obra?",
+    "question": "¿En qué circunstancia el contratista puede solicitar la sustitución de su personal clave del plantel técnico en un contrato de obra?",
     "options": [
       {
         "text": "a) En cualquier momento y sin necesidad de justificación.",
@@ -8580,7 +8580,7 @@ const questions = [
   },
   {
     "id": 374,
-    "question": "104. Si un contratista solicita la sustitución permanente del personal clave de su plantel técnico en una obra, ¿con qué anticipación debe presentar la solicitud a la entidad contratante antes de la fecha en que operaría la sustitución?",
+    "question": "Si un contratista solicita la sustitución permanente del personal clave de su plantel técnico en una obra, ¿con qué anticipación debe presentar la solicitud a la entidad contratante antes de la fecha en que operaría la sustitución?",
     "options": [
       {
         "text": "a) Tres días hábiles.",
@@ -8603,7 +8603,7 @@ const questions = [
   },
   {
     "id": 375,
-    "question": "105. Un contratista solicita por segunda vez la sustitución del mismo integrante de su plantel técnico clave en una obra. La entidad aprueba la sustitución. ¿Qué consecuencia adicional podría enfrentar el contratista en esta situación, asumiendo que la sustitución no se origina por caso fortuito, fuerza mayor o hecho no imputable al contratista?",
+    "question": "Un contratista solicita por segunda vez la sustitución del mismo integrante de su plantel técnico clave en una obra. La entidad aprueba la sustitución. ¿Qué consecuencia adicional podría enfrentar el contratista en esta situación, asumiendo que la sustitución no se origina por caso fortuito, fuerza mayor o hecho no imputable al contratista?",
     "options": [
       {
         "text": "a) La entidad debe resolver el contrato de obra.",
@@ -8626,7 +8626,7 @@ const questions = [
   },
   {
     "id": 376,
-    "question": "106. La sustitución _________del personal clave del plantel técnico ocurre cuando la fecha de retorno del profesional original se encuentra dentro del plazo de ejecución y se debe al régimen laboral aplicable del integrante, no ocasionando penalidades.",
+    "question": "La sustitución _________del personal clave del plantel técnico ocurre cuando la fecha de retorno del profesional original se encuentra dentro del plazo de ejecución y se debe al régimen laboral aplicable del integrante, no ocasionando penalidades.",
     "options": [
       {
         "text": "a) permanente",
@@ -8649,7 +8649,7 @@ const questions = [
   },
   {
     "id": 377,
-    "question": "107. ¿Cuál es el porcentaje máximo del monto del contrato original hasta el cual la autoridad de la gestión administrativa puede autorizar prestaciones adicionales en obras bajo el sistema de entrega de solo construcción, sin requerir autorización del Titular de la Entidad ni de la Contraloría?",
+    "question": "¿Cuál es el porcentaje máximo del monto del contrato original hasta el cual la autoridad de la gestión administrativa puede autorizar prestaciones adicionales en obras bajo el sistema de entrega de solo construcción, sin requerir autorización del Titular de la Entidad ni de la Contraloría?",
     "options": [
       {
         "text": "a) 10%",
@@ -8672,7 +8672,7 @@ const questions = [
   },
   {
     "id": 378,
-    "question": "108. En obras bajo el sistema de entrega de solo construcción, si se requiere una prestación adicional que supera el 15% pero no excede el 30% del monto originalmente contratado (restando deductivos vinculados), ¿quién está facultado para autorizar dicha prestación adicional?",
+    "question": "En obras bajo el sistema de entrega de solo construcción, si se requiere una prestación adicional que supera el 15% pero no excede el 30% del monto originalmente contratado (restando deductivos vinculados), ¿quién está facultado para autorizar dicha prestación adicional?",
     "options": [
       {
         "text": "a) La autoridad de la gestión administrativa, con opinión favorable del supervisor.",
@@ -8695,7 +8695,7 @@ const questions = [
   },
   {
     "id": 379,
-    "question": "109. Una entidad necesita ejecutar una prestación adicional en una obra bajo el sistema de entrega de solo construcción. El costo de este adicional representa el 40% del monto del contrato original. ¿Qué procedimiento debe seguir la entidad para aprobar esta prestación adicional, según la Ley?",
+    "question": "Una entidad necesita ejecutar una prestación adicional en una obra bajo el sistema de entrega de solo construcción. El costo de este adicional representa el 40% del monto del contrato original. ¿Qué procedimiento debe seguir la entidad para aprobar esta prestación adicional, según la Ley?",
     "options": [
       {
         "text": "a) La autoridad de la gestión administrativa lo aprueba directamente, informando luego a la Contraloría.",
@@ -8718,7 +8718,7 @@ const questions = [
   },
   {
     "id": 380,
-    "question": "110. Las prestaciones adicionales en obras bajo el sistema de entrega de solo construcción, en conjunto, no pueden superar el del monto del contrato original; en caso contrario, se procede a la resolución del contrato.",
+    "question": "Las prestaciones adicionales en obras bajo el sistema de entrega de solo construcción, en conjunto, no pueden superar el del monto del contrato original; en caso contrario, se procede a la resolución del contrato.",
     "options": [
       {
         "text": "a) 25%",
@@ -8741,7 +8741,7 @@ const questions = [
   },
   {
     "id": 381,
-    "question": "111. ¿Cuál es una de las causales por las cuales el contratista puede solicitar una ampliación de plazo en un contrato de obra?",
+    "question": "¿Cuál es una de las causales por las cuales el contratista puede solicitar una ampliación de plazo en un contrato de obra?",
     "options": [
       {
         "text": "a) Cuando el contratista decide utilizar una tecnología constructiva más lenta pero de mejor calidad.",
@@ -8764,7 +8764,7 @@ const questions = [
   },
   {
     "id": 382,
-    "question": "112. En un contrato de obra, si se aprueba una prestación adicional, ¿cuándo puede el contratista solicitar una ampliación de plazo por esta causal?",
+    "question": "En un contrato de obra, si se aprueba una prestación adicional, ¿cuándo puede el contratista solicitar una ampliación de plazo por esta causal?",
     "options": [
       {
         "text": "a) Automáticamente con la aprobación del adicional, sin necesidad de solicitud.",
@@ -8787,7 +8787,7 @@ const questions = [
   },
   {
     "id": 383,
-    "question": "113. Un contratista de obra solicita una ampliación de plazo debido a una paralización generada por conflictos sociales en la zona, evento no atribuible a él. Presenta su solicitud al supervisor. Si el supervisor no emite su opinión técnica a la entidad dentro del plazo de cinco días hábiles, ¿cómo debe proceder la entidad para resolver la solicitud de ampliación de plazo?",
+    "question": "Un contratista de obra solicita una ampliación de plazo debido a una paralización generada por conflictos sociales en la zona, evento no atribuible a él. Presenta su solicitud al supervisor. Si el supervisor no emite su opinión técnica a la entidad dentro del plazo de cinco días hábiles, ¿cómo debe proceder la entidad para resolver la solicitud de ampliación de plazo?",
     "options": [
       {
         "text": "a) Dar respuesta a la solicitud de ampliación de plazo sin el pronunciamiento del supervisor, sin perjuicio de aplicar penalidades a este último.",
@@ -8810,7 +8810,7 @@ const questions = [
   },
   {
     "id": 384,
-    "question": "114. Cuando las ampliaciones de plazo en la ejecución de obras se sustentan en causales que no corresponden a un mismo periodo de tiempo, cada solicitud de ampliación de plazo se tramita y resuelve .",
+    "question": "Cuando las ampliaciones de plazo en la ejecución de obras se sustentan en causales que no corresponden a un mismo periodo de tiempo, cada solicitud de ampliación de plazo se tramita y resuelve .",
     "options": [
       {
         "text": "a) conjuntamente al final de la obra",
@@ -8833,7 +8833,7 @@ const questions = [
   },
   {
     "id": 385,
-    "question": "115. ¿Cuál es una condición para que las partes puedan acordar por escrito la suspensión del plazo de ejecución contractual de una obra?",
+    "question": "¿Cuál es una condición para que las partes puedan acordar por escrito la suspensión del plazo de ejecución contractual de una obra?",
     "options": [
       {
         "text": "a) Que el contratista lo solicite debido a problemas financieros internos.",
@@ -8856,7 +8856,7 @@ const questions = [
   },
   {
     "id": 386,
-    "question": "116. Durante la suspensión del plazo de ejecución de una obra acordada por las partes, ¿qué tipo de actividades pueden realizarse?",
+    "question": "Durante la suspensión del plazo de ejecución de una obra acordada por las partes, ¿qué tipo de actividades pueden realizarse?",
     "options": [
       {
         "text": "a) Ninguna actividad relacionada con el contrato, todo queda completamente paralizado.",
@@ -8879,7 +8879,7 @@ const questions = [
   },
   {
     "id": 387,
-    "question": "117. En un contrato de obra, la entidad no paga al contratista dos valorizaciones mensuales consecutivas. El contratista requiere el pago de al menos una, pero la entidad no cumple en el p lazo otorgado. ¿Qué acción puede tomar el contratista y qué consecuencia económica tiene para la entidad si se produce la suspensión?",
+    "question": "En un contrato de obra, la entidad no paga al contratista dos valorizaciones mensuales consecutivas. El contratista requiere el pago de al menos una, pero la entidad no cumple en el p lazo otorgado. ¿Qué acción puede tomar el contratista y qué consecuencia económica tiene para la entidad si se produce la suspensión?",
     "options": [
       {
         "text": "a) Resolver el contrato inmediatamente; la entidad no tiene responsabilidad económica adicional.",
@@ -8902,7 +8902,7 @@ const questions = [
   },
   {
     "id": 388,
-    "question": "118. Si se acuerda la suspensión del plazo de ejecución de una obra, y esta suspensión no supone el reconocimiento de mayores gastos generales y/o costos directos, sí pueden reconocerse aquellos que resulten necesarios para la suspensión.",
+    "question": "Si se acuerda la suspensión del plazo de ejecución de una obra, y esta suspensión no supone el reconocimiento de mayores gastos generales y/o costos directos, sí pueden reconocerse aquellos que resulten necesarios para la suspensión.",
     "options": [
       {
         "text": "a) acelerar",
@@ -8925,7 +8925,7 @@ const questions = [
   },
   {
     "id": 389,
-    "question": "119. ¿En qué supuestos la entidad contratante puede intervenir económicamente una obra?",
+    "question": "¿En qué supuestos la entidad contratante puede intervenir económicamente una obra?",
     "options": [
       {
         "text": "a) Solo cuando el contratista lo solicite por problemas de flujo de caja.",
@@ -8948,7 +8948,7 @@ const questions = [
   },
   {
     "id": 390,
-    "question": "120. ¿Cuál es la finalidad principal de la intervención económica de una obra por parte de la entidad?",
+    "question": "¿Cuál es la finalidad principal de la intervención económica de una obra por parte de la entidad?",
     "options": [
       {
         "text": "a) Sancionar económicamente al contratista por sus incumplimientos.",
@@ -8971,7 +8971,7 @@ const questions = [
   },
   {
     "id": 391,
-    "question": "121. Una entidad decide intervenir económicamente una obra debido a graves incumplimientos del contratista que impedían su culminación. El contratista rechaza la intervención económica. ¿Cuál es la consecuencia directa de este rechazo por parte del contratista?",
+    "question": "Una entidad decide intervenir económicamente una obra debido a graves incumplimientos del contratista que impedían su culminación. El contratista rechaza la intervención económica. ¿Cuál es la consecuencia directa de este rechazo por parte del contratista?",
     "options": [
       {
         "text": "a) El contrato es resuelto por incumplimiento del contratista.",
@@ -8994,7 +8994,7 @@ const questions = [
   },
   {
     "id": 392,
-    "question": "122. La intervención económica de la obra no deja al contratista al margen de su participación contractual y sus obligaciones; sin embargo, pierde el derecho al reconocimiento de mayores gastos generales o indemnización cuando la intervención sea consecuencia del",
+    "question": "La intervención económica de la obra no deja al contratista al margen de su participación contractual y sus obligaciones; sin embargo, pierde el derecho al reconocimiento de mayores gastos generales o indemnización cuando la intervención sea consecuencia del",
     "options": [
       {
         "text": "a) caso fortuito",
@@ -9017,7 +9017,7 @@ const questions = [
   },
   {
     "id": 393,
-    "question": "123. ¿Quién es el principal responsable de realizar el monitoreo y control para evaluar el desempeño de la obra en términos de alcance, costo y tiempo, según las funciones de la supervisión detalladas en el Reglamento?",
+    "question": "¿Quién es el principal responsable de realizar el monitoreo y control para evaluar el desempeño de la obra en términos de alcance, costo y tiempo, según las funciones de la supervisión detalladas en el Reglamento?",
     "options": [
       {
         "text": "a) El Residente de obra.",
@@ -9040,7 +9040,7 @@ const questions = [
   },
   {
     "id": 394,
-    "question": "124. Si el supervisor de obra verifica que la valorización acumulada ejecutada es menor al 80% de la valorización acumulada programada, o existe atraso en la ruta crítica, ¿qué acción debe ordenar al contratista?",
+    "question": "Si el supervisor de obra verifica que la valorización acumulada ejecutada es menor al 80% de la valorización acumulada programada, o existe atraso en la ruta crítica, ¿qué acción debe ordenar al contratista?",
     "options": [
       {
         "text": "a) La suspensión inmediata de los trabajos hasta regularizar el avance.",
@@ -9063,7 +9063,7 @@ const questions = [
   },
   {
     "id": 395,
-    "question": "125. Un contratista presenta un nuevo programa de ejecución con aceleración de trabajos debido a un retraso injustificado. Posteriormente, el supervisor verifica que el monto de la valorización acumulada ejecutada es menor al 80% del monto acumulado programado de este nuevo calendario. ¿Qué consecuencia podría acarrear este segundo incumplimiento para el contratista?",
+    "question": "Un contratista presenta un nuevo programa de ejecución con aceleración de trabajos debido a un retraso injustificado. Posteriormente, el supervisor verifica que el monto de la valorización acumulada ejecutada es menor al 80% del monto acumulado programado de este nuevo calendario. ¿Qué consecuencia podría acarrear este segundo incumplimiento para el contratista?",
     "options": [
       {
         "text": "a) El contratista solo estaría sujeto a la aplicación de la penalidad por mora.",
@@ -9086,7 +9086,7 @@ const questions = [
   },
   {
     "id": 396,
-    "question": "126. El nuevo programa de ejecución que contempla la aceleración de trabajos, presentado por el contratista debido a un retraso, solo se toma en cuenta para el control de los avances físicos reprogramados y no para el análisis de afectación de la con fines de trámite de ampliaciones de plazo.",
+    "question": "El nuevo programa de ejecución que contempla la aceleración de trabajos, presentado por el contratista debido a un retraso, solo se toma en cuenta para el control de los avances físicos reprogramados y no para el análisis de afectación de la con fines de trámite de ampliaciones de plazo.",
     "options": [
       {
         "text": "a) calidad de los materiales",
@@ -9109,7 +9109,7 @@ const questions = [
   },
   {
     "id": 397,
-    "question": "127. En un contrato de obra bajo el sistema de entrega de solo construcción, ¿con qué frecuencia general se realizan las valorizaciones, considerándose estas como pagos a cuenta?",
+    "question": "En un contrato de obra bajo el sistema de entrega de solo construcción, ¿con qué frecuencia general se realizan las valorizaciones, considerándose estas como pagos a cuenta?",
     "options": [
       {
         "text": "a) Semanalmente.",
@@ -9132,7 +9132,7 @@ const questions = [
   },
   {
     "id": 398,
-    "question": "128. En un contrato de obra, si el supervisor no se presenta para la valorización conjunta de los metrados ejecutados con el contratista, ¿quién efectúa la valorización?",
+    "question": "En un contrato de obra, si el supervisor no se presenta para la valorización conjunta de los metrados ejecutados con el contratista, ¿quién efectúa la valorización?",
     "options": [
       {
         "text": "a) El contratista la efectúa y la presenta directamente a la entidad.",
@@ -9155,7 +9155,7 @@ const questions = [
   },
   {
     "id": 399,
-    "question": "129. Un contratista presenta su valorización mensual de obra al supervisor y a la entidad. El supervisor presenta su informe favorable a la entidad dentro del plazo. La entidad, sin embargo, demora 40 días calendario desde la presentación de la valorización por el contratista para efectuar el pago, sin que exista caso fortuito o fuerza mayor. ¿Qué consecuencia principal tiene esta demora en el pago por parte de la entidad?",
+    "question": "Un contratista presenta su valorización mensual de obra al supervisor y a la entidad. El supervisor presenta su informe favorable a la entidad dentro del plazo. La entidad, sin embargo, demora 40 días calendario desde la presentación de la valorización por el contratista para efectuar el pago, sin que exista caso fortuito o fuerza mayor. ¿Qué consecuencia principal tiene esta demora en el pago por parte de la entidad?",
     "options": [
       {
         "text": "a) El contratista puede resolver el contrato inmediatamente.",
@@ -9178,7 +9178,7 @@ const questions = [
   },
   {
     "id": 400,
-    "question": "130. Una vez culminada la ejecución de la obra, ¿a quién solicita el contratista la recepción de la misma a través de una anotación en el cuaderno de incidencias?",
+    "question": "Una vez culminada la ejecución de la obra, ¿a quién solicita el contratista la recepción de la misma a través de una anotación en el cuaderno de incidencias?",
     "options": [
       {
         "text": "a) Al Titular de la Entidad.",
@@ -9201,7 +9201,7 @@ const questions = [
   },
   {
     "id": 401,
-    "question": "131. Si durante el proceso de recepción de obra, el comité de recepción designado por la entidad formula observaciones, ¿qué plazo máximo tiene el contratista para subsanarlas?",
+    "question": "Si durante el proceso de recepción de obra, el comité de recepción designado por la entidad formula observaciones, ¿qué plazo máximo tiene el contratista para subsanarlas?",
     "options": [
       {
         "text": "a) Un décimo del plazo de ejecución vigente de la obra o cuarenta días, el que resulte menor.",
@@ -9224,7 +9224,7 @@ const questions = [
   },
   {
     "id": 402,
-    "question": "132. El comité de recepción de una obra, al verificar el levantamiento de observaciones previamente formuladas, constata que persisten algunas de ellas y, además, identifica nuevos vicios o defectos distintos a las observaciones originales. ¿Cómo debe proceder el comité?",
+    "question": "El comité de recepción de una obra, al verificar el levantamiento de observaciones previamente formuladas, constata que persisten algunas de ellas y, además, identifica nuevos vicios o defectos distintos a las observaciones originales. ¿Cómo debe proceder el comité?",
     "options": [
       {
         "text": "a) No suscribir el Acta de Recepción de Obra hasta que todos los vicios, originales y nuevos, sean subsanados.",
@@ -9247,7 +9247,7 @@ const questions = [
   },
   {
     "id": 403,
-    "question": "133. ¿Cuál es el propósito principal de la liquidación de un contrato de obra?",
+    "question": "¿Cuál es el propósito principal de la liquidación de un contrato de obra?",
     "options": [
       {
         "text": "a) Determinar las penalidades finales a aplicar al contratista.",
@@ -9270,7 +9270,7 @@ const questions = [
   },
   {
     "id": 404,
-    "question": "134. El contratista presenta la liquidación debidamente sustentada en un plazo contado desde el día siguiente de otorgada la conformidad de la última prestación, de la recepción de la obra, o desde que la JPRD emite la última opinión vinculante sobre controversias hasta la recepción, o de consentida la______ del contrato, según sea el caso.",
+    "question": "El contratista presenta la liquidación debidamente sustentada en un plazo contado desde el día siguiente de otorgada la conformidad de la última prestación, de la recepción de la obra, o desde que la JPRD emite la última opinión vinculante sobre controversias hasta la recepción, o de consentida la______ del contrato, según sea el caso.",
     "options": [
       {
         "text": "a) modificación",
@@ -9293,7 +9293,7 @@ const questions = [
   },
   {
     "id": 405,
-    "question": "135. En un contrato de obra, el contratista presenta la liquidación a la entidad. La entidad, dentro del plazo establecido, formula observaciones a dicha liquidación. ¿Qué sucede si el contratista, habiendo recibido las observaciones, no las subsana dentro del plazo que se le otorga?",
+    "question": "En un contrato de obra, el contratista presenta la liquidación a la entidad. La entidad, dentro del plazo establecido, formula observaciones a dicha liquidación. ¿Qué sucede si el contratista, habiendo recibido las observaciones, no las subsana dentro del plazo que se le otorga?",
     "options": [
       {
         "text": "a) La entidad debe elaborar su propia liquidación y notificarla al contratista.",
@@ -9316,7 +9316,7 @@ const questions = [
   },
   {
     "id": 406,
-    "question": "136. ¿En qué fase del proceso de contratación se debe evaluar y sustentar la utilización de un contrato estandarizado de ingeniería y construcción de uso internacional, según el Reglamento?",
+    "question": "¿En qué fase del proceso de contratación se debe evaluar y sustentar la utilización de un contrato estandarizado de ingeniería y construcción de uso internacional, según el Reglamento?",
     "options": [
       {
         "text": "a) Durante la ejecución de la obra, si surgen complejidades.",
@@ -9339,7 +9339,7 @@ const questions = [
   },
   {
     "id": 407,
-    "question": "137. ¿Qué tipo de cláusulas deben incluir obligatoriamente los contratos estandarizados de ingeniería y construcción de uso internacional, además de las propias del modelo elegido?",
+    "question": "¿Qué tipo de cláusulas deben incluir obligatoriamente los contratos estandarizados de ingeniería y construcción de uso internacional, además de las propias del modelo elegido?",
     "options": [
       {
         "text": "a) Únicamente cláusulas referidas a la solución de controversias mediante arbitraje internacional.",
@@ -9362,7 +9362,7 @@ const questions = [
   },
   {
     "id": 408,
-    "question": "138. Una entidad utiliza un contrato estandarizado de ingeniería y construcción de uso internacional para una obra compleja. Durante la ejecución, se requieren modificaciones que inciden en el monto contractual, superando el 50% del valor del presupuesto de obra original. Según las condiciones que deben incluirse en estos contratos, ¿cuál es la consecuencia de superar este límite?",
+    "question": "Una entidad utiliza un contrato estandarizado de ingeniería y construcción de uso internacional para una obra compleja. Durante la ejecución, se requieren modificaciones que inciden en el monto contractual, superando el 50% del valor del presupuesto de obra original. Según las condiciones que deben incluirse en estos contratos, ¿cuál es la consecuencia de superar este límite?",
     "options": [
       {
         "text": "a) La entidad debe solicitar una autorización especial a la Contraloría General de la República para continuar.",
@@ -9385,7 +9385,7 @@ const questions = [
   },
   {
     "id": 409,
-    "question": "139. ¿Cuál es una causal de nulidad en la etapa del procedimiento de selección?",
+    "question": "¿Cuál es una causal de nulidad en la etapa del procedimiento de selección?",
     "options": [
       {
         "text": "a) El acto administrativo es emitido por un órgano competente y conforme a ley.",
@@ -9408,7 +9408,7 @@ const questions = [
   },
   {
     "id": 410,
-    "question": "140. ¿Cuál de los siguientes enunciados es correcto respecto a la subcontratación?",
+    "question": "¿Cuál de los siguientes enunciados es correcto respecto a la subcontratación?",
     "options": [
       {
         "text": "a) La subcontratación es aprobada por el área usuaria.",
@@ -9431,7 +9431,7 @@ const questions = [
   },
   {
     "id": 411,
-    "question": "141. Sobre las condiciones de inicio del plazo de ejecución, es correcto decir qué:",
+    "question": "Sobre las condiciones de inicio del plazo de ejecución, es correcto decir qué:",
     "options": [
       {
         "text": "a) La entidad contratante cuenta con un plazo máximo de doce días para cumplir con las condiciones del contratista.",
@@ -9454,7 +9454,7 @@ const questions = [
   },
   {
     "id": 412,
-    "question": "142. ¿Cuál de los siguientes enunciados corresponde a uno de los pilares del cambio en la nueva ley de contrataciones públicas?",
+    "question": "¿Cuál de los siguientes enunciados corresponde a uno de los pilares del cambio en la nueva ley de contrataciones públicas?",
     "options": [
       {
         "text": "a) Eliminación de todas las garantías financieras en los procesos de contratación.",
@@ -9477,7 +9477,7 @@ const questions = [
   },
   {
     "id": 413,
-    "question": "143. La definición: “ejecución de una nueva obra en el mismo lugar de una existente que fue destruida o colapsada, usando o no parte de la estructura anterior.”, pertenece a:",
+    "question": "La definición: “ejecución de una nueva obra en el mismo lugar de una existente que fue destruida o colapsada, usando o no parte de la estructura anterior.”, pertenece a:",
     "options": [
       {
         "text": "a) Restauración",
@@ -9500,7 +9500,7 @@ const questions = [
   },
   {
     "id": 414,
-    "question": "144. ¿Cuál de los siguientes enunciados describe correctamente el procedimiento respecto a las Propuestas de Cambio de Ingeniería de Valor (PCIV)?",
+    "question": "¿Cuál de los siguientes enunciados describe correctamente el procedimiento respecto a las Propuestas de Cambio de Ingeniería de Valor (PCIV)?",
     "options": [
       {
         "text": "a) La supervisión tiene un plazo máximo de cinco días para pronunciarse sobre la propuesta y no puede remitirla al proyectista.",
@@ -9523,7 +9523,7 @@ const questions = [
   },
   {
     "id": 415,
-    "question": "145. Una vez que se anota en el cuaderno de incidencias la necesidad de ejecutar una prestación adicional de obra, ¿cuál es la acción inmediata que debe realizar el inspector o supervisor en un plazo máximo de cinco (5) días?",
+    "question": "Una vez que se anota en el cuaderno de incidencias la necesidad de ejecutar una prestación adicional de obra, ¿cuál es la acción inmediata que debe realizar el inspector o supervisor en un plazo máximo de cinco (5) días?",
     "options": [
       {
         "text": "a) Emitir la orden de ejecución de la prestación adicional.",
@@ -9546,7 +9546,7 @@ const questions = [
   },
   {
     "id": 416,
-    "question": "146. El plazo para pronunciarse sobre la liquidación en la ejecución de obra:",
+    "question": "El plazo para pronunciarse sobre la liquidación en la ejecución de obra:",
     "options": [
       {
         "text": "a) 15 días calendario",
@@ -9569,7 +9569,7 @@ const questions = [
   },
   {
     "id": 417,
-    "question": "147. ¿Cuáles de las siguientes cláusulas son obligatorias en los contratos regulados por la Ley 32069?",
+    "question": "¿Cuáles de las siguientes cláusulas son obligatorias en los contratos regulados por la Ley 32069?",
     "options": [
       {
         "text": "a) Cláusula de confidencialidad y cláusula de penalidades.",
@@ -9592,7 +9592,7 @@ const questions = [
   },
   {
     "id": 418,
-    "question": "148. ¿En qué casos se permite la modificación de los contratos?",
+    "question": "¿En qué casos se permite la modificación de los contratos?",
     "options": [
       {
         "text": "a) Solo por decisión unilateral de la entidad contratante.",
@@ -9615,7 +9615,7 @@ const questions = [
   },
   {
     "id": 419,
-    "question": "149. ¿Cuáles de los siguientes documentos forman parte del Expediente Técnico de Obra?",
+    "question": "¿Cuáles de los siguientes documentos forman parte del Expediente Técnico de Obra?",
     "options": [
       {
         "text": "a) Carta de intención del contratista, informe financiero anual, garantía de fiel cumplimiento.",
@@ -9638,7 +9638,7 @@ const questions = [
   },
   {
     "id": 420,
-    "question": "150. ¿Cuál de las siguientes afirmaciones es correcta acerca del laudo arbitral?",
+    "question": "¿Cuál de las siguientes afirmaciones es correcta acerca del laudo arbitral?",
     "options": [
       {
         "text": "a) Si la Entidad desea anular el laudo, puede hacerlo sin necesidad de autorización previa.",
@@ -9661,7 +9661,7 @@ const questions = [
   },
   {
     "id": 421,
-    "question": "151. Durante la ejecución de un contrato de obra bajo el sistema \"solo construcción\", el contratista anota en el cuaderno de incidencias la necesidad de ejecutar una prestación adicional debido a una deficiencia en el expediente técnico. ¿Quién es el responsable de elaborar el expediente técnico del adicional de obra?",
+    "question": "Durante la ejecución de un contrato de obra bajo el sistema \"solo construcción\", el contratista anota en el cuaderno de incidencias la necesidad de ejecutar una prestación adicional debido a una deficiencia en el expediente técnico. ¿Quién es el responsable de elaborar el expediente técnico del adicional de obra?",
     "options": [
       {
         "text": "a) Exclusivamente el proyectista original del expediente técnico de la obra.",
@@ -9684,7 +9684,7 @@ const questions = [
   },
   {
     "id": 422,
-    "question": "152. El supervisor de una obra, bajo el sistema de entrega \"diseño y construcción\", verifica que el avance físico real acumulado de la obra es menor al 80% del avance físico programado. ¿Qué acción debe ordenar inmediatamente el supervisor al contratista?",
+    "question": "El supervisor de una obra, bajo el sistema de entrega \"diseño y construcción\", verifica que el avance físico real acumulado de la obra es menor al 80% del avance físico programado. ¿Qué acción debe ordenar inmediatamente el supervisor al contratista?",
     "options": [
       {
         "text": "a) La suspensión inmediata de la obra hasta que se regularice el cronograma.",
@@ -9707,7 +9707,7 @@ const questions = [
   },
   {
     "id": 423,
-    "question": "153. En un contrato de obra bajo el sistema de entrega \"solo construcción\", el contratista tiene la obligación de revisar el expediente técnico para detectar posibles deficiencias. ¿Dentro de qué plazo, contado desde la suscripción del contrato, debe presentar su informe técnico de revisión?",
+    "question": "En un contrato de obra bajo el sistema de entrega \"solo construcción\", el contratista tiene la obligación de revisar el expediente técnico para detectar posibles deficiencias. ¿Dentro de qué plazo, contado desde la suscripción del contrato, debe presentar su informe técnico de revisión?",
     "options": [
       {
         "text": "a) Dentro de los 10 días siguientes a la suscripción del contrato.",
@@ -9730,7 +9730,7 @@ const questions = [
   },
   {
     "id": 424,
-    "question": "154. Durante la ejecución de una obra, ocurren protestas sociales que impiden el acceso al sitio por 15 días, afectando la ruta crítica del proyecto. El contratista desea solicitar una ampliación de plazo. ¿Cuál es el primer paso que debe realizar y dentro de qué plazo, una vez finalizado el evento?",
+    "question": "Durante la ejecución de una obra, ocurren protestas sociales que impiden el acceso al sitio por 15 días, afectando la ruta crítica del proyecto. El contratista desea solicitar una ampliación de plazo. ¿Cuál es el primer paso que debe realizar y dentro de qué plazo, una vez finalizado el evento?",
     "options": [
       {
         "text": "a) Anotar el hecho en el cuaderno de incidencias y solicitar la ampliación en un plazo de 7 días hábiles.",
@@ -9753,7 +9753,7 @@ const questions = [
   },
   {
     "id": 425,
-    "question": "155. En los contratos de ejecución de obra, el plazo de responsabilidad del contratista por vicios ocultos no puede ser inferior a:",
+    "question": "En los contratos de ejecución de obra, el plazo de responsabilidad del contratista por vicios ocultos no puede ser inferior a:",
     "options": [
       {
         "text": "a) Un (1) año, contado a partir de la conformidad de la recepción total.",
@@ -9776,7 +9776,7 @@ const questions = [
   },
   {
     "id": 426,
-    "question": "156. Luego de un retraso injustificado, el supervisor ordena al contratista de una obra presentar un nuevo programa de ejecución acelerado. Si el contratista incumple nuevamente y su valorización acumulada ejecutada es menor al 80% del nuevo programa, ¿qué medida, además de la resolución del contrato, podría adoptar la entidad para culminar los trabajos?",
+    "question": "Luego de un retraso injustificado, el supervisor ordena al contratista de una obra presentar un nuevo programa de ejecución acelerado. Si el contratista incumple nuevamente y su valorización acumulada ejecutada es menor al 80% del nuevo programa, ¿qué medida, además de la resolución del contrato, podría adoptar la entidad para culminar los trabajos?",
     "options": [
       {
         "text": "a) La suspensión del contrato hasta que el contratista garantice el financiamiento.",
@@ -9799,7 +9799,7 @@ const questions = [
   },
   {
     "id": 427,
-    "question": "157. En un contrato de supervisión de obra, se aprueba una prestación adicional en el contrato de ejecución de obra principal que impacta directamente en la ruta crítica, generando una ampliación de plazo. El supervisor sustenta que necesita más personal y recursos para controlar adecuadamente este adicional. ¿Cómo se gestiona esta necesidad en el contrato de supervisión según el Reglamento?",
+    "question": "En un contrato de supervisión de obra, se aprueba una prestación adicional en el contrato de ejecución de obra principal que impacta directamente en la ruta crítica, generando una ampliación de plazo. El supervisor sustenta que necesita más personal y recursos para controlar adecuadamente este adicional. ¿Cómo se gestiona esta necesidad en el contrato de supervisión según el Reglamento?",
     "options": [
       {
         "text": "a) Se tramita como una prestación adicional de supervisión, sujeta al límite del 25% del monto del contrato original de supervisión.",
@@ -9822,7 +9822,7 @@ const questions = [
   },
   {
     "id": 428,
-    "question": "158. Una obra contratada bajo el sistema de \"diseño y construcción\" se ejecuta mediante la metodología fast track. Durante la ejecución del primer componente de la obra (cimentación), el contratista detecta la necesidad de una modificación en el diseño del segundo componente (estructuras), que aún no ha sido aprobado. ¿Qué procedimiento corresponde seguir?",
+    "question": "Una obra contratada bajo el sistema de \"diseño y construcción\" se ejecuta mediante la metodología fast track. Durante la ejecución del primer componente de la obra (cimentación), el contratista detecta la necesidad de una modificación en el diseño del segundo componente (estructuras), que aún no ha sido aprobado. ¿Qué procedimiento corresponde seguir?",
     "options": [
       {
         "text": "a) El contratista debe paralizar la obra y presentar el expediente técnico completo y modificado para su aprobación total antes de continuar.",
@@ -9845,7 +9845,7 @@ const questions = [
   },
   {
     "id": 429,
-    "question": "159. Un contratista presenta su valorización mensual de obra. La entidad, al revisarla, formula observaciones sobre ciertas partidas que considera sobrevaloradas, pero está de acuerdo con el resto del monto. El contratista no subsana las observaciones en el plazo otorgado. ¿Qué acción debe tomar la entidad?",
+    "question": "Un contratista presenta su valorización mensual de obra. La entidad, al revisarla, formula observaciones sobre ciertas partidas que considera sobrevaloradas, pero está de acuerdo con el resto del monto. El contratista no subsana las observaciones en el plazo otorgado. ¿Qué acción debe tomar la entidad?",
     "options": [
       {
         "text": "a) Retener el pago íntegro de la valorización hasta que el contratista subsane la totalidad de las observaciones.",
@@ -9868,7 +9868,7 @@ const questions = [
   },
   {
     "id": 430,
-    "question": "160. En un contrato de obra a precios unitarios, el contratista ejecuta mayores metrados que han sido debidamente autorizados por el supervisor en el cuaderno de incidencias. Al momento de presentar la valorización, el contratista incluye el pago de dichos mayores metrados. ¿Cuál es el procedimiento correcto para el pago de estos?",
+    "question": "En un contrato de obra a precios unitarios, el contratista ejecuta mayores metrados que han sido debidamente autorizados por el supervisor en el cuaderno de incidencias. Al momento de presentar la valorización, el contratista incluye el pago de dichos mayores metrados. ¿Cuál es el procedimiento correcto para el pago de estos?",
     "options": [
       {
         "text": "a) El pago es automático, ya que la autorización del supervisor es suficiente para que la entidad proceda con el desembolso.",
@@ -9891,7 +9891,7 @@ const questions = [
   },
   {
     "id": 431,
-    "question": "161. El residente de una obra bajo el sistema \"solo construcción\" anota una consulta en el cuaderno de incidencias que podría implicar una modificación del expediente técnico. El supervisor está en desacuerdo con la solución propuesta por el contratista. ¿Cuál es el procedimiento correcto que debe seguir el supervisor?",
+    "question": "El residente de una obra bajo el sistema \"solo construcción\" anota una consulta en el cuaderno de incidencias que podría implicar una modificación del expediente técnico. El supervisor está en desacuerdo con la solución propuesta por el contratista. ¿Cuál es el procedimiento correcto que debe seguir el supervisor?",
     "options": [
       {
         "text": "a) Rechazar la consulta en el cuaderno de incidencias y ordenar al contratista que continúe la ejecución según el expediente técnico original, bajo su responsabilidad.",
@@ -9914,7 +9914,7 @@ const questions = [
   },
   {
     "id": 432,
-    "question": "162. Durante la recepción de una obra, el comité de recepción formula un pliego de observaciones. El contratista subsana dichas observaciones dentro del plazo otorgado. En la segunda visita de verificación, el comité constata que, si bien se levantaron las observaciones iniciales, han aparecido nuevos defectos en otras partes de la obra que no fueron advertidos previamente. ¿Qué debe hacer el comité de recepción?",
+    "question": "Durante la recepción de una obra, el comité de recepción formula un pliego de observaciones. El contratista subsana dichas observaciones dentro del plazo otorgado. En la segunda visita de verificación, el comité constata que, si bien se levantaron las observaciones iniciales, han aparecido nuevos defectos en otras partes de la obra que no fueron advertidos previamente. ¿Qué debe hacer el comité de recepción?",
     "options": [
       {
         "text": "a) Negarse a recibir la obra y emitir un nuevo pliego de observaciones, otorgando un nuevo plazo al contratista.",
@@ -9937,7 +9937,7 @@ const questions = [
   },
   {
     "id": 433,
-    "question": "163. Una obra se ejecuta bajo un contrato estandarizado de ingeniería y construcción de uso internacional. Durante la ejecución, se aprueban diversas modificaciones que inciden en el monto contractual, y el costo acumulado de estas alcanza el 50% del valor del presupuesto de obra original. Si surge la necesidad de una nueva modificación que incrementaría aún más el costo, ¿qué procede según el Reglamento?",
+    "question": "Una obra se ejecuta bajo un contrato estandarizado de ingeniería y construcción de uso internacional. Durante la ejecución, se aprueban diversas modificaciones que inciden en el monto contractual, y el costo acumulado de estas alcanza el 50% del valor del presupuesto de obra original. Si surge la necesidad de una nueva modificación que incrementaría aún más el costo, ¿qué procede según el Reglamento?",
     "options": [
       {
         "text": "a) Se puede aprobar la nueva modificación con la autorización expresa de la Contraloría General de la República.",
@@ -9960,7 +9960,7 @@ const questions = [
   },
   {
     "id": 434,
-    "question": "164. Para la gestión de un proyecto de obra que se ejecutará con un contrato estandarizado, la entidad necesita contratar a un profesional clave que se encargue de administrar las actividades conforme a las facultades que el propio contrato establece. ¿Cómo se denomina a este profesional y qué requisito de certificación es indispensable?",
+    "question": "Para la gestión de un proyecto de obra que se ejecutará con un contrato estandarizado, la entidad necesita contratar a un profesional clave que se encargue de administrar las actividades conforme a las facultades que el propio contrato establece. ¿Cómo se denomina a este profesional y qué requisito de certificación es indispensable?",
     "options": [
       {
         "text": "a) Se denomina Supervisor de Obra y debe contar con certificación del Colegio de Ingenieros del Perú.",
@@ -9983,7 +9983,7 @@ const questions = [
   },
   {
     "id": 435,
-    "question": "165. Un contratista ha entregado un lote de bienes a una entidad pública. ¿Cuál es el plazo máximo que tiene el área usuaria para emitir la conformidad de la prestación, siempre que no se requieran pruebas especiales?",
+    "question": "Un contratista ha entregado un lote de bienes a una entidad pública. ¿Cuál es el plazo máximo que tiene el área usuaria para emitir la conformidad de la prestación, siempre que no se requieran pruebas especiales?",
     "options": [
       {
         "text": "a) 5 días calendario desde la recepción.",
@@ -10006,7 +10006,7 @@ const questions = [
   },
   {
     "id": 436,
-    "question": "166. Un contratista solicita la subcontratación de una parte de las prestaciones. ¿Cuál es el plazo que tiene la entidad para aprobar o denegar dicha solicitud, y qué ocurre si no se pronuncia en dicho plazo?",
+    "question": "Un contratista solicita la subcontratación de una parte de las prestaciones. ¿Cuál es el plazo que tiene la entidad para aprobar o denegar dicha solicitud, y qué ocurre si no se pronuncia en dicho plazo?",
     "options": [
       {
         "text": "a) 3 días hábiles; si no hay pronunciamiento, se considera aprobada.",
@@ -10029,7 +10029,7 @@ const questions = [
   },
   {
     "id": 437,
-    "question": "167. Un Gobierno Regional ejecuta una obra que es paralizada por un evento de fuerza mayor (un aluvión que destruye el acceso principal). Si el evento imposibilita de manera definitiva la continuación del contrato, ¿qué acción pueden tomar las partes?",
+    "question": "Un Gobierno Regional ejecuta una obra que es paralizada por un evento de fuerza mayor (un aluvión que destruye el acceso principal). Si el evento imposibilita de manera definitiva la continuación del contrato, ¿qué acción pueden tomar las partes?",
     "options": [
       {
         "text": "a) Acordar la suspensión del plazo de ejecución hasta que la entidad construya un nuevo acceso.",
@@ -10052,7 +10052,7 @@ const questions = [
   },
   {
     "id": 438,
-    "question": "168. Durante la ejecución de un contrato de obra, el contratista anota una consulta en el cuaderno de incidencias. El supervisor remite la consulta a la entidad, pero esta no absuelve la consulta en el plazo establecido, generando un retraso en la ruta crítica. ¿Qué derecho le asiste al contratista?",
+    "question": "Durante la ejecución de un contrato de obra, el contratista anota una consulta en el cuaderno de incidencias. El supervisor remite la consulta a la entidad, pero esta no absuelve la consulta en el plazo establecido, generando un retraso en la ruta crítica. ¿Qué derecho le asiste al contratista?",
     "options": [
       {
         "text": "a) Resolver el contrato por incumplimiento de la entidad.",
@@ -10075,7 +10075,7 @@ const questions = [
   },
   {
     "id": 439,
-    "question": "169. Una vez resuelto un contrato de obra por causa imputable al contratista, la entidad necesita iniciar un arbitraje para reclamar los daños y perjuicios. ¿Cuál es el plazo máximo de caducidad para solicitar el inicio del arbitraje?",
+    "question": "Una vez resuelto un contrato de obra por causa imputable al contratista, la entidad necesita iniciar un arbitraje para reclamar los daños y perjuicios. ¿Cuál es el plazo máximo de caducidad para solicitar el inicio del arbitraje?",
     "options": [
       {
         "text": "a) 20 días hábiles desde la notificación de la resolución del contrato.",
@@ -10098,7 +10098,7 @@ const questions = [
   },
   {
     "id": 440,
-    "question": "170. Una obra sufre una paralización por causas no atribuibles al contratista. Este solicita una ampliación de plazo, pero la entidad no resuelve ni notifica su decisión en el plazo legal. ¿Cuál es la consecuencia de este silencio administrativo?",
+    "question": "Una obra sufre una paralización por causas no atribuibles al contratista. Este solicita una ampliación de plazo, pero la entidad no resuelve ni notifica su decisión en el plazo legal. ¿Cuál es la consecuencia de este silencio administrativo?",
     "options": [
       {
         "text": "a) La solicitud de ampliación de plazo se considera automáticamente denegada.",
@@ -10121,7 +10121,7 @@ const questions = [
   },
   {
     "id": 441,
-    "question": "171. La autoridad de la gestión administrativa de un Gobierno Regional aprueba una prestación adicional de obra que representa el 12% del monto del contrato original. ¿Es correcta su actuación?",
+    "question": "La autoridad de la gestión administrativa de un Gobierno Regional aprueba una prestación adicional de obra que representa el 12% del monto del contrato original. ¿Es correcta su actuación?",
     "options": [
       {
         "text": "a) No, porque todas las prestaciones adicionales de obra deben ser aprobadas por el Titular de la Entidad.",
@@ -10144,7 +10144,7 @@ const questions = [
   },
   {
     "id": 442,
-    "question": "172. Un Gobierno Regional ejecuta una obra de infraestructura vial. Un conflicto social prolongado, calificado como fuerza mayor, impide de manera definitiva la continuación de los trabajos. La Autoridad de la Gestión Administrativa, basándose en informes técnicos y legales, decide resolver el contrato. ¿Es correcta su actuación y es esta facultad delegable?",
+    "question": "Un Gobierno Regional ejecuta una obra de infraestructura vial. Un conflicto social prolongado, calificado como fuerza mayor, impide de manera definitiva la continuación de los trabajos. La Autoridad de la Gestión Administrativa, basándose en informes técnicos y legales, decide resolver el contrato. ¿Es correcta su actuación y es esta facultad delegable?",
     "options": [
       {
         "text": "a) Es correcta, pues la resolución por fuerza mayor es potestad de la Autoridad de la Gestión Administrativa y es una facultad delegable.",
@@ -10167,7 +10167,7 @@ const questions = [
   },
   {
     "id": 443,
-    "question": "173. Tras la adjudicación de la buena pro, pero antes de la firma del contrato, la Autoridad de la Gestión Administrativa advierte un vicio trascendente en el procedimiento que podría afectar la finalidad de la contratación. Sin embargo, por un análisis costo-beneficio, decide autorizar la suscripción del contrato. ¿Es esta decisión de \"autorizar la suscripción\" delegable?",
+    "question": "Tras la adjudicación de la buena pro, pero antes de la firma del contrato, la Autoridad de la Gestión Administrativa advierte un vicio trascendente en el procedimiento que podría afectar la finalidad de la contratación. Sin embargo, por un análisis costo-beneficio, decide autorizar la suscripción del contrato. ¿Es esta decisión de \"autorizar la suscripción\" delegable?",
     "options": [
       {
         "text": "a) Sí, puede delegarla en el jefe de la Dependencia Encargada de las Contrataciones (DEC).",
@@ -10190,7 +10190,7 @@ const questions = [
   },
   {
     "id": 444,
-    "question": "174. Un contrato de obra es resuelto por causal de fuerza mayor. Al momento de la liquidación, el contratista solicita el reconocimiento de los daños y perjuicios sufridos por la terminación abrupta del contrato. ¿Corresponde a la entidad reconocer dicho pago?",
+    "question": "Un contrato de obra es resuelto por causal de fuerza mayor. Al momento de la liquidación, el contratista solicita el reconocimiento de los daños y perjuicios sufridos por la terminación abrupta del contrato. ¿Corresponde a la entidad reconocer dicho pago?",
     "options": [
       {
         "text": "a) Sí, la entidad debe indemnizar al contratista por los daños y perjuicios debidamente acreditados.",
@@ -10213,7 +10213,7 @@ const questions = [
   },
   {
     "id": 445,
-    "question": "175. En un procedimiento de selección, la Autoridad de la Gestión Administrativa declara la nulidad de oficio después de otorgada la buena pro, pero antes de su consentimiento. ¿Es esta actuación correcta y es esta facultad delegable?",
+    "question": "En un procedimiento de selección, la Autoridad de la Gestión Administrativa declara la nulidad de oficio después de otorgada la buena pro, pero antes de su consentimiento. ¿Es esta actuación correcta y es esta facultad delegable?",
     "options": [
       {
         "text": "a) Es correcta, y la facultad de declarar la nulidad de oficio es siempre delegable.",
@@ -10236,7 +10236,7 @@ const questions = [
   },
   {
     "id": 446,
-    "question": "176. Una entidad ha recibido el informe final de un contrato de consultoría para la elaboración de un expediente técnico de obra. ¿Cuál es el plazo máximo que tiene el área usuaria para emitir la conformidad de dicha prestación?",
+    "question": "Una entidad ha recibido el informe final de un contrato de consultoría para la elaboración de un expediente técnico de obra. ¿Cuál es el plazo máximo que tiene el área usuaria para emitir la conformidad de dicha prestación?",
     "options": [
       {
         "text": "a) 7 días calendario, al igual que para los bienes.",
@@ -10259,7 +10259,7 @@ const questions = [
   },
   {
     "id": 447,
-    "question": "177. Debido a lluvias torrenciales que bloquean temporalmente las vías de acceso, la ejecución de una obra se interrumpe por un evento no atribuible a las partes. ¿Qué acción corresponde acordar entre la entidad y el contratista y qué consecuencia económica tiene?",
+    "question": "Debido a lluvias torrenciales que bloquean temporalmente las vías de acceso, la ejecución de una obra se interrumpe por un evento no atribuible a las partes. ¿Qué acción corresponde acordar entre la entidad y el contratista y qué consecuencia económica tiene?",
     "options": [
       {
         "text": "a) Resolver el contrato por fuerza mayor, sin reconocimiento de daños y perjuicios.",
@@ -10282,7 +10282,7 @@ const questions = [
   },
   {
     "id": 448,
-    "question": "178. En un Gobierno Regional, se necesita aprobar una prestación adicional de obra por un monto equivalente al 18% del contrato original. La Autoridad de la Gestión Administrativa recibe el sustento técnico y legal. ¿Quién es la autoridad competente para aprobar este adicional y puede delegar dicha facultad?",
+    "question": "En un Gobierno Regional, se necesita aprobar una prestación adicional de obra por un monto equivalente al 18% del contrato original. La Autoridad de la Gestión Administrativa recibe el sustento técnico y legal. ¿Quién es la autoridad competente para aprobar este adicional y puede delegar dicha facultad?",
     "options": [
       {
         "text": "a) La Autoridad de la Gestión Administrativa, y es una facultad delegable.",
@@ -10305,7 +10305,7 @@ const questions = [
   },
   {
     "id": 449,
-    "question": "179. Una vez que se ha suscrito el acta de recepción de una obra, ¿cuál es el plazo máximo que tiene el contratista para presentar la liquidación del contrato debidamente sustentada?",
+    "question": "Una vez que se ha suscrito el acta de recepción de una obra, ¿cuál es el plazo máximo que tiene el contratista para presentar la liquidación del contrato debidamente sustentada?",
     "options": [
       {
         "text": "a) 15 días calendario.",
@@ -10328,7 +10328,7 @@ const questions = [
   },
   {
     "id": 450,
-    "question": "180. Una vez otorgada la conformidad de una prestación de servicios, ¿cuál es el plazo máximo que tiene la entidad para efectuar el pago al contratista?",
+    "question": "Una vez otorgada la conformidad de una prestación de servicios, ¿cuál es el plazo máximo que tiene la entidad para efectuar el pago al contratista?",
     "options": [
       {
         "text": "a) 10 días calendario.",
