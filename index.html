@@ -135,7 +135,7 @@
 /* ====== CONTROL DE ACCESO ====== */
 const AUTH_USERS = ["maxponcep@gmail.com","consulbf12@gmail.com","victor_41437@hotmail.com",
 "kristhoffercancharidiaz@gmail.com","decheverriasiccha@gmail.com","ginamu@gmail.com",
-"carlosalcantaracasanova@gmail.com","--*marlon.al5731@gmail.com","jenyavalos@hotmail.com","rociobenitesch@gmail.com","--*dianacarolina7893@gmail.com",
+"carlosalcantaracasanova@gmail.com","--*marlon.al5731@gmail.com","jenyavalos1119@gmail.com","rociobenitesch@gmail.com","--*dianacarolina7893@gmail.com",
 "yenycleon@gmail.com","fedelarocar@gmail.com","mdiazv@irotrujillo.gob.pe","omarjfloresr@hotmail.com","robertocarlos2110@hotmail.com",
 "celihidalgom@gmail.com","carlagiovanaib30@gmail.com","dante_dj_14@hotmail.com","-**knlunasi52@gmail.com","yumari1@hotmail.com","-**shir9505@gmail.com",
 "madeleyulloa@gmail.com","mvasquezirotrujillo@gmail.com"];
@@ -216,11 +216,6 @@ function parseJwt(token) {
   }
 }
 
-
-
-
-
-
 function showDenied(){
   document.getElementById("login").style.display="none";
   document.getElementById("denied").style.display="block";
@@ -243,12 +238,12 @@ function showExamFor(user){
 }
 
 window.onload=()=>{
-  const s=sessionStorage.getItem("sim_user");
-  if(s){try{showExamFor(JSON.parse(s));return;}catch(e){}}
-  document.getElementById("login").style.display="block";
-  document.getElementById("loginBtn").addEventListener("click",()=>{iniciarGoogle();});
+  //const s=sessionStorage.getItem("sim_user");
+  //if(s){try{showExamFor(JSON.parse(s));return;}catch(e){}}
+  //document.getElementById("login").style.display="block";
+  //document.getElementById("loginBtn").addEventListener("click",()=>{iniciarGoogle();});
   // 👇 Agrega esta línea temporalmente://PARA SALTEAR EL CORREO Y PONER COMO COMENTARIO LAS 4FILAS ANTERIORES
-  //showExamFor({name:"Modo prueba", email:"test@local"});
+  showExamFor({name:"Modo prueba", email:"test@local"});
 };
 
 function cerrarSesion(){
@@ -276,6 +271,34 @@ function startExam(){
 
   function shuffleArray(a){for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]];}}
 
+  function mezclarPorFases(){
+
+    // ===== FASE 1 =====
+    // Preguntas 1 - 127
+    let fase1 = questions.slice(0, 127);
+
+    // ===== FASE 2 =====
+    // Preguntas 128 - 270
+    let fase2 = questions.slice(127, 270);
+
+    // ===== FASE 3 =====
+    // Preguntas 271 - 450
+    let fase3 = questions.slice(270, 450);
+
+    // Mezclar cada fase
+    shuffleArray(fase1);
+    shuffleArray(fase2);
+    shuffleArray(fase3);
+
+    // Unir nuevamente manteniendo el orden de fases
+    questions = [
+      ...fase1,
+      ...fase2,
+      ...fase3
+    ];
+  }
+
+
   // 🟢 MODIFICACIÓN AQUÍ — ahora usa "q.tema" en lugar de "q.block"
   function buildUI(){
     questionsArea.innerHTML = "";
@@ -287,7 +310,7 @@ function startExam(){
         const h = document.createElement("div");
         h.className = "section-title";
        // h.textContent = currentTema;
-        h.textContent = `*** ${currentTema.toUpperCase()} ***`;
+        h.textContent = `********** ${currentTema.toUpperCase()} **********`;
         questionsArea.appendChild(h);
       }
 
@@ -339,8 +362,13 @@ function startExam(){
   }
 
   function buildDetail(correctCount, total){
-    let html = `<div class="result"><h3>Resultado</h3>
-      <p>Aciertos: <strong>${correctCount}</strong> de ${total}</p>`;
+  const answeredCount = Object.keys(answered).length;
+  const incorrectCount = answeredCount - correctCount;
+  const unansweredCount = total - answeredCount;
+  let html = `<div class="result"><h3>Resultado</h3>
+    <p>Aciertos: <strong>${correctCount}</strong> de ${total}</p>
+    <p>Desaciertos: <strong>${incorrectCount}</strong> de ${total}</p>
+    <p>No respondidas: <strong>${unansweredCount}</strong> de ${total}</p>`;
     let levelText = "No aplicable (prueba corta)";
     if(total >= 58){
       if(correctCount >= 58) levelText = "Felicitaciones!!! Alcanzaste el Nivel Avanzado.";
@@ -350,16 +378,40 @@ function startExam(){
     }
     html += `<p>Nivel: <strong>${levelText}</strong></p>`;
     html += `<h4>Detalle de tus respuestas</h4>`;
-    const answeredQuestions = questions.filter(q => answered[q.id]);
+
+    const answeredQuestions = questions
+      .filter(q => answered[q.id]);
+
+    const incorrectas = answeredQuestions
+      .filter(q => {
+        const sel = answered[q.id];
+        const correctOpt = q.options.find(o => o.isCorrect === true);
+        return !(correctOpt && sel && sel.trim() === correctOpt.text.trim());
+      })
+      .sort((a, b) => a.id - b.id);
+
+    const correctas = answeredQuestions
+      .filter(q => {
+        const sel = answered[q.id];
+        const correctOpt = q.options.find(o => o.isCorrect === true);
+        return (correctOpt && sel && sel.trim() === correctOpt.text.trim());
+      })
+      .sort((a, b) => a.id - b.id);
+
     if (answeredQuestions.length === 0) {
       html += `<p><em>No respondiste ninguna pregunta.</em></p>`;
     } else {
-      answeredQuestions.forEach(q => {
+      
+      // ===== INCORRECTAS =====
+      html += `<h4 style="color:#d02a2a">❌ RESPUESTAS INCORRECTAS</h4>`;
+      
+      incorrectas.forEach(q => {
         const sel = answered[q.id];
         const correctOpt = q.options.find(o => o.isCorrect === true);
         const correctText = correctOpt ? correctOpt.text : "—";
         const wasCorrect = sel && sel.trim() === correctText.trim();
         const cls = wasCorrect ? "detail-item ok" : "detail-item bad";
+        
         html += `<div class="${cls}">
           <div style="font-weight:700">Pregunta ${q.id}.</div>
           <div class="meta">${q.question}</div>
@@ -367,6 +419,23 @@ function startExam(){
           <div><strong>Respuesta correcta:</strong> <pre>${correctText}</pre></div>
         </div>`;
       });
+
+      // ===== CORRECTAS =====
+      html += `<h4 style="color:#0a8a3f;margin-top:25px">✅ RESPUESTAS CORRECTAS</h4>`;
+
+      correctas.forEach(q => {
+        const sel = answered[q.id];
+        const correctOpt = q.options.find(o => o.isCorrect === true);
+        const correctText = correctOpt ? correctOpt.text : "—";
+
+        html += `<div class="detail-item ok">
+          <div style="font-weight:700">Pregunta ${q.id}.</div>
+          <div class="meta">${q.question}</div>
+          <div style="margin-top:8px"><strong>Tu respuesta:</strong> <pre>${sel}</pre></div>
+          <div><strong>Respuesta correcta:</strong> <pre>${correctText}</pre></div>
+        </div>`;
+      });
+
     }
     html += `</div>`;
     return html;
@@ -396,8 +465,16 @@ function startExam(){
     location.reload();
   });
 
+ 
+  // Mezclar preguntas por fases
+  mezclarPorFases();
+
+  // Construir interfaz
   buildUI();
+
+  // Iniciar temporizador
   startTimer();
+
 }
 </script>
 
